@@ -1,0 +1,8 @@
+{
+  "author": "Arman Dris",
+  "position": "student",
+  "class": "CPSC 418 101 2024W1",
+  "post_num": 601,
+  "link": "https://piazza.com/class/m0czyo4wmq72zf/post/601",
+  "body": "Q1 c (BB?) \nFor the second part of question 1, c we assume that we have one dirty input and one clean input right?\n\nIf we were allowed to have two dirty inputs then this seems false. Eg:\n\nInput 1 = [1,1,0]\n\nInput 2 = [1,0,0]\n\nOutput 1 (Hi) = [1,1,1]\n\nOutput 2 (Lo) = [0,0,0]"
+}

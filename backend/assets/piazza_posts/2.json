@@ -1,0 +1,8 @@
+{
+  "author": "Anonymous Scale",
+  "position": "student",
+  "class": "CPSC 418 101 2024W1",
+  "post_num": 599,
+  "link": "https://piazza.com/class/m0czyo4wmq72zf/post/599",
+  "body": "Take home final Q1a what does it ask exactly? \"a merge-and-split element can be implemented by a sorting network\" I don't quite get it on the English level to be honest. So a merge-and-split element is a node of a merge-and-split network that take in 2 input lists and do sth (merge sorting in this case) to make sure merge-and-split network eventually output a sorted array right? It's a {N^L, N^L} -> N^2L function? And a sorting network is just sort a sequence whatever how it's implemented, Now isn't by definition the sorting network implemented the merge-and-split network??"
+}

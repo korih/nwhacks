@@ -1,0 +1,8 @@
+{
+  "author": "Anonymous Calc",
+  "position": "student",
+  "class": "CPSC 418 101 2024W1",
+  "post_num": 595,
+  "link": "https://piazza.com/class/m0czyo4wmq72zf/post/595",
+  "body": "Take home Q2 a) i. Can't find optimal n without running out of memory. This is a duplicate of @564 and @544. I was thinking that the question implies that once you reach the optimal n, you need to get a few measurements above that n to show that the FLOPS go down after peaking at n. But in my trials, the FLOPS continue increasing with n, although the growth slows, until the computations take way too long (>15 sec) or the memory runs out. Am I misinterpreting the question? Sorry for the duplicate but I’m not sure how to answer the question without knowing this."
+}
