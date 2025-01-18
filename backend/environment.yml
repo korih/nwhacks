@@ -10,3 +10,5 @@ dependencies:
   - pip
   - pip:
     - openai
+    - qdrant-client
+    - fastembed
