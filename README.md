@@ -21,6 +21,7 @@ Reddit Piazza scraper
 - scrape person's reddit feed
 - scrape person's piazza feeds
 - use LLM inference on the data and chat with it
+- encrypt your data and sell it out to third parties
 
 ## Nice to have
 - Secure protocol for data
