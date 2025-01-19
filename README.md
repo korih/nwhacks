@@ -1,43 +1,17 @@
 # nwhacks
 ---
 
-Gambling 
+Super safe and secure AI chatbot called Chatza
 ---
 ## MVP
-- gambling site with crypto
-- with midnight ethereum verification
-
-
-## Nice to haves
-- Live streaming with aquarium
-- incorporate ai
-- AGE VERIFICATION
-- cryptoraphy and security
-- terraform
-
-Reddit Piazza scraper
----
-## MVP
-- scrape person's reddit feed
-- scrape person's piazza feeds
 - use LLM inference on the data and chat with it
-- encrypt your data and sell it out to third parties
+- encrypt your data
+- encrypt your prompt
+- encrypt your response
 
 ## Nice to have
 - Secure protocol for data
 - good ui
-
-
-UBC Secure job board
----
-## MVP
-- Use crypto for hiding the identity of person
-- verify the credentials of user
-- match employers and employees to each other
-
-## Nice to have
-- Secure protocol
-- Auth
-- Good UI
+- ability to swap between datasets/models (they are tied together)
 
 
