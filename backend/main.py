@@ -1,4 +1,5 @@
 import os
+
 # Set working directory to this file
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
@@ -9,6 +10,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from routes.misc_routes import misc_routes
 from routes.leaderboard_routes import leaderboard_routes
+from routes.chat_routes import chat
 from utils.sqlite_helpers import init_db
 
 app = FastAPI()
@@ -23,6 +25,7 @@ app.add_middleware(
 
 app.include_router(misc_routes)
 app.include_router(leaderboard_routes)
+app.include_router(chat)
 
 if __name__ == "__main__":
 	init_db()

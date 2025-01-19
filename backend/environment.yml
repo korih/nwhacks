@@ -7,6 +7,9 @@ dependencies:
   - conda-forge::uvicorn
   - conda-forge::pydantic
   - conda-forge::libsqlite
+  - conda-forge::Cloudflare
+  - conda-forge::httpx
+  - conda-forge::sse-starlette
   - pip
   - pip:
     - openai

@@ -16,6 +16,7 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^6.4.0",
+    "axios": "^1.7.9",
     "install": "^0.13.0",
     "nanoid": "^5.0.9",
     "npm": "^11.0.0",
