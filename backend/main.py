@@ -15,6 +15,7 @@ from utils.sqlite_helpers import init_db
 
 app = FastAPI()
 
+
 app.add_middleware(
 	CORSMiddleware,
 	allow_origins=["*"],

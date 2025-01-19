@@ -10,6 +10,7 @@ dependencies:
   - conda-forge::Cloudflare
   - conda-forge::httpx
   - conda-forge::sse-starlette
+  - conda-forge::sqlalchemy
   - pip
   - pip:
     - openai
