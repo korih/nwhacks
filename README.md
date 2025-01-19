@@ -1,7 +1,7 @@
 # nwhacks
 ---
 
-Reddit Piazza scraper
+Super safe and secure AI chatbot called Chatza
 ---
 ## MVP
 - use LLM inference on the data and chat with it
