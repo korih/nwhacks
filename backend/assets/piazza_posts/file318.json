@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 318,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/318",
+    "title": "gride of drracket",
+    "question": "hi i remember in one of the edx videos the instructor mentioned how drracket had a different plane in terms of the x and y values/ I just wanted to confirm if my understanding of this is correct.\nessentially there can be no negative x or y values. but you CAN have negative dx and dy values correct? I've attached an image below.",
+    "student_answer": "You have to reverse the y axis. So positive y is going down, x is the same.",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Naomi",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 875,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/875",
+    "title": "using accumulator on a try-catch",
+    "question": "Hi, \nI am still not sure what it means \"path of data\" vs. \"path of computation\"?\nHow does the accumulator at the find-path starter have only the right path and not all the nodes it visited?",
+    "student_answer": "From my understanding, path of data is the path that the actual data takes, similar to the path of a structural recursion, where it will go all the way done one node and go back up and go done another node. But within a tail recursive function the path that the function computes its data is in a different manner that doesn't follow the path of the data. Hope this helps!",
+    "instructor_answer": "The difference lies between how we traverse the tree: through structural recursion or through tail recursion.\nTake a look at the two slides from lecture:\nIn structural recursion, our accumulator builds along our data, so when we hit the end of our first branch, we unwind back to our root, and our accumulator does the same where it unwinds with the data. So here, our accumulator is following the path of data, where our accumulator would contain the parents, grandparents, etc. up to our root.\nIn tail recursion, our accumulator still follows the path that we take through the tree. However, notice that we never unwind back to the root, we instead jump to the next node in our worklist when we hit the end of our first branch. So our accumulator never gets that chance to unwind, as it's following the path of computation. That's why our accumulator here ends up containing all the nodes we've visited!"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 347,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/347",
+    "title": "template for compound data.",
+    "question": "I noticed that, for example, the compound spider with on-key, (@template  ...) for this function is\n \uff08@template Spider KeyEvent) instead just (@template KeyEvent)\nis that right?",
+    "student_answer": "Not Found",
+    "instructor_answer": "This term we are just putting the type that contributes the main structure of the function.  So just (@template KeyEvent)"
+}

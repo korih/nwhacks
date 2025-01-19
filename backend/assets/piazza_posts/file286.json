@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 286,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/286",
+    "title": "Q and A for atomic non-distinct",
+    "question": "Hello,\nIn the data driven templates, when there is an atomic non-distinct type of data, let's say String, then the cond question would be (string? x) and the answer would be (... x). I am wondering when designing the function if the answer must be an expression that involves the parameter x or if it is ok to just put a value like 2 as the answer instead. Thank you!",
+    "student_answer": "I'm pretty sure it's fine to have just a value rather than an expression involving the parameter x.\nFor example, if I have:\n(@htdd Data1)\n;; Data1 is one of:\n;; -12\n;; -String\n;; -13\n;; -14\nand I had a function that produced true if Data1 was 13, then writing:\n(cond [Q A]\n      [(string? d1) false]\n      [Q A]\n      [Q A])\nwould make sense.",
+    "instructor_answer": "Not Found"
+}

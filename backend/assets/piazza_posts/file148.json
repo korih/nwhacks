@@ -1,0 +1,11 @@
+{
+    "author": "Ben Gao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 148,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/148",
+    "title": "SPD handin questions",
+    "question": "When we submit our problem sets/Labs using the SPD handin button, and if we get a \"handin successful\" message, and an autograder email.\nI have a few questtions to confirm my understanding:\nfirst: is that it? just confirming, there are NO other steps to handing in assignments, right?\nsecond: is there any way we can truly verify our submission has been successful, and view our submissions?\nThird: the submission being graded will be the most recent submission, correct, right?\nFourth: for both labs and assignments, we can submit as many times as we want to check our work, the only caveat being a increasing cooldown period to receive detailed feedback as the term progresses, right?\nthanks.",
+    "student_answer": "Not Found",
+    "instructor_answer": "Well setup questions.  Here you go:\n- No other steps.\n- If it says handin successful it was submitted.\n- You will get one grading report email per submission; your grade will be based on the last submission.\n- Yes."
+}

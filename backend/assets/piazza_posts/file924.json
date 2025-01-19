@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 924,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/924",
+    "title": "One-liners for the m12-accs-and-python-loops",
+    "question": "def doubles(lon):\n    return [ n * 2 for n in lon ]\n\ndef rev(lon):\n    return [ lon[len(lon) - i - 1] for i in range(len(lon)) ]\n\ndef average(lon):\n    return int(sum(lon) / len(lon))\n\nif __name__ == '__main__':\n    arr = [1, 2, 3, 4, 5]\n    print(doubles(arr))\n    print(rev(arr))\n    print(average(arr))\nFeel free to improve these one-liners if you have better implementations! (just for fun)",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not Found"
+}

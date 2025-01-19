@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 667,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/667",
+    "title": "PSET 8 Q7 Clarification",
+    "question": "Hi, is this a mistake in the problem description for PSET 8 problem 7?\n(@problem 7)\n;;\n;; Design a function called more-than-n. more-than-n takes two arguments: a\n;; Treasure (t) and a Natural (n) IN THAT ORDER. It produces a list of the label\n;; names of treasures that contain an amount of gold larger than n. For this \n;; question, assume that the amount of gold in each box is magically multiplied\n;; based on the status of the treasure box.\nAre the treasures being compared against n only the treasures that the given treasure (t) leads to? Or is this function supposed to consume a ListOfTreasure instead?",
+    "student_answer": "Review the data definition for Treasure again. What type of data can its selectors be?",
+    "instructor_answer": "Not Found"
+}

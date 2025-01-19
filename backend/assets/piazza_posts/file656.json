@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 656,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/656",
+    "title": "What is the Argument step in Termination Arguments?",
+    "question": "What does the argument step do? what are we arguing about with the function?",
+    "student_answer": "Not Found",
+    "instructor_answer": "You're arguing that if you start with a legal argument, if you keep applying the reduction step, you'll eventually reach the base case!"
+}

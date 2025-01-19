@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 526,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/526",
+    "title": "Function-call error?",
+    "question": "I'm having an issue with the code from today's lecture starter #3. I am getting this error in my code, even thought it matches (I think) exactly with Paul's code. Is anyone else having this issue? How can I solve this?\n(define (has-path? bt p)\n  (cons [(false? bt) false] ;[1]\n        [(empty? p) true]   ;[2]\n        [(string=? \"L\" (first p))   ;[3]\n         (has-path? (node-l bt) (rest p))]  \n        [else                       ;[4]\n         (has-path? (node-r bt) (rest p))]))\n\nfunction call: expected a function after the open parenthesis, but found a part",
+    "student_answer": "it's because you used cons instead of cond, and the false? bt needs to be in parentheses.",
+    "instructor_answer": "@6 please"
+}

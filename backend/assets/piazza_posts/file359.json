@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 359,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/359",
+    "title": "double-all-starter.rkt",
+    "question": "For this starter file from the problem bank, I was wondering why we are able to conclude the answer is empty for this check-expect:\n(check-expect (double-all empty) empty)\nThe signature says we consume a ListOfNumber and produce a Number, but empty is not a number?",
+    "student_answer": "In my solution file it says the signature is ListOfNumber -> ListOfNumber",
+    "instructor_answer": "Not Found"
+}

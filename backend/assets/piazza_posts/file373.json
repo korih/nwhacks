@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 373,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/373",
+    "title": "m04-raining-eggs",
+    "question": "For the lecture start, I'm confused as to how the function render-eggs has the component:\n(@htdf render-eggs)\n(@signature ListOfEgg -> Image)\n;; Place YOSHI-EGG at appropriate location/rotation on MTS for each egg in loe\n;!!!\n;(define (render-eggs loe) MTS)\n\n(@template ListOfEgg)\n\n(define (render-eggs loe)\n  (cond [(empty? loe) MTS]\n        [else\n         (place-egg (first loe)\n                    (render-eggs (rest loe)))]))\nin its function definition because for the place-egg signature we have:\n;; HELPER            \n(@htdf place-egg)\n(@signature Egg Image -> Image)\n;; place e on img at approporiate location and rotation angle\n\n;(define (place-egg e img) img)\n\n(define (place-egg e img)\n  (place-image (rotate (egg-r e) YOSHI-EGG)\n               (egg-x e)    \n               (egg-y e) MTS)) \nbut (render-eggs (rest loe)) is not an image? I'm confused also how we know that for place-egg we consume an IMAGE and an egg to produce an egg?",
+    "student_answer": "Hmm...are you sure that (render-eggs (rest loe)) isn't an image? (Hint: check the signature of render-eggs) \nThe render function is tricky because the helper function, place-egg, is in the combination position. Since place-egg is in the combination position, it must consume two arguments, the first being (first loe), which is an Egg, and (render-eggs (rest loe)), which is an Image and also the result of the natural recursion. It's important to understand the purpose of place-egg and why it consumes both an Egg and an Image. When used in the body of the render-eggs function, what place-egg is doing is rendering (first loe) onto its appropriate location on an MTS that already has the eggs from (rest loe) rendered onto it. ",
+    "instructor_answer": "When asking about a funciton design please include the entire htdf design starting with @htdf.  Also please use the {;} button in the editor to format the code.\n\nPlease edit your text above and then I will answer."
+}

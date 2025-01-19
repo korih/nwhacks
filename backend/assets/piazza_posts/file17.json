@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 17,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/17",
+    "title": "Find File menu",
+    "question": "Hi, I'm going to install the course plugin but couldn't find the file menu and Install .plt File, can someone tell me how to do it? Thanks in advance.",
+    "student_answer": "Hello there,\n\nYes, you can download and run it before Jan 9 at 11:59 pm. The Jan 9 date and time is for the edX course, not for DrRacket.\n\nAs for the problem you are facing with DrRacket, try moving the DrRacket window around maybe? your screenshot has the title bar and the menu cut out, so it's a bit hard to say what exactly is happening. The file menu should show right above where it says untitled on the top left in the screenshot. If you cannot find it, maybe try restarting DrRacket.\n\nFor installing the setup file, once you find the file menu, click on it, and you should see an option called 'Install .plt file'. Click on that and copy and paste the link in the course setup webpage.",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Jinyu Liu",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 152,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/152",
+    "title": "1b boxify",
+    "question": "Why is my check-expect not passing? \nAnd I see from the solution there isn't a test for the base case. How do I know when to include a base case or not?\n(check-expect (boxify empty-image) empty-image)\n\n(define (boxify i)\n  (overlay (rectangle (image-width i)\n                      (image-height i)\n                      \"outline\"\n                      \"black\")\n           i))",
+    "student_answer": "(rectangle 0 0 \"outline\" \"black\")\nHey, this is very strange but apparently when you run this code it is NOT an empty image, there is a small dot produced, maybe that is why and it is a product of how racket deals with images?",
+    "instructor_answer": "Not Found"
+}

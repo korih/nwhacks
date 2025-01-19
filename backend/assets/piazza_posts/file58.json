@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 58,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/58",
+    "title": "It keeps telling file is not saved and please try to save file and try again what should I do?",
+    "question": "(require spd/tags)\n(@assignment setup-test)\n\n;; If you are:\n;;   - A 110 or 107 student replace the first set of '???'s with your cwl.\n;;     Remember this, it is what you will do with these @cwl annotations\n;;     for the whole course.\n;;   - A UBC Extended Learning student, replace the first set of ??? with\n;;     the your email address as confirmed in the email you received from\n;;     extended learning.  The handin password is also in that email.\n;;     Remember this, it is what you will do with these @cwl annotations\n;;     for the whole course.\n;;   \n(@cwl anuu2003)",
+    "student_answer": "Sorry it started working",
+    "instructor_answer": "Not Found"
+}

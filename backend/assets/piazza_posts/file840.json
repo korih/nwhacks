@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 840,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/840",
+    "title": "programming-contest-v1 PlanState?",
+    "question": "(@htdd PlanState)\n(define-struct ps (points time chosen to-decide))\n;; PlanState is (make-ps Natural Integer (listof Problem))\n;; interp. The state of coming up with a planned set of problems in a\n;;         competition, with:\n;;          total number of points of problems chosen\n;;          total time required for problems chosen\n;;          problems chosen\n;;          problems not yet decided on\n(define PS1 (make-ps 10 15 (list)       (list P1 P2 P3)))\n(define PS2 (make-ps  0 40 (list P1 P4) (list P5 P6 P7)))\n;; PlanState is (make-ps Natural Integer (listof Problem))\ndoes not seem to match up with the examples and the data interpretation. Also, the examples don't seem to match up with the interpretation. How is the total number of points of 10 if I have no problems chosen?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Fixed. Thanks for reporting it."
+}

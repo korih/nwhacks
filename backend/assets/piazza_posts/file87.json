@@ -1,0 +1,11 @@
+{
+    "author": "Allen Zhao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 87,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/87",
+    "title": "#true vs true vs #t ?",
+    "question": "Just wondering if there's a difference between the hashtagged and non-hashtagged versions and if it's okay to use them interchangeably? They seem to both work the same from what limited testing I've done.",
+    "student_answer": "Not Found",
+    "instructor_answer": "There is no difference other than readability; what is typically used in the course is true.\nSomewhat important side note to students reading this: \"true\" is very different from true. One is a string containing the word true, and one is a boolean."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 905,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/905",
+    "title": "tail position?",
+    "question": "Would something like this count as the fn-for-list being in tail position?\n(fn-for-list (rest list) min (if (> (first list) a)\n                                 (first list)\n                                 list))",
+    "student_answer": "Not Found",
+    "instructor_answer": "You always need to see the whole function definition to know whether a given call is in tail position."
+}

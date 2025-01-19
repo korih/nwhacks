@@ -1,0 +1,11 @@
+{
+    "author": "Malkeet Singh",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 424,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/424",
+    "title": "Square images using naturals",
+    "question": "(require 2htdp/image)\n\n(check-expect (boxes 0)\n              (square 0 \"outline\" \"black\"))\n(check-expect (boxes 2)\n              (overlay (square (* 2 10) \"outline\" \"black\")\n                       (square (* 1 10) \"outline\" \"black\")\n                       (square 0 \"outline\" \"black\")))\n\n#; not working\n(define (boxes n)\n  (cond [(empty? n) (square 0 \"outline\" \"black\")]\n        [else\n         (overlay (square (* n 10) \"outline\" \"black\")\n                  (boxes (sub1 n)))]))\n; Working  \n(define (boxes n)\n  (cond [(zero? n) (square 0 \"outline\" \"black\")]\n        [else\n         (overlay-images (square-image n)\n                         (boxes (sub1 n)))]))\n\n(define (square-image n)\n  (square (* n 10) \"outline\" \"black\"))\n\n(define (overlay-images i1 i2)\n  (overlay i1 i2))\n\n(boxes 50)\nIn the code above, i tried to make square images with naturals.\nI can't figure out why the commented out function doesn't work, but if I use  helper functions (overlay-images  and square-image) in the same function, then it works magically.\nI shall be thankful if someone can give some insights.\nThanks,\nMS",
+    "student_answer": "Not Found",
+    "instructor_answer": "What you have above is just code, not complete function designs.  We don't help with code that doesn't have all the recipe elements.\nNote that in this case, if you had followed the recipe, especially the template tag and template steps, you probably would not have this bug."
+}

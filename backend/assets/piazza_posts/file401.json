@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 401,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/401",
+    "title": "HtDW with Compound Data: water-balloon-starter",
+    "question": "Hi, I looked at the solution for the water-balloon starter and I'm not sure why we are subtracting the angular speed from the angle. Also since angular speed is an optional constant and I choose not to include it what would my next world state be in terms of the angle? \n(@htdf next-bs)\n(@signature BalloonState -> BalloonState)\n;; advance bs by LINEAR-SPEED and ANGULAR-SPEED\n(check-expect (next-bs (make-bs 1 12))\n              (make-bs (+ 1 LINEAR-SPEED) (- 12 ANGULAR-SPEED)))",
+    "student_answer": "+ angle makes the balloon rotate counterclockwise.\n- angle makes the balloon rotate clockwise.\nTo me, it made more sense that a balloon being thrown to the right would spin clockwise but again that's just me. ",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 276,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/276",
+    "title": "Lab 2 Q4 - last test case?",
+    "question": "I re-did Q4 of Lab 2, and was wondering if we need the fourth check-expect where both criteria are not satisfied (i.e. only \"hi\" is longer than n, but not \"\", and obviously, they don't have the same character at position n)? Because if both cases are false then the function will obviously produce false, so not sure if this test is necessary\nEDIT: Apologies, I wasn't supposed to copy and paste my solution here, as we are only allowed to discuss our code with peers and TAs during the lab time. Thank you for those who reminded me of this, I need to think twice and pay more attention to academic honesty policies before sharing any code on Piazza in the future.",
+    "student_answer": "https://cs110.students.cs.ubc.ca/syllabus.html#academic-honesty\u2800\n(maybe it's more lenient with labs but I think you can't just post your code like this)\nEdit: you *can* post code from the lab, but only when the lab is over.",
+    "instructor_answer": "Not Found"
+}

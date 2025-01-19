@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 971,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/971",
+    "title": "lab 10 challenge Problems",
+    "question": "Hi, I am trying to solve lab 10 challenge Problems\n\nBut I am really stuck, not sure where to start\n\nShould I start by deleting try-catch first?\n\n\nAlso I added todo parameter for the work-list,  but since I need the path data\nDo I need to add another path-wl (rsf -wl) here?\n\nAny help would be appreciated.\n (define (encode ht0 s)\n  \n  (local [(define (fn-for-en ht rsf rsf-wl todo)\n            (cond [(string? ht)\n                   (if (string=? s ht)\n                       rsf\n                       (fn-for-en (first todo) rsf rsf-wl (rest todo)))]\n        \n                  [else\n                         (fn-for-en (htree-zero ht) (append rsf (list 1)) (append (make-list 2 rsf) rsf-wl) (cons (htree-one ht) todo))]))]\n\n    (fn-for-en ht0 empty empty empty)))",
+    "student_answer": "Is lab 10 challenge making it tail recursive? If so, yes, you do need to get rid of the try-catch. The (fn-for-en (htree-zero ht) (append rsf (list 0))) in the local define is not in tail position. \nYou do need a tandem worklist for this problem.",
+    "instructor_answer": "Not Found"
+}

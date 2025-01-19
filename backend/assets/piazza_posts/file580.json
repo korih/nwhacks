@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 580,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/580",
+    "title": "Try-catch",
+    "question": "Hi, I just have a quick question. Might be obvious but what does try-catch actually mean and when is it used? Thanks!",
+    "student_answer": "The most simple way I can explain it is:\nWe try something. If it turns out to be false/does not exist (depends on the context, as far as I am aware we only consider false). we do catch. Hence try-catch. If you look at the structure for the try-catch template you\u2019ll see that in action;\n (if (not (false? <try>))\n         (... <continue as normal>)\n         (<catch> ...))\nAs you can see, we check if try is false, if try is false then (false? try) becomes true, so (not (false? try)) becomes false. So because of the if expression, (<catch> ...) is run.\nIf try is anything but false, the opposite happens and we continue as normal. We use this in backtracking because we try different branches and see which succeed. I think you can get the rest on your own. This explanation I think deviates a bit from the course but this is how I understand it.",
+    "instructor_answer": "Not Found"
+}

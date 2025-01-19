@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 631,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/631",
+    "title": "problem 1",
+    "question": "in question 1, i cannot figure out what would go in the cross product table section where ops is empty but there is a listof1string\nmy intuition is that you would just return the list (ex. L2 empty would return L2)\nbut it also states this:\n;; If ops runs out of operations before the end of the 1String, then all \n;; the remaining letters in l are kept.\nso if ops is empty, should we interpret it as there are no operations that are going to take place so by \"keeping\" the rest of the characters we would return \"aBc\"? because for the letters we \"keep\" we join each 1string into one big string",
+    "student_answer": "The function should always be producing a string. ",
+    "instructor_answer": "Not Found"
+}

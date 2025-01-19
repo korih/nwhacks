@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 358,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/358",
+    "title": "Lecture 01/27",
+    "question": "Hi !\nI am just wondering about the stub here,\nI have been using false value for stub, so I am wording if I can put true value here?\nit's the list example for tr 6\n(define (contains-heartbreak? los) true) ; stub\nthank you in advance!",
+    "student_answer": "Yes, the value just has to be a boolean, so it doesn\u2019t really matter whether you put true or false.",
+    "instructor_answer": "Your classmate's right! You just need to make sure that your stub is following your signature :)"
+}

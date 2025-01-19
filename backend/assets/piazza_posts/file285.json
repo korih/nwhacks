@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 285,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/285",
+    "title": "Cond and question answer pair",
+    "question": "I'm a little confused. Suppose I'm writing a function that consumes some data definition and produces a boolean value when I write my cond, specifically the Q and A pair, is the answer always going to be true or false, or could it be other expressions?",
+    "student_answer": "Not Found",
+    "instructor_answer": "consumes some data definition and produces a boolean value\nSounds like you\u2019ve gotten your answer right there. It is dependent on the return type you\u2019ve specified in your signature.\nThe answer in your cond case need not be directly true or false, but it has to be an expression that evaluates to a boolean. For example, both of these cond expressions are valid:\n(@htdf foo)\n(@signature String -> Boolean)\n;; if string is \"cat\" or is less than 4 in length return false, otherwise return true\n\n(define (foo str)\n  (cond [(string=? str \"cat\") false]\n        [else (> (string-length str) 3)]))"
+}

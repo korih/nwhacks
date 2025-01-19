@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 366,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/366",
+    "title": "m04-raining-eggs-v2-starter.rkt - test thoroughness errors",
+    "question": "I'm getting test thoroughness errors for both the render-eggs and place-egg functions, and I'm stumped as to why...any help is appreciated! \nrender-eggs: I would think that the only tests we need is for the empty case, and also a ListOfEgg with at least one Egg in the list (self-referential case? I included three check-expects in total, base case, a list with one egg, and a list with 2 eggs\n0.8%  of   1.6%  x     Test thoroughness (known fault detection): incorrect - failed to detect known likely faults.\n                         Test thoroughness (known fault detection):             failed to detect fault 1.\nplace-egg:  I included two check-expects, the first one with place-egg's arguments as an egg and a circle image, and the other with an egg (different x y r values) and MTS\n0%  of   2.2%  x       Test thoroughness (known fault detection): incorrect - failed to detect known likely faults.\n                           Test thoroughness (known fault detection):             failed to detect fault 1.",
+    "student_answer": "Not Found",
+    "instructor_answer": "you need to update to the correct starters.  those handin to a different handin point, and will have the correct images.  Right now your thoroughness is failing because your images don't have mario or eggs because of the buggy starters."
+}

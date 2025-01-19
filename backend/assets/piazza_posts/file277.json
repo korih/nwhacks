@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 277,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/277",
+    "title": "a question about editing on cond question part",
+    "question": "for example , we want to create a cond template for mixed data itemization,\nwhich is one of\n - \" FOR EXAMPLE1\"\n - Natural\n- \"FOR EXAMPLE2\"\nI think we have to write the template\n(cond [(and (string? s) (string=? s \"FOR EXAMPLE1\") (... )]  ; the first line\n              [ (number? s) (... s)]\n             [ else \n               (...)])\nis that the first line cond question part allowed? ",
+    "student_answer": "Yes, that's how I would design the template for this mixed data itemization as well. We can pass \"FOR EXAMPLE 1\", a Natural, or \"FOR EXAMPLE 2\" in the first cond case. Since there is a possibility of passing a Natural, we guard it by making sure it is a string first (as it would result in an error if the first argument of string=? is a Natural), and then we also need to make sure the given string is \"FOR EXAMPLE 1\", since the cond cases must correspond to the order of data subclasses specified in the type comment. ",
+    "instructor_answer": "@6  \nIf @262 does not answer your question say specifically why in a followup below and we will be happy to help."
+}

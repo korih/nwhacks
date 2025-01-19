@@ -1,0 +1,11 @@
+{
+    "author": "Tao Jin",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 73,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/73",
+    "title": "help desk problem",
+    "question": "When I tried to use the help desk, I encountered this error and I've googled without any solution.\nThe error: send-url: Couldn't find a browser to open URL: \"file:///C:/Users/P1/AppData/Local/Temp/plt-sendurl-contents-file-16419534351641953435561.html\"",
+    "student_answer": "A potential workaround would be to open the Help Desk manually via file:///C:/Program%20Files/Racket/doc/index.html. You'll likely need to copy/paste that URL into the address bar of your browser. You can then search via the box in the upper left the same as you would searching for items via right click > \"Search in Help Desk for 'x'\".",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 937,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/937",
+    "title": "Genrec Termination Argument in Graphs?",
+    "question": "For many of the graph questions, our template tag includes genrec because we've used part of the genrec template in our function. I've noticed that the example done in lecture, the maze, has a termination argument. However, I've checked the problem bank questions for graphs and none of the solutions have a termination argument even though they have genrec in the template tag. \nIs it necessary to include a termination argument for graphs? \nThanks!",
+    "student_answer": "Not Found",
+    "instructor_answer": "Yes, definitely.  Since there is a generative step the proof of termination provided by structural recursion isn't present.  You have to prove the termination yourself."
+}

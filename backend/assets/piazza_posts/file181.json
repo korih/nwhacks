@@ -1,0 +1,11 @@
+{
+    "author": "Naomi",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 181,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/181",
+    "title": "Pset1 q2",
+    "question": "Good morning everyone, \nI am not sure how to write answer q2 so it won't produce an error.  \nthe error I get \"is this variable is not defined\", and when I define the function, I get: \"expected a variable, but found a part\"\nIn class we did it like this: \n(define (silly x)\n  (* 2 (sqr x)))\n;;\n;; Write out the step-by-step evaluation of: \n;;\n(silly (* 1 3))\n(silly 3)\n(* 2 (sqr 3))\n(* 2 9)\n18\nbut I am not sure why it is not working now...",
+    "student_answer": "Got it. \nThe answer is in the videos of how to evaluate more complex programs. If it is allowed I can attach the link to the video. ",
+    "instructor_answer": "Not Found"
+}

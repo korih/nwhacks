@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 688,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/688",
+    "title": "lambda required for Midterm 2?",
+    "question": "Hello, is it necessary to absolutely use lambda instead of local if we're only calling a locally defined function once?\nThanks!",
+    "student_answer": "Not Found",
+    "instructor_answer": "It is never necessary. When used properly it can make code easier to read.  We will use it in our examples when we think it is particularly appropriate.\nThe lecture example of\n  (lambda (x) (< x p))\nis a particularly good use of lambda.  The body of that function is so short and simple that it just screams \"produce true if x is < p\".  Taking the trouble to name that function is not going to make it more clear."
+}

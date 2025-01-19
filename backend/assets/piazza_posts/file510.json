@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 510,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/510",
+    "title": "Purpose statement for functions operating on large enumerations",
+    "question": "For handle-key and functions like it that operate on large enumerations, how would one write a purpose statement that is only 1 line long if there are many different operations that the function needs to do based on different inputs?",
+    "student_answer": "I think if you need to write a purpose statement for something like handle-key you just put in the required data, for eg, \" \" makes the balls disappear, otherwise, there are no changes.",
+    "instructor_answer": "If you had lots of different keys that had actions you might say something like:\ncall the appropriate action based on the key that is pressed\nBecause at that point all the different actions would be in their own helpers, otherwise the key handler would be violating one task per function.  So the key handler itself wouldn't be doing any of the actual key actions."
+}

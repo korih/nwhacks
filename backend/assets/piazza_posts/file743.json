@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 743,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/743",
+    "title": "Replacing lambda with local definitions",
+    "question": "How would these lambda expressions be replaced with local definitions? I find local definitions much more intuitive and easier to understand, so I want to see both ways of writing a function (local defs. and lambda).\nHere's the given solution:\n(define (set-difference lst1 lst2)\n  (filter (lambda (i1)\n            (not\n             (ormap (lambda (i2) (= i1 i2))\n                    lst2)))\n          lst1))\nHere's what I thought it might look like, but this is wrong and produces and error:\n(define (set-difference lst1 lst2)\n  (local [(define (c2 i2) (= i1 i2))\n          (define (c1 i1) (not (ormap c2 lst2)))]\n  (filter c1 lst1)))\nCan anybody tell me what the version with local definitions should look like?",
+    "student_answer": "It's going to have to include a local inside another local (the\nc\n2\nfunction is a closure of the\nc\n1\none). This is why lambda makes this dramatically simpler.",
+    "instructor_answer": "Not Found"
+}

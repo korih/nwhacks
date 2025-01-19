@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 643,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/643",
+    "title": "Template tag inconsistency for abstraction practice problems",
+    "question": "I was working through the practice problems for module 8 Abstraction and I noticed that the template tag sometimes includes the non-primitive datatype (for example, (@template Photo use-abstract-fn) in photos-solution), and sometimes it does not (for example, (@template use-abstract-fn) in accounts-solution). Is there a specific difference between the two cases?",
+    "student_answer": "Not Found",
+    "instructor_answer": "The use of an extra type origin in problems like this:\n(@template use-abstract-fn) ;adding Photo here is optional\n\n(define (to-frame album lop)\n  (local [(define (chosen? p)\n            (and (string=? album (photo-album p))\n                 (photo-favourite p)))]\n    (filter chosen? lop)))\nWhat we would like to be able to say, and we will have this in the future, is the ability to put the (@template Photo) on the locally defined function where it belongs. BUT THIS DOES NOT WORK THIS TERM.\n(@template use-abstract-fn)\n\n(define (to-frame album lop)\n  (local [(@template Photo)\n          (define (chosen? p)\n            (and (string=? album (photo-album p))\n                 (photo-favourite p)))]\n    (filter chosen? lop)))"
+}

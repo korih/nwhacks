@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 212,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/212",
+    "title": "Problem 4",
+    "question": "Hi,\nI was working through problem 4 of the htdf lecture starter file. After designing the code all the tests passed, but my code was different from the code in the solutions file. My code produced the image with the larger area, whereas the solution produced true/false. After reading the problem a few times, I kind of understood the wording. The question is asking whether the first image is larger than the second image. The answer to this question is a yes/no or true/false. But my code also reached the same conclusion (differentiating between the size), in fact, it produces the image with the larger area.\nMy question is: Do we as designers of codes have some leeway in terms of how we want to result to be presented or are we expected to strictly follow the instructions?",
+    "student_answer": "No, we don\u2019t have terribly much leeway in the instructions. I think that understanding the instructions unambiguously is part of what we\u2019re graded on.\nAnd it\u2019s also harder for tests to be run if we had more flexibility. You can\u2019t really put an image through an if statement like you can with a boolean.",
+    "instructor_answer": "There is leeway, but that doesn't mean all answers that seem to work are good enough.\nIn this case, two design rules apply. First is that whenever you design a function that answers a yes/no type of question that function must produce a boolean value.  Not \"Yes\" or \"no\", not 1 or 0, not one image or the other.  A boolean value.\nThe second rule is that images are a terrible way to represent any information other than the image.\nThe first rule is absolute, so it forces the result type of the function to be Boolean.  And the second rule takes us the same way also."
+}

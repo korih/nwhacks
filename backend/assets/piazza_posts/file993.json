@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 993,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/993",
+    "title": "2020W1-Final-P5, abstraction from template",
+    "question": "The question asks to design an abstract function from the Mole template to reduce redundancy in code. The solution to the abstract function is shown below:\n(@template (listof Mole))\n\n(define (find-and-replace find replace lom)\n  (cond [(empty? lom) empty] ;b1?\n        [else\n         (if (find (first lom))\n             (cons (replace (first lom))\n                   (rest lom))\n             (cons (first lom)\n                   (find-and-replace find replace (rest lom))))]))\nMy solution used a parameter \"b1\" as an answer for the base case - I was wondering why the solution uses \"empty\" instead. Is it because both functions in the problem use \"empty\"? Does it always return empty because the function is structurally recursive? Would both solutions be accepted? Thank you!",
+    "student_answer": "I did the same thing, and I'm pretty sure that as long as your code runs after you replace the bodies of the two functions with your new abstract, you would get most of the marks. Here we don't need empty because both of the functions we are abstracting from use empty, therefore it is not a point of variation. it has nothing to do with the structural recursion as tons of recursive functions have base cases that aren't empty.",
+    "instructor_answer": "Please be careful.  The problem does not ask you to design an abstract function from the Mole template.  It asks you to design an abstract function from examples. Those are two different kinds of problems.\nAnd that difference is why the solutions's answer is different than yours.  In abstraction from examples you only add as much abstraction as the two examples demand.\nDoes that help?"
+}

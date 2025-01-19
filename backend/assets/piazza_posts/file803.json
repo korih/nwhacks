@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 803,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/803",
+    "title": "Midterm2 Problem4",
+    "question": "Hi,\n\nThe requirements for problem4 in midterm2 say \"For full marks it must be a composition of exactly 2 different built-in abstract functions...\", but the posted solution uses 3 built-in abstract functions ... I could have solved this problem if there was no such requirement, and I lost so much time because of this problem and didn't finish the whole exam ...",
+    "student_answer": "There's no use crying over spilled milk; keep in mind these are sample answers, and that you can only wait for results to come out and discuss then. \nEDIT: I interpreted it still as it using a composition of two built-in abstract functions - the filter within the lambda doesn't really count as part of the composition as per previous piazza answers imo.\nTo add to this, the main body of the function is (foldr c1 b (map fn list)), which is a composition of two abstract functions.\n^^\ntoo true",
+    "instructor_answer": "The posted solution is a composition of 2 abstract functions.\nSee @713 and @731"
+}

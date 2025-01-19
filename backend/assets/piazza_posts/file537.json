@@ -1,0 +1,11 @@
+{
+    "author": "Rhys Falby",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 537,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/537",
+    "title": "Question about clicker",
+    "question": "Hi!\nSo today we had a question during our clicker question which was about which step is first in the local evaluation rules. In the videos that were assigned for pre-lecture work it says that the first step in the evluation process is renaming the variables. During the clicker it was said that you must lift the variables first. I am not sure which one is the process we should be following and am finding it quite confusing.",
+    "student_answer": "In the stepping process, all 3 actions occur in one step. So, the order in which you rename/lift doesn't matter in the stepping process.",
+    "instructor_answer": "Not Found"
+}

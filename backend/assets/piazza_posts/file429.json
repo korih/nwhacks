@@ -1,0 +1,11 @@
+{
+    "author": "Ava Peacock",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 429,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/429",
+    "title": "MT1 W2021",
+    "question": "For this function in problem 4 of the 2021 midterm, why don't we need to design a helper function? Isn't it doing a separate task when it compares the image areas since the purpose of the function is only to add areas? Thank You!",
+    "student_answer": "I think it's because it's only calling one function on the different datatype.\n(also I would argue image-area is a helper function)",
+    "instructor_answer": "@6"
+}

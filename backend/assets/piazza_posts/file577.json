@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 577,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/577",
+    "title": "Tests for an encapsulated function",
+    "question": "Hello, I understand that with encapsulated functions, we now have to ensure that we delete all the tests no longer applicable to the top-level.\nIn the following solution for encapsulate-total-area:\n(check-expect (total-area (make-dir \"Base\" empty empty)) 0)\n(check-expect (total-area D6) (+ (* 10 10) (* 12 12) (* 13 14)))\nIs the first check-expect with a \"base\" case something that we are now expected to add while refactoring? How do we know how to do so? Thanks!",
+    "student_answer": "Not Found",
+    "instructor_answer": "With single recursive functions the reason we put the base case test first is that it helps with debugging.  If you see that the base case test fails you should fix it first before the other problems - many recursive functions will not work if their base case is incorrect.\nThe same is true with encapsulated mutually recursive functions. You would like your first test or tests to basically base case tests.  In the case above, the test:\n(check-expect (total-area (make-dir \"Base\" empty empty)) 0) \nis as close as you can get to a base case test.  While the fn-for-dir function will call fn-for-lod, fn-for-lod will be called with empty and so it will not call fn-for-dir back. So it's base case like in that fn-for-dir is not called twice.\nThat means that practically it helps to have that test first.  If it fails then you can focus on that first before looking at the others."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 95,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/95",
+    "title": "defining functions",
+    "question": "Hi,\nWhen I tried to practice the defining functions, I followed along with the video, but DrRacket says that \"c: this variable is not defined\", and I wonder why is that. \nHere is my line:\n(require 2htdp/image)\n(define bulb c)\n  (circle 40 \"solid\" c )\n(buld (string-append \"re\" \"d\"))\n(buld \"red\")\n(circle 40 \"solid\" \"red\") \nThank you",
+    "student_answer": "I think you need to add brackets for parameters, which means it should be (define (bulb c) ...). Also some typos in your following lines, it's bulb instead of buld :)",
+    "instructor_answer": "Not Found"
+}

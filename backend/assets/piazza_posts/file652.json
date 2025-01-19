@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 652,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/652",
+    "title": "Module 9a: The argument",
+    "question": "I am confused as to why the answer is third and not the first answer? \nThe explanation still confuses me, I saw someone explain the reduction step quite better than the videos on edX; thus, I was hoping for a different explanation that could help me understand this better! \nScreenshot_2022-03-08_11.03.49.png",
+    "student_answer": "The condition of cutoff > 0 is necessary because division by 3 will never result in 0 or a number smaller than 0. The condition of s >= 0 is necessary so that you don't make a square with length -3.",
+    "instructor_answer": "Not Found"
+}

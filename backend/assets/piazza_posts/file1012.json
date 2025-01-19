@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1012,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1012",
+    "title": "2019w2-f p5",
+    "question": "(define (arrows s)\n  ;; Termination argument\n  ;; base case : todo is empty\n  ;; reduction : if n visited add its next to todo and add n to visited\n  ;; argument ; todo grows by nexts of n if not visited graph is finite so\n  ;; all nodes will eventually be visited\n\n\n  ;; todo is unvisited node\n  ;;\n  (local [(define (fn-for-node s todo visited rsf)\n            (cond [(member? s visited) (fn-for-lon todo visited rsf)]\n                  [else\n                   (fn-for-lon (append (next-nodes s) todo)\n                                (cons s visited)\n                                (foldr add-arrow rsf (next-nodes s)))]))\n\n\n          (define (fn-for-lon todo visited rsf)\n            (cond [(empty? todo) rsf]\n                  [else\n                   (fn-for-node (first todo) (rest todo) visited rsf)]))\n\n          (define (add-arrow f lon)\n            (cond [(empty? lon) (list (make-count f 1))]\n                  [else\n                   (if (string=? f (count-node (first lon)))\n                      (cons (make-count f (add1 (count-in (first lon))))\n                            (rest lon))\n                      (cons (first lon)\n                            (add-arrow f (rest lon))))]))\n\n          ]\n\nCould you please explain how add-arrow function works here?\nWhat is exactly 'lon' in this function?\nThank you in advance",
+    "student_answer": "Not Found",
+    "instructor_answer": "It won't help for us to answer that question in that form.\nHave you thought about the sequence of calls to add-arrow?  What is it called with the first time? the second?"
+}

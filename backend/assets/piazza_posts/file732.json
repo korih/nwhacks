@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 732,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/732",
+    "title": "Having trouble identifying MR arrows",
+    "question": "(@htdd Date)\n;; Date[1] is String[2]\n;; interp. a calendar date\n\n(@htdd Person)\n(define-struct person (name bdate marriages))\n;; Person[3] is (make-person String[4] Date[5] ListOfMarriage[6])\n;; interp. A person with their first name, birthdate, and all their marriages\n\n(@htdd Marriage)\n(define-struct marriage (date spouse children))\n;; Marriage[7] is (make-marriage Date[8] Person[9] ListOfPerson[10])\n;; interp. A marriage record with the date, the spouse, and the children\n\n(@htdd ListOfPerson)\n;; ListOfPerson[11] is one of:\n;;  - empty\n;;  - (cons Person[12] ListOfPerson[13])\n;; interp. a list of person\n\n(@htdd ListOfMarriage)\n;; ListOfMarriage[14] is one of:\n;;  - empty\n;;  - (cons Marriage[15] ListOfMarriage[16])\n;; interp. a list of marriage\nI came across this in 2020 w1 mt2, and the MR arrows were really tough for me to identify. I used to have a better understanding of how to identify these in the type comments and templates, but I'm finding it really difficult now, even after reviewing notes and any posts on Piazza I could find about it.\nCould someone explain why, for example, [9] to [3], [10] to [11], [12] to [3], [15] to [7], and [6] to [14] should\nbe Mutual Reference arrows? Greatly appreciate any help on this, thank you",
+    "student_answer": "Mutual recursion can be tricky because they can get really big. Following the arrows from the very beginning and looping back may help understand. For this:\nPerson references ListOfMarriage\n[\n6\n]\nto\n[\n14\n]\nListOfMarriage references Marriage\n[\n15\n]\nto\n[\n7\n]\nMarriage references Person\n[\n9\n]\nto\n[\n3\n]\nwhich is back to the beginning.\nAND\nMarriage references ListOfPerson\n[\n10\n]\nto\n[\n11\n]\nListOfPerson references Person\n[\n12\n]\nto\n[\n3\n]\nwhich is back to the beginning.\n\n\nI hope writing it out like this helps. Just try to follow the arrows all the way through and try to see if it goes back to the starting point :)",
+    "instructor_answer": "Not Found"
+}

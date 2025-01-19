@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 511,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/511",
+    "title": "Removing a ball",
+    "question": "I'm stuck on problem set 5 where they require us to remove a ball when it hits the paddle. Could I get some help?",
+    "student_answer": "Recall: the starter file includes the handy helper function touch-paddle? and stipulates that \"on-tick function MUST be designed as a composition of two other\nfunctions called game-with-next-balls and game-with-caught-balls\"\n\nThink about where you'd want to place touch-paddle? And what you'd want to do with any given element of ListOfBall when it produces false and when it produces true (when a ball isn't touching the paddle and when it does touch the paddle, respectively). Drawing an example of a list where some balls touch the paddle and some don't might help, thinking about it in terms of (first lob) and (rest lob).",
+    "instructor_answer": "Not Found"
+}

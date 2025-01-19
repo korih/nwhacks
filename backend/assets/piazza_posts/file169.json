@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 169,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/169",
+    "title": "problem set 1 p6",
+    "question": "My autograde email said template tag: could not find 1st template tag I am confused what does it mean?",
+    "student_answer": "Not Found",
+    "instructor_answer": "This message means that the autograder could not find a line like this:\n(@template <type-name>)\nright before your function definition."
+}

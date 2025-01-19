@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 943,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/943",
+    "title": "pset 11 infinite loop",
+    "question": "i am not sure how much detail i can put in here, but i am having problems on a few different questions where my code is creating a neverending loop, which seems to be related to the call to the lookup treasure function. ive tried looking at solutions for things we worked on in class and lab 11, but I really don't know what is going wrong. if anyone has any general advice that would be greatly appreciated!",
+    "student_answer": "Ok, so lookup shouldn\u2019t be culpable since it really just transforms a dst to a treasure i.e. String -> Treasure. I would suggest focusing on the fn-for-t OR/AND fn-for-lor: focus on where the termination arguments rest (this is genrec). Also make sure you are testing all possible base cases, AND remember that this is a graph so there is always going be potential for infinite loops (by definition) UNLESS you account for it (remember what visited and path accumulators do, and preserve, exploit, and initialise them correctly at ALL instances).",
+    "instructor_answer": "Not Found"
+}

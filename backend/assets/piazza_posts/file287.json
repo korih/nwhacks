@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 287,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/287",
+    "title": "edX Post-Video Question about on-mouse",
+    "question": "I don't really understand why these answers are correct and exactly what the handle-mouse function does. I looked it up on Help Desk, but I'm still having trouble. I trial and errored to get the correct answer in hopes of there being an explanation under show answer. Thanks!",
+    "student_answer": "the first number is the value the inputted data (in this case, the x-axis position of the cat)\nthe second number is the x-axis position of the mouse\nthe third number is the y-axis position of the mouse\nthe strings at the end are the kind of input from the mouse (pressing down, releasing, dragging, etc.)\nIf the string is anything other than \"button-down\", it changes nothing about the cat, therefore is the same as the first number (because it was programmed to be if you click down somewhere on the screen).\nIf the string is \"button-down\", it changes the cat's x-axis position to the beginning, aka zero (as explained in the video).\nIn this case, the second and third numbers aren't relevant because the cat goes back to the beginning but those numbers would be used to do something like move the cat to the position on the screen the mouse was when you pressed down.",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 940,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/940",
+    "title": "Check-expect for problem set 11 Q3",
+    "question": "There is a route A-D-H-I that from H to I the duration is 4 which is less than 9.\nBut the given check-expect (check-expect (short-dur-reachable TA 9) (list \"A\" \"C\" \"G\" \"D\")) does not include I?",
+    "student_answer": "Take a look again at what the durations is for A to D and D to H.",
+    "instructor_answer": "Not Found"
+}

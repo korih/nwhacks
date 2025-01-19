@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 617,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/617",
+    "title": "Use of abstraction in Q6 Problem Set 7",
+    "question": "Are we allowed to use abstract functions or make a separate abstract function for functions that operate on mutual recursion for Q6? I ask this because I understand problem sets assess your understanding of concepts from weeks prior, but we only learned abstract this week.",
+    "student_answer": "Not Found",
+    "instructor_answer": "Problem set 7 is not intended for use of abstract functions. \nI'm not sure I understand what you are asking exactly.\nAre you asking whether it is OK to convert the body of one of the functions in a multi-function template into a call to an abstract function?\nOr are you asking whether it is OK to write the contents of a 2-one-of-table cell (a cond answer) using an abstract function?\nIn general the answer to both questions is yes, but usually when we give you a multi-function template to work with we are expecting you not to replace the function bodies with calls to abstract functions?\nDid I understand your question properly?"
+}

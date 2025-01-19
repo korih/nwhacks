@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 707,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/707",
+    "title": "Abstraction P1",
+    "question": "Hello, for this question in the answer key, a function called wide? is defined separately as a new function; however in my solution (below) I defined it in a local within wide-only. I was wondering if this would be okay in an exam, and as a general rule, when must we use a separate function as opposed to a local?\n(require 2htdp/image)\n(require spd/tags)\n\n(@assignment bank/abstraction-p1)\n(@cwl ???)\n\n(@problem 1)\n;; Use the built in version of filter to design a function called wide-only \n;; that consumes a list of images and produces a list containing only those \n;; images that are wider than they are tall.\n(@htdf wide-only)\n(@signature (listof Image) -> (listof Image))\n;; produce a list of images from (listof Image) that are wider than taller\n(check-expect (wide-only empty) empty)\n(check-expect (wide-only (list (rectangle 10 5 \"solid\" \"black\")\n                               (rectangle 5 10 \"solid\" \"black\")))\n              (list (rectangle 10 5 \"solid\" \"black\")))\n\n;(define (wide-only loi) empty)\n\n(@template use-abstract-fn)\n\n(define (wide-only loi)\n  (local [(define (wide i) (> (image-width i) (image-height i)))]\n    (filter wide loi)))\n            ",
+    "student_answer": "From what I remember in the edX videos, for functions like wide? that can be defined at either top level or local, it's fine to do it either way. Each way has its benefits - it's simpler and faster to define it in a local, while you can utilise the @htdf recipe to help you design the function at top level. For closures, you have to define it in local.",
+    "instructor_answer": "Not Found"
+}

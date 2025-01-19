@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 982,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/982",
+    "title": "dropn-starter.rkt Accumulator",
+    "question": "(define (dropn lox0 n)\n  ;; acc: Natural; the number of elements to keep before dropping the next one\n  ;; (dropn (list \"a\" \"b\" \"c\" \"d\") 2)  ;outer call\n  ;; \n  ;; (dropn (list \"a\" \"b\" \"c\" \"d\") 2)  ; keep \n  ;; (dropn (list     \"b\" \"c\" \"d\") 1)  ; keep\n  ;; (dropn (list         \"c\" \"d\") 0)  ; drop\n  ;; (dropn (list             \"d\") 2)  ; keep\n  ;; (dropn (list                ) 1)  ; keep\n  (local [(define (dropn lox acc)\n            (cond [(empty? lox) empty]\n                  [else\n                   (if (zero? acc)\n                       (dropn (rest lox) n)\n                       (cons (first lox)\n                             (dropn (rest lox)\n                                    (sub1 acc))))]))]\n    (dropn lox0 n))) \nAbove is the solution set for dropn-starter.rkt from the problem bank. I was confused as to how the accumulator goes from 0 to 2 in this part\n;; (dropn (list         \"c\" \"d\") 0)  ; drop\n  ;; (dropn (list             \"d\") 2)  ; keep\nHow are we keeping 2 elements when theres only 1 in the list?",
+    "student_answer": "Actually in the list elements end at d but if the list has elements after d suppose e and f it will again start at accumulator 2",
+    "instructor_answer": "Not Found"
+}

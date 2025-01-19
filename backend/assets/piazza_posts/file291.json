@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 291,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/291",
+    "title": "There is no open parenthesis bug",
+    "question": "Dr racket keeps highlighting one part of my code\n(>  (image-width i1) (image-height i1 ))\nWith the error \n>: expected a function call, but there is no open parenthesis before this function\nThis is strange to me as the first time I got it, there was an open parenthesis before the function, and nothing I try gets rid of this error.\nHas anyone else experienced this? ",
+    "student_answer": "Not Found",
+    "instructor_answer": "That's strange.  Did you by chance copy and paste this code in?\nYou might try just re-typing it from scratch in case there are some strange characters in there."
+}

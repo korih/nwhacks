@@ -1,0 +1,11 @@
+{
+    "author": "Haobo Li",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 33,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/33",
+    "title": "Racket",
+    "question": "I downloaded the racket using a MAC computer, but why is it different from the example.",
+    "student_answer": "I believe it is simply because your Mac is set on \"dark mode\", where the example is given in light mode. It should work the same though. \nTo see SPD Handin and other options, I believe you have to set the language first through the menu at the bottom left of the window.",
+    "instructor_answer": "Not Found"
+}

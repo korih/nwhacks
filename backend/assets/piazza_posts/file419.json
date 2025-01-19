@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 419,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/419",
+    "title": "MT1W1 2021, P4",
+    "question": "(@signature ListOfImage Number -> Natural)\nCould someone help me understand why they are both not Natural considering the constraints of an Image's height and width?\nThanks",
+    "student_answer": "Well, you could have numbers that can produce non-natural numbers. For example sometimes when you divide a natural number with another natural number, you get the non-natural number.  ",
+    "instructor_answer": "Not Found"
+}

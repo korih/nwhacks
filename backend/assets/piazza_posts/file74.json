@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 74,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/74",
+    "title": "Autograder",
+    "question": "The Autotrader only shows my grade for problem 1 for the primitives starter worksheet, is it normal? Also, do the problems we worked on during the lecture count towards our final grade?\nAUTOGRADING GRADE:   100    (out of 100)\n\n\n\n\n\n  100%  of   100%    Overall submission:  correct.\n  100%  of   100%          (@problem 1):  correct.\n  100%  of   100%             Expression that clearly computes  sqrt ( 3^2 + 4^2): correct.\n\n\nInternal use only below here:\n'(1 1.0 ((1.0 1.0 ((1.0 1.0 ((1.0 1 ())))))))",
+    "student_answer": "For me too! It doesn't show for Problem 2",
+    "instructor_answer": "It can't grade problem 2 unfortunately."
+}

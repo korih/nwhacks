@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 586,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/586",
+    "title": "Empty check expect",
+    "question": "How come we don't test the empty case for andmap2?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Abstract functions are guaranteed to handle the base case, so we don't need to test for it in these scenarios! :)\nIt's the same for when you have a function that's templated off of use-abstract-fn, you don't need to test for the base case either!"
+}

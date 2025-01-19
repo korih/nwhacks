@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 965,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/965",
+    "title": "spd2-f-p1 issue",
+    "question": "login error: \u2026 may not submit assignment exams/exl/spd2-f/spd2-f-p1\nTried submitting my file for spd2-f-p1, it gave me this error, did the autograder stop running? ",
+    "student_answer": "It indeed is. I was able to discover a gap and quickly solved it.  t",
+    "instructor_answer": "This is an exam for the extended learning offering of the course and can only be submitted by those students.  It shouldn't have been available for download.\nBut all the problems in it are good practice problems and appear in other 110 exams."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Eric Ding",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 441,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/441",
+    "title": "Natural or Number?",
+    "question": "Sometimes I'm not sure whether to write Natural or Number in my data definition. Can someone give me some suggestions? Will points be deducted for writing this wrong in the exam?",
+    "student_answer": "Not Found",
+    "instructor_answer": "i'll give you an example: if you want to design a function to count the number of items, parcels, persons, etc. then you obviously can't have decimals; they gotta be positive whole numbers -> Natural\nif you want to calculate the radius of a Balloon (lab 3). You could use Natural to keep things simple as opposed to Number.\nSo think about as to whether you can have half of something or . of something. Think about as to whether it makes sense to have negative numbers too since you can have Natural, Number, or Integer"
+}

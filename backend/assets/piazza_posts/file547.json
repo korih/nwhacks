@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 547,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/547",
+    "title": "Concept question",
+    "question": "I am a little confused about the concept of BST and Mutual reference. When we write programs for both BST and Mutual reference, they both have arbitrary deep and arbitrary width. So what is the relationship between them? Does that mean BST is the pre-req for Mutual reference? ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Do binary search trees have arbitrary width.  Can a BST node have any number of direct children?\nI think if you answer that it will lead you to an answer for your other questions, but if not please feel free to follow up."
+}

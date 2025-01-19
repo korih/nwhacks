@@ -1,0 +1,11 @@
+{
+    "author": "Dylan Zhu",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 512,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/512",
+    "title": "what is (@template fn-composition)",
+    "question": "What does this template represent?\nThis template is also not defined in HTDD",
+    "student_answer": "Watch videos in the Helpers module on edX. ",
+    "instructor_answer": "You learned about fn-composition in the m05-arrange-images lecture starter.  And the design recipes page has a section on it."
+}

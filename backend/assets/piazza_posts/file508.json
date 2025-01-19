@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 508,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/508",
+    "title": "6b: Mutual Reference / Backtracking Search Pt. 3",
+    "question": "Hi, it's from the edx video Backtracking Search Pt. 3\nI have a question about adding a parameter (n)\n\nAs far as i know when you add a new parameter to the function template\n\nn goes behind every (\u2026) + recursive call\n\nso, shouldnt it be like this?\n\n(define (find\u2013element n e)\n  (\u2026 n (elt-name e)    ;String\n       (elt-data e)    ;Integer\n       (find\u2013loe n (elt-subs e))))\n\n(define (find\u2013loe n loe)\n  (cond [(empty? loe) (\u2026 n)]\n        [else\n         (\u2026 n (find\u2013element ... n (first loe))\n              (find\u2013loe ... n (rest loe)))]))\nbelow this is the picture from video, i dont understand why he doesnt put (n) after ... \n ",
+    "student_answer": "Not Found",
+    "instructor_answer": "We are a little more careful about adding the n after all the ... now that we used to be.  We used to just remember \"oh I also have n if I want it\".  But now we put it in explicitly as a reminder."
+}

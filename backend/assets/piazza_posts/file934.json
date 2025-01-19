@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 934,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/934",
+    "title": "L18 - m10-bstp-starter",
+    "question": "(define (bst? t0)\n  ;; lower is Integer; key of closest parent of which t is in right branch\n  ;; upper is Integer; key of closest parent of which t is in left branch \n  (local [(define (bst? t lower upper)\n            (cond [(false? t) true]\n                  [else\n                   (and (< lower (node-k t) upper)\n                        (bst? (node-l t) lower (node-k t))\n                        (bst? (node-r t) (node-k t) upper))]))]\n    (bst? t0 -inf.0 +inf.0)))\nWhy would we put the result as true in the first cond case if we are testing for false?\nFrom my understanding, if any part of the bst fails to complete all three conditions in the else case it would return false. Why would we not use (not (false? t)) instead if we are looking for it to be true?",
+    "student_answer": "Look at the data definition for BST. false is the base case for BST, like empty is for lists. When a BST is false, that means it has no subs or a key, meaning it satisfies the conditions and the function should return true. ",
+    "instructor_answer": "The student answer is very good.\nBut also remember not to look at just the function definition.  See the whole design. If you read the whole design in this case there is the data definition and check-expects that can help remind you how an empty BST is represented.  There's the @template to remind you to look at fn-for-bst in the data definition.  When you choose to just look at the function definition you are asking yourself to have to remember more. So it's actually easier to read more than read less."
+}

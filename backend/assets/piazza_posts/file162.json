@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 162,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/162",
+    "title": "Error running submission queue",
+    "question": "Handed in problem set 1, the following result came back... tried to use the link for autograder messages and policies. https://cs110.students.cs.ubc.ca/psets/autograder.shtml\nThe link shows \"object not found\", and nothing else. \nAUTOGRADING GRADE:   0    (out of 100)\n\nError running submission queue/handin-16422935811642293581006.rkt:183:11: @template: image is not a legal type name, (listof <TypeName>), or one of \"htdw-main, fn-composition, backtracking, try-catch, 2-one-of, encapsulated, use-abstract-fn, genrec, bin-tree, arb-tree, accumulator, or for-each\"\n  at: image\n  in: image\nEdit: Solved, after changing i to capital letter I in (@template Image) , it worked, thanks! ",
+    "student_answer": "In my experience, if there is a single \"error\" in the code, the grade will be returned as 0. Meaning if you got everything correct except for one minor mistake (causing the program to not run properly), your grade will be 0. \nI would suggest try handing it in with the error deleted, then if you get a grade, you will know that the hand-in system is working for you. Then, you can try to correct the mistake in your program. ",
+    "instructor_answer": "Glad you found the answer :)\nRemember that the autograder report is written in plain English, so that you should be able to interpret the message on your own."
+}

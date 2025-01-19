@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 781,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/781",
+    "title": "question about evaluating local expressions",
+    "question": "In the evaluation process, when lifting local definitions, if there are multiple definitions inside the local, do we lift them one by one in order and then rename them one by one? Or do we lift all definitions at once and then rename all at the same time?",
+    "student_answer": "every definition gets renamed at once and lifted at once",
+    "instructor_answer": "Not Found"
+}

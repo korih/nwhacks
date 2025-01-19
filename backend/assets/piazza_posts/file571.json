@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 571,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/571",
+    "title": "Decoder signature incorrect",
+    "question": "For the decoder function in pset-07, my question says the decoder function consumes Letters and Operations and returns a string. My signature is\n(@signature Letters Operations -> String).\nThe autograder will not grade my solution for decoder because it says the signature is incorrect. I have checked the spelling, I don't know what the problem is.",
+    "student_answer": "The datatypes I see are ListOf1String and Operations. You might want to check over the file to make sure you're using the correct name or you might want to redownload the starter file since starter files can get updated from time to time. ",
+    "instructor_answer": "Not Found"
+}

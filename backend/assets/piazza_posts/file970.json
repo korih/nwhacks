@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 970,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/970",
+    "title": "Quick question, skip1 starter",
+    "question": "Both valid approaches? My way makes more sense to me, and was the immediate way I thought of solving it. This is a trivial problem but leads me to a larger question. Would there ever be a limitation on the number of accumulators (within reason)?\n \nNote: its the Skip1 lecture starter, and I don't know how to format the code for piazza :p\n(@htdf skip1)\n(@signature (listof X) -> (listof X))\n;; consume list of elements, producing only odd (1, 3, 5,..) elements in list\n\n(check-expect (skip1 empty) empty)\n(check-expect (skip1 (list 1)) (list 1))\n(check-expect (skip1 (list 1 2)) (list 1))\n(check-expect (skip1 (list 1 2 3)) (list 1 3))\n\n\n\n\n(@template (listof X) accumulator)\n\n(define (skip1 lox0)\n  (local [(define (skip1 lox pos acc)\n            (cond [(empty? lox) (reverse acc)]\n                  [else\n                   (if (odd? pos)\n                       (skip1 (rest lox)\n                              (add1 pos)\n                              (cons (first lox) acc))\n                       (skip1 (rest lox)\n                              (add1 pos)\n                              acc))]))]\n\n    (skip1 lox0 1 empty)))\nSOLUTION ANSWER\n(define (skip1 lox0)\n  (local [(define (skip1 lox acc)\n            (cond [(empty? lox) empty]\n                  [else\n                   (if (odd? acc)\n                       (cons (first lox)\n                             (skip1 (rest lox)\n                                    (add1 acc)))\n                       (skip1 (rest lox)\n                              (add1 acc)))]))]\n    \n    (skip1 lox0 1))) ",
+    "student_answer": "1st, you do the Piazza formatting by clicking this button:\n2nd, the main difference I see between your answer and the solution file is that you made yours tail recursive with a result-so-far accumulator. ",
+    "instructor_answer": "Not Found"
+}

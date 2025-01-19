@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 257,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/257",
+    "title": "htdf with itemization data clarification",
+    "question": "In the design recipe for htdf calling itemization data it says:\nany function where the template is used, the cond question/answer pairs must not be re-ordered, they must all be preserved, and the cond questions must not be edited in any way.\ndoes that mean that in the function we cannot add any more cond Q/A pairs either? ",
+    "student_answer": "Not Found",
+    "instructor_answer": "@262"
+}

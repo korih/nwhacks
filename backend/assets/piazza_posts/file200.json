@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 200,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/200",
+    "title": "Variable vs Function Error",
+    "question": "In particular, when I am trying to write a command to return a certain characteristic of an image (e.g. image-height), and I have defined a variable img as a particular image (for example, let's say it's a circle with a height of 20), I get the code:\n(image-height(img))\nWhich leads me to this error:\nfunction call: expected a function after the open parenthesis, but found a variable\nHowever, if I were to turn this input into a function by changing the input to a function that produces an output identical to the circle. It works. I get the code:\n(image-height(rotate 0 img))\nWhich does work in returning the height of the image.\nWhile this method works, I'm a bit confused as I'm pretty sure there should be a more intuitive way to do this.",
+    "student_answer": "You do not need brackets around img. ",
+    "instructor_answer": "Not Found"
+}

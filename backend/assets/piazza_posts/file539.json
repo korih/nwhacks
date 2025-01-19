@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 539,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/539",
+    "title": "lectures/m07-regions-refactoring",
+    "question": "Is there a particular reason why the second cond of all-labels--region is replaced by an else?\n(define (all-labels--region r)\n  (cond [(single? r) (list (single-label r))]\n        [(group?  r) (all-labels--lor (group-subs r))]))\n\n\n(define (all-labels r)\n  (local [(define (all-labels--region r)\n            (cond [(single? r) (list (single-label r))]\n                  [else        (all-labels--lor (group-subs r))]))\n          (define (all-labels--lor lor)\n            (cond [(empty? lor) empty]\n                  [else\n                   (append (all-labels--region (first lor))\n                           (all-labels--lor (rest lor)))]))]\n\n    (all-labels--region r)))",
+    "student_answer": "That cond question should have always been an else - the cond question being left like that was an error.",
+    "instructor_answer": "Not Found"
+}

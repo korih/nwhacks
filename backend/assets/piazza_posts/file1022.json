@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1022,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1022",
+    "title": "a question about @template here",
+    "question": "why is the template (@template (listof X) accumulator) instead of (@template (listof Natural) accumulator) here?\nBelow is the question code:\n(@problem 1) ;This is actually problem 4, DO NOT EDIT OR DELETE THIS LINE!\n(@htdf decode)\n(@signature (listof Natural) -> Natural)\n;; decode message consisting of skip instructions and numbers to sum\n(check-expect (decode (list)) 0)\n(check-expect (decode (list 3)) 0)\n(check-expect (decode (list 2)) 2)\n(check-expect (decode (list 2 4)) 6)\n(check-expect (decode (list 1 2 4)) 4)\n(check-expect (decode (list 1 3 4 6 8 2 4)) 4)\n(check-expect (decode (list 1 2 4 3 2 4 6 8 4)) (+ 4 8 4))\n(@template (listof X) accumulator)\n(define (decode loi0)\n  ;; skipn is Natural; number of even numbers remaining to skip\n  ;; rsf is Natural; sum of unskipped even numbers so far\n  (local [(define (scan lst skipn rsf)\n            (cond [(empty? lst) rsf]\n                  [else\n                   (cond [(odd? (first lst))\n                          (scan (rest lst)\n                                (+ skipn (first lst))\n                                rsf)]\n                         [(> skipn 0)\n                          (scan (rest lst)\n                                (sub1 skipn)\n                                rsf)]\n                         [else\n                          (scan (rest lst)\n                                0\n                                (+ rsf (first lst)))])]))]\n    (scan loi0 0 0)))",
+    "student_answer": "@1013 (listof Natural) is correct",
+    "instructor_answer": "Not Found"
+}

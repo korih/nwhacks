@@ -1,0 +1,11 @@
+{
+    "author": "Ben Gao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1024,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1024",
+    "title": "2020W-F-P2 question",
+    "question": "My answer to this practice problem was a little different from the solution, and I was wondering,\nwould my solution still be valid, and is it tail-recursive? Or is there something wrong with it?\nthe question:\n Design a function called longest-sequence that consumes a list of integers\nand produces the longest sequence of consecutive integers that are each one\nlarger than the previous integer.  All of the following are examples of\n sequences of consecutive integers:\nmy answer:",
+    "student_answer": "@6\nThe solution is tail recursive and should work fine I think.",
+    "instructor_answer": "Not Found"
+}

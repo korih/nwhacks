@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 322,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/322",
+    "title": "align in 3b P5 \"grass\"",
+    "question": "I did P5 for module 3b (creating a world where you grow and replant grass). The spacing for mine ended up looking odd and I noticed that the solution uses place-image/align. Looked it up in the help desk and still don't really understand what is happening. Can somebody explain what is happening here?\nHere is what the to-draw function to place the grass looks like:\n(define (place-grass g)\n  (place-image/align (rectangle GRASS-WIDTH\n                                (grass-h g)\n                                \"solid\"\n                                GRASS-COLOR)\n                     (grass-x g) GRASS-Y\n                     \"center\" \"bottom\"\n                     MTS))",
+    "student_answer": "The regular place-image function places the center of the image at the given coordinates.\n\nThe place-image/align function places the x-place (left/center/right) and y-place (top/center/bottom) of the image at the given coordinates.\n\nFor example, \n(place-image/align (triangle 48 \"solid\" \"yellowgreen\")\n                   64 64 \"right\" \"bottom\"\n                   (rectangle 64 64 \"solid\" \"mediumgoldenrod\"))\nplaces the bottom-right corner of the triangle at 64 64 instead of placing the center of the triangle at 64 64.\n\nChanging the x-place and y-place to \"center\" \"center\" would give the same results as the regular place/image function.",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 357,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/357",
+    "title": "Rebinding keyboard shortcuts in DrRacket",
+    "question": "I got tired of pasting into DrRacket accidentally all the time when I hit Ctrl+Y instead of Ctrl+Shift+Z, so I looked into ways to disable it.\nIt turns out DrRacket allows rebinding keyboard shortcuts pretty easily, even though it isn\u2019t available in the program preferences. You can add user-defined keybindings as a Racket file from the Edit::Keybindings menu.\n#lang s-exp framework/keybinding-lang\n\n(define (rebind key command)\n  (keybinding\n    key\n    (lambda (ed evt)\n      (send (send ed get-keymap) call-function\n     command ed evt #t))))\n\n(rebind \"c:y\" \"redo\")\n(rebind \"c:enter\" \"run\")\n(rebind \"c:/\" \"comment-out\")\nThere is some documentation on this, but it\u2019s not terribly helpful.\nI just wanted to bring this up in case anyone else has had the same problem.",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not Found"
+}

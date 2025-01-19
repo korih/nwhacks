@@ -1,0 +1,11 @@
+{
+    "author": "Malkeet Singh",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 665,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/665",
+    "title": "why not use Abstract function for try-catch case",
+    "question": "I am little confused about why not to use the abstract function for try-catch like situation, as the abstract function also produces the correct results. ",
+    "student_answer": "Not Found",
+    "instructor_answer": "It does produce the correct result. But consider:\n(define (is-in? n lon)\n   (local [(define (fn x y) (or (= x n) y))]\n     \n     (foldr fn false lon)))\nHow many elements of the list does (is-in? 3 (list 1 2 3 4)) check?  As an experiment, try (is-in? 3 (list 1 2 3 \"oops\"))."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 523,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/523",
+    "title": "MT problem 4 grade changed",
+    "question": "Hi, I'm not sure if it's just me but I noticed that since this morning my MT Problem 4 is now marked as ungraded on Gradescope, and the autograder score has dropped by a lot? I have not made any changes to the problem or resubmitted anything and am unsure as to what happened?",
+    "student_answer": "I've got the same problem, and it says it took 50% away because my helper function didn't take Project as the first argument, even though it clearly did. Hoping this is just some kind of bug or something!",
+    "instructor_answer": "I'm thinking this is a bug, seems like there may have been a Gradescope hiccup. Don't panic!\nEdit: Fixed! Thanks, Gregor :)"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 780,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/780",
+    "title": "Practice midterm 2019",
+    "question": "What is the second lifted function?  Is the first lifted function foo and then the second function bar? ",
+    "student_answer": "(define (bar_0 4)\n(+ y 4))",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 902,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/902",
+    "title": "pset 10 Q3",
+    "question": "Are we not allowed to use string-ci<=? in our function body? When I tried handing it in, the autograder gives me a 0 on the questions and says that I have a contract violation.",
+    "student_answer": "You can, but the contract violation might be telling you that your function has been written such that there is the potential for string-ci<=? to be handed an invalid data type somewhere. Maybe look closer at your function and see how you can rewrite it, or what you could add, to avoid that?",
+    "instructor_answer": "Not Found"
+}

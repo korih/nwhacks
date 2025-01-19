@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1034,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1034",
+    "title": "tandem wl",
+    "question": "Can I just confirm that what is meant by tandem worklist is when we use tail recursion (and not regular recursion), and we have a both a worklist and a path wl? And a visited wl is also only used in tail recursion but not regular recursion?",
+    "student_answer": "If you're using tandem worklists then yes that would be a TR problem. You need to use a \"node\" worklist of some kind to represent the unvisited direct subs of all visited \"nodes\", and then a tandem path-wl to represent the path corresponding to each element in the \"node\" worklist (by node I mean a specific point in the graph-could be position, node, element etc...) This enables the function to traverse through the data and keep track of all the paths leading to each point. We don't need to do this with SR however, since the try catch handles the backtracking search (i.e. the data traversal) for us.\nVisited on the other hand, is not unique to TR. We will need it anytime there is a risk of getting stuck in a cycle (i.e. the data is a graph). Think about why you would want to use a visited accumulator in the first place. What information does this accumulator store and why would it be useful to us?",
+    "instructor_answer": "Not Found"
+}

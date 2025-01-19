@@ -1,0 +1,11 @@
+{
+    "author": "Ben Gao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 196,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/196",
+    "title": "Do the HTDD definitions actually exist in the code, or is it for our own reference?",
+    "question": "I understand how HTDD works, assigning meaning to data, grouping it in new datatypes.\nhowever, I'm not sure about one thing: Do these new data definitions we make actually \"exist?\" in tthe program, or is it just for our own reference?\nI ask this because there is a lot of steps that are just comments and have no effect on the actual program, Dr. Racket doesn't \"see\" comments.\nIE, if I assign 0, 1, 2, to \"TLcolor\", does the TLcolor datatype actually exist in the program, IE, racket knows it's working with a custom datatype, or does Dr. Racket just see integers, and tthe entire \"TLcolor\" datatype name for the user's reference?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Great question.\nIn this course the type definitions are defined (mostly) by comment.  So we say something like:\n;; Color is one of:\n;;  - \"red\"\n;;  - \"green\"\nRather than something like:\n(define-type Color (enumeration RED GREEN))\nas you would in many other languages.  We use comments rather than definitions in the language because it allows us to use more powerful types than we could otherwise learn to use in the limited time we have.\nSO:\nThe type definitions are not in the language, \nBut the existence of the types for use in @tags is defined by @htdd\nThe fact that they are type COMMENTS doesn't mean that the kinds of rules such a type system would have don't apply. In particular an enumeration has to be an enumeration of strings, it cannot be any other values."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1042,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1042",
+    "title": "When to include termination argument/ are graph problems always genrec?",
+    "question": "As I was going through pset 11 I noticed that all the questions were genrec. SO in general, are all graph related questions genrec questions and must we include a termination argument for every graph type problem? \nthanks!",
+    "student_answer": "If it has genrec in the template, it's a safe bet to include a termination argument.",
+    "instructor_answer": "Not Found"
+}

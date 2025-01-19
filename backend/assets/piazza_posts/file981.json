@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 981,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/981",
+    "title": "Set 11 Q4",
+    "question": "(Updated with full cond)\nFor question 4, I initially used this cond expression to update the rsf when the given to treasure was reached, which passed all the check-expects except TF -> TA. I can't quite figure out what difference it makes to use this expression:\n(define (fn-for-treasure t r-wl visited rsf)\n            (cond ;[(equal? t to)\n              ; (fn-for-lor r-wl visited (add1 rsf))]\n              [(member? (treasure-label t) visited) \n               (fn-for-lor r-wl visited rsf)]\n              [else \n               (fn-for-lor (append (treasure-routes t) r-wl)\n                           (cons (treasure-label t) visited)\n                           rsf)\n               ]))\nAs opposed to this one:\n(if (string=? (route-destination r) (treasure-label to))\n                                 (add1 rsf)\n                                 rsf))\nI can't quite understand what's special about the TF -> TA case.",
+    "student_answer": "Not Found",
+    "instructor_answer": "In one case you are showing us a complete if, with question and two answers.  In the other we have one cond clause with question and one answer.  So we don't have enough to compare."
+}

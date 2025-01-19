@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 709,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/709",
+    "title": "2020w1 mt2, Q4",
+    "question": "For question 4 of this particular midterm practice, we have to make a copy test. I wasn't sure what to put for c3, the combination for the date in the function body. The solution puts 'identity' and I have literally no idea where that came from and why it was accepted.\n\nSolution picture for reference:\nAnd the definitions also for reference:",
+    "student_answer": "Identity literally just produces what is given. (identity\n4\n) will produce\n4\nso (identity n ) -> n, and here you want to produce the exact same thing because you are trying to write a copy test.",
+    "instructor_answer": "Not Found"
+}

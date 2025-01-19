@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 127,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/127",
+    "title": "Problem 4 of Today\u2019s Lecture",
+    "question": "Why is it needed to have rectangles for the check-expect? I was using squares but it said I was missing points in thoroughness. Is there a reason we can\u2019t use squares?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Great question.\nLook at your function definition, and think about some easy mistakes you might make that could not be caught if all your tests use square images.  What different about squares vs. non-square rectangles?"
+}

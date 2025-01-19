@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 542,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/542",
+    "title": "Logistical Question About PSet06",
+    "question": "My problem set partner and I are a bit at odds over the interpretation of the course-dependents part of the Course compound structure. My interpretation was that it is asking for the courses that need the given course as a pre-req and his was that it's the pre-reqs required for the given course.  Any clarity would be much appreciated!",
+    "student_answer": "It should become clear what it means when you read that part about C110 including C313 and C317 twice.\nAlso, the define-struct name given to the ListOfCourse is \"dependents\".",
+    "instructor_answer": "Not Found"
+}

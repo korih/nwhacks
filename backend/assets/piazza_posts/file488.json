@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 488,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/488",
+    "title": "Mutual reference (edX question)",
+    "question": "Really want to be sure I understand MR, but so far I would consider the Green and Light Purple (bottom left) arrows R, not MR.\n(source)\nAre these MR because they reference each other via third (or fourth) functions?",
+    "student_answer": "If you follow an arrow and it ends, it's a reference.\nIf you follow an arrow and get back to the same data definition in one cycle, it's a self-reference.\nIf you follow an arrow and go through multiple data defintions but eventually come back to the original, it is a mutual reference.",
+    "instructor_answer": "Not Found"
+}

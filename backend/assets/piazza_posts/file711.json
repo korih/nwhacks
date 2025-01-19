@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 711,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/711",
+    "title": "MT2 -pt -1 answer",
+    "question": "Hi, I am not sure allowed to post it. but I would like to know if my answer is correct\n\n\n\n(define ARROWS\n(list (list \"A\" \"SR\") \n(list \"B\" \"R\") \n(list \"C\" \"SR\") \n(list \"D\" \"R\") \n(list \"E\" \"SR\")\n(list \"F\" \"MR\")\n(list \"G\" \"R\")\n(list \"H\" \"MR\")))",
+    "student_answer": "Not Found",
+    "instructor_answer": "You got it!"
+}

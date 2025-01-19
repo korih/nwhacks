@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 422,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/422",
+    "title": "Main starter",
+    "question": "How do you know what (main ???) to use? I usually just keep guessing until it works, but that doesn\u2019t seem very efficient.",
+    "student_answer": "You look at the @signature below (@htdf main) and put that datatype into (main ???).\nFor example, if it says:\n\n\n(@htdf main)\n(@signature ListOfBear -> ListOfBear)\nI would run (main LOB1) if I defined it earlier, (main empty) if I want an empty state, or (main (cons ... ...)) if I want to be specific.",
+    "instructor_answer": "Not Found"
+}

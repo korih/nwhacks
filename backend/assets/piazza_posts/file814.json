@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 814,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/814",
+    "title": "v and c in solved?",
+    "question": "what do the v and c represent in the solved? function. i understand that we are looking for the true values in the board but what are we adding to the value?",
+    "student_answer": "Not Found",
+    "instructor_answer": "The combination function we provide to foldr takes in two arguments: The first element of the list and the result of the natural recursion.\nfoldr acts on bd, which is a list of pegs.\nv represents a peg in our board (which is a Boolean, so either true or false), and c represents the result of our natural recursion which is a Natural, because we want our foldr to produce a Natural. We are adding 1 to the natural recursion everytime we find that v is true, because we're counting up the number of trues in the entire bd.\nI would recommend taking a look at function definition for foldr, and taking the helper function Paul created and putting it into the body of your foldr, it'll help with visualizing what's going on \ud83d\ude0a"
+}

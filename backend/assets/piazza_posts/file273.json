@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 273,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/273",
+    "title": "Test Validity",
+    "question": "When I run my code, all the test passes but when I submit it to SPD Handin; although my test thoroughness ALL pass, it states that one or more test is invalid which I thought that maybe I had a check-expect not needed so I removed some so it was now only two check-expects that did each of the data in the htdd section, but that just made my autograder percentage score decrease so I was like ok that must not be it so I redid everything to my original but it keeps on saying the same thing with now this \"Additional tests: incorrect - 2 autograder internal additional tests failed.\" \nOverall, I am just confused about how I am supposed to read the autograder to make changes to my code because right now I do not know what is wrong. I even went back to the design of a recipe section and videos to see if I was missing anything but I am not, at least I do not see. ",
+    "student_answer": "Not Found",
+    "instructor_answer": "@215 should get you started on understanding your autograder report. If it turns out to not help feel free to follow up."
+}

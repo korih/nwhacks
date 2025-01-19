@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 325,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/325",
+    "title": "BUG&#xff1f;",
+    "question": "What does this bug mean? Or what will this bug exactly affect our program? \n;; NOTE, for simplicity the spider lecture solution has a small bug in it.\n;; Here's the bug.  Suppose a window is 400 high, how many numbers are in\n;; the interval [0, 400]? Is it 400? If 0 is the number of the first interval,\n;; what's the number of the last one?",
+    "student_answer": "Think about what the brackets mean. [] and () are not the same. [] is an inclusive bracket, () is not. ",
+    "instructor_answer": "Not Found"
+}

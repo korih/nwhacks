@@ -1,0 +1,11 @@
+{
+    "author": "Ben Gao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 962,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/962",
+    "title": "implement with structural recursion?",
+    "question": "I was looking at this problem on Pset 10, where we're asked to use tail recursion, and I was wondering if there is any way to implement this with structural recursion.\nThe main issue I see is that the expression (string-ci<=?) only accepts strings, and the base case produces a boolean, so the final base case cannot be a part of the structural recursion because of it's different datatype. (unlike with summation or lists where we can use 0 and empty).\nIs there a way to implement it with structural recursion? Or are these exactly the type of situations when we should use tail recursion because structural recursion won't work?",
+    "student_answer": "The function goes from tail recursion to non-tail recursion if I turn the \"if\" in the else case into an \"and\" (and get rid of the false).\nI think this is just the type of function where the designs for tail and structural recursion would be very similar. ",
+    "instructor_answer": "Be careful. The last position in and and or are not tail positions.  Here's the documentation for and from the teaching languages. Can you see why?\nsyntax\n(and expression expression expression ...)\nEvaluates to #true if all the expressions are #true. If any expression is #false, the and expression evaluates to #false (and the expressions to the right of that expression are not evaluated.)\nIf any of the expressions evaluate to a value other than #true or #false, and reports an error."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1014,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1014",
+    "title": "p5, 2019W2",
+    "question": "Should the \"less than\" condition be \"less than or equal to.\" \nSince we want the nodes to strictly be increasing, per problem description, would it not be <= to warrant a false result\n{soln. below}\n(define (find-increasing-path start to) \n  (local [;; Termination argument:\n          ;;   trivial case: reach a node already on path\n          ;;   reduction: next nodes of current node\n          ;;   argument: graph is finite, so detecting cycles with path\n          ;;             will ensure that we eventually visit entire graph\n          ;;\n          ;; path is (listof String); names of nodes on this path in the graph\n          ;; prev is Natural; number of immediately prior node on this path\n          (define (find/node n path prev)\n            (cond;[(member (node-name n) path) false]            \n                  [(< (node-num n) prev)       false] \n              ;;                                  \n              [(string=? (node-name n) to)\n               (reverse (cons (node-name n) path))]\n              [else\n               (find/loname (node-nexts n)\n                            (cons (node-name n) path)\n                            (node-num n))]))\n          \n          (define (find/loname lon path prev)\n            (cond [(empty? lon) false]\n                  [else\n                   (local [(define try (find/name  (first lon) path prev))]\n                     (if (not (false? try))\n                         try\n                         (find/loname (rest lon) path prev)))]))\n          \n          (define (find/name n path prev)\n            (find/node (lookup-node n) path prev))]\n\n    (find/name start empty 0)))",
+    "student_answer": "This question is actually p5 in the 2020W2 final, and if you download the solution file it is \"<=\" and not just \"<\" in the Q/A pair.\nIt's saying if it's \"less than or equal to\" the previous node number it would be FALSE. This ensures that the solution is strictly increasing since you won't have 2 of the same node numbers in the list.\nWhich makes sense if you think about it. ",
+    "instructor_answer": "Not Found"
+}

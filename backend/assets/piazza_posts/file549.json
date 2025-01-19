@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 549,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/549",
+    "title": "Undefined Variable for All Problem",
+    "question": "For problem 6, I have everything else correct but this message. I've never experienced it before and have searched piazza for previous questions, couldn't find anything. If anyone can explain that would be great. \n0%  of   5.3%  x      Additional tests: error: eval:18:0: C100: this variable is not defined\n  in: C100.\n0%  of   5.3%  x      Additional tests: error: eval:33:0: C100: this variable is not defined\n  in: C100.\n0%  of   3.5%  x      Additional tests: error: eval:46:0: C100: this variable is not defined\n  in: C100.",
+    "student_answer": "Not Found",
+    "instructor_answer": "I think if you read the problem statement text over a few times you'll discover what is going on here."
+}

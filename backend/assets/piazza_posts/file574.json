@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 574,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/574",
+    "title": "Question from EdX 5b",
+    "question": "Hello, for this question, shouldn't the answer be empty? Since the stub takes in a string and list and produces the list, when given an empty list shouldn't the function produce empty?",
+    "student_answer": "Nevermind I got it, I didn't realize the stub was commented out and the actual function puts them in alphabetical order.",
+    "instructor_answer": "Remember that the check-expects are written to describe what the function should do.  The stub does not contribute to our understanding of the check-expects, it only lets us run the check-expects before the full function exists."
+}

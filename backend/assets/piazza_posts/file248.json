@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 248,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/248",
+    "title": "HTDD function not defined",
+    "question": "Hi, I was testing out a code from the lectures and when I tried to run the code, it says the following:\nDoes anyone know what's wrong?",
+    "student_answer": "It\u2019s weird that this is happening since it\u2019s a lecture file, but I believe why that error is showing up is because (require spd/tags) needs to be at the top of the code for @htdd to work, just like how primitives like rectangle and circle won't be defined until we have (require 2htdp/image) at the top of the code.",
+    "instructor_answer": "@6"
+}

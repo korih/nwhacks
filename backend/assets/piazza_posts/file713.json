@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 713,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/713",
+    "title": "build -in abstract function in local",
+    "question": "Hi, I wonder if this function considers as a  composition of three - build-in abstract function or two build-in abstract function? (since ormap is in local)\n\n\n(define (A s t)\n  (local [(define (c1 fs)\n            (ormap (lambda (x) (string=? fs x)) t))\n          (define (c2 f rnr)\n            (+ 1 rnr))]\n  (foldr c2 0 (filter c1 s))))",
+    "student_answer": "Not Found",
+    "instructor_answer": "No it is not.  It is a composition of 2 abstract fns.  The result of the filter is handed to the foldr, so that filter and folder are composed."
+}

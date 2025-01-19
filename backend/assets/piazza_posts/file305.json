@@ -1,0 +1,11 @@
+{
+    "author": "Gurashish",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 305,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/305",
+    "title": "spider question",
+    "question": "i changed the code for spider question a little but its working the same its starting at top and not going below the bottom means its working the same as it did in the lecture. But autograder is giving me 56 out of 100 so just wanted to know what i did wrong\nhere is the tock function code\n(check-expect (tock 4)( + 4 SPEED))\n(check-expect (tock TOP)( + TOP SPEED))\n(check-expect (tock BOT) BOT)\n;(define (tock s) 0)\n(define (tock s)\n      (if( = s BOT)\n         BOT\n        ( + SPEED s)))",
+    "student_answer": "You want to make it so that the spider's position never exceeds bot. Currently, there's a chance that the spider will go offscreen as long as its position never equalled BOT at any point. ",
+    "instructor_answer": "Not Found"
+}

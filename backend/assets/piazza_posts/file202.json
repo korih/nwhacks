@@ -1,0 +1,11 @@
+{
+    "author": "J J",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 202,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/202",
+    "title": "@template and multiple different types",
+    "question": "So far, we\u2019ve learned that the @template expression describes the parameters of a function: ie. (@signature String -> Boolean) corresponds with (@template String) and so on and so forth.\nBut we\u2019ve also had cases (problem 4, HtDF lecture) where the signature has two parameters (@signature Image Image -> Boolean). In this case, we still used just (@template Image), and (@template Image Image) was wrong. This seemed fine at the moment because both parameters were Images.\nHow will @template work with two parameters of different types? For example, if our signature is something like (@signature Image String -> Image)?",
+    "student_answer": "Not Found",
+    "instructor_answer": "What we said last week was:\nfor now, you put the type of the first argument in the @template tag.\nThis will evolve as we go, but for now just work with this rule. We aren't ready to say more yet\nNote in the case above that if you follow the rules we gave you for two functions, one that consumes Number and String in that order, and one that consumes String and Number in that order, you will end up with equivalent templates."
+}

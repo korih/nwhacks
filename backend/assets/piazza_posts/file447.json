@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 447,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/447",
+    "title": "2021w1-mt1 P3",
+    "question": "Hello,\nFor this question I was wondering why the @dd-template-rules included self-reference? The false, \"A\", and \"B\", cases are all atomic-distinct, and (make-one String Farfle) is compound, where is the self referential case? ",
+    "student_answer": "i was also confused cause I didn't see a \"ListOf...\" so i went to office hours to ask. They said whenever you see (make-...) it is a compound. And then they pointed out Farfle -> Farfle. It completely went over my head. I didn't see the Farfle ->self-ref-> Farfle because i was looking for \"ListOf\"\nIf it was something like (make-one String Natural) then it would have just been compound.\nHopefully I'm making sense haha",
+    "instructor_answer": "Remember that in a ListOfString type comment the (cons String ListOfString) is a compound. \n\nDoes that help?"
+}

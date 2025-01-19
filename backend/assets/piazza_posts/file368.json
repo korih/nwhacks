@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 368,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/368",
+    "title": "check-expect cases",
+    "question": "I always have trouble with test coverage for check-expects and cannot figure out the reasoning behind these check expects in the 2021w1-mt1-p4 practice exam in particular.\nThese are the solution check-expects where you're told to make a function that consumes a LOI and a number and produces the sum of the areas of the images with an area greater than the number.\n(check-expect (sum-areas-greater-than empty 10) 0)\n(check-expect (sum-areas-greater-than (cons I15x10\n                                            (cons I20x30\n                                                  empty))\n                                      150)\n              600)\n(check-expect (sum-areas-greater-than (cons I15x10\n                                            (cons I20x30\n                                                  empty))\n                                      151)\n              600)\n(check-expect (sum-areas-greater-than (cons I15x10\n                                            (cons I20x30\n                                                  (cons I10x50\n                                                        empty)))\n                                      500)\n              600)",
+    "student_answer": "I agree, I would expect to see a test that checks if the sum function is working properly. What is the difference between the second and fourth tests?\nEdit: it's a list with 1 more element",
+    "instructor_answer": "Not Found"
+}

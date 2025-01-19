@@ -1,0 +1,11 @@
+{
+    "author": "Ben Gao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 883,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/883",
+    "title": "tail vs structural recursion",
+    "question": "I understand how to implement tail and structural recursion, but I'm a bit unclear on the differences between the two, advantages and disadvantages.\nI know\n-tail recursion conducts the \"fold\" part of each recursive loop, avoiding the large unfolded structures of structural recursion, which only folds down the elements at the final step.\n-does tail recursion have a different search-pattern? I think so, but I am not 100 percent sure.\nbut I was wondering what are the implications of this?\n- what are some problem types tail recursion can solve that structural recursion cannot? or at least would be less efficent? \n- what are the advantages of tail recursion?",
+    "student_answer": "Not Found",
+    "instructor_answer": "The tail recursion follows the same path through the tree - depth first, left to right.  And implements the same kind of backtracking search.\nThe difference is that in structural recursion the recursive call and produce result structure mirrors that of the tree.\nBut in tail recursion it's call call call all the way to the end.  So that call structure does not mirror the tree structure.  In tail recursion the way things get put onto and taken off the primary worklist does make the order the nodes are visited in the same as structural recursion though."
+}

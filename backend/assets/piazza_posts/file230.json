@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 230,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/230",
+    "title": "why it is wrong?",
+    "question": "(@template grade)\n@template: grade is not a legal type name, (listof <TypeName>), or one of \"htdw-main, fn-composition, backtracking, try-catch, 2-one-of, encapsulated, use-abstract-fn, genrec, bin-tree, arb-tree, accumulator, or for-each\"\nwhy the grade is illgal for type name? where can i check the range of all legal type name? thank you!",
+    "student_answer": "It's because of Style Rules or you didn't define the data Grade. Just check the Style Rules on edX when you have time, and here is a short reference for you: \n\nData definition names (type names) should use upper camel case\nWorldState rather than world-state, world_state or worldState.",
+    "instructor_answer": "Not Found"
+}

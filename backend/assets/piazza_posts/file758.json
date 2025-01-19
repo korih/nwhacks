@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 758,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/758",
+    "title": "build-list not including 0",
+    "question": "Hi, I was wondering how we can make build-list not include 0 in the list that it creates? ",
+    "student_answer": "you can:\na) filter the\n0\nout after the fact\nb) make the function in build-list consume something added to n",
+    "instructor_answer": "Not Found"
+}

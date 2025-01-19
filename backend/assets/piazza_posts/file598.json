@@ -1,0 +1,11 @@
+{
+    "author": "Emily Fuchs (she/they)",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 598,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/598",
+    "title": "Midterm 1 P3 Regraded",
+    "question": "Several regrade requests for Midterm 1 Problem 3 identified a problem with how the grader treated cases where a single rule was omitted, or a single incorrect rule was added, or two rules were swapped with each other. But, we don\u2019t regrade autograded problems individually - by definition the autograder never makes an error in applying the rubric. Instead we determined that the rubric was incorrect in how it handled those cases.\nWe have now revised the autograder for Midterm 1 Problem 3, and will upload new grading reports to Gradescope for that problem shortly. No grades went down. Some grades went up by about 5-10% depending on the details.\nOnce all regrade requests are processed, we will upload final Midterm 1 grades to Canvas.  ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not Found"
+}

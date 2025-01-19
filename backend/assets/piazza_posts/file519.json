@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 519,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/519",
+    "title": "Object not found!",
+    "question": "I'm not sure if this is a problem only I have but whenever I try to use the URL I receive the following error:\nhttps://cs110.students.cs.ubc.ca/psets/pset-06-image.png",
+    "student_answer": "Edit: my bad, didn\u2019t see the link was for the image!",
+    "instructor_answer": "Perhaps you typed it in wrong? I just clicked on the link that you sent in the question and it worked just fine (https://cs110.students.cs.ubc.ca/psets/pset-06-image.png); it automatically downloaded this image:"
+}

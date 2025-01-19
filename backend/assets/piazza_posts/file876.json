@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 876,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/876",
+    "title": "Accumulator with find/search - try-catch?",
+    "question": "Do we still include the try-catch @template tag when we have search/find functions with accumulators? I noticed that the find-path-tr solution didn't have try-catch. Do we not use try-catch when it is tail-recursive?",
+    "student_answer": "If we drop (if (not (false? \u2026))) then we drop the try-catch template.",
+    "instructor_answer": "Not Found"
+}

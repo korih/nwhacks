@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 540,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/540",
+    "title": "using stepper",
+    "question": "Hi, I wanted to see the each step of function , \nbut stepper doesn't seem to work on BST model\nis there any reason for that?  or is there any other way to see each step of function?  it gets so confusing ",
+    "student_answer": "Not Found",
+    "instructor_answer": "So here's how I figured this out, just FYI. \nOnce you posted the link I downloaded the file and replicated the error.\nThen I commented out a large part of the file.\nAnd tried to step again.\nAnd kept up the 2, 3 cycle until the error went away.  Then I started\nUncommenting stuff \nand trying to step\nand kept up that cycle until I had the one thing that actually causes the error.\nIt seems to be the templates.  I'm guessing the ... in the template is confusing the stepper.  This is quite surprising since ... is part of the infrastructure the Dr Racket team developed.\nWould you like to submit a problem report for this directly?  If so, go to the Help menu > Having and Issue? item.\nIf not let us know and we will submit it."
+}

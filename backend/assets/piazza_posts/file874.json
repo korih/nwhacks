@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 874,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/874",
+    "title": "m10-find-path-tr-starter",
+    "question": "For the function, in lecture where we needed to produce the path to a given node if found, I am still a little unclear on the reasoning behind why we would need to add a copy to npath to p-wl for each sub and how does this body of code work? ",
+    "student_answer": "If I understand correctly, and without using the exact terms: the p-wl is like a \"shadow list\" that answers the question: what does the path of a non-tail recursion would look like - the actual path that we are looking for. So for each node in the t-wl, we are producing the \"path,\" which is the path from the top to this node, by (define npath (append path (list name))).\n  The function provides npath when it founds the wanted n and appends the subs' names of each node when it is not: ((map (lambda (s) npath) subs) p-wl).\n\nThe yellow path is the answer when a function should produce the path from \"TOP\" to \"L2\". I think that if you won't add the copy of npath to the p-wl for each sub, since the p-wl holds the listof String that represents the path for each node in the worklist - the length of the path worklist is as the length of the tree worklist, and each string represents the equivalent node at the t-wl. (it helped me to look at M2 to understand). ",
+    "instructor_answer": "I'd like to answer OP's question with a question -- sorry, but that's key to thinking about this.\nWith regard to your question, what does the p-wl invariant say?"
+}

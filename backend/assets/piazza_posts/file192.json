@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 192,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/192",
+    "title": "Problem set 1 107 vs 110 autograder",
+    "question": "Hi there,\nI am currently registered in the waitlist for 110 while also registered in 107 in case I do not get a spot in 110. \nI noticed that my autograder cooldown for problem set 1 is the same between both classes (I am unable to see feedback for the 110 pset1 right after submitting pset1 for 107).\nWhile I do not mind waiting for the cooldown, I am concerned whether my pset1 for 107 will somehow interfere/ replace my pset1 for 110 or vice versa.\nCould someone look into this for me?\nThank you ",
+    "student_answer": "\u2800",
+    "instructor_answer": "The cooldown applies on a per assignment basis, and psets/pset-01 is different from 107/psets/pset-01"
+}

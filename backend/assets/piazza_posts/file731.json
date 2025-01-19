@@ -1,0 +1,11 @@
+{
+    "author": "Alec Currie",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 731,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/731",
+    "title": "mt2-2021(accidental)-p4 fn-composition",
+    "question": "Hello. I was working on the accidentally released midterm's p4. I came up with the following solution (that works):\n(define (count-duplicates los1 los2)\n  (local [(define (string-in-los2? s)\n            (ormap (lambda (x) (string=? s x)) los2))\n          (define (add1-if-duplicate s rnr)\n            (if (string-in-los2? s)\n                (add1 rnr)\n                rnr))]\n    (foldr add1-if-duplicate 0 los1)))\nHowever, the instructions state that for full marks I need a composition of two functions. This does not count as a function composition, correct? If it isn't a function composition, how would I go about modifying the code so that it is a function composition?\nThank you!",
+    "student_answer": "you might want to see @713 . built-in abstract fn in local doesn't count as two-fn-compositon\nyou can use filter with folder instead.",
+    "instructor_answer": "Not Found"
+}

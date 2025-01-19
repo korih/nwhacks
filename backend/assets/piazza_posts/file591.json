@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 591,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/591",
+    "title": "Creating a Purpose for the abstract function",
+    "question": "What is a good tip in making a good purpose for your abstract fn?",
+    "student_answer": "Not Found",
+    "instructor_answer": "I also had a tough time coming up with purposes for abstract functions when I took this course, but here's a couple of general things I try to keep in mind:\n- Read over language section of edx, at the very bottom they have a list of the abstract function definitions, including their purpose. Those are great examples to start from.\n- Your purpose is normally going to be really general, so using language like \"apply f on x\" or \"if x matches predicate p\" is totally fine. \n- AVOID tailoring your purpose to the specific functions you abstracted from\n    i.e. in problem 1, you would avoid mentioning numbers or the > predicate in your purpose for andmap2, because even though all-positive? and all-greater? use lists of numbers and the > predicate, NOT all functions NEED that in order to use andmap2.\nBest way is to just try writing a purpose, and then post it on piazza/ask a TA or Instructor for feedback on how to improve it :)"
+}

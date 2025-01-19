@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 399,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/399",
+    "title": "Arrange-Images - beside/align \"bottom\" ?",
+    "question": "I used beside/align \"bottom\" instead of beside in the check-expects for arrange-images and layout-images, but I got marks off for test validity. In an exam scenario, should we just stick with what's simpler unless specified, since all the starters will be entirely autograded? (except for style rules)",
+    "student_answer": "Not Found",
+    "instructor_answer": "During the exam you should follow any examples we give you and keep it simple. That\u2019s what the autograder is looking for."
+}

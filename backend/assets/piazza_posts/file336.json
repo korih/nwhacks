@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 336,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/336",
+    "title": "Need help with what this does",
+    "question": "Hey, I was wondering what the following does: (- 2 STRING 4)\ndoes this just mean we are subtracting everything from each other? Just like what we do in this case: (- STRING 4)\nI'm unsure what to do when there are 3 things in the brackets with a minus sign instead of just 2.",
+    "student_answer": "(- 2 STRING 4) = (- (- 2 STRING) 4)",
+    "instructor_answer": "Not Found"
+}

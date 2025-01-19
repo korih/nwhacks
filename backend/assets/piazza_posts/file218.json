@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 218,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/218",
+    "title": "SPD hand in error",
+    "question": "My SPD button works (I tried handing in the test starter and got a confirmation email) but when I tried submitting problem set 1 it said there was an error. Is this because I am on the waitlist for the course? Or is there an actual problem? Just want to confirm",
+    "student_answer": "Waitlisted students are allowed to submit problem sets, but problem set 1 was due on Sunday, that's why you can't submit it now.",
+    "instructor_answer": "As part of learning to work with software one of the key skills you want to learn is to report error messages exactly.  Ideally what you want to report is the exact error message. The easiest way to do that is to copy the text of the message and paste it into your report.\nThankfully your Piazza username is your name as shown on UBC records so I was able to look up what happened.  The problem set deadline was Sunday at 10. You tried submitting Monday after the deadline, which is not possible."
+}

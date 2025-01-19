@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 693,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/693",
+    "title": "Autograder problem for practice exams",
+    "question": "Getting this message when trying to submit autograder for\n2020w1-mt2-p1-starter.rkt ",
+    "student_answer": "Not Found",
+    "instructor_answer": "It looks like you might have downloaded those files a couple days ago?\nPlease update the assignment tags to be (@assignment exams/2020w1-mt2/mt2-p1)  etc."
+}

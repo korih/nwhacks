@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 458,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/458",
+    "title": "Confused about (@htdf render-bst)",
+    "question": "In class we covered (@htdf render), but I keep failing one of my check-expects.  I compared my code to the solution file and it looks the same.\nSo I copied my failing check-expect into the solution file and I get the same error:\nMy code for the check-expect is different than the solution file and the live file in today's lecture.  But if I understand correctly (not sure that I do), my check-expect actually does expect the correct product (above).  Is it possible that my code is wrong but the expected outcome is still correct?\nThe code for my odd check-expect is:\n(check-expect (render-bst (make-node\n                           42 \"ily\"\n                           (make-node 27 \"wit\"\n                                      (make-node 14 \"olp\" false false)\n                                      false)      \n                           (make-node 50 \"dug\" false false)))\n              (above (text \"42:ily\" TEXT-SIZE TEXT-COLOR)\n                     (beside (text \"27:wit\" TEXT-SIZE TEXT-COLOR)\n                             (text \"50:dug\" TEXT-SIZE TEXT-COLOR))\n                     (beside (text \"14:olp\" TEXT-SIZE TEXT-COLOR)\n                             (render-bst false))))\nEdit: as I look at this more, I wonder if the expected behaviour is actually incorrect, but it still seems that the actual value is different from my understanding.",
+    "student_answer": "Your check-expect doesn't match the formatting of the tree. In the images, you can see that the actual value places the 50 node beside the combination of the 27 and 14 nodes, while the expected value places the 50 and 27 together, and the 14 below that.\nLooking at the code for the check-expect, you have the 50 and 27 images in one beside call, the 14 in a different one, and only one above call - like you're grouping them layer by layer. The structure of a BST suggests that you should group all the children of a node together before you pair it with its sibling.",
+    "instructor_answer": "it prolly has to do with the alignment. Have a look at beside-align and above-align in the helpdesk"
+}

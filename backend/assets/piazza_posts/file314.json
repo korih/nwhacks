@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 314,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/314",
+    "title": "Additional Tests Error for tock function - L05",
+    "question": "Did anyone else also happen to get this autograder message for the tock function for today's lecture? (compound-spider)\n0%  of   2.9%  x     Additional tests: error: eval:73:0: MID: this variable is not defined\n  in: MID.",
+    "student_answer": "Not Found",
+    "instructor_answer": "FIXED"
+}

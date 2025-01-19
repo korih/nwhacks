@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 452,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/452",
+    "title": "is comment for mark?",
+    "question": "(@dd-template-rules one-of              ;5 cases\n      atomic-non-distinct ;Number\n      atomic-distinct     ;\"x\"\n      atomic-distinct     ;\"y\"\n      atomic-distinct     ;\"z\"\n      atomic-non-distinct);Boolean\nIs the comment that explains the data type a part of the mark? For example ; 5 cases, ; Boolean",
+    "student_answer": "I don't think so; it's for our better understanding.",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 217,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/217",
+    "title": "number of tests needed",
+    "question": "Here is the partial design of too-tall?:\n;; Icon -> Boolean\n;; produce true if the given icon is more than 30 pixels high\n(define (too-tall? i) false)   ;stub\nWhat is the minimum number of tests required to design this function?\nI thought that for Boolean we have to test at least twice. can you please explain the answer?",
+    "student_answer": "To my understanding, there are 3 types of scenarios: tall (height > 30), short (height < 30), and same (height = 30). In the purpose it says \"produce true if the given icon is more than 30 pixels high\", so in this case, if the icon is the same or short, it should produce false as the answer. But that is why you need to test for all the edge cases to determine that. ",
+    "instructor_answer": "What is the data definition for Icon? That is not a primitive type, so we can't really answer questions about functions that operate on it otherwise.\nIf on the other hand you mean Image instead of Icon, then what we want to see here is at least 3 tests, with image heights of 29, 30 and 31.  30 is the point at which things change, and we want that and one above and below."
+}

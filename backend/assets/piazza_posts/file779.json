@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 779,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/779",
+    "title": "Count Test",
+    "question": "Hi, I read @668 but im having trouble understanding. For example the fold-employee problem 3 from released exam, can I get further explaining please",
+    "student_answer": "If I remember right, that problem asks you to do a check-expect counting the number of projects for a given employee..\nWhat worked for me personally is:\n Have the fold-employee template in front of you, and think how you would have to locally define\nc1 c2... b1 b2 in the check-expect so that when you call the fold-employee function in that check-expect, you get back the number of projects an employee has.\nSo for Person E1 you would expect to get 1 project back. Looking at the definition for Person E1, you have to see how you would define the function arguments for fold-employee to count the number of projects E1 has.\nHope that made at least a little sense. Will go a bit more into it if that doesn't help",
+    "instructor_answer": "Not Found"
+}

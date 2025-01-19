@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 696,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/696",
+    "title": "Template tag too long?",
+    "question": "What do we do when our template tags and/or signatures are longer than 80 characters?",
+    "student_answer": "Not Found",
+    "instructor_answer": "then break it apart/line break\n(@template encapsulated</code>\n<code>           Course</code>\n<code>           (listof Course)</code>\n<code>           try-catch)"
+}

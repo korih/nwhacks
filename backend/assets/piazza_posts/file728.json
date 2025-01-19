@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 728,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/728",
+    "title": "Local lifting",
+    "question": "When a question asks for how many definitions are lifted for a given function when it is called, are we assuming ALL functions defined within local are always lifted regardless of whether the function actually uses it? So for example:\n(define (b n)\n  (local [(define (one x) (* x 1))\n          (define (two x) (* x b))\n          (define (three x) (* x n n n))\n          (define a n)\n          (define b (* n n))\n          (define c (* n n n))]\n    (one (two (three n)))))\nhere when b is called, only 4 of the local definitions are actually used but regardless, 6 definitions are lifted?",
+    "student_answer": "yep",
+    "instructor_answer": "Not Found"
+}

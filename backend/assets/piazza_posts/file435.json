@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 435,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/435",
+    "title": "raining eggs template",
+    "question": "(@template MouseEvent)\n\n(define (lay-egg loe x y me)\n  (cond [(mouse=? me \"button-down\") (cons (make-egg x y 0) loe)]\n        [else loe]))\nAbove is the solution for raining eggs. I was wondering why Egg is not included in the template when the first cond case uses components of Egg?",
+    "student_answer": "KeyEvent and MouseEvent take priority in the template. An @template tag can only have\n1\ndatatype and the more important one is KeyEvent/MouseEvent.",
+    "instructor_answer": "Not Found"
+}

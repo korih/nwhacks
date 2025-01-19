@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 918,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/918",
+    "title": "shortest path",
+    "question": "For the shortest path in maze, we use 2-one-of and produce a shorter path. But what if there are more than 2 solvable path for example 4 paths, how can we compare them?",
+    "student_answer": "        (define (solve/lop lop path)\n            (cond [(empty? lop) false]\n                  [else\n                   ;; this is the combination position where we can compare\n                   ;; two paths...\n                   (local [(define try1 (solve/p (first lop) path))  \n                           (define try2 (solve/lop (rest lop) path))]\n                     ;; (@template 2-one-of)\n                     ;;      t2          false         (listof Pos)\n                     ;; t1               \n                     ;;\n                     ;; false            t2            t2\n                     ;;\n                     ;; (listof Pos)     t1            (<shorter> t1 t2)\n                     ;;\n                     (cond [(false? try1) try2]\n                           [(false? try2) try1]\n                           [else\n                            (if (<= (length try1) (length try2))\n                                try1\n                                try2)]))]))\nThe selection of shortest path is in the combination position, so you keep comparing the next valid path to the shortest path so far.\naka\ntrust the natural recursion",
+    "instructor_answer": "Not Found"
+}

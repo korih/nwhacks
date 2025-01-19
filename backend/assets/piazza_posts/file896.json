@@ -1,0 +1,11 @@
+{
+    "author": "Gregor Kiczales",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 896,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/896",
+    "title": "m11 solvable starter now split into SR and TR versions",
+    "question": "To help those of you trying to work or re-work the m11-solvable starters, we have now split it into two files, one for the SR version and one for the TR version.\nIt's EXACTLY THE SAME TWO PROBLEMS AS BEFORE, all that has changed is that the first file has a grader that grades for the SR version, the second file has a grader that grades for the TR version.  This should help you to be sure you have the TR version correct.\nTo help with this we have now split the m11-maze-4-way-solvable starter into two files, one for SR one for TR.\nm11-maze-4-way-solvable-starter.rkt\nm11-maze-4-way-solvable-tr-starter.rkt",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not Found"
+}

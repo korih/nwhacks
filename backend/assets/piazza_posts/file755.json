@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 755,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/755",
+    "title": "Local lifted definitions containing expressions",
+    "question": "If I had a function\n(define (foo x loy)\n  (local [(define (fn x)\n            (+ x (first loy))]\n    (fn x)))\nand I called \n(foo 3 (list 1 4 5 2))\n, is the correct lifted definition\n(define (fn_0 x)\n  (+ x (first (list 1 4 5 2))))\nwhere (first (list 1 4 5 2)) is kept as an expression or is it\n(define (fn_0 x)\n  (+ x 1))\nwhere (first (list 1 4 5 2)) is evaluated to a value?",
+    "student_answer": "Not Found",
+    "instructor_answer": "what happens when you try this with the stepper?"
+}

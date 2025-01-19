@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 173,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/173",
+    "title": "Functions with two variables",
+    "question": "I am having trouble with functions that have two variables - I always get an error code saying that one of them is not defined. What is the proper way to type a two-variable function?",
+    "student_answer": ";; Calculate the area of rectangle (length * width)\n(define (area l w)\n (* l w))\n(area 11 10)\n(area 4 6)\n(area 7 5)\n\n;; Take two numbers and double the higer one.\n(define (double x y)\n (if (>= x y)\n   (* x x)\n   (* y y)))\n(double 4 5)\n(double 12 15)\n(double 9 2)\n(double 11 8)\n(double 6 6)\nI hope these examples would be helpful. :)\nBut, If you still feel troubled, please share the code that is giving error.\n\nCheers!",
+    "instructor_answer": "Functions with two parameters or arguments\nIn the example above, area is a function with two arguments, consisting of parameter l and w.\nIf your function consumes two arguments, then you need to make sure that the rest of the function design remains consistent."
+}

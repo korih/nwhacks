@@ -1,0 +1,11 @@
+{
+    "author": "Ashtan Mistal",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 340,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/340",
+    "title": "Autograders for practice exams",
+    "question": "For the first time, we are beginning to deploy autograders for the practice exams.\nUnfortunately it is somewhat time consuming, because the underlying autograder functionality has been evolving rapidly, so we have to bring each grader up to date before we can deploy it.  (Remember, software is always changing.)  Following is the current status and a couple of important caveats.\nThese autograders are intended to help you assess you own solution, but\nthere might be mistakes in them, if you see a mistake please report it.\nMORE IMPORTANTLY do not assume that the way one of these graders assesses a problem or assigns weights to a problem is exactly what will happen on the midterm.  These graders are not establishing any kind of precedent.\nRight now, the 2021w1-mt1 and 2020w2-mt1 graders are working.\nYou can access the practice exams at: https://cs110.students.cs.ubc.ca/exams/ ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not Found"
+}

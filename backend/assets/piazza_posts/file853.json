@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 853,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/853",
+    "title": "m10-find-tree autograder feedback",
+    "question": "I tried handing in today's find-tree lecture file to the autograder, but it's giving me an error message that I don't understand...here was my code (all tests passed): \n(define (find-tree/tr t n)\n  ;; t-wl is (listof Tree)\n  ;; trees remaining to visit\n  ;; unvisited subs of the visited trees\n\n  ;; use rsf when the result you're building needs to be\n  ;; combined to a intermediate result\n  (local [(define (fn-for-t t t-wl)\n            (local [(define name (node-name t))  ;unpack the fields\n                    (define subs (node-subs t))] ;for convenience\n              \n              (if (string=? name n)\n                  t\n                  (fn-for-lot (append subs t-wl)))))\n          \n          (define (fn-for-lot t-wl)\n            (cond [(empty? t-wl) false]\n                  [else\n                   ;; pass in the list of future work\n                   ;; try the first one, then try the rest too\n                   (fn-for-t (first t-wl) (rest t-wl))]))]\n    \n    (fn-for-t t empty)))\n   20%  of   100%  - Overall submission: \n   20%  of    20%      (@problem 1):  correct.\n   20%  of    20%       (@htdf find-tree):  correct.\n    2%  of     2%         the supplied signature and check-expects must not be changed: correct.\n   18%  of    18%         Submitted tests: correct.\n    0%  of    80%  -   (@problem 2): \n    0%  of    80%  x    ERROR: Error grading find-tree/tr, score is 0%: cadddr: contract violation\n  expected: (cons/c any/c (cons/c any/c (cons/c any/c pair?)))\n  given: '(list 'fn-for-t 'fn-for-lot true)",
+    "student_answer": "Not Found",
+    "instructor_answer": "Missed this note till now, but we fixed this problem yesterday afternoon."
+}

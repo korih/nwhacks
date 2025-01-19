@@ -1,0 +1,11 @@
+{
+    "author": "Gregor Kiczales",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 909,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/909",
+    "title": "New SPD Handin plug in",
+    "question": "We've just pushed a new version of the SPD Handin client. This version fixes a bug in Windows that could cause the plug in to only allow 79 character long lines instead of 80.\nIf you restart Dr. Racket it should automatically download and install the new plug in.",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not Found"
+}

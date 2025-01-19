@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 118,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/118",
+    "title": "Lost Points Email Clarification",
+    "question": "I recently submitted my assignment and I got marks removed and I'm unsure as of why.\nThe first error says \"Test validity (matches problem statement): incorrect - one or more tests invalid.\"\nThe second error says \"Additional tests: incorrect - 3 autograder internal additional tests failed.\"\nI'm confused because when I run my check-expect, I'm given no errors and it says all my tests passed, so how would it be that one or more tests are invalid?\nI'm also unsure what the \"additional tests\" prompt is and how I can go about fixing that.\nThanks!",
+    "student_answer": "Not Found",
+    "instructor_answer": "Great question.  You asked about a difficulty you are having with the problem set, and you did so without divulging anything about your answer!\nA test is valid if two things are true, according to OUR INTERPRETATION of the function:\n  - the arguments are all legal\n  - the results are the correct value given the arguments\nSubmitted tests are the tests that you include in your submission.\nAdditional tests are our tests that we add to make sure the function behaves appropriately.\nIf the submitted tests pass but some are not valid and the additional tests fail what does that suggest to you?"
+}

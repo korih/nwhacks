@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 224,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/224",
+    "title": "I-Clicker Response Time Insufficient",
+    "question": "Hey I understand the point of the I-Clickers to make sure that we do the pre-readings but they seem extremely time constrained to me. As someone with ADHD having 40 seconds to find a small error in code with the professor warning multiple times that time is almost up is actually not possible.\nI did the pre-reading/ exercises (twice, actually) and only got 3/5 (60%) on the clicker questions... I'm not bad at exams generally but these intensely short questions are really gonna be the death of me.\nThe course claims to be based on input from students so I thought I'd give my two cents...",
+    "student_answer": "I can relate to everything you\u2019ve said here. I am diagnosed with anxiety and I am also signed up with the Centre for Accessibility. I\u2019ve taken this course before dropping it last semester so everything up to this point is review for me and I still only got 4/5 on the clicker even though I know htdd in and out. I think these clickers are anxiety inducing for the average student, but even more so overwhelming to those of us with mental health conditions.",
+    "instructor_answer": "Two part answer:\nFirst, in today's clickers there were three questions about the exact same code fragment with the exact same errors.  The first question had 90 seconds, the second 40, and the third 30.  So the 40 second question was really more like a 130 second question.\nBut if you have an accommodation or need an accommodation related to answering questions quickly please contact the course coordinator at cpsc110-admin@cs.ubc.ca. In the past we have handled this by moving the weight from the clicker questions to the exams.\nYou may also find that starting iclicker sooner, so you don't have that delay, and practicing a couple of times will help. But if not please contact the course coordinator. In the past we have moved the weight of the clickers to exams in a few cases."
+}

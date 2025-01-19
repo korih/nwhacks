@@ -1,0 +1,11 @@
+{
+    "author": "Tighe McAsey",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 942,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/942",
+    "title": "Template tag",
+    "question": "I cant seem to get the template tag right, when I write the tag for the given template should I use all types encapsulated?",
+    "student_answer": "If you have an accumulator, encapsulated is redundant; also, check to see that you're including the data types you're using in the function i.e. fn for ???. Also, look at the autograder report: it specifies what you\u2019re lacking (though you\u2019ll have to interpret what it means).",
+    "instructor_answer": "Not Found"
+}

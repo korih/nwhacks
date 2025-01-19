@@ -1,0 +1,11 @@
+{
+    "author": "Rhys Falby",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 626,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/626",
+    "title": "confused about second parameter",
+    "question": "Hi!!\nI am a little confused as to the second parameter of the 7th question \n\" are not pre-requisites for any other courses in the tree, and \"\nwhat does this mean exactly if someone could explain to me in a less confusing way ",
+    "student_answer": "A course's dependents are the courses that require the course as a pre-requisite. If a course isn't a pre-req, the list of dependents should be: _____.\nResponse by Rhys: Does this mean that we are looking for courses that are not used as pre-requisites?\nYes",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Gurashish",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 252,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/252",
+    "title": "is this code correct",
+    "question": "(@problem 1)\n;; As part of designing a system to keep track of student grades, you\n;; are asked to design a data definition to represent the letter grade \n;; in a course, which is one of A, B or C.\n(@htdd LetterGrade)\n;; lettergrade is one of\n;; - 1\n;; - 2\n;; - 3\n;; interp. lettergrade in a course\n;;       1 means A  2 means B  3 means C\n(define LG1 3)\n(define LG2 2)\n(define LG3 1)\n(@dd-template-rules one-of   ;; 3 cases\n      atomic-non-distinct   ;; 1\n      atomic-non-distinct   ;; 2        \n      atomic-non-distinct)  ;; 3\n      \n(define ( fn-for-letter-grade lg)\n        (cond [(number? lg 1) ( ... lg)]\n              [(number? lg 2) ( ... lg)]\n              [(number? lg 3) ( ... lg)]))",
+    "student_answer": "Instead of using numbers, you could have directly used \"A\", \"B\", and \"C\" instead.\nThese values are also atomic distinct, not atomic non-distinct.\nThis also means you need a new answer statement ((...) instead of (... lg)).\n\n1 last part: number? is a function that only takes 1 argument and checks if it is a number. You want to use =, which is a function that takes two arguments and produces true if they are the same number.",
+    "instructor_answer": "Thanks for posting this.  It's great that you are doing problem bank problems, and this is a good start. But there are some small problems with this code you want to correct before going on:\nIn the type comment, lettergrade should be LetterGrade\nEnumerations must use strings like \"A\" \"B\". They cannot use numbers.  We do this to make our enumerations more like those in languages with proper enumeration support and less like C and old-fashioned hand-rolled enumerations.\nEnd of line comments, like your ;;1 and ;;2 comments must have only one semi-colon.\nThere's a bug in your template, which is that number? doesn't take two arguments.  But this will change when you switch to strings anyways."
+}

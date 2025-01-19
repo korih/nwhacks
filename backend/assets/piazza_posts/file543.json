@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 543,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/543",
+    "title": "meaning of problem2 about PSET6",
+    "question": "Hi, can anyone please give me a hint about what's the meaning of produce the list of all the course numbers in the\ncourse's tree including the given course's number? I read many times but still really confused, it that asked us to produce all course numbers or sth else? Thanks!",
+    "student_answer": "Any node in a tree can be considered the start of its own tree.  So in the example below the tree for D2 would include D2, F1 and F2, while D1 would include all members.\nThat's not a complete answer to your question but I hope it helps!\n                      D1\n                   /       \\\n                 /           \\\n               D2          D3\n             /    \\        /    \\\n           F1    F2   F3    F4",
+    "instructor_answer": "Not Found"
+}

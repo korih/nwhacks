@@ -1,0 +1,11 @@
+{
+    "author": "William Zhou",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 395,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/395",
+    "title": "Small Tip for Batch Downloading All Past Midterms",
+    "question": "If you\u2019re using macOS, run the following commands in Terminal to download all past midterm files into your Downloads folder.\ncd ~/Downloads; wget -r -np -nH -R \"index.html*\" https://cs110.students.cs.ubc.ca/exams/",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not Found"
+}

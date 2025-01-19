@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 671,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/671",
+    "title": "2020w1-mt2 question about @template tag",
+    "question": "Hello, below is my function design for count-larger (in problem 7):\n(@htdf count-larger)\n(@signature (listof Solid) Number -> Natural)\n;; produce the number of solids in s whose volume is >= the given volume\n\n(check-expect (count-larger empty 10) 0)\n(check-expect (count-larger (cons (make-solid 2 3 4) empty) 20) 1)\n(check-expect (count-larger (cons (make-solid 2 3 4)\n                                  (cons (make-solid 2 25 2)\n                                        (cons (make-solid 2 25 3)\n                                              empty)))\n                            100)\n              2)\n\n;(define (count-larger los n) 0) ; stub\n\n(@template use-abstract-fn fn-composition Solid)\n\n(define (count-larger los n)\n  (local [(define (volume-larger-than-n? s)\n            (>= (* (solid-w s)\n                   (solid-h s)\n                   (solid-d s))\n                n))\n          (define (fn s rnr)\n            (add1 rnr))]\n    (foldr fn 0 (filter volume-larger-than-n? los))))\nI included Solid in my @template tag since I did not use the following helper, since that was optional. However the autograder still gave me the following feedback:\n Template tag: includes incorrect type names.\nI'm wondering if it's still correct to include Solid in the tag in this case? Thanks!",
+    "student_answer": "Not Found",
+    "instructor_answer": "@643"
+}

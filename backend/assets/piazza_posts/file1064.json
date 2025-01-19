@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1064,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1064",
+    "title": "tail recursion and accmulator",
+    "question": "I still get confused on the concept of tail recursion and accumulator. What does accumulator actually do in the code?",
+    "student_answer": "Tail recursion can do what a regular structured function can, but evaluate it more efficiently. An accumulator holds a value from earlier evaluations to be used later.\nHere's the sum function (from EdX 10: Accumulators) in:\nStructural Recursion\n(define (sum lon)\n  (cond [(empty? lon) 0]\n        [else\n         (+ (first lon)\n            (sum (rest lon)))]))\nTail Recursion\n(define (sum lon)\n  ;; acc is Number; sum of numbers\n  ;; (fn-for-lon (list 1 2 3)) 0\n  ;; (fn-for-lon (list   2 3)) (+ 1 0)\n  ;; (fn-for-lon (list     3)) (+ 2 1)\n  ;; (fn-for-lon (list      )) (+ 3 3)\n  (local [(define (fn-for-lon lon acc)\n            (cond [(empty? lon) acc]\n                  [else\n                   (fn-for-lon (rest lon) (+ (first lon) acc))]))]\n    (fn-for-lon lon 0)))\nWhat happens in the code of TR is that the accumulator is initialized at zero, then every time the lon cycles through the function, at some point, lon will be empty since we re-evaluate the function with (rest lon) and add the (first lon) to the accumulator. That's where the base case of the cond comes in. Since lon will be empty after everything is added to the accumulator, we can check that its empty and produce the accumulator, which is the sum of all the recursions thus far.\nStructural Recursion would have to go through every single item on the list and would evaluate:\n(fn-for-lon (list 1 2 3))\n(+ 1 (fn-for-lon (list 2 3))\n(+ 1 (+ 2 (fn-for-lon (list 3))))\n(+ 1 (+ 2 (+ 3 (fn-for-lon empty))))\n(+ 1 (+ 2 (+ 3 0)))\n(+ 1 (+ 2 3))\n(+ 1 5)\n6",
+    "instructor_answer": "Not Found"
+}

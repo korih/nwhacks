@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 726,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/726",
+    "title": "Clarification on difference between R/SR/MR vs NH/NR/NMR",
+    "question": "Hello, I wanted to clarify the difference between R/SR/MR vs NH/NR/NMR.\n\n\nMy current understanding is that Reference, Self Reference and Mutual Reference are all concepts that're only used in labeling call graphs while the concepts Natural Helper, Natural Recursion and Natural Mutual Recursion are used in labeling it in actual code.\n\n\nWould this be an accurate interpretation?",
+    "student_answer": "Not Found",
+    "instructor_answer": "R/SR/MR in the type comments but the other as you said in the actual code"
+}

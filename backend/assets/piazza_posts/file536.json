@@ -1,0 +1,11 @@
+{
+    "author": "Malkeet Singh",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 536,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/536",
+    "title": "problem set 6",
+    "question": "Hello, \nCould someone tell me what is the meaning of [3-2-1] type of numbers in the data provided?\nThanks,",
+    "student_answer": "If you look at the data definition for course in PSET 6 you should be able to deduce what the numbers mean, I'm not sure I'm allowed to answer that further.\nThe [3-2-1] means the number of hours allocated to each part of a course. The first number is hours in lectures, the second number is hours in labs, and the third number is hours in tutorials. ",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 705,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/705",
+    "title": "2020 w2 q2",
+    "question": "(define (b n)\n  (local [(define (one x) (* x 1))\n          (define (two x) (* x b))\n          (define (three x) (* x n n n))\n          (define a n)\n          (define b (* n n))\n          (define c (* n n n))]\n    (one (two (three n))))) \n\n;; Question 4:\n;; How many definitions are lifted each time b is called?\n;; [a] 1\n;; [b] 2\n;; [c] 3\n;; [d] 4\n;; [e] 6\nIn this question, the correct answer is 6 lifted definitions. However, when I play around with it, I only end up with 4 functions being lifted compared to the stepper lifting up  all 6.\n;; what I thought would happen\n(define (one_0 x) (* x 1))\n(define (two_0 x) (* x b))\n(define (three_0 x) (* x n n n))\n(define b_0 (* n n))\n\n;; stepper\n(define (one_0 x) (* x 1))\n(define (two_0 x) (* x b_0))\n(define (three_0 x) (* x 1 1 1))\n(define a_0 1)\n(define b_0 1)\n(define c_0 1)\nDoes the local simply lift all functions inside it regardless of whether or not they are going to be used? ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Notice that the question text says \"How many definitions are lifted each time b is called?\". It does not ask how many FUNCTION definitions are lifted.\nRenaming and lifting happens for all the definitions in a local."
+}

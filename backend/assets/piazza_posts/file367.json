@@ -1,0 +1,11 @@
+{
+    "author": "Gregor Kiczales",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 367,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/367",
+    "title": "Egg starter- place-egg function",
+    "question": "Hi, currently working through the starter and came across a question:\n\nplace-egg is a helper for render-eggs. \nin the solution file, place-egg is suppose to rotate AND place the egg on MTS.\n\nGiven the rule that one function should only do one thing, why the purpose for place-egg different. I can see that the 2 steps are simple to write. Maybe I\u2019m missing something. \n\nCompare the 2019 midterm w1, the last question uses a helper: paddle in the initial helper. How is that different in the YOSHI egg program. ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Great question.\nWe could have made a helper called rotate-egg, but note that the job of place-egg is to render onto it's image argument an egg described by it's egg argument.  The egg includes x, y, and r, so it makes reasonable sense for place-egg to take care of all 3.\nGood eye for picking out the padding helper from 2019w1-mt1.  But that function is a separate helper for a reason we will cover the end of this week.  It is given a natural number n and must produce a string of that many spaces -- so it must consume an arbitrary sized number and do something that number of times.  That requires a separate function.  Again, we will cover that later this week."
+}

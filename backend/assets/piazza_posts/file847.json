@@ -1,0 +1,11 @@
+{
+    "author": "Ross Tomita",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 847,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/847",
+    "title": "Programming contest question",
+    "question": "I was working on the programming contest practice problem, and received the following failing test (the other tests followed the same pattern). Technically, the problem is to produce the list of the sets of problems that satisfy the given criteria which my function does. My question is, given that the question does not specify the order of the problems, is it necessary to have the problems listed in ascending order and if so why?\nAcutal Value:\n(list\n (list\n  (make-problem \"Proofs\" 15 25)\n  (make-problem \"Sorting\" 9 14))\n (list\n  (make-problem \"Searching\" 25 45)))\n\n\nExpected Value:\n(list\n (list\n  (make-problem \"Sorting\" 9 14)\n  (make-problem \"Proofs\" 15 25))\n (list\n  (make-problem \"Searching\" 25 45)))",
+    "student_answer": "Not Found",
+    "instructor_answer": "It shouldn't matter, but that grader is being too picky."
+}

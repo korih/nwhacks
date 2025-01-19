@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 448,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/448",
+    "title": "sum-areas-greater-than signature",
+    "question": "This is a question from 2021w1-mt1/mt1-p4 that produce the sum of the areas of images w/ area greater than n. \nMy question is why is the signature (@signature ListOfImage Number -> Natural)?\nThere's nowhere that specifies the input is an integer. Since the input is a number, there could be decimals in the output, so why isn't it (@signature ListOfImage Number -> Number)?\nI've always have trouble with signatures that evolve using Number or natural. What are some ways to distinguish them?",
+    "student_answer": "If I remember correctly the image dimensions are in screen pixels and you can't have an image that's\n300\nand a half screen-pixels tall for example. \n\nBut for this question specifically, the \"Number\" data type that is consumed has nothing to do with the image dimensions. The problem is comparing the sum of areas TO this number. I think that is why the signature is the way it is.\n\nI hope that makes sense.",
+    "instructor_answer": "Not Found"
+}

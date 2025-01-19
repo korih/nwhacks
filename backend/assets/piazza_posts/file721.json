@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 721,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/721",
+    "title": "2020w1-mt2-p2",
+    "question": "2 Questions:\n1) Why is p? not a closure? I was under the impression that a closure is when a locally defined expression calls a parameter from the original function definition in its body. In this case it calls n, which is an upper level parameter for original.\n2) How do we get 15 for question 5?  That means outer gets called 2 additional times as a natural recursion, but I'm just generally confused how this function works because it seems to have a lot of mutual reference involved and its hard for me to determine how many times outer will be called",
+    "student_answer": "This is not a closure since it doesn't call any of its local definitions.\nEDIT: Sorry I just realized it does, mb, I'm not really too sure why it isn't a closure\nAs for Question\n2\n, the five local definitions get lifted each time the function is called (regardless of whether they are used or not). Since it is called two more times, there are a total of\n15\nlocal definitions lifted. The best way to find this is to just walk through the steps of the problem yourself and count how many times the recursion happens (don't use the stepper of course unless you really need it).",
+    "instructor_answer": "Not Found"
+}

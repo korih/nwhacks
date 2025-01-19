@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 175,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/175",
+    "title": "module 2b itemization pt2 video question",
+    "question": "Hi, I am a bit confused about the line of code with the red circle on it.\nI am not entirely sure why we need the (number? c) to guard against being called on the wrong type of data since \"complete\" is a string and [1, 10] are integer values, so why would a string be compared against a integer value in the first place?\nOr rather I thought the code will only look for an integer value in between or equal 1 and 10, so why would we need to guard against \"complete\" which is a string?",
+    "student_answer": "The function runs from up to down. So example if c is a string, and you don't have the guard (number? c), it would produce an error message because it can't compare a string to a number. The function doesn't automatically skip to the next condition because the gets an error. ",
+    "instructor_answer": "Not Found"
+}

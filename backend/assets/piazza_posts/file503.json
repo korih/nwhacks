@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 503,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/503",
+    "title": "How many pixels are we expected to move the paddle ?",
+    "question": "How many pixels are we expected to move the paddle when we press left or right ?",
+    "student_answer": "there is a constant called PADDLE-MOVE-PER-KEY that has already been defined",
+    "instructor_answer": "Not Found"
+}

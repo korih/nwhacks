@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 825,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/825",
+    "title": "Local Functions in PSet9",
+    "question": "In my PSet9 solve function, there are certain points where I had to transform a (listof Slot) into a list that is composed of both (listof String) and Slot as its elements (in other words, it has elements of two different data types). Would this be acceptable in terms of following coding conventions, as long as the final result is only composed of one data type (listof String)?",
+    "student_answer": "Not Found",
+    "instructor_answer": "ask all pset 9 questions in the pinned post.  But if you need to represent certain information then do a data definition for it and you are all set."
+}

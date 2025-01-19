@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1060,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1060",
+    "title": "Terminology difference between visited and path accumulator",
+    "question": "Hello,\nWhat is the difference between a path accumulator and a visited accumulator? For example if you go through something in structural recursion wouldn't everything you store be in path? So why would you ever use a visited accumulator there? ",
+    "student_answer": "You are correct in saying that in SR everything would be stored in path only, because it is not possible for one path to see what was visited in another. So, in SR, a visited accumulator can't really exist. In TR, the differences matter. A path accumulator stores information about just the singular path taken. A path accumulator does not store information about other paths. A visited accumulator stores information about the whole tree, without limits on path. A visited accumulator is useful to remove joins, where one path leads to a point visited in another path - a path accumulator does not store the information about the other path, so this point will be searched through, while a visited accumulator would store the information about this point and not search through it. ",
+    "instructor_answer": "Not Found"
+}

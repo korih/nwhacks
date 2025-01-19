@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 387,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/387",
+    "title": "Midterm Structure",
+    "question": "Hey! I was wondering how similar the Midterm questions are compared to the problem sets and labs. Would it be similar in the sense that we would be told what the program is and fill in the missing code while removing the bugs, or would we be tested on writing our own code from scratch? Also, would there be just one program or multiple?",
+    "student_answer": "I believe there are multiple starter files (most probably 5), and as for the type of questions, it should be similar to the past midterms where there\u2019s both types of problems - ones where you have to write stuff from scratch (like the stepping questions) and some other ones where you might have to fix some bugs or maybe fill out a specific part of the program, like a data definition or completing wishlist entries.\n\n--\nIn lecture, it was mentioned that understanding the entirety of the yoshi egg program would be beneficial. The spider one as well. \n\nI don't think they can say too much about structure, but personally I would prepare to write my own code from scratch. If it turns out we don't need to do that, then you're still going in with the deepest level of understanding. \n\nAlso, there will be multiple starter files, so yes to multiple programs :)",
+    "instructor_answer": "Not Found"
+}

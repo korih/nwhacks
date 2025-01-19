@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 380,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/380",
+    "title": "next-ball Autograder",
+    "question": "This is what the autograder is giving me and my partner back for problem set 4. \nWe have not touched next-ball (as per the assignment instructions) so I am wondering why both the signature and template tag could be incorrect. \n(Also not sure what the ball-y issue is, but I'm more focused on the signature and template tag... unless that's connected idk)\n 7.8%  of    20%  -    (@htdf next-ball): \n  1.3%  of     4%  x     Signature: incorrect.\n  2.4%  of     4%  x     Template tag: incorrect.\n    4%  of     4%        Submitted tests: correct.\n    0%  of     4%  x     Additional tests: error: ball-y: contract violation\n    0%  of     4%  x     Test thoroughness (known fault detection): error evaluating test operands, or running faulty functions",
+    "student_answer": "Not Found",
+    "instructor_answer": "Look very carefully at your big-bang."
+}

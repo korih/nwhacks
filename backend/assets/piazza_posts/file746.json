@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 746,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/746",
+    "title": "2019W1-MT2 Problem 4",
+    "question": "Hello, I was a little confused on this problem. Firstly, for part a, how would we solve this without running the program, as y is not defined? Where exactly is the y coming from? Secondly, would my answer be sufficient for part b (note that I called it bar_0 instead of bar_1, did they do this because _0 was already taken when foo was lifted)?\n;(@problem 4)\n;;\n;; Consider the following expression:\n;;\n\n(local [(define (foo x)\n          (local [(define (bar y)\n                    (+ x y))]\n            (bar x)))]\n  (map foo (list 4 5 6)))\n\n;;\n;; We want you to write two things:\n;; \n;; (A) What value does the expression produce? Your answer MUST go in the\n;;     following space:\n;;\n\n(list 8 10 12)\n\n\n\n\n\n;;\n;; (B) When the expression is evaluated there will some number of lifted \n;;     definitions.  Please write the SECOND lifted function definition.\n;;     We are not asking for a complete step by step evaluation, just\n;;     the second lifted definition.  Don't worry about the exact pattern \n;;     ISL uses to give names to lifted definitions, just use some\n;;     reasonable naming convention.  Your answer MUST go in the following\n;;     space:\n;;\n\n\n(define (bar_0 y) (+ x y))",
+    "student_answer": "For part A, y is just the parameter for bar.  Since (foo x) calls (bar x), the \"y\" will be whatever x is. It doesn't need to be defined in advance, just like (foo x) doesn't need the x defined in advance.",
+    "instructor_answer": "Not Found"
+}

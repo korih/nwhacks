@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 818,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/818",
+    "title": "Problem 4",
+    "question": "For this problem, I don't understand the importance of the specific abstract function filter. Why does it need to be included in the solution in this case? Wouldn't foldr be an equally valid abstract function to use to find the number of occurrences of a certain number in a list?",
+    "student_answer": "Ye, I was gonna ask the same thing as well.",
+    "instructor_answer": "Looks like there's a problem with the grader for P4.  I'll work on it over the weekend."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1005,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1005",
+    "title": "same-as-house-parent.rkt",
+    "question": "If the htdd function template for Wizard is already given and blended as shown below:\n(define (fn-for-wiz w)          \n  (local [(define (fn-for-wiz w)\n            (... (wiz-name w)\n                 (wiz-house w)\n                 (fn-for-low (wiz-kids w))))\n          (define (fn-for-low low)\n            (cond [(empty? low) (...)]\n                  [else\n                   (... (fn-for-wiz (first low))\n                        (fn-for-low (rest low)))]))]\n    (fn-for-wiz w)))\nDon't we just include the wizard template tag, but not the listof Wizard template tag or the encapsulated template tag cause it's already given as so under Wizard? As opposed to not being provided the template, then we would have to include the Wizard template tag in addition to the other two?",
+    "student_answer": "Not Found",
+    "instructor_answer": "That template doesn't appear just under Wizard, it appears under Wizard and ListOfWizard (or Wizard and the implicit (listof Wizard)).\nSo the template tag for it is (@template encapsulated Wizard (listof Wizard))"
+}
