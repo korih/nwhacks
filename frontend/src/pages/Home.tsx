@@ -11,8 +11,6 @@ export default function Home() {
   }
 
   const handleSendMessage = () => {
-    // should redirect to new chat page
-    // sent the message
     navigate("/chat")
   }
 

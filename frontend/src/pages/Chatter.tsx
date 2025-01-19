@@ -15,9 +15,6 @@ export default function Chatter() {
 
 
     const handleSendMessage = async (msg: string) => {
-        // sent the message to backend
-        // handle setting the set messages
-
         try {
             const sentMsg = { "msg": msg, "type": "sent" }
             setMessages((old: any) => [...old, sentMsg])
@@ -42,14 +39,11 @@ export default function Chatter() {
             setCurrentMessage('')
         }
     }
-    const handleEnter = (e: any) => {
+    const handleEnter = () => {
         if (currentMessage.length > 0) {
             handleSendMessage(currentMessage);
             setCurrentMessage('')
         }
-    }
-    const handleReceiveOldChats = () => {
-        // handle the get request for old chats
     }
 
     // should make a container for body and context window
