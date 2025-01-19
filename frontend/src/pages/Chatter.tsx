@@ -46,12 +46,16 @@ export default function Chatter() {
         }
     }
 
+    const handleCreateNewChat = () => {
+        setMessages([]);
+    }
+
     // should make a container for body and context window
     return (
         <div className="w-full h-full fixed top-32">
             <Header />
             <div className="flex w-full h-full">
-                <OldChats />
+                <OldChats clearCurrentChat={handleCreateNewChat}/>
                 <section className="w-full h-full flex flex-col">
                     <div id="container-for-chat" className="m-10 h-[50%] overflow-y-scroll">
                         {messages.map((msg: any) => (
