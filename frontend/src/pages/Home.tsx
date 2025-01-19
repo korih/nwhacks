@@ -1,3 +1,5 @@
+import Header from "../components/Header"
+
 export default function Home() {
   const examplePopup = () => {
     alert("button clicked!")
@@ -5,12 +7,7 @@ export default function Home() {
 
   return (
     <div>
-      <section className="h-32 w-full fixed top-0 left-0 bg-[#66615e]">
-        <div className="flex justify-center mt-7">
-          <h1 className="font-bold text-7xl">Chatza</h1>
-        </div>
-      </section>
-
+      <Header />
       <section className="h-full w-full fixed top-32">
         <div className="flex justify-center flex-col items-center mt-48">
           <h2 className="text-5xl text-[#010000]">What can I help you with?</h2>
