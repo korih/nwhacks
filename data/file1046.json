@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1046,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1046",
+    "title": "meaning of arb-tree template tag",
+    "question": "I was just wondering when it is appropriate to include arb-tree in the template tag for genrec problems? I noticed I lost marks for including it in my template tags for pset 11. Is it only necessary when we are generating an entirely new tree through the generative recursion (i.e. in search problems)?",
+    "student_answer": "From what I've seen, you include arb-tree when the recursive structure of the information comes not from the defined types but rather from what you generate. For example, in pset 11, the recursion came from the data definitions - Treasure (listof Route) Route - meaning we didn't need to include arb-tree. For pset 9, there was no recursive structure in the given data - we had to generate the subs ourselves, meaning we needed arb-tree.",
+    "instructor_answer": "Not Found"
+}

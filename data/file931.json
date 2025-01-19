@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 931,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/931",
+    "title": "Infinitely Running Programs",
+    "question": "When working with recursion (structural mostly), I sometimes have issues with my programs running infinitely, even though I believe I have the correct things in place to stop it (ie. when something equals something produce this or if you run out of things to look at produce false). What are some things I should look for when this happens or things to keep in mind so I may avoid this situation entirely? I know this is vague (and maybe a dumb question as I should already know the answer), but I'm really struggling with it so any help would be appreciated:)",
+    "student_answer": "You should look out for:\nyour list function calls (rest lst) and has an empty? case\nyou have some way to prevent cycles (member p path)\nthe current position is added to the path (cons p path)\nyour trampoline call calls the inner encapsulated function and not the main function\nyou have clearly defined base cases",
+    "instructor_answer": "Not Found"
+}

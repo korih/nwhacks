@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 216,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/216",
+    "title": "Skipping over a condition",
+    "question": "Can somebody please tell me what function to use to do something like this: *check if the input is a string, if it is, move to the next condition* \n\nI've tried using (string? (<my condition>)) but I get an error saying \"string=?: expects a string, given <a number>\", meaning that the function didn't skip over that condition...\nThanks!",
+    "student_answer": "Careful that \n(string=? x y)\nand\n(string? x)\nare different. For instance, the first consumes 2 arguments and the second only consumes 1 (I'd search them up on Racket help desk if you still need more info)",
+    "instructor_answer": "Not Found"
+}

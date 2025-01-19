@@ -1,0 +1,11 @@
+{
+    "author": "Ross Tomita",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 400,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/400",
+    "title": "Set 4 character limit",
+    "question": "I'm aware that Dr. Racket has an 80 character limit, which is indicated by the orange line. However, when I tried to submit my problemset 4, I keep getting the message that my line limit is over even though all of my code does not cross the line. I'm thinking that maybe Dr. Racket is counting the characters within parentheses? I'm not really sure. Is there a particular set of rules for what counts for the 80 character limit besides simply crossing over the line?",
+    "student_answer": "spaces count as characters so you may have unintentionally pressed the space bar too many times and then typed something in that same line, causing it to go over 80 characters. You can check what your longest line is on racket by clicking \"edit\" on top left corner and then scroll down to \"find longest line\".",
+    "instructor_answer": "Not Found"
+}

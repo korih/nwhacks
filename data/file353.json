@@ -1,0 +1,11 @@
+{
+    "author": "Ben Gao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 353,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/353",
+    "title": "Why doesn't the Compound htdd template need to have the datatypes of the fields?",
+    "question": "for other data definitions, Enumeration, Itemization, we have to state the data type of the field, IE, an itemization, you have to state the datatype, atomic distinct, atomic non-distinct, of each of the cases in the template rules.\nso why don't you need to do this with compound data's template rules?",
+    "student_answer": "Not Found",
+    "instructor_answer": "It\u2019s an unfortunate inconsistency which we intend to fix in the future."
+}

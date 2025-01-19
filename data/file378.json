@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 378,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/378",
+    "title": "reference rules",
+    "question": "edx video said that it can only use one function on refered to type, otherwise, need a natural helper function\non lecture, the professor said only can call for one selector, otherwise, need a natural helper\nfor example\nif we just need to (+ (selector 1) (selector 2)) for the refered type\nthis is indeed one function operator \"+\" , however, this consumes tow selectors \nwhether this one need natural helper function or not? ",
+    "student_answer": "Not Found",
+    "instructor_answer": "First let's change your expression to:\n(+ (selector-1 x) (selector-2 x))\nWhich is probably what you intended to write.\nNote that + is not being called with x as an argument.  So it is not called on x.  Only the selectors are called on x.  So this code calls two selectors on x."
+}

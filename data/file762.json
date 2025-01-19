@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 762,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/762",
+    "title": "2021W2 Released Midterm P4",
+    "question": "On the released midterm problem\n4\n, it wanted the function to be a fn-composition of exactly\n2\nabstract functions. Does this count?",
+    "student_answer": "Not Found",
+    "instructor_answer": "no\nlength is a built-in function, but not a built-in abstract-fn"
+}

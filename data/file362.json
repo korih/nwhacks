@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 362,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/362",
+    "title": "htdw program event log",
+    "question": "Hello,\nI was wondering how the prof got this program event log page during lecture to debug with. I can't seem to get it myself and I was also unable to find anything in htdw that refers to this.",
+    "student_answer": "When you run (main empty), it should open up three windows (sometimes they can appear near the edge of the screen, so you may need to do some dragging so it's more visible), your world program's state, your world program's log (which are smaller) and a blank rectangle labelled with world at the top. The world one is larger, and has the dimensions of WIDTH and HEIGHT (basically the MTS) specified in the starter file.\nTo test the behaviour of the program, specifically the lay-egg and handle-key functions, you can click anywhere on MTS or press the spacebar, respectively. ",
+    "instructor_answer": "Not Found"
+}

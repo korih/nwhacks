@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 572,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/572",
+    "title": "2-one-of questions",
+    "question": "Hello, I was working on the problem bank pattern-match-starter, here's part of the solution that I had 2 questions about:\n(define (pattern-match? pat lo1s)\n  (cond [(empty? pat) true]                            ;(1)        \n        [(empty? lo1s) false]                          ;(2)         \n        [(string=? (first pat) \"A\")                    ;(3) \n         (and (alphabetic? (first lo1s))\n              (pattern-match? (rest pat) (rest lo1s)))]\n        [(string=? (first pat) \"N\")                    ;(4)\n         (and (numeric? (first lo1s))\n              (pattern-match? (rest pat) (rest lo1s)))]))\nFor the last question/answer pair, is there a reason that we do not use else? Do we have to phrase the question in that way, or do we have to put else, or is either fine?\nMy second question was if it's necessary to put the numbers (1), (2), etc. next to the corresponding pairs as they match with the type comment table? Thanks!",
+    "student_answer": "Not Found",
+    "instructor_answer": "For the last question/answer pair for the cond expression, either option is fine. \nRegarding your second question, YES, you must include comments that refer to the numbers in your table. \nRemember that the proof of correctness is based on the model as depicted in the type comment table. "
+}

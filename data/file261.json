@@ -1,0 +1,11 @@
+{
+    "author": "Ben Gao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 261,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/261",
+    "title": "how much can we change the htdd template in a function?",
+    "question": "Again: using general language.\nOne error I repeatedly encounter is when the function I am writing does not \"keep the template intact\". For some reason or another, I need to write a bit beyond the HtDD template to fulfill the requirements of the function purpose, however, each attempt to do so results in this same error message.\nso how can we add code to the template while \"keeping it in tact?\"\nessentially, a function's COND statement requires 3 different q/a brackts, however, the template only allows for 2 q/a, and you are not allowed to edit the template. ",
+    "student_answer": "Not Found",
+    "instructor_answer": "@262"
+}

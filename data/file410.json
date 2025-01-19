@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 410,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/410",
+    "title": "Issue with coding in the Raining Eggs",
+    "question": "Can someone tell me why this does not pass the test?\n\n\n(check-expect (lay-eggs empty 20 30 \"botton-down\")\n(cons (make-egg 20 30 0) empty))\n\n(check-expect (lay-eggs LOE3 100 200 \"botton-down\")\n(cons (make-egg 100 200 0) LOE3))\n\n(check-expect (lay-eggs LOE3 100 200 \"drag\") LOE3)\n\n\n;(define (lay-eggs loe x y me) loe) ;stub\n\n\n(@template MouseEvent)\n\n(define (lay-eggs loe x y me)\n(cond [(mouse=? \"button-down\" me) (cons (make-egg x y 0) loe)]\n[else loe]))",
+    "student_answer": "Arguments in the MEv are not in order.\n(define (lay-eggs loe x y me)\n  (cond [(mouse=? me \"button-down\") (cons (make-egg x y 0) loe)] \n        [else loe]))\nAfter mouse=? 'me' should be the first argument followed by  \"button-down or whatever\". Basically, mouse=?  Assesses if the given mouse input (by the user, i.e., me, and it could be anything) is equal to \"required mouse input\" (\"button-down\"). Thus, mouse=? will have 'me' followed by 'button-down.' Other way around, these two arguments will have different sense. \nThe above code worked on my data after the suggested change.\nHope it would help.",
+    "instructor_answer": "Unfortunately the student answer is not entirely correct.\nIt is certainly true that it is nice to write equality tests like\n(mouse=? me \"button-down\")\nwith the operands in that order, because it parallels the way we usually say it.  \"Is the mouse event equal to button-down\" is a more natural thing to say than \"is button-down equal to the mouse event\".  But equality is symmetric and so the two arguments to mouse=? can be in any order.\nInstead I believe the problem with the code is that \"button-down\" is spelled incorrectly in the check-expects."
+}

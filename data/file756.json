@@ -1,0 +1,11 @@
+{
+    "author": "Dylan Zhu",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 756,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/756",
+    "title": "closure qusetion",
+    "question": "why p? is not a closure, it uses n from the (define (outer x n))",
+    "student_answer": "Because p? Is not a function. doesnt consume variable. It's just boolean \n(True or false)",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 129,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/129",
+    "title": "Recipes Question",
+    "question": "When I finished my recipes, it said:. What is my mistakes here?\nRan 4 tests.\n2 of the 4 tests failed.\n\nCheck failures:\n        check-expect encountered the following error instead of the expected value, .. \n   :: function call: expected a function after the open parenthesis, but found a string\nin m01-htdf-starter.rkt, line 64, column 0 caused by expression in m01-htdf-starter.rkt, line 64, column 23\n        check-expect encountered the following error instead of the expected value, .. \n   :: function call: expected a function after the open parenthesis, but found a string\nin m01-htdf-starter.rkt, line 67, column 0 caused by expression in m01-htdf-starter.rkt, line 67, column 23\n\n(@problem 2)\n;;\n;; Design a function that consumes the name of something and produces a\n;; \"checkbox line\" image that allows someone to check off that item.  For \n;; example (checkbox-line \"apples\") would produce an image with a small\n;; check box next to the word apples.\n;;\n\n(@htdf checkb)\n(@signature String -> Image)\n;;produces a checkbox line next to the given words\n(check-expect (checkb (\"cook\"))\n              (beside (text \"cook\" 24 \"red\")\n                      (rectangle 40 40 \"outline\" \"black\")))\n(check-expect (checkb (\"word\"))\n              (beside (text \"word\" 24 \"red\")\n                      (rectangle 50 50 \"outline\" \"black\")))\n\n;(define (checkb n) empty-image) ;stub\n\n(@template String) ;template tag\n\n;(define (checkb n) ;template\n;  (... n))\n\n(define (checkb n)\n  (beside (text n 24 \"red\")\n          (rectangle 40 40 \"outline\" \"black\")))",
+    "student_answer": "In the check-expects, the strings like \"cook\" and \"word\" shouldn't be in individual parentheses of their own. If you look at the example provided in the question it should give you a good idea about where to add parentheses.",
+    "instructor_answer": "Not Found"
+}

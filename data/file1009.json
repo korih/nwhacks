@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1009,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1009",
+    "title": "all-reachable-starter",
+    "question": "I'm a little confused on how we would know to use the union function. I understand its purpose, but I don't know how I would come up with it and what indicators are implying its use.\nThanks!\n(@htdf all-reachable)\n(@signature Room -> (listof String))\n;; produce names of rooms reachable from the given room\n\n(check-expect (all-reachable RF) (list \"F\"))\n(check-expect (all-reachable RB) (list \"B\" \"C\" \"E\" \"F\" \"A\" \"D\"))\n(check-expect (all-reachable RA) (list \"A\" \"B\" \"C\" \"E\" \"F\" \"D\"))\n\n;; ordinary recursion:\n\n(@template genrec Room (listof String) accumulator encapsulated)\n#;\n(define (all-reachable r0)\n  ;; path is (listof String); context preserving accumulator, names of rooms\n  (local [(define (fn-for-room r path) \n            (if (member (room-name r) path)\n                empty\n                (cons (room-name r)\n                      (fn-for-lor (room-exits r) \n                                  (cons (room-name r) path)))))\n          (define (fn-for-lor lor path)\n            (cond [(empty? lor) empty]\n                  [else\n                   (union (fn-for-room (lookup-room (first lor)) path)\n                          (fn-for-lor (rest lor) path))]))\n\n          (define (union l1 l2)\n            (cond [(empty? l1) l2]\n                  [(empty? l2) l1]\n                  [else\n                   (cons (first l1)\n                         (union (rest l1)\n                                (remove (first l1) l2)))]))]\n    (fn-for-room r0 empty)))",
+    "student_answer": "We need a way to make a list of all the reachable rooms without any duplicates - a union function essentially gets rid of the potential duplicates. Each room would have its own smaller list of directly accessible rooms, and the union function combines these individual lists into a full list without duplicates. ",
+    "instructor_answer": "Not Found"
+}

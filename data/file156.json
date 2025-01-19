@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 156,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/156",
+    "title": "why do we add define?",
+    "question": "Hello,\nin this question\n Write a function that consumes two numbers and produces the larger\nof the two.\n  (define (larger x y)\n  (if (> x y)\n      x\n      y))\nHow come we add \"define (larger x y) first? Wouldn't it still work without the first line and just defining x/y?",
+    "student_answer": "You need \"define\" because it asks you to write a function. By writing a function, it allows you to use the function to remove repetition from your code if you intend to make the same operations multiple times. For example, if you have a bunch of numbers that you want to compare, defining a function and running the values through the function is more concise than writing out the entire operation each time you want to compare the numbers.\nIn simple terms, using define lets DrRacket know that it should expect an actual value to be added later.\n\nHere's an analogy that might help:\nThink of it as making a flight reservation (in a world where flights are never overbooked). When you make the reservation, the actual crew of the plane doesn't know who you exactly are, there can be multiple people with the same name as you. All they see is that there is a reservation in the name of John Doe (for example), and they need to leave a particular seat vacant for John Doe. This is what DrRacket sees when you use define, 2 reservations, one under the name x and the other under the name y.\nWhen John Doe boards the plane and shows their boarding pass, the crew knows which exact John Doe the reservation is for. This is what DrRacket sees when you call the function with, for example, (larger 1 3).",
+    "instructor_answer": "Not Found"
+}

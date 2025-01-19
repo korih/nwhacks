@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 450,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/450",
+    "title": "2019W2MT1 handle-key",
+    "question": "I wonder if what I did here is a violation of templates (though I just combined the Balloon template and KeyEvent template). If this is fine, do I still use KeyEvent in the @template tag?\nThis is what I have:\n(@template KeyEvent)\n(define (handle-key b ke)\n  (cond [(false? b) false]\n        [else\n         (cond [(key=? ke \" \")\n                (make-balloon (balloon-r b)\n                              (balloon-c b)\n                              (- (balloon-dr b)))]\n               [(key=? ke \"p\")\n                (make-balloon (balloon-r b)\n                              \"purple\"\n                              (balloon-dr b))]\n               [else b])]))\nThis is the solution:\n;; SOLUTION\n(@template KeyEvent)\n(define (handle-key b ke)\n  (cond [(key=? ke \" \")         \n         (if (false? b)     ;could be nested cond\n             false\n             (make-balloon (balloon-r b)\n                           (balloon-c b)\n                           (- (balloon-dr b))))]\n        [(key=? ke \"p\")\n         (if (false? b)     ;could be nested cond\n             false\n             (make-balloon (balloon-r b)\n                           \"purple\"\n                           (balloon-dr b)))]\n        [else b]))",
+    "student_answer": "Not Found",
+    "instructor_answer": "Good question.  Couple parts to this answer.\nThe first version above has a real template problem.  We would say that the KeyEvent template is not intact in that function.  Instead of the KeyEvent template the function is actually based on the Balloon template.\nIn the second version the KeyEvent template is intact, which is good.  Key handlers should always be templated on KeyEvent.  To be honest, the second version could be better by following the reference rule. But we can't learn too many things in any one week, so we wrote it the way we did.  But the better version would be:\n;; SOLUTION\n(@template KeyEvent)\n(define (handle-key b ke)\n  (cond [(key=? ke \" \") (reverse-balloon b)]\n        [(key=? ke \"p\") (change-color b)]\n        [else b]))"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 950,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/950",
+    "title": "Pset 11 Q1",
+    "question": "When the question says \"all treasures reachable from treasure\", does that mean all the immediate reachable treasures from the given treasure or does it mean every treasure in the graph that the given treasure can reach.",
+    "student_answer": "The subs of the treasures, the subs of those treasures, on and on. Every treasure in the graph it can reach, just like how we have been doing it in class.",
+    "instructor_answer": "Not Found"
+}

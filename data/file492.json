@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 492,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/492",
+    "title": "Midterm 1- autograder",
+    "question": "Hi, \nI was just trying to redo the midterm problem, aren't they auto-graded so we can get back feedback from them instead of looking at the solutions?",
+    "student_answer": "yeah you go to gradescope and click on the individual questions to look at the autograder comments",
+    "instructor_answer": "We haven't typically allowed re-submissions to closed assignments, but now that the autograding reports are getting more useful we are getting more requests for that.  Let me take a look at what it would take to allow submissions to re-open after the deadline."
+}

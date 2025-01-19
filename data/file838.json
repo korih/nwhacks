@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 838,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/838",
+    "title": "Preserve Argument in Sequence?",
+    "question": "(define (sequence? lon0)\n  ;; acc is Natural\n  ;; invariant: the element of lon0 immediately before (first lon) \n  (local [(define (sequence? lon acc)\n    (cond [(empty? lon) true]\n          [else\n           (if (= (add1 acc) (first lon))         ;use/exploit\n                (sequence? (rest lon) (add1 acc)) ;preserve \n                false)]))]\n  (sequence? (rest lon0)(first lon0))))\nWould we be able to use (add1 acc) instead of (first lon) in the preserve argument? It passes in the autograder.",
+    "student_answer": "Not Found",
+    "instructor_answer": "You can technically do that since you verified that (add1 acc) and (first lon) are the same value, but the better way to preserve our accumulator is to pass on (first lon) since it supports what we wrote for our invariant \ud83d\ude0a"
+}

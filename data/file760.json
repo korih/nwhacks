@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 760,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/760",
+    "title": "pset 8 q4",
+    "question": "Could someone please explain the local count function? What exactly do the f and rnr represent and where do they come from?\n(define (count-short-names loc n)\n  (local [(define (short-name? nm)\n            (< (string-length nm) n))\n          (define (count f rnr)\n            (add1 rnr))]\n    (foldr count 0 (filter short-name? (map cat-name loc)))))",
+    "student_answer": "RNR represents the Result of the Natural Recursion. The way that I think of it is that the abstract foldr is a classic self reference function where the template is something along the lines of (... (first loc) (fn-for-loc (rest loc))) so inside an imaginary fold function template it'll look like (f (first loc) (fn-for-loc (rest loc))).\nin your case you're really defining this (f (first loc) (fn-for-loc (rest loc))) as (add1 rnr) which is adding 1 to the Result of the Natural Recurison",
+    "instructor_answer": "in addition, you do not have to use f or rnr as your parameters."
+}

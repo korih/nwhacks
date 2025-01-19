@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 831,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/831",
+    "title": "Question about Maze problem in lecture",
+    "question": "Sorry if this is a really silly question, but I was re-working the maze problem from lecture, and the data definition for Position has the following:\n(@htdd Position)\n\n(define-struct pos (x y))\n;; Position is (make-pos Natural Natural)\n;; interp. an x, y position in the maze.\n;;         0, 0 is upper left.\n;;         a position is only valid for a given maze if:\n;;            - (<= 0 x (sub1 <size>))\n;;            - (<= 0 y (sub1 <size>))  \n;;            - there is a true in the given cell\n;;\n(define P0 (make-pos 0 0)) ;upper left  in 4x4 maze\n(define P1 (make-pos 3 0)) ;upper right  \"  \"   \"\n(define P2 (make-pos 0 3)) ;lower left   \"  \"   \"\n(define P3 (make-pos 3 3)) ;lower right  \"  \"   \"\nFor the examples provided, shouldn't lower right, for example, be (make-pos 4 4)?\nOne of the maze examples provided is\n(define M4\n  (list O O O O O\n        O W W W O\n        O W O O O\n        O W O W W\n        W W O O O))\nIf the upper left is 0,0 wouldn't the bottom right be (make-pos 4 4)?\nI'm also curious what is meant by \"size\" in (<= 0 x (sub1 <size>)) and\n                                                                    (<= 0 y (sub1 <size>)) \nwhen describing what a valid position in a maze is.\nGreatly appreciate any help\nEdit: I just read it again and 4x4 maze seems to be the thing I missed here. Thanks to anyone who can confirm this, and sorry about this.",
+    "student_answer": "If I understand your question correctly, than I think that this might help, and can also explain the\n(\n<=\n0\nx\n(\nsub\n1\n<\nsize\n>\n)\n)\nand\n(\n<=\n0\ny\n(\nsub\n1\n<\nsize\n>\n)\n)\n. This is the board, or the list: \n(\n0\n,\n0\n)\n(\n1\n,\n0\n)\n(\n2\n,\n0\n)\n(\n3\n,\n0\n)\n(\n0\n,\n1\n)\n(\n1\n,\n1\n)\n(\n2\n,\n1\n)\n(\n3\n,\n1\n)\n(\n0\n,\n2\n)\n(\n1\n,\n2\n)\n(\n2\n,\n2\n)\n(\n3\n,\n2\n)\n(\n0\n,\n3\n)\n(\n1\n,\n3\n)\n(\n2\n,\n3\n)\n(\n3\n,\n3\n)",
+    "instructor_answer": "Not Found"
+}

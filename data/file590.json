@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 590,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/590",
+    "title": "When to use andmap vs filter",
+    "question": "When would you know to use andmap2 and when would you know to use filter2. Would you get questions wrong if we use filter2 in cases we need andmap2 and vice versa?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Consider the signature of andmap2 and the signature of filter2.\nAndmap2 produces a Boolean value that checks if all the elements match the given predicate.\nFilter2 produces a list, where all elements in the list match the given predicate. \nBoth of these abstract functions produce very different result types, so I would say think carefully about the signature of the given function you're producing. You'll get better at identifying which abstract functions to use with practice \ud83d\ude0a"
+}

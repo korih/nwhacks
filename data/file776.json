@@ -1,0 +1,11 @@
+{
+    "author": "Thiago Amin",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 776,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/776",
+    "title": "Encapsulate-total-area template",
+    "question": "For the encapsulate-total-area problem (under Locals Problem Blank), why wouldn't the template tag be:\n(@template Dir ListOfDir ListOfImage Image encapsulated)\ninstead of \n(@template Dir ListOfDir ListOfImage encapsulated)\nsince we encapsulated a function (image-area) that used (@template Image) tag. Is it because image-area is a helper function?",
+    "student_answer": "Not Found",
+    "instructor_answer": "@6   please ask the course community to answer a question put right in front of us.\nDon't ask us to first go find the question to get it in front of us and then answer the question."
+}

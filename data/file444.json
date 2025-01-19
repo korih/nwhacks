@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 444,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/444",
+    "title": "Problem Bank Questions",
+    "question": "Why aren't the problem bank questions being properly graded by auto grader? It just gives 100% to everything I submit, even if it is obviously the wrong answer.",
+    "student_answer": "Not Found",
+    "instructor_answer": "try to treat the problem bank questions as exam questions for now. Use the skills you've learned to make sure you understand why you did things the way you did on the file.\nAutograder is a great way to learn, but you also need to be able to explain and defend your code to yourself or to others"
+}

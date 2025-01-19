@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 379,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/379",
+    "title": "Check syntax vs Runinng",
+    "question": "Hello.\n\nI was wondering if running a program successfully without any error would guarantee that we also pass the syntax check? Thank you!",
+    "student_answer": "Not Found",
+    "instructor_answer": "Yes.  Check syntax is the first thing DrRacket does as part of running a program.  So if it runs it also checks syntax.\nIf it runs WITH NO \"RED ERRORS\" - error messages in red - then the autograder should be able to do at least partial grading."
+}

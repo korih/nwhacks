@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 279,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/279",
+    "title": "signature?",
+    "question": "hi i was wondering if a signature can ever be: (@signature Image Image -> Image Image)\nby this is mean if there was a hypothetical function where it consumes two images and then puts the taller one above the less-tall one. in this case would the stage be what I wrote above or just (@sinature Image Image-> Image) Thanks!",
+    "student_answer": "In your example, if it consumes two images and produces the taller one above the shorter one, the result/output would be one image because using (above i1 i2 i3 \u2026) will just produce one image with the individual images like i1 or i2 arranged in it. So your signature would just be (@signature Image Image -> Image) in this case. Hope this helped!",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 309,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/309",
+    "title": "DrRacket: Interactions disabled; out of memory",
+    "question": "I was peacefully doing my lab but then DrRacket crashed so I peacefully waited for it to close before rebooting it again. This time when I tried to run my code, it gave me this message:\n\"The evaluation thread is no longer running, so no evaluation can take place until the next execution.\nThe program ran out of memory.\"\nWhat does this mean? Peacefully asking, thanks",
+    "student_answer": "Not Found",
+    "instructor_answer": "This generally means that your program is infinitely looping. As you learn about the natural recursion, you'll learn about the base case that prevents this. Look for a portion of your program that makes a function call of the same function inside of its definition. If you're still in your lab, ask your TA right now for help."
+}

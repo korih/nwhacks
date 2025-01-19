@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 71,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/71",
+    "title": "Semi colon Shortcut",
+    "question": "Is there a short cut wherein you can highlight a block of code (multiple lines) and transform them all into comments i.e. \"semicolon'ize\" them?",
+    "student_answer": "It should be under \"Racket\" on the taskbar and you can scroll down to \"Comment out with semicolons\"\nctrl + alt + ; on windows (idk what the equivalent is on mac sorry mac users)\nyou can find more keybinds in the Edit tab of drracket",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 638,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/638",
+    "title": "pset 7 Q1",
+    "question": "I am almost getting my check-expects right, but for some, I get this error:\n\"rest: expects a non-empty list; given: empty\"\nI have tried different solutions for this problem but each failed. I am stuck on this one and don't know how to approach it differently. \nCan someone please help me?",
+    "student_answer": "It might be a good idea to comment out every single test except for the one that's failing and to run the stepper on the check-expect to see what's going on.",
+    "instructor_answer": "Not Found"
+}

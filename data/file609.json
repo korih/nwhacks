@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 609,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/609",
+    "title": "Sierpinski triangle",
+    "question": "Hi, in the code for fractals-starter there is the following signature:\n(@htdf stri)\n(@signature Number -> Image)\n;; produce a Sierpinski Triangle of the given size\nShouldn't Number be Natural in this case? I thought that triangle can only take positive numbers as an argument for side length. Thanks!",
+    "student_answer": "Not Found",
+    "instructor_answer": "In this problem you are designing a function to produce a Sierpinski triangle.  You aren't duplicating the signature for the triangle primitive."
+}

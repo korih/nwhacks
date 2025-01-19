@@ -1,0 +1,11 @@
+{
+    "author": "Jessica",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 734,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/734",
+    "title": "mt-p3-2020",
+    "question": "Hi I\u2019m looking through the stepper and I was wondering why a top level function would ever turn into lambda in the next step. \n\nFrom my understanding, we only used lambda to simplify the code. In the function body for this question. \u201csteps\u201d gets replaced with a different name: lambda but runs the same definition as steps after. ",
+    "student_answer": "Not Found",
+    "instructor_answer": "This is one of the reasons the first language is BSL.  As a language gets more complex, lot's of subtle things start to happen that can be confusing.\nFor example, once we have lambda, a function definition like this:\n(define (foo x y) (- y x))\nis actually an abbreviation for:\n(define foo (lambda (x y) (- y x)))\nAnd for the stepper to give you a correct view of the evaluation it has to use the correct rules of the language.  So once you turn on intermediate student with lambda you start seeing lambdas pop up in the stepper because that's how the functions are actually defined.\nIn full Racket, which we are NOT using, it is much more complicated still."
+}

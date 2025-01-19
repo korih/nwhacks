@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 593,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/593",
+    "title": "Problem2",
+    "question": "DOes this also work?\n;;given p and lox produce (list (p x0) (p x1)...)",
+    "student_answer": "Not Found",
+    "instructor_answer": "This purpose implies that filter2 keeps all the elements in the list, and predicate transforms them somehow. So it would be incorrect, as the elements might get removed from the list depending on if they match the given predicate.\nThis is a great purpose for the map abstract function though!"
+}

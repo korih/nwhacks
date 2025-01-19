@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 621,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/621",
+    "title": "copy test (lecture 03.03 Module 8)",
+    "question": "Hi, I am having a hard time wrapping my head around what is Copy test.\nsaid fold function is taking the function apart, so copy test is putting them back in the same way.  I am still not sure what is the meaning of it.\nCould anyone elaborate more about it?",
+    "student_answer": "A copy test for the fold-course function consumes a course and returns the exact same course. There, it would consume C110 and return C110.",
+    "instructor_answer": "Not Found"
+}

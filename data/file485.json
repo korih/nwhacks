@@ -1,0 +1,11 @@
+{
+    "author": "Ross Tomita",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 485,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/485",
+    "title": "Problem logging into edx",
+    "question": "I've been successfully able to use Edx on my computer, however I do like the option of being able to view the practice videos on another computer (using the ones at IKB). My problem is that I can't login to my edx account, as I get the error that my username or password is incorrect. I have tried:\n\n- At least 10 times to make sure the password and username exactly match\n- Been successfully able to login on my personal computer\n- Logged out of edx on my computer before logging into a library computer\n- resetting my password\n\nIf anyone knows how I can resolve this access issue that would be greatly appreciated!\n\nUPDATE: Solved (kind of): For some reason, the only way I am able to login on the library computers is by first logging into my gmail account, and then clicking on the link that lets me sign in as I would for a password reset. When I'm directed to that login screen I have no problems logging in. Since this works, I'd consider this issue solved, just a little puzzled by this strange pathway",
+    "student_answer": "Have you tried using another browser?",
+    "instructor_answer": "Not Found"
+}

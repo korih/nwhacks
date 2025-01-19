@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 432,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/432",
+    "title": "pset 4 error with template tag for next-ball function",
+    "question": "If we're expected to change the signature for the next-ball function to allow for any number of balls in the program, how is that the original template tag for next-ball can't be changed?? (I know it says we're not supposed to change ANYTHING about next-ball, but when I handed it in to autograder the first time I lost marks on the signature & template tag)\n    0%  of   100%  x Stopped grading because part of starter file was changed or reordered.  Can't find (@template Number) in its proper sequence in the file.\nI'm really confused, I actually got the program running properly, but it's just autograder issues that I need to fix...I would greatly appreciate any hints! ",
+    "student_answer": "don't change next-ball at all lol simple as that\nthere's a way to have an arbitrary number of balls without changing next-ball\nif you can't change next-ball, what could you do instead?",
+    "instructor_answer": "Not Found"
+}

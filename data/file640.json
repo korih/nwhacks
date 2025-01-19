@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 640,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/640",
+    "title": "m08-abstract-fold-complications - '\"don't have the course\"?",
+    "question": "Hi, I was working through the lecture starter and am a little bit confused about the first problem, here is the question and my code:\n;; Complete the design of the following function.\n;;\n;; NOTE: you are going to run into a problem doing it with the use-abstract-fn\n;;       try to do that anyways so we can talk about the problem\n;;\n(@htdf courses-w-credits)\n(@signature Course Natural -> (listof Course))\n;; produce list of courses in tree that have >= credits\n(check-expect (courses-w-credits C100 4) empty)\n(check-expect (courses-w-credits C100 3) (list C100))\n(check-expect (courses-w-credits C100 2) (list C100))\n(check-expect (courses-w-credits C110 3)\n              (list C110 C203 C210 C213 C313 C317 C221 C304 C313 C314 C317 C320\n                    C322 C310 C319 C311 C312 C302 C303))\n\n(@template use-abstract-fn)\n\n(define (courses-w-credits c n)\n  (local [(define (c1 num cr rmr)\n          (if (>= cr n)\n              (cons c (c1 rmr))\n              rmr))]\n(fold-course c1 append empty c)))\nAfter looking at the solution I noticed that it says:\n#|\n;; we can't do this with fold-course! \n\n(@template use-abstract-fn)\n\n(define (courses-w-credits c0 n)\n  (local [(define (c1 number credits rmr)\n            (if (>= credits n)\n                (cons <<course>> rmr)    ;<<<don't have the course to put here!\n                rmr))\n          (define c2 append)\n          (define b1 empty)]\n    (fold-course c1 c2 b1 c0)))\n\n;; Instead we have templates with the original encapsulated type templates\n|#\nCould someone explain what is meant by \"don't have the course to put here!\", and why we have to use templates with the original encapsulated type? I believe this was mentioned in the lecture but if anyone could please reiterate, it would be much appreciated. thanks in advance!",
+    "student_answer": "Not Found",
+    "instructor_answer": "The best way to understand This is to try to solve the problem with the fold function and see what happens. "
+}

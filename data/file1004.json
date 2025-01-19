@@ -1,0 +1,11 @@
+{
+    "author": "Angad Dhillon",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1004,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1004",
+    "title": "Solutions different from answer key",
+    "question": "I noticed that for a lot of problems, my code was very different from the answer key in regards to types of accumulators used, number of accumulators used, and for one question the answer key seemed to treat it as both a search and accumulator problem but I treated it as just a accumulator problem... and despite my different code all the tests pass and it works fine, so I was wondering if we will get 100 on exam questions if our code is different from answer key in these regards? (for questions that don't specifically tell you which rules to use).",
+    "student_answer": "Not Found",
+    "instructor_answer": "I suggest that one at a time you make a post with the \"official solution\", your solution, and your explanation of the differences, and we can help you understand if the differences matter."
+}

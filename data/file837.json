@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 837,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/837",
+    "title": "Problem Bank question",
+    "question": "Hello, I am working on the programming competition starter file in the problem bank and I am wondering if there is a mistake here? In the define struct part of the data definition, \"points-to-win\" comes before \"time-limit\". However in the template for that data definition, \"points-to-win\" comes second. Will this make a difference in the examples? Thanks!\n(@htdd Competition)\n(define-struct competition (points-to-win time-limit problems))\n;; Competition is (make-comp Natural Natural (listof Problem)\n;; interp. a programming competition with year of the competition,\n;;         the number of points required to win,\n;;         the total time limit in minutes competitors have to solve problems,\n;;         and a list of problems competitors can choose from to solve\n;;         in the competition.\n(define C1 (make-competition 15 24 (list P1 P2 P3)))\n(define C2 (make-competition 23 20 (list P1 P2 P3 P4 P9)))\n(define C3 (make-competition 24 45 (list P1 P4 P5 P6 P8 P9)))\n(define C4 (make-competition 15 50 (list P2 P6 P7 P8)))\n(define (fn-for-competition c)\n  (... (competition-time-limit c)\n       (competition-points-to-win c)\n       (fn-for-lop (competition-problems c))))",
+    "student_answer": "Not Found",
+    "instructor_answer": "The define-struct and type comment define the order of the constructor, which determines the data examples.\nSo this inconsistency won't have any effect.  I'll fix it though, thanks for letting us know."
+}

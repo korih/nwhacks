@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1041,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1041",
+    "title": "2019 W2 P1",
+    "question": "Hey, I was wondering if we could use an accumulator for this problem and the autograder wouldn't be deducting marks for it? This is my code. The solution used the general try-catch template. \n(define (older-than h old-age)\n  (local [(define (fn-for-hobbit h t-wl rsf)\n            (if  (> (hob-age h) old-age)\n                 (fn-for-loh (append (hob-sons h)\n                                     t-wl)\n                             (append (list h)\n                                     rsf))\n                 (fn-for-loh (append (hob-sons h)\n                                     t-wl)\n                             rsf)))\n          \n          (define (fn-for-loh t-wl rsf)\n            (cond [(empty? t-wl) (reverse rsf)]\n                  [else\n                   (fn-for-hobbit (first t-wl)\n                                  (rest t-wl)\n                                  rsf)]))]\n\n    (fn-for-hobbit h empty empty)))",
+    "student_answer": "I believe, as long as they do not specify within the question, you are free to do anything.",
+    "instructor_answer": "Not Found"
+}

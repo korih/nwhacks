@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 125,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/125",
+    "title": "Change of computer during term",
+    "question": "Sorry if this is a vague question, but I was wondering if there are any conflicts we should know about before installing DrRacket along with the SPDhandin plugin on 2 computers concurrently since we may go in person eventually this term and some of us will switch to a different device eg. laptop. The syllabus mentions to not do major operating system \"changes\" and maybe this is a bifurcation of that.\nThanks",
+    "student_answer": "Not Found",
+    "instructor_answer": "The line in the syllabus means something more along the lines of \u201cIf you have a working setup, don\u2019t risk breaking it by updating to Windows 11 or Racket 8.4.\u201d If anything, having working setups on two computers (provided both have up-to-date copies of your assignments) is safer, since that way, you still have a working Racket setup even if one fails."
+}

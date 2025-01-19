@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 538,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/538",
+    "title": "lectures/m07-regions-refactoring",
+    "question": "In problem 1, I basically copy and pasted the answer, changed the signature, check-expects, and @htdf. I got an error that says the following:\nlocal: this function is not defined\nI think the brackets are all correct. Does anyone has any idea why it happened?\n(@htdf all-labels)\n(@signature Region -> ListOfString)\n\n;; produce labels of all regions in region (including root)\n(check-expect (all-labels S1) (list \"one\"))\n(check-expect (all-labels G4) (list \"one\" \"two\" \"three\" \"four\" \"five\" \"six\"))\n\n(@template Region ListOfRegion encapsulated)\n\n(define (all-labels r)\n  (local [(define (all-labels--region r)\n            (cond [(single? r) (list (single-label r))]\n                  [else        (all-labels--lor (group-subs r))]))\n\n\n          (define (all-labels--lor lor)\n            (cond [(empty? lor) empty]\n                  [else\n                   (append (all-labels--region (first lor))\n                           (all-labels--lor (rest lor)))]))]\n\n    (all-labels--region r)))",
+    "student_answer": "I think its because you need to update your language in bottom right corner to intermediate student.",
+    "instructor_answer": "Not Found"
+}

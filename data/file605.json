@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 605,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/605",
+    "title": "m08-abstract-fold-definition-starter.rkt issue with autograder",
+    "question": "When I use local to define the c1 function for the count test, it keeps returning an error: \n0%  of  16.7%  x      Test validity (matches problem statement): error evaluating test operands or expected results: eval:2:0: function call: \nexpected a function after the open parenthesis, but found a part\n  at: (define (c1 num cr rmr) (add1 rmr))\n  in: (#%app (define (c1 num cr rmr) (add1 rmr)) (define (c2 rmr rnr) (+ rmr rnr)) (define b 0)).\nWhat's even stranger is that the autograder passed when I defined c1 at top level instead of using local. ",
+    "student_answer": "Not Found",
+    "instructor_answer": "I'm working on this very strange problem now."
+}

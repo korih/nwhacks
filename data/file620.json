@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 620,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/620",
+    "title": "dr. racket error",
+    "question": "for some reason, dr racket is taking a very long time to run through my code. i submitted it to the autograder and the problem set was able to be graded, so i don't think its a problem with the code. any troubleshooting advice would be greatly appreciated! ",
+    "student_answer": "Not Found",
+    "instructor_answer": "My first suggestion is to try commenting out 1/2 of the tests and then run it. If you still have the problem then comment out 1/2 of the remaining tests, if the problem is gone uncomment 1/2 the tests. \n\nProceeding that way you should be able to get a single test with the problem fairly quickly. \n\nThen you can use the stepper to see what is going on. "
+}

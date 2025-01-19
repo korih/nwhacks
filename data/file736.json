@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 736,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/736",
+    "title": "2020w2-mt2 Q6",
+    "question": "I don't really understand how ormap works in this situation in conjunction to filter. Doesn't ormap produces a list of booleans? How does it go from a list of booleans to the elements need for the list?",
+    "student_answer": "ormap produces a boolean, not a list of booleans - if there are any items that answer the condition in the list. \nIn this case, the ormap compares each item in list1 to the items in list2 and produces true if there are any identical items. the (not) makes it false, and the filter filters it.\nThe (lambda (i1) (not.....) helps to filter what makes the ormap fn true (the common elements). \n(it was hard for me to understand the use of it, because a list of boolean would make more sense in this case - so the filter can filter it directly. I hope that this is not wrong or misleading.",
+    "instructor_answer": "Not Found"
+}

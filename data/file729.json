@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 729,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/729",
+    "title": "2021 mt2-p6 lifted definition",
+    "question": "Hi, I have a question about writing lifted definition below\n\n;; PUT THE LIFTED DEFINITIONS BELOW: (JUST THE LIFTED DEFINITIONS)\n(define (foo n lox)\n  (cond [(or (zero? n) (empty? lox)) empty]    \n        [else\n         (local [(define (fn x)\n                   (build-list n\n                               (lambda (y)\n                                 (+ y x (first lox)))))]\n           (append (map fn (rest lox))\n                   (foo (sub1 n)\n                        (rest lox))))]))\n\n\n(foo 3 (list 4 6 0 1))\n\nin this case \n(define (fn_0 x) ~ would be enough answer for the question ?\nor Do I have to add  (append (map fn_0 ~... < (references)  as well?\n(define (fn_0 x) (build-list 3 (lambda (y) (+ y x (first (list 4 6 0 1))))))\n(define (fn_1 x) (build-list 2 (lambda (y) (+ y x (first (list 6 0 1))))))\n(define (fn_2 x) (build-list 1 (lambda (y) (+ y x (first (list 0 1))))))\nThank you !",
+    "student_answer": "Not Found",
+    "instructor_answer": "it asks for the lifted definitions, not just the lifted definition headers.  So you need to provide the entire lifted definition."
+}

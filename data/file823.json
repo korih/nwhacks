@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 823,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/823",
+    "title": "Regrade: MT2 Problem 2",
+    "question": "I was wondering if this is worth submitting a regrade as I know it is autograded or if I'm just wrong.\nHere is what the autograder says; both of my MR are present but it marked it as incorrect. \nHere is my fn-for-employee template of Problem 2:",
+    "student_answer": "- you must NOT rename any of the local functions inside the template\nUnfortunately, I wouldn't think so, since the instructions told us not to change the names of the local functions (which is why the autograder failed to pick the changed function names up).",
+    "instructor_answer": "Not Found"
+}

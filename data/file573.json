@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 573,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/573",
+    "title": "Function Composition Part 2",
+    "question": "Hello,\nAt around 9:45 of the function composition part 2 video, it's said that when we are creating a function composition function, we don't have to exhaustively test each of the individual functions, and so we don't need a base case test for our composed function. I'm not 100% sure why we wouldn't include a base case test, shouldn't we always have it as our first test?",
+    "student_answer": "Not Found",
+    "instructor_answer": "If the template is fn-composition, then the tests for that function need to test that the fn composition itself is correct.  You will thoroughly test the two (three...) functions being composed each in their own tests."
+}

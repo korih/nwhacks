@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 330,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/330",
+    "title": "Question about movie starter solution",
+    "question": ";; Movie Movie -> String\n;; determine which of two given movies was released most recently\n(check-expect (chronological-movie M1 M2) \"Avatar\")\n(check-expect (chronological-movie M3 M2) \"The Avengers\")\n\n; (define (chronological-movie m1 m2) \"\")   ; stub\n\n#;\n(define (fn-for-movie m1 m2)\n  (... (movie-title m1)\n       (movie-budget m1)\n       (movie-year m1)\n       (movie-title m2)\n       (movie-budget m2)\n       (movie-year m2)))\n\n(define (chronological-movie m1 m2)\n  (if (> (movie-year m1) (movie-year m2))\n      (movie-title m1)\n      (movie-title m2)))\nSomeone asked this question before but was not answered. I am quite confused about the additional commented-out template. Is it because we have 2 variables now? Another question is about the @htdf, @signature, and @template tags, which the solution did not include. Are the sample solutions the older version and are we supposed to include the necessary tags? ",
+    "student_answer": "Always include the newer version with necessary tags in labs, problem sets, exams, etc.\nI believe the additional commented-out template is just an expanded version to \"show work\". Helpful in solutions when you don't get to watch a video with a voiceover of someone explaining their logic over it.",
+    "instructor_answer": "Not Found"
+}

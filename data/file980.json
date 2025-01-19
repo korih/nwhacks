@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 980,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/980",
+    "title": "2019 W1F original starter problem 5/6",
+    "question": "Hello, \nI'm having trouble understanding the tree for this question. I understand what each child represents but I am confused on how \"cup\" and \"as\" are produced from this tree. I thought that only the middle child was the next character to the word, so how is it that \"s\" in \"as\" and \"p\" in \"cup\" are included. Also, should \"ats\" and \"cutp\" not be produced? Why is the \"t\" disregarded? Thank you in advance!",
+    "student_answer": "Not Found",
+    "instructor_answer": "This data type can certainly take some time to click, so don't worry about it! Think of it this way; like you said, in your traversal you only add a letter when you go to the middle child. So, for instance, to get \"cup\":\nyou go down from c and add \"c\"; your word so far is \"c\", and you've ended up at u\nyou go down from u and add \"u\"; your word so far is \"cu\", and you've ended up at t\nyou go left from t and add nothing; your word so far is \"cu\", and you've ended up at p\nyou go down from p and add \"p\"; your word so far is \"cup\", and you're actually at the bottom, so you're done\nOnly by taking the middle child do you get a new letter, but you're still allowed to go to the left or the right child! It's just that doing so won't change your result so far. I hope this helps! I do have an alternate way of thinking about this that I like, but it may not work as well for others as it does for me, so I'll add it as a followup.\nSIDE NOTE: While this isn't a problem for which copying and pasting is likely to be very necessary (since it's more based on data interpretation), please do remember to copy any code into your question rather than attaching a screenshot as per @6"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 327,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/327",
+    "title": "Lecture question",
+    "question": "Hi, this is the program we did in lecture, the compound data for the spider, I'm confused why we need to do CTR-X twice? I know the second one, like CTR-X 21, but I don't know why we need to add CTR-X 0, could someone please explain what does that represent? Thanks!",
+    "student_answer": "@6\nbut that's because of how the add-line function works. It's drawing a line from the top center of the screen to the ctr-x at the spider's location. ",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 819,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/819",
+    "title": "PSET 9 question- TAs at the same time?",
+    "question": "Hi!\nI saw that we're allowed to ask questions about the PSET9, and I'm a little confused about one of the points for my domain analysis. \nI see the note that a TA can work more than one slot, and I'm wondering (as an example) if we have a list of 5 slots in a tree, and perhaps 3 TAs and only two of those TAs are available at the time \"B\", couldn't the two available TAs fill those 5 spots themselves, as they would both be at or under their maximum number of spots? Or would this not be allowed because they can't fill multiple slots for a singular lab? \nFrom the given Data definition, I don't see anything that specifically contradicts this, but I know that in real life this wouldn't work. ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Many of the questions people have about pset 9 can be answered by asking yourself - what if it happened to me?\nIn this case, how you would feel if you got to lab and there was only one TA who said they were working all 3 slots?"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 998,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/998",
+    "title": "is this tail recursive?",
+    "question": "(define (in-alphabetical-order? los)\n  (local [(define (fn-for-los los prev)\n            (cond [(empty? los) (string? prev)]\n                  [else\n                   (fn-for-los (rest los) (if (string-ci<=? prev\n                                                            (first los))\n                                              (first los)\n                                              false))]))]\n    (if (empty? los)\n        true\n        (fn-for-los (rest los) (first los)))))\nI kind of overcomplicated this comparing it to the solution, but to me this still is tail-recursive so I wanted to verify?\nThis comes from problem set 10 btw",
+    "student_answer": "Not Found",
+    "instructor_answer": "Two questions:\n- are there supposed to be accumulator types and invariants in there?\n- where are all the recursive calls? are they in tail position?"
+}

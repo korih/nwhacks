@@ -1,0 +1,11 @@
+{
+    "author": "Tighe McAsey",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 900,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/900",
+    "title": "Autograder Tail-recursion",
+    "question": "Does the autograder give feedback on whether or not a function is tail recursive?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not yet. So you will have to make sure your solution is tail recursive before submitting it."
+}

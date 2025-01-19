@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 516,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/516",
+    "title": "Editing templates for functions",
+    "question": "If we had the following data-driven template:\n(define (fn-for-water g)\n  (... (fn-for-lob (water-balloons g))\n       (water-type g)))\nAre we allowed to edit it as such:\n(define (fn-for-water g)\n  (make-water (fn-for-lob (water-balloons g) (water-type g))\n             (water-type g)))\nThat is, can we call some fn-for-lob that takes 2 selectors of our data type Water as its arguments, without breaking any of our template rules? Thanks!",
+    "student_answer": "As long as (fn-for-lob (water-balloons g) (water-type g)) produces the same data type as (water-balloons g), you should be able to call it without any problems!",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 650,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/650",
+    "title": "Termination Arguments: Reduction Step",
+    "question": "In this review of the termination arguments video, it seems to me that the reduction step would be (scarpet (/ s 3)), because without the function call, (/ s 3) itself doesn't factor into the recursion.\nI'm honestly not sure if the distinction matters, but in case it does, here's my chance to learn about it.",
+    "student_answer": "You're correct in saying that  (scarpet (/ s 3)) would be the recursion. What the reduction step is is simply how does the parameter ('s') change with each recursion.",
+    "instructor_answer": "By reduction step we mean how is the data reduced in the recursive call. So (scarpet (/ s 3)) is the recursive call and (/ s 3) is the reduction step. \n\nIt\u2019s called reduction because it is supposed to reduce the complexity of the data by getting it one step closer to the trivial case. "
+}

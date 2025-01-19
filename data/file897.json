@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 897,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/897",
+    "title": "Worklist/tandem worklist problems",
+    "question": "Hello,\nI am currently struggling on some of the worklist and tandem worklist problems, and was wondering if I am on the right track...\nFrom my current understanding, you have a \"worklist\" problem when you want to write a tail-recursive function but the function doesn't produce a path, and you have a \"tandem worklist\" problem when you want to write a tail-recursive function and the function produces a path of some sort.\nFrom examples in lecture, I remember first coding the function with the regular encapsulated mutually recursive template, and THEN modified the code so that it was tail recursive.\nSo my overall question is, in general, would it be a good idea to first try writing the function in the non-tail recursive format (using encapsulated mutual recursion template), and then modify the code? Or is it better to completely start from scratch.\nThanks!",
+    "student_answer": "\u2800",
+    "instructor_answer": "You need to use a worklist when you want to do a tail-recursive traversal of a tree.  Doesn't matter what you want to produce.\nYou need to use tandem worklists when you want to do a tail-recursive traversal of a tree, AND you want to accumulate path-in-data dependent information.\nYou need to use an rsf in a tail recursive tree traversal when the result you want to produce accumulates across paths in the tree."
+}

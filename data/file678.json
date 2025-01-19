@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 678,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/678",
+    "title": "Why don't we use use-abstract-fn for this template tag?",
+    "question": ";; (@signature Postion -> (listof Position)\n          ;; produce a list of up to tow valid positons (right/down)\n          ;; (@template fn-composition)\n\n          (define (valid-next-positions p)\n            (filter ... (all-next-positions p)))\nUsing built-in abstract fn is not regarded for using use-abstract-fn template tag?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Good question!\nWe don't include use-abstract-fn because we're describing the templating for the main functions of our solver, not every single template that's included in the helpers (The abstract functions, in this case, don't play a major part in the structure of our function design). Someday there'll be something to account for our helper function templates- but today is not that day :')\nOops! I was informed that I misread this question, which I totally did! I thought you were talking about the template tag for the entire function, sorry!\nYes, this commented out template tag WOULD include abstract-fn, since this template tag refers to this helper function specifically \ud83d\ude0a"
+}

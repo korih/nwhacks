@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 660,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/660",
+    "title": "height binary search tree",
+    "question": "Hi, I was just doing the binary search tree exercise about determining the height of a tree. \nI was wondering how the max function works. I tried to search the helpdesk, but couldn't find much. I thought max is used for numbers. \n(@htdf height)\n(@signature BST -> Natural)\n;; produce max height of BST \n(check-expect (height BST0) 0)\n(check-expect (height BST1) 1)\n(check-expect (height BST3) 3)\n(check-expect (height BST42) 3)\n(check-expect (height BST10) 4)\n\n(@template BST)\n\n(define (height bst)\n  (cond [(false? bst) 0]\n        [else \n         (+ 1\n            (max (height (node-l bst))\n                 (height (node-r bst))))]))",
+    "student_answer": "Not Found",
+    "instructor_answer": "The helpdesk has the documentation for max.  Have you tried going into the interactions pane and typing expressions like these two:\n(max 2 3)\n\n\n(max (height BST1) (height BST2))"
+}

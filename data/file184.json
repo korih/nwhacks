@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 184,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/184",
+    "title": "Check-Expect Errors",
+    "question": "Hi,\nI'm working on an HtDF question and I keep getting this error: \ncheck-expect: expects only 2 arguments, but found 6\nDoes anyone have any suggestions on how I can fix this? I don't exactly understand what it means. ",
+    "student_answer": "It's hard to give help or hints without seeing the code you're working on.\nBut from looking at the check-expect documentation: it seems likely that you have a missing parenthesis somewhere, so Racket thinks that the check-expect expression is much longer than it is.",
+    "instructor_answer": "Not Found"
+}

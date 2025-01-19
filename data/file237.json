@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 237,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/237",
+    "title": "Are we allowed to use any procedure as long as it is in the DrRacket Help Database?",
+    "question": "hi, during my second lab I used the function string-suffix?, which was a command i found on this page https://docs.racket-lang.org/reference/strings.html. during my breakout room with my TA, he wasn't sure if I was allowed to utilize this function since it wasn't something that he covered when he took the course, so I was just wondering if this was allowed. thank you so much!",
+    "student_answer": "Not Found",
+    "instructor_answer": "The file about is not what you should be referencing.  That is full Racket which is both a larger and in important ways different language.  I suggest you google for\n\"racket beginning student XXX\"\nwhere XXX is what you are looking for."
+}

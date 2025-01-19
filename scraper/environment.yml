@@ -1,0 +1,17 @@
+name: piazza 
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-forge::fastapi
+  - conda-forge::uvicorn
+  - conda-forge::pydantic
+  - conda-forge::libsqlite
+  - conda-forge::requests
+  - conda-forge::beautifulsoup4
+  - pip
+  - pip:
+    - openai
+    - qdrant-client
+    - fastembed
+

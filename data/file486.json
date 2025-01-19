@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 486,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/486",
+    "title": "Ridiculous Marking",
+    "question": "I got 40 points deducted for having a purpose more than one line long. I thought the markers would appreciate it if I showed my understanding of the question. This is absurd given that I received at least 90% on each of the problems. Now I have a 60/100. This makes little sense to me. If any of the teachers see this, please explain this phenomenon.\nI really like this course and programming in general. I don't think such pedantry in the course will help anyone. How are such harsh penalties supposed to motivate students? I will submit a regrade request, but I would still encourage the markers to reconsider how they mark. ",
+    "student_answer": "It's worth noting that\n\u2212\n60\n%\non\nP\n4\nstyle translates to\n\u2212\n6\n%\non\nMT\n1\nas a whole.",
+    "instructor_answer": "The student's answer is probably sufficient, but because you specifically asked for a staff response...\n@477 explains that each question score is a percentage score for that question.  We marked style rules on a single problem only, and that problem was worth 10%.  So 60% of that problem is 6 points overall, on par with all the other HtDF items graded in other parts of the exam.\nWe explained in lecture that purpose is restricted to one line, which is also what the design recipes page says.\nIn terms of regrade requests, when they are opened, they only apply in cases where you notice that a submission was incorrectly marked according to the rubric.  In this case the rubric item says \"purpose is 1 line long, does more than repeats signature, mentions adding funds and limit\".  So it sounds like it was correctly graded."
+}

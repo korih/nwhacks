@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 301,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/301",
+    "title": "metatags",
+    "question": "Why do we use these @ symbols such as\n(@signature Image -> Image) in order to write signature, etc. in the problem sets and labs, or the auto grader marks them worming, but in the pre recorded lectures, I've seen instructors many times using:\n;; Image -> Image for the signature and not using any tags yet the code seems to work? Which method should we follow?",
+    "student_answer": "Not Found",
+    "instructor_answer": ";; Image -> Image (i.e. not using tags) was the old method.\nUse the tags. It\u2019s what\u2019s provided by (require spd/tags) and is used by the autograder.\nThe code without the tags will work (i.e. will run) but will not work with the autograder."
+}

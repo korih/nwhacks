@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 106,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/106",
+    "title": "Not expression",
+    "question": "Can someone please help me understand not expressions? I have read through the explanation in the BSL handbook and tried googling but I am having trouble wrapping my head around it. If anyone could word it differently than in the BSL handbook that would be greatly appreciated thank you!!",
+    "student_answer": "Are you just looking at this explanation? \n\nIf so, there are basically only two situations with this:\n\n(not true)\nreturns false.\n\n(not false)\nreturns true.",
+    "instructor_answer": "Not Found"
+}

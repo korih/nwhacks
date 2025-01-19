@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1049,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1049",
+    "title": "PSET-10 Question 2",
+    "question": "Hello,\nI was wondering if the following solution to this problem was tail recursive? It differ from the answer key, but it looks like it would still be tail recursive, as the function is recursed without any surrounding parameters (ie. it looks like all of the recursive calls are in tail position.)\n(@problem 2)\n;;\n;; Complete the design of the following function.\n;;\n;; Your solution MUST BE TAIL RECURSIVE.\n;;\n\n(@htdf list-range)\n(@signature (listof Integer) -> Natural)\n;; produce the difference between the max and min integer in the list\n;; CONSTRAINT: loi0 has at least one element\n(check-expect (list-range (list 100)) 0)\n(check-expect (list-range (list 2 -5 -10 50 80)) 90)\n(check-expect (list-range (list 5000 -5 -100 50 0)) 5100)\n(check-expect (list-range (list 3 8 1 2 9 4 2 3 -5)) 14)\n(check-expect (list-range (list -5000 3 2 2 4 5000 4 2 3)) 10000)\n(check-expect (list-range (list 400 500 500 400)) 100)\n\n(@template (listof Integer) accumulator)\n \n(define (list-range loi0)\n  (local [(define (list-range loi min max)\n            (cond [(empty? loi) (- max min)]\n                  [(> (first loi) max) (list-range (rest loi) min (first loi))]\n                  [(< (first loi) min) (list-range (rest loi) (first loi) max)]\n                  [else\n                   (list-range (rest loi) min max)]))]\n    (list-range (rest loi0) (first loi0) (first loi0))))",
+    "student_answer": "Trust your understanding! None of the recursive calls have operations done to them and it looks tail recursive to me.",
+    "instructor_answer": "Not Found"
+}

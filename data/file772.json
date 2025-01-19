@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 772,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/772",
+    "title": "Released Midterm PT6",
+    "question": "Hello, I'm having difficulty understanding this question where it asks the following:\n(define (foo n lox)\n  (cond [(or (zero? n) (empty? lox)) empty]    \n        [else\n         (local [(define (fn x)\n                   (build-list n\n                               (lambda (n)\n                                 (+ n x (first lox)))))]\n           (append (map fn (rest lox))\n                   (foo (sub1 n)\n                        (rest lox))))]))\n\n#|\nNow consider the following call to that function.\n|#\n\n(foo 3 (list 4 6 0 1))\n\nDuring the evaluation of (foo 3 (list 4 6 0 1)) some number of local\ndefinitions are lifted.  We want you to write JUST THE LIFTED DEFINITIONS\nin the marked space below.\nCould someone help by sharing what they did?\nwould it be like the following? I'm just super confused pls help, I don't understand what parts we include what we dont, what gets replaced and etc\n(define (fn_0 x)\n   (build-list 3\n               (lambda (n)\n                 (+ n 3 (first lox)))))\n\n\n(define (fn_0 x)\n   (build-list 3\n               (lambda (n)\n                 (+ n 3 4))))\n\n\n(define (fn_0 x)\n   (build-list 3\n               (lambda (n)\n                 (+ n 7))))",
+    "student_answer": "@729 has at least a start on helping to answer your question:) I am still confused on this as well so hopefully someone else can provide a bit more help too. ",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 100,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/100",
+    "title": "Edx L02 Question 3",
+    "question": "I was wondering if someone could help me understand this function, I don't see how the if statement works and why it produces certain values in this case. \nIn the following partially complete function design, one part of the design is inconsistent with the rest. Click on the most specific or smallest part that \"doesn't belong\".",
+    "student_answer": "You can look at the check-expects to help you: for example, the first test is the typical scenario where the string has some length like \"hello\" and thus we expect the function to produce \"hello hello\"\nThe second test is more of an outlier: if given a string of length 0 (and this is also in the Purpose), we want to return a string of length 0 => hence \"\" produces \"\"\nIn the body of our function, we account for these two scenarios by stating if the string is equal to \"\", then the boolean is evaluated to be TRUE and the function returns \"\"\nBut if the boolean is evaluated to be FALSE, then we'd want the function to return the duplicated string instead of true (so that's the part that \"doesn't belong\")",
+    "instructor_answer": "Not Found"
+}

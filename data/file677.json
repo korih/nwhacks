@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 677,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/677",
+    "title": "Why only right or down?",
+    "question": "Depending on the maze, wouldn't you have to go up or left as well? Why only right/down here?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Currently, we're only working with trees where one node can point to another, but the node it is pointing to can't point back. The pointing back part is what we would want to do in order to implement moving up and left (as they are the direct opposites of down and right).\nMoving up and left will pose a problem we can't really tackle with what we have at the moment, but once we start learning about graphs in module 11, we'll learn about how to upgrade our maze solver to handle moving up and left as well \ud83d\ude0a"
+}

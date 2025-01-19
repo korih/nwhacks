@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 407,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/407",
+    "title": "How to get KeyEvent and MouseEvent template?",
+    "question": "During mid-term, since we can't access the help desk or the design recipes page, how can we access the template for KeyEvent and MouseEvent? I have a downloaded copy of recipe-checklist.pdf and it does not contain those 2. ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Our goal is never to give you problems that require having memorized a lot of things; we actively want to discourage that approach.  Our exams assess whether you have learned to work with the recipes to do systematic program design.  If there's an unusual function you need to know we will tell you what it is.\nIn terms of key and mouse handlers, you know that they are enumerations templated with the large enumeration rule.  You know that the most common mouse event is \"button-down\". You know that the key events are just a string of that key.   You also should be able to remember the key=? and mouse=? functions.  That's all you really need to know."
+}

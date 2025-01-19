@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 618,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/618",
+    "title": "Top level or defined in local?",
+    "question": "Hello, looking at the solution for wide-only (question from problem bank) with the following prompt:\n;; Use the built in version of filter to design a function called wide-only \n;; that consumes a list of images and produces a list containing only those \n;; images that are wider than they are tall.\nThe solution file has another function wide? that is defined at top level, but in my solution I hide wide? from top level as a local definition.\nIs it preferred to leave it at top level for exams as to demonstrate we can follow the entire htdf recipe with wide?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Top level or locally defined is fine. If you do top level you must provide all recipe steps. So choose local if the function is very simple and top level if more complex so the recipe steps can help you."
+}

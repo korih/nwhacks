@@ -1,0 +1,11 @@
+{
+    "author": "Ben Gao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 341,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/341",
+    "title": "Constraints? Ps3 and other questions",
+    "question": "Hello, I was just wondering, I know for ps3, the data definition for the ball is already complete, but, I was wondering\nshouldn't there be a constraint for the x/y coordinates of the ball confined to the \"inner box\" top, left, right bot? Otherwise, what is stopping us from having the initial world state place the ball outside of the screen?",
+    "student_answer": "Based on the defined functions, what would happen to the ball if the coordinates of the ball exceeded the defined boundaries?",
+    "instructor_answer": "Not Found"
+}

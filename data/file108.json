@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 108,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/108",
+    "title": "1a: Expression question",
+    "question": "I have read the Language page. And tried it multiple times but I don't understand why #i1.4142135623730951 is a an expression. Is it not a value. Is it because you plug it into racket and it works?\n ",
+    "student_answer": "Values can be expressions\nthis is an irrational number but it is still a value",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 443,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/443",
+    "title": "natural of number",
+    "question": "At what time, we need to use natural in the signature?\nIs 0 a natural number?",
+    "student_answer": "You need to use Natural in the signature if the function takes natural. \nZero is natural to my understanding as it comes under counting the items (0 to infinite)\ncheck @441 for better understanding.\nJust to add: 0 is a Natural number to Dr Racket, but not in mathematics (so confusion is understandable).\n ",
+    "instructor_answer": "Not Found"
+}

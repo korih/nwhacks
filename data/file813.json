@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 813,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/813",
+    "title": "@template tag when abstract functions are used in locals",
+    "question": "If I design a function where one of its local definitions uses an abstract function while its main body does not, do I include the use-abstract-fn template tag? For example, here's my solution for sel-sort genrec question (p5 from the accidentally released mt2):\n(define (sel-sort lon)\n  (if (<= (length lon) 1)\n      lon\n      (local [(define (c1 n rnr)\n                (cond [(zero? rnr) n]\n                      [(> n rnr) rnr]\n                      [else n]))\n              (define smallest-n (foldr c1 0 lon))]\n        (cons smallest-n (sel-sort (remove smallest-n lon))))))\nWould I only write (@template genrec) or would I also include use-abstract-fn?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not Found"
+}

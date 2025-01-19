@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 570,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/570",
+    "title": "Find-region lecture problem",
+    "question": "Hello, I was redoing the lecture problem for Find-region, and I came up with a different solution, instead of using the try-catch template.\nMy solution feels more intuitive to me, but I was hoping to get some feedback on it. Is my solution acceptable? And if not, why it is better to use the try-catch template instead?\nHere is the code for my solution:\n(@template ListOfRegion)\n\n(define (find--lor l lor)\n  (cond [(empty? lor) false]\n        [else\n         (if (string=? l (single-label (first lor)))\n             (find--region l (first lor))\n              (find--lor l (rest lor)))]))\nAnd, for reference, here is the solution given with the try-catch template:\n(@template ListOfRegion try-catch)\n(define (find-region--lor l lor)\n  (cond [(empty? lor) false]\n        [else\n         (if (not (false? (find-region--region l (first lor))))\n             (find-region--region l (first lor))\n             (find-region--lor l (rest lor)))]))\nThank you!",
+    "student_answer": "Two things: @6 and also posting the find--region function would be nice.\nThe two functions are doing pretty much the same thing. \nBoth functions ask the question: \"is the label of the first of the list the same as the label being looked for?\"\nThe (string=? l (single-label (first lor)) does the exact same thing as (not (false? (find-region--region l (first lor))); the find-region--region function asks the same question in its body. If this question is true, then in both functions, it produces the true value of (find-region--region l (first lor)). If this question is false, then in both functions, it asks the same question for the regions in the rest of the list.\nSo, the two functions are functionally exactly the same. The only difference is the question in the if.",
+    "instructor_answer": "Not Found"
+}

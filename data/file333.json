@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 333,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/333",
+    "title": "can't open files on racket",
+    "question": "For some reason I can't open any files on racket. This is what shows up every time I click the \"open...\" button under files.",
+    "student_answer": "Give it some time to let it calm down first. Or allocate more RAM to Racket. ",
+    "instructor_answer": "Not Found"
+}

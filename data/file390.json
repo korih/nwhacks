@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 390,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/390",
+    "title": "Style rule",
+    "question": "Can i separate my program for each function by using ;; ========== ? It makes me clear.\n;; =============================================================================\n\n(@htdf main)\n(@signature Ball -> Ball)\n;; start the game, call with (main B1)\n;; <no tests for main functions>\n\n(@template htdw-main)\n\n(define (main b)\n  (big-bang b\n    (on-draw   render-ball)   ;Ball -> Image\n    (on-tick   next-ball)     ;Ball -> Ball\n    (on-mouse  handle-mouse)));Ball Integer Integer MouseEvent -> Ball\n            \n\n;; =============================================================================\n\n(@htdf render-ball)",
+    "student_answer": "Not Found",
+    "instructor_answer": "No that's not in our style rules.\nImagine a company of 700 employees where everyone marked their functions in a different way?\nIn our style functions always start with @htdf."
+}

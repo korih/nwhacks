@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 673,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/673",
+    "title": "Alternative solution concat-starter solution",
+    "question": "I was wondering whether there is an alternative solution for a concat-starter solution. The first one is my code and the second is the solution code.\n  (@template 2-one-of)\n\n(define (concat los1 los2)\n  (cond [(empty? los1) los2]\n        [(empty? los2) los1]\n        [else (append los1 los2)]))\n\n(@template 2-one-of)\n\n(define (concat lsta lstb)\n  (cond [(empty? lstb) lsta] ;(1)\n        [(empty? lsta) lstb] ;(2)\n        [else                ;(3)\n         (cons (first lsta)\n               (concat (rest lsta) lstb))]))",
+    "student_answer": "Not Found",
+    "instructor_answer": "concat is our name for append, so no we don't want you to use append.  If you could use append you could just write the following! :)\n(define (concat a b) (append a b))\nOr for that matter you could write:\n(define concat append)"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1040,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1040",
+    "title": "2019 W2 Final P5 Solution",
+    "question": "In the function add-arrow when it calls (rest loc) in the first if clause, why does this never give an error from calling rest on empty? Is loc never empty in this context? If so, could someone explain how? For example, hypothetically, if we performed (foldr add-arrow (list (make-count \"A\" 1)) (list \"A\")).\n(define (arrows n0)\n  ;; Termination:\n  ;;   base: todo is empty\n  ;;   reduction: if n not visited add its nexts to todo and add n to visited\n  ;;   argument:  todo grows only by nexts of n if not visited, graph is finite\n  ;;              so all nodes will eventually be visited\n \n  ;; visited is (listof String): all nodes already visited\n  ;; todo is (listof String): work list\n  ;; rsf is (listof (list String Natural)) : result so far\n  (local [(define (fn-for-n n todo visited rsf)\n            (cond [(member? n visited)\n                   (fn-for-lon todo visited rsf)]\n                  [else\n                   (fn-for-lon (append (next-nodes n) todo)\n                               (cons n visited)\n                               (foldr add-arrow rsf (next-nodes n)))])) \n          (define (fn-for-lon todo visited rsf)\n            (cond [(empty? todo) rsf]\n                  [else\n                   (fn-for-n (first todo) (rest todo) visited rsf)]))\n          (define (add-arrow n loc)\n            (cond [(empty? loc) (list (make-count n 1))]\n                  [else\n                   (if (string=? (count-node (first loc)) n)\n                       (cons (make-count n (add1 (count-in (first loc))))\n                             (rest loc))\n                       (cons (first loc)\n                             (add-arrow n (rest loc))))]))]\n    \n    (fn-for-n n0 empty empty empty)))",
+    "student_answer": "NVM I figured it out I just forgor \ud83d\udc80",
+    "instructor_answer": "Not Found"
+}

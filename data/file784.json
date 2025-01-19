@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 784,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/784",
+    "title": "Escher square solution",
+    "question": "On the right is my function definition for the Escher square problem from the 2021w1 mt2 question vs the solution on the right. The difference between the 2 is that the squares produced by my function are always twice as big as the solution's. I was wondering why the solution had the additional /2 operation on the length when there does not seem to be an need for it in the question (unless I'm mistaken) and if my solution would also be acceptable, since the autograder is not very happy with it. The my function behaves as required other than on this point.",
+    "student_answer": "Think about what the function one-quarter does. n is the length of the whole escher square and we are using it as an input for one-quarter. Drawing out a picture might help!",
+    "instructor_answer": "Not Found"
+}

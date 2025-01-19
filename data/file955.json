@@ -1,0 +1,11 @@
+{
+    "author": "Thiago Amin",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 955,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/955",
+    "title": "Appending t-wl to subs",
+    "question": "Hey there!\nI was just wondering if anyone could give me an explanation (like, essentially the logic behind it) on why sometimes the appropriate thing to do is\n(append t-wl subs)\n, where \"subs\" are the subs of a node in a tree\nwhereas sometimes the appropriate thing to do is\n(append subs t-wl)\nI have ran into this situation quite a few times: when I do them in one order, a few of my tests fail. But then when I change the order, they all pass. ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Please see @957.  After reading that please follow up if you still have a question."
+}

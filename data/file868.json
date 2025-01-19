@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 868,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/868",
+    "title": "advantage of the check-satisfied in pset9 solution?",
+    "question": "I am wondering what the advantage of the check-satisfied tests as opposed to just using check-expect per usual in the pset9 solution is, or why that was selected to be used? ",
+    "student_answer": "Not Found",
+    "instructor_answer": "In search problems there are often multiple correct answers, and which one a given program finds depends on the order in which it generates the search space.  That's true in a very big way in this problem.\ncheck-satisfied is made for cases like that.  It lets us (or you) write a test that says as long as the answer satisfies this predicate then it is correct.  That's why we were able to confidently say that the order of your solution didn't matter.  None of our tests have specific answers in them. They all use check-satisfied."
+}

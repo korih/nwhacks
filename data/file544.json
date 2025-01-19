@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 544,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/544",
+    "title": "Autograder Explanation- Additional Tests",
+    "question": "Hi, I noticed that in the autograder explanations the very last sentence for the additional tests section is cutoff, it says,\n\"This indicates a situation where the submitted problem set has a self-consistent design for not quite\"\nI was wondering what it was supposed to say since I'm working on the problem set and my tests are all valid and passing, but I keep having an additional test fail,  thanks in advance!",
+    "student_answer": "This might be because there is something wrong with your code, that when the autograder ran a test, it failed. So I advise you look over your code again.\nEdit: Just adding acknowledement that the autograder explanation is intended to help understand what part of the code to revisit, and the explanation seems to have a truncated sentence.  Not sure what the end of that sentence originally was, so you might just have to get creative with troubleshooting your code.  It's good practice, at least!",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 659,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/659",
+    "title": "foldr function",
+    "question": "Hi, I am trying to figure out how foldr function works. It's really confusing to me\n\n\n1) (foldr + 7 (list 1 2 3)))\nIn this case the answer would be\n\n+ 1 + 2 + 3 + 7 (base case)\n\nwhich is the result of combining   + ( function)  with  each element of list\n\n\nMy question is , \n\n  (local [(define (A f n)\n            (+ 1 n)) ]\n(foldr A 1 (list 1 2 3)))\nHow folder function works here? could you elaborate each step?\nAnswer is 4 but it's hard for me to understand how A function interacts with (list 1 2 3)\nThank you",
+    "student_answer": "Not Found",
+    "instructor_answer": "I suggest you write the equivalent expressions with the proper syntax. That should help.\n(foldr + 7 (list 1 2 3))  is  (+ 1 (+ 2 (+ 3 7)))\n\n(foldr A 7 (list 1 2 3))  is  (A 1 (A 2 (A 3 7)))\nWhen you write it out that way you can see why it's called foldr (fold right). The order of evaluation means that the rightmost elements of the list will have the function called on them first.\nNow you know what foldr does.  It does the same thing for + as for A as for any function you call it with.  Does that help you understand how your second example works?"
+}

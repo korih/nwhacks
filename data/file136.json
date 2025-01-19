@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 136,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/136",
+    "title": "Evaluation",
+    "question": "It was mentioned in class that when you run your program, all \u201cif\u201d expressions should be tested, else they appear red (when the program runs). However, should you keep it if you are doing a step by step evaluation (because you are trying to show everything) and the the second \u201cif\u201d expression is not used.",
+    "student_answer": "If I understand you correctly, then yes, after the if statement is evaluated, on the next step you only need to write down the true/false part. For example:\n(if (> 2 1)\n (+ 2 1)\n (+ 2 2))\n\n(if true\n (+ 2 1)\n (+ 2 2))\n\n(+ 2 1)\n\n3",
+    "instructor_answer": "Not Found"
+}

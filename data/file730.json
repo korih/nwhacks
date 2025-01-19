@@ -1,0 +1,11 @@
+{
+    "author": "Gregor Kiczales",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 730,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/730",
+    "title": "2020w1-mt2 p4",
+    "question": "(@htdf fold-person)\n(@signature (String Z B -> X) (Z X A -> Y) (Date -> Z) \n            (X A -> A) (Y B -> B) A B Person -> X)\n;; abstract fold for person\n\n(check-expect (fold-person make-person make-marriage identity\n                           cons cons empty empty P3) P3)\n\n\n\n\n(@template Person (listof Person) Date encapsulated)\n\n\n\n\n(define (fold-person c1 c2 c3 c4 c5 b1 b2 p)\n  (local [(define (fn-for-person p)\n            (c1 (person-name p) \n                (fn-for-date (person-bdate p))\n                (fn-for-lom (person-marriages p))))\n\n          (define (fn-for-marriage m)\n            (c2 (fn-for-date (marriage-date m))\n                (fn-for-person (marriage-spouse m))\n                (fn-for-lop (marriage-children m))))\n\n          (define (fn-for-date d)\n            (c3 d))\n\n          (define (fn-for-lop lop)\n            (cond [(empty? lop) b1]\n                  [else\n                   (c4 (fn-for-person (first lop))\n                       (fn-for-lop (rest lop)))]))\n\n          (define (fn-for-lom lom)\n            (cond [(empty? lom) b2]\n                  [else\n                   (c5 (fn-for-marriage (first lom))\n                       (fn-for-lom (rest lom)))]))]\n    (fn-for-person p)))\nWhy does the template not contain Marriage nor (listof Marriage), but it does contain Date?",
+    "student_answer": "Not Found",
+    "instructor_answer": "It contains Date because there is a function in there templated on Date.  It should also have the two (listof ) types though."
+}

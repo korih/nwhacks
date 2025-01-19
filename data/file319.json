@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 319,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/319",
+    "title": "@tags",
+    "question": "OK, I understand that the videos are older and therefore don't use the tags @hdtf, @signature, etc.  This is clear from the DIFFs page.\nHowever that page indicates that tags are used elsewhere in the course and I haven't been seeing them since we started compound data.  Instead, the older video-style comments are used.\nIs there a special reason the tags were used in earlier starter/solution files, but not anymore?  Should we think of tags as training wheels that we don't use for long?\nEdit: @301 doesn't appear to answer my first question: why were they used in the earlier files, but no longer?  Programming is in large part an exercise in logic, and I'm trying to understand the logic here.\nEdit2: An instructor pointed out that I didn't include a link-- sorry about that.  Here's an example.  It's not the edX pages per se, but the starter/solution files (mostly solution files) in the compound data module.  It could be that the files are correct and my understanding is incorrect, but if so I'm confused about why.",
+    "student_answer": "@301",
+    "instructor_answer": "If you are saying there is a link that shows you something without tags it would help us to help you if you include the url of the page you found the link on and the url of the link.\nThanks."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1061,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1061",
+    "title": "When NOT to use abstract function?",
+    "question": "Hello, I understand that we definitely should not use abstract functions for search functions.\nI also looked through my notes and I sort of get that if we need access to the data itself (embedded within elements in a list, for example), we should not use abstract functions, but I'm not super clear on what this might look like.\nIs there an example of that second case, other than the starter we did in lecture? Thanks!",
+    "student_answer": "Not Found",
+    "instructor_answer": "Imagine an arb arity tree where the nodes have a name and a number.\nA function that produces the name of all nodes with a given number works with a fold function.\nBut a function that produces all the actual nodes with a given number doesn\u2019t, for the reason you mention above."
+}

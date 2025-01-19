@@ -1,0 +1,11 @@
+{
+    "author": "Domenic Mastromatteo",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 153,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/153",
+    "title": "Check expects for error cases? Test validity and thoroughness.",
+    "question": "What are the rules that govern full test validity and thoroughness?\nFrom my understanding the check expects have to match our signature, but what about in cases where I'm trying to test for incorrect inputs to my function? Would those not necessarily include inputs that don't follow the signature?\nI am on pset 1 but getting stuck on this part of problem 6. Is there anywhere I can read about all the types of image to make sure my function covers each type?",
+    "student_answer": "We don't include tests for wrong type of input because the signature specifies the kind of input it will get. If you are struggling with the  problem set, you can go through the questions in problem bank and redo the lecture starters. Usually there are similar questions you can refer to.",
+    "instructor_answer": "You can always assume that the types of arguments passed to your functions will be correct. Similarly, you can always assume that constraints you include in your data defs and functions will be followed. For the purposes of this course, you can act as if Racket has a strong type system that would prevent functions from being called with invalid data."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 647,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/647",
+    "title": "one-of table labeling format",
+    "question": "While completing question 2 in 2021 mt2, the one-of table I created was slightly different that the solution. Here in the solution, the first row was combined and the bottom left and bottom right cells were treated as separate Cond checks.\n#|       LOCA        empty     (cons CA LOCA)\n\nLOSA\n\nempty                 0 [1]    0 [1]\n\n(cons SA LOSA)        0 [2]   (+ (cond ...)) [3]\n\n(define (grade losa loca)\n  (cond [(empty? losa) 0] ;1\n        [(empty? loca) 0]\n        [else (...))) ;2\nHowever, in the code I wrote, I treated all three outputs that return 0 as the same entity. The auto grader marked my method correct, but I was wondering if my method would be considered a violation of the rules when being marked by a TA in an exam setting\n#|       LOCA        empty     (cons CA LOCA)\n\nLOSA\n\nempty                 0 [1]    0 [1]\n\n(cons SA LOSA)        0 [1] (+ (cond ...)) [3]\n\n(define (grade losa loca)\n  (cond [(or (empty? losa) (empty? loca)) 0] ;1\n      [else (...)) ;2",
+    "student_answer": "Not Found",
+    "instructor_answer": "Yes that's good.\nExcept note we do not allow to using ... or any abbreviations in the table cells anymore.  The table cells have to be correct expressions."
+}

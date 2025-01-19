@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 653,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/653",
+    "title": "m09-genrec-simple-cantor Additional tests incorrect",
+    "question": "Hello, I was reworking the lecture starter and the autograder gave the following message:\n10.7%  of  14.3%  x       Additional tests: incorrect - 1 autograder internal additional tests failed.\nIt also comes up when I submit the solution file as well, so I'm wondering if there's something missing from the solution? Thanks!",
+    "student_answer": "I was able to get full marks from autograder just today so I think that you might be missing smth on your end",
+    "instructor_answer": "Fixed, thanks for letting us know."
+}

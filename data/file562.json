@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 562,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/562",
+    "title": "Data definitions for lists",
+    "question": "When doing problem 2, I recognized that the start of the function should be:\n(@htdf all-course-numbers--course all-course-numbers--loc)\n(@signature Course -> ListOfNatural)\n(@signature ListOfCourse -> ListOfNatural)\nMeaning, the result of the functions was ListOfNatural. \nWhen doing the problem set I decided to design a data type for ListOfNatural, (which didn't dock any marks in doing so) but in checking the solution, no additional data type was needed. \n\nIf something is a ListOfPrimitiveType, does that mean that the only place it needs to appear is in the signature? No other defining? So, for example, ListOfString would always be a valid result? ",
+    "student_answer": "The function for this problem is producing a new data type called ListOfNatural so it does not need a data definition.\nFunctions that consume a ListOfPrimitiveType will need a data definition.",
+    "instructor_answer": "Not Found"
+}

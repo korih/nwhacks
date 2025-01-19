@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 906,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/906",
+    "title": "Question about find-path-tr solution",
+    "question": "Could someone explain again why path does not have a type/invariant? Code below:\n(define (find-path t n)\n  ;; t-wl is (listof Tree)\n  ;; worklist of trees to visit (unvisited subs of already visited trees)\n  ;;\n  ;; p-wl is (listof (listof String))\n  ;; worklist of paths to corresponding trees in t-wl\n  ;;\n  ;; visited is (listof String)\n  ;; names of trees visited so far (builds along tail recursive calls)\n  (local [(define (fn-for-t t path t-wl p-wl visited)\n            (local [(define name (node-name t))\n                    (define subs (node-subs t))\n                    (define npath (append path (list name)))\n                    (define nvisited (append visited (list name)))]\n              (if (string=? name n)\n                  npath\n                  (fn-for-lot (append                    subs         t-wl)\n                              (append (make-list (length subs) npath) p-wl)\n                              nvisited))))\n          \n          (define (fn-for-lot t-wl p-wl visited)\n            (cond [(empty? t-wl) false]\n                  [else\n                   (fn-for-t (first t-wl)\n                             (first p-wl)\n                             (rest t-wl)\n                             (rest p-wl)\n                             visited)]))]\n    \n    (fn-for-t t empty  empty empty empty)))",
+    "student_answer": "Not Found",
+    "instructor_answer": "Good question.  Note that path is only an argument to one of the two functions. Also note that the path argument to fn-for-t is always (first p-wl) of fn-for-lot.\nSo by describing the path worklist, which is present in both functions, we are fully describing what path will be in fn-for-t."
+}

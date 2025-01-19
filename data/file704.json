@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 704,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/704",
+    "title": "2020w1-mt2 pt.5",
+    "question": "Why is this function's signature -> Y at the end? I assumed that since c2 has to produce of type Y , then the whole function should produce of type Y too?\n(@htdd Arbre Fruit)\n(define-struct trey (a b c))\n;; Arbre is (make-trey String Integer Fruit)\n\n\n(define-struct pear (f o))\n;; Fruit is one of:\n;;  - false\n;;  - (make-pear Arbre Fruit)\n\n\n(@htdf fold-arbre)\n;; Enter your signature here:\n(@signature (String Integer Y -> X) (X Y -> Y) Y Arbre -> X)\n;; Abstract fold for Arbre\n\n;; check-expects intentionally omitted from this question\n\n(@template Arbre Fruit encapsulated)\n\n(define (fold-arbre c1 c2 b1 t)           ; produce X\n  (local [(define (fn-for-arbre t)\n            (c1 (trey-a t)\n                (trey-b t)\n                (fn-for-fruit (trey-c t))))\n\n          (define (fn-for-fruit fp)       ; produce Y\n            (cond [(false? fp) b1]\n                  [else\n                   (c2 (fn-for-arbre (pear-f fp))\n                       (fn-for-fruit (pear-o fp)))]))]\n\n    (fn-for-arbre t)))",
+    "student_answer": "Not Found",
+    "instructor_answer": "What does the trampoline call?"
+}

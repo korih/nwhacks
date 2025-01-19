@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 683,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/683",
+    "title": "How to take out string from listofstring",
+    "question": "How do we take out a string from a (listof string), so that once we take out the (first los), a function operates on it, and then we also take out the rest of the strings in the list and the function also operates on all the other strings on the list?",
+    "student_answer": "Not Found",
+    "instructor_answer": "I'm not sure I understand your question well enough to answer.  Perhaps if you stated the whole problem and where you are with it so far that would help?"
+}

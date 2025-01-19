@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1008,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1008",
+    "title": "final exam examples for accumulators",
+    "question": "on the final are we required to provide examples in type comments for accumulators like how we did in class to understand how they work in the problem? or is that just optional to better understand the problem? ",
+    "student_answer": "Not Found",
+    "instructor_answer": "It is not required to provide examples.\nBut remember that the type and invariant must be included for each accumulator. \nThat being said, writing out examples (on scratch paper) is a very good and important step for understanding how to initialize, update and exploit a given accumulator. "
+}

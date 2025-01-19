@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 619,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/619",
+    "title": "2 questions about style",
+    "question": "In bag-solution, here's the given solution which I had 2 questions about:\n(@htdf linear-length-lob)\n(@signature ListOfBag -> ListOfNumber)\n;; produces list of linear lengths of all the bags in lob\n(check-expect (linear-length-lob empty) empty)\n(check-expect (linear-length-lob (list B1 B2 B3))\n              (list 36.0 41.5 33.0))\n\n(@template Bag use-abstract-fn)\n\n(define (linear-length-lob lob)\n  (local [(define (linear-length b)\n            (+ (bag-l b) (bag-w b) (bag-h b)))]\n    (map linear-length lob)))\n1. Is there any difference between \n(listof Number)\nListOfNumber\nor are either accepted by the autograder? (assuming that we use the latter format only with primitives, or with a data type for which there is an @htdd tag)\n2. Does it matter what order we put the arguments in for the @template tag? I remember it being mentioned that it doesn't matter for encapsulated, but I wanted to make sure this still applies here.",
+    "student_answer": "Not Found",
+    "instructor_answer": "Now that we have (listof <type>) it is better to use that unless there is an explicit data definition for the list type. \n\nOrder in a template tag does not matter. "
+}

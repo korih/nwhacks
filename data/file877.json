@@ -1,0 +1,11 @@
+{
+    "author": "Nicolas Taraviras",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 877,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/877",
+    "title": "Poblem set 10, requirements",
+    "question": "In the questions for problem set 10 it only mentions that they must be tail recursive, does this mean we can have an answer without using an accumulator so long as it is still tail recursive?",
+    "student_answer": "Not Found",
+    "instructor_answer": "For a function to be tail-recursive, you're gonna need accumulators.\nPerhaps, you're thinking of the built-in abstract functions and thinking of the one in particular which is the tail-recursive version?"
+}

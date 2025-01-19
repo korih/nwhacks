@@ -1,0 +1,11 @@
+{
+    "author": "Ben Gao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 193,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/193",
+    "title": "would it be correct to say functions are non-primitive operators?",
+    "question": "",
+    "student_answer": "\u2800",
+    "instructor_answer": "This language doesn't really have operators in the sense that many other languages do.  Calling an operator and calling a user defined function always look the same, so for example\n(my-function (* 2 3))  ;the call to my-function follows the same rules as the call to *\n\n\nmyFunction(2 * 3)      // the call to myFunction has one set of rules, the operator * has another\nThis uniformity of calling rules is another advantage of the simple BSL language."
+}

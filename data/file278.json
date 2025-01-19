@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 278,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/278",
+    "title": "what is a \"legal\" argument",
+    "question": "hello i was trying to figure out why my tests are invalid so I saw the following statement in the \"Explanation of \"Autotrader Reports\" butt I'm not exactly sure what a legal and illegal argument is? could someone please explain? thanks!",
+    "student_answer": "I think a \"legal\" argument, in this case, is an argument that is covered by the type statement for htdd. For example, if I defined a new data \"Data1\" and made it an enumeration of strings, I shouldn't pass a number through a function that consumes Data1 in the check-expect.",
+    "instructor_answer": "We were using legal and valid to mean the same thing.  But based on your question I just improved the text on the autograder.html page.\nLet us know if there's anything else there that isn't sufficiently clear."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1013,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1013",
+    "title": "Template tag question",
+    "question": "Quick question: for the template tag in the solution file, (listof X) is used. However, the problem description clearly states that this consumes Naturals,\nso I thought it would make sense to place (listof Natural), instead.\nWould that be correct?\n(@htdf decode)\n(@signature (listof Natural) -> Natural)\n;; decode message consisting of skip instructions and numbers to sum\n(check-expect (decode (list)) 0)\n(check-expect (decode (list 3)) 0)\n(check-expect (decode (list 2)) 2)\n(check-expect (decode (list 2 4)) 6)\n(check-expect (decode (list 1 2 4)) 4)\n(check-expect (decode (list 1 3 4 6 8 2 4)) 4)\n(check-expect (decode (list 1 2 4 3 2 4 6 8 4)) (+ 4 8 4))\n\n(@template (listof X) accumulator)\n\n(define (decode loi0)\n  ;; skipn is Natural; number of even numbers remaining to skip\n  ;; rsf is Natural; sum of unskipped even numbers so far\n  (local [(define (scan lst skipn rsf)\n            (cond [(empty? lst) rsf]\n                  [else\n                   (cond [(odd? (first lst))\n                          (scan (rest lst)\n                                (+ skipn (first lst))\n                                rsf)]\n                         [(> skipn 0)\n                          (scan (rest lst)\n                                (sub1 skipn)\n                                rsf)]\n                         [else\n                          (scan (rest lst)\n                                0\n                                (+ rsf (first lst)))])]))]\n    (scan loi0 0 0)))",
+    "student_answer": "Not Found",
+    "instructor_answer": "Good question.\nSince there isn't any difference between the (listof Natural) and (listof X) templates you can say either."
+}

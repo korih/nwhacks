@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 891,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/891",
+    "title": "m11-maze-4-way-solvable starter",
+    "question": "Hello, here's part of my work for the m11-maze-4-way-solvable starter:\n(@htdf solve)\n(@signature Maze -> Boolean)\n;; produce true if maze is solvable, false otherwise\n;; CONSTRAINT maze has a true at least in the upper left\n(check-expect (solve M1) #t)\n(check-expect (solve M2) #t)\n(check-expect (solve M3) #t) \n(check-expect (solve M4) #t)\n(check-expect (solve M5) #f)\n(check-expect (solve M6) #t)\n(check-expect (solve M7) #t)\n\n(@template encapsulated genrec arb-tree accumulator)\nI'm getting the following feedback from the autograder, can anyone point out my mistakes?\n96%  of   100%  - Overall submission: \n   96%  of   100%  -  (@problem 1): \n   96%  of   100%  -   (@htdf solve): \n  3.3%  of     5%  x     Signature: incorrect.\n                         Signature: incorrect result type.\n   10%  of    10%        Must use all 7 supplied check-expects: correct.\n    8%  of    10%  x     Template tag: incorrect.\n                         Template tag: is missing non-type origins.\n   75%  of    75%        Submitted tests: correct.\nThanks!",
+    "student_answer": "i got full marks for template with try-catch\nno clue for the signature",
+    "instructor_answer": "Not Found"
+}

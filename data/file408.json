@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 408,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/408",
+    "title": "tuition-graph problem - error for selector function",
+    "question": "When I try running this file, I keep getting the error message school-tuition: this function is not defined. I've never gotten this type of error message before and I'm confused as to what it means by this function isn't defined, as this selector function was included in my data definition for School\n(@htdd School)\n(define-struct school (name tution))\n;; School is (make-school String Natural)\n;; interp. the name and annual international student tuition in CAD\n;;         of a university\n\n(define S1 (make-school \"School1\" 25500))\n(define S2 (make-school \"School2\" 23900))\n(define S3 (make-school \"School3\" 26000))\n\n(@dd-template-rules compound) ;2 fields\n\n(define (fn-for-school s)\n  (... (school-name s)\n       (school-tuition s)))\n\n\n(@htdf tuition-bar)\n(@signature School -> Image)\n;; render a light blue bar with height corresponding to the school's tuition\n(check-expect (tuition-bar S3)\n              (overlay/align\n               \"middle\"\n               \"bottom\"\n               (rotate 90 (text \"School3\" TEXT-SIZE TEXT-COLOUR))\n               (rectangle BAR-WIDTH (* 26000 Y-SCALE) \"outline\" \"black\")\n               (rectangle BAR-WIDTH (* 26000 Y-SCALE) \"solid\" BAR-COLOUR)))\n\n(check-expect (tuition-bar (make-school \"UBC\" 35000))\n              (overlay/align\n               \"middle\"\n               \"bottom\"\n               (rotate 90 (text \"UBC\" TEXT-SIZE TEXT-COLOUR))\n               (rectangle BAR-WIDTH (* 35000 Y-SCALE) \"outline\" \"black\")\n               (rectangle BAR-WIDTH (* 35000 Y-SCALE) \"solid\" BAR-COLOUR)))\n               \n\n;(define (tuition-bar s) empty-image) ;stub\n\n(@template School)\n(define (tuition-bar s)\n  (overlay/align\n   \"middle\"\n   \"bottom\"\n   (rotate 90 (text (school-name s) TEXT-SIZE TEXT-COLOUR))\n   (rectangle BAR-WIDTH (* (school-tuition s) Y-SCALE) \"outline\" \"black\")\n   (rectangle BAR-WIDTH (* (school-tuition s) Y-SCALE) \"solid\" BAR-COLOUR)))",
+    "student_answer": "I believe there is a misspelling at the top ",
+    "instructor_answer": "Not Found"
+}

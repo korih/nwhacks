@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 132,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/132",
+    "title": "why i get an error here?",
+    "question": "(require spd/tags)\n;; yell-starter.rkt\n; \n; PROBLEM:\n; \n; DESIGN a function called yell that consumes strings like \"hello\" \n; and adds \"!\" to produce strings like \"hello!\".\n; \n; Remember, when we say DESIGN, we mean follow the recipe.\n; \n; Leave behind commented out versions of the stub and template.\n; \n\n(@htdf yell)\n(@signature String -> String)\n;; produce the given string with \"!\" added to the end\n\n(check-expect (yell hey) (string-append \"hey\" \"!\"))\n(check-expect (yell there) (string-append \"there\" \"!\"))\n;(define (yell a) \"\") ; stub\n(@template String)\n;(define (yell a) ; template\n;  (... a))\n(define (yell a)\n  (string-append a \"!\"))\nit's just highlighted . I dont get the correct result which is \"Both tests passed!\"",
+    "student_answer": "sorry nevermind i just found it... ",
+    "instructor_answer": "To find bugs like this you want to start by identifying the error message. What does it say in this case?"
+}

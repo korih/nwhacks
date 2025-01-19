@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 335,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/335",
+    "title": "Autograder",
+    "question": "I kept getting 0 from the autograder for the ListOfString starter...can someone please tell me why?? Thanks\n\nAUTOGRADING GRADE:   0    (out of 100)\n\n\n\n\n\n    0%  of   100%  - Overall submission: \n    0%  of   100%  -  (@problem 1): \n    0%  of     0%       (@htdd ListOfString):  correct.\n    0%  of     0%         DD template rules: correct.\n    0%  of     0%          one-of: correct.\n    0%  of     0%          atomic-distinct: correct.\n    0%  of     0%          compound: correct.\n    0%  of     0%          self-ref: correct.\n    0%  of     0%         DD template: correct.\n    0%  of     0%          cond expression: correct.\n    0%  of     0%          cond question (empty? los): correct.\n    0%  of     0%          cond answer atomic distinct (...): correct.\n    0%  of     0%          cond question else: correct.\n    0%  of     0%          (...   ) (... (first los) (fn-for-los (rest los))): correct.\n    0%  of     0%          selector (first los): correct.\n    0%  of     0%          selector (rest los): correct.\n    0%  of     0%          natural recursion on result of selector (fn-for-los (rest los)): correct.\n    0%  of   100%  x    could not find (@htdf contains-canucks?).",
+    "student_answer": "It seems like you forgot to uncomment or include (@htdf contains-canucks?) at the start of your contains-canucks? function. This can be seen by looking at the last line of the autograder report.\n\nAlso possible if you're in section\n203\nbecause we named contains-canucks? to be contains-heartbreak? which the autograder doesn't recognize, so if you change that it should be good",
+    "instructor_answer": "My mistake on the name in class.\nThe reason the first part is all 0 is that the AG grades the starter material to make sure you don't change it, but doesn't award points for it since it was given to you.\nIN general you should not change anything in the starter file at all; you just add the new elements we ask for. That kind of grading code is there to make sure of that.  Some problems are different, they do ask you to change things, but we are always very explicit about that."
+}

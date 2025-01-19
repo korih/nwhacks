@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 641,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/641",
+    "title": "Solution for pattern-match?",
+    "question": "In this part of the solution for pattern-match, I had a couple of questions:\n(@template 2-one-of)\n\n(define (pattern-match? pat lo1s)\n  (cond [(empty? pat) true]                            ;(1)        \n        [(empty? lo1s) false]                          ;(2)         \n        [(string=? (first pat) \"A\")                    ;(3) \n         (and (alphabetic? (first lo1s))\n              (pattern-match? (rest pat) (rest lo1s)))]\n        [(string=? (first pat) \"N\")                    ;(4)\n         (and (numeric? (first lo1s))\n              (pattern-match? (rest pat) (rest lo1s)))]))\n1. Is it not breaking the template rules to have questions that look at (first pat)? Does it still count as a question that the data driven templates would produce?\n2. Why do we not put else as the question for the fourth case?",
+    "student_answer": "Not Found",
+    "instructor_answer": "You could put else for the last question.\nAs for your question 1, the key is to never try to read the function definition without the table:\n;; CROSS PRODUCT OF TYPE COMMENTS TABLE  \n;; \n;;                                      LO1s\n;;                             empty        (cons OneString ListOfOneString) \n;;   \n;; P   empty                   true [1]      true [1]                  \n;; a\n;; t  (cons \"A\" Pattern)       false [2]     (and (alpha? (first los))  [3]\n;; t                                              (pattern-match? <rests>))\n;; e\n;; r  (cons \"N\" Pattern)       false [2]     (and (numer? (first los))  [4]\n;; n                                              (pattern-match? <rests>))\nNotes that Pattern isn't a normal (listof X) type.  The only elements are \"A\" and \"N\" and they appear directly in the type comment.  The question builds on the type comment."
+}

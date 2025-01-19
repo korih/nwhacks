@@ -1,0 +1,11 @@
+{
+    "author": "Tighe McAsey",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 616,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/616",
+    "title": "Canvas grade different to autograder",
+    "question": "I received 100  on autograder for pset 4, however, my grade in canvas shows a 75. Is this due to an autograder change or grading error?",
+    "student_answer": "I believe this would be because a portion of your problem set grade is from TA assessment (25% if its short assessment, 50% if it is long) in your lab, and the canvas grade shows the overall mark, not just the autograder score.",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 91,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/91",
+    "title": "Autograde",
+    "question": "1. For the lab and problem set, we have to fix the error if the autograder doesn't give us 100%. But which grade will autograder record to our file? The first attempt or the final attempt.\n2. For the lecture file,  is that mandatory to submit or is it just for exercise?",
+    "student_answer": "Not Found",
+    "instructor_answer": "The autograder will record your final attempt. The lecture files are for your exercise, but we highly recommend you to submit them."
+}

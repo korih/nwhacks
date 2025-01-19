@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 603,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/603",
+    "title": "photos-starter.rkt",
+    "question": "When looking at the solution to photo starter I saw that the template tag was\n(@template Photo use-abstract-fn)\nWhy is Photo part of the template?\nIs is because of the function defined in local?\nIf so do we have to include the templates used by the functions defined in local in the template tag?\n ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not Found"
+}

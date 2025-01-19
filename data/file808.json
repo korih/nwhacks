@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 808,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/808",
+    "title": "maze problems and designing helper functions",
+    "question": "For the maze problem, we define a lot of new functions and I see that they are either:\n- defined in local with @htdf, signature, purpose, etc. (commented out)\n- defined in local with only @template\n- a whole new function outside of local (mref)\nHow do we know what to do when writing a helper function? Whether to write it in local or as a top-level function, whether to include signatures and purposes, or whether we should write it as a whole new function with check expects.\nAlso, what is stopping us from writing these functions more simply or using lambda like we would when using abstract built-in functions?",
+    "student_answer": "The design recipe is meant to help us. If we are unsure on how to proceed with the helper functions (how they operate and what kind of data it operates on) we can follow the @htdf and go through all the steps so we have a better understanding. As long as the function is not a closure we can write them either in local or top level.",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 168,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/168",
+    "title": "purpose statement length",
+    "question": "hi i was wondering if its okay to split my purpose statement into two lines as it won't all fit into one. or if the automatic grader will penalize me for it. thanks",
+    "student_answer": "That should be fine (I don't think lines that are commented out can be marked in the first place).",
+    "instructor_answer": "Absolutely not.\nYour purpose must be a single line, consisting of two semi-colons, a space in between, and 77 characters.\n;; write your purpose statement here.\nAutograder does not check for your purpose, but we the TA's do, during your problem set grading in labs!\nREMEMBER that 2/3 of your problem set grade comes from the autograder, while the rest comes from your TA during problem set grading in labs."
+}

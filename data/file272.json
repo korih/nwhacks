@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 272,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/272",
+    "title": "a problem about edit cond question",
+    "question": "from lecture, professor told that do not change the cond  question part. does that mean we must use the same template from hdd part or we have to write question part like, if it is a atomic-non-distinct data(number), (cond [(number? x) (... x)] (same as checklist recipe)\nor we can write something else bases one particular question like \n(cold [(and(number? x) (> x 5)) (... x)] (but if write this, is that has already edited question part of that written in checklist.",
+    "student_answer": "Not Found",
+    "instructor_answer": "@262"
+}

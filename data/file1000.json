@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1000,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1000",
+    "title": "infinite loops",
+    "question": "I sometimes run into the difficulty of getting most of the function right, but a very small mistake causes the function to run in an infinite loop when it comes to designing a tail recursive function. If this is the case on the exam and I'm short on time to debug it, would it result in a major penalty? And does this depend on if it's TA graded or autograded?",
+    "student_answer": "Not Found",
+    "instructor_answer": "All questions on the exam will be autograded. \nI strongly suggest that you spend the next few days working on improving your debugging skills. \nTypically the issue occurs when students rename functions improperly. \nRemember, following the systematic program design as you blend templates is crucial. \nFeel free to stop by office hours to get support on how best to debug a function. "
+}

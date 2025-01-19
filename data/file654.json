@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 654,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/654",
+    "title": "Why is it called generative recursion?",
+    "question": "Kinda silly question, but I don't get an idea why it's called generative recursion.\nIt seems basically same of other recursions... so any specific reasons?",
+    "student_answer": "Not Found",
+    "instructor_answer": "(define (genrec-fn d)\n  (cond [(trivial? d) (trivial-answer d)]\n        [else\n         (... d \n              (genrec-fn (next-problem d)))]))\nIf you take a look at the template for genrec, notice how the argument we are passing to the recursive call is (next-problem d), not something like (rest d), (sub1 d) or something indicative of a chopped off portion of d. \nThe reason why this is is that we don't necessarily want just some smaller part of d, we may want to transform that smaller part of d by creating new data based on it! \nAnyways, it's called generative recursion because we're \u2728 generating \u2728 our next piece of data that we pass to our recursive call!"
+}

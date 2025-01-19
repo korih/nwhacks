@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 242,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/242",
+    "title": "PS2 Q3",
+    "question": "hi, i see that there are a couple of different ways to interpret what Ali wants to do with the function. is there only one correct way that we should do or if we design our function to produce something else is that wrong? should we add a \";; comment\" telling the person marking how we interpreted the question? thanks.",
+    "student_answer": "The way that I interpreted the question is that the opinion has to be pure. That is what the question means by saying \"produces true if the rating reflects a clear opinion either way\". Now remember that there are two pure opinions as said in the data definition. The pure opinion would be most happy or least happy.\n\n\ntl.dr: Function is trying to \"produce true\" for the most pure opinion. What is the most pure opinion in a range of 1 to 5? (There is a most pure happy and most pure unhappy)",
+    "instructor_answer": "Not Found"
+}

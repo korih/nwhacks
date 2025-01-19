@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 376,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/376",
+    "title": "I can't run my program. What does this mean?",
+    "question": "Language: Beginning Student with List Abbreviations; memory limit: 256 MB.\n. Interactions disabled; out of memory",
+    "student_answer": "Not Found",
+    "instructor_answer": "@309 has a similar issue, FYI. It's likely you have an infinite loop. Notice that, if something's wrong with the recursive call in a recursive function, your function will just keep going in circles forever (or, in practice, until DrRacket hits the memory limit); make sure your recursive call is always working with a smaller \"amount\" of data each time. Hope this helps!"
+}

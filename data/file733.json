@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 733,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/733",
+    "title": "templates: backtracking or try-catch",
+    "question": "I've seen in some practice solutions where the template has \"backtracking\" instead of \"try-catch\". Is there a difference? Are they interchangeable or are there specific instances where we use one over the other? ",
+    "student_answer": "Not Found",
+    "instructor_answer": "backtracking was always naming the wrong thing, in a way that caused real confusion later in the course.  so we renamed it to try-catch.\nAt this point in the course I think the only difference would be that if you had, for example, a backtracking search over an arb-arity tree, with both functions defined at top-level, now we only put try-catch on the (listof X) function."
+}

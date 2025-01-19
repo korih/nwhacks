@@ -1,0 +1,11 @@
+{
+    "author": "Erin Bennett",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 556,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/556",
+    "title": "problem 3 clarification",
+    "question": "The problem asks to produce the list of courses in the tree (of the given course) that are worth that many credits or more (of the given number). Would this list include the course itself if it has the correct amount of credits? I am assuming so because itself would be in its own tree? Or am I wrong. The auto grader keeps saying my tests validity is incorrect.",
+    "student_answer": "Yes, it would include the course itself if it has the same number of credits or credits greater than the natural consumed. ",
+    "instructor_answer": "Not Found"
+}

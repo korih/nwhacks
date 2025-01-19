@@ -1,0 +1,11 @@
+{
+    "author": "Ryan G",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 773,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/773",
+    "title": "confuse about \"You must not use the built-in function member\"",
+    "question": " \u201cYou must not use the built-in function member\u201d\ncould someone explain to me what this means, please?",
+    "student_answer": "'member' is also one of bulit in function\nYou can find it on help desk",
+    "instructor_answer": "BSL has a built-in function called member, which takes an arbitrary value and a list and returns whether the value is in the list. This instruction means that, for the problem in question, we explicitly don't want you to use it."
+}

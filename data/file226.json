@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 226,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/226",
+    "title": "Lab submission deadline?",
+    "question": "Hi I just had a quick clarifying question about the lab submissions. I understand the syllabus says that labs are meant to completed during the scheduled lab time, so would this mean that whatever autograder score we have at the end of our lab session is our final autograder score, and we can\u2019t make edits and handin again to improve our score if our session is over? What would would happen if we can\u2019t complete a problem?",
+    "student_answer": "Whatever score you have on the autograder at the end of your lab session will be the score you are stuck with. The TA also needs to check you off before you leave so they'll see whatever code you have. \nAfter the lab, I'm not sure if the SPD Hand-in will still be open, I've never tried, but the TAs have a way of checking the times of your submissions. They'll most likely take the last submission you handed in at the end of your lab, and ignore the ones after it.\nIf you can't complete a problem, you have plenty of resources available to you! The other students in your lab section, your TAs, and the DrRacket help desk and documentation. Just be sure not to get yourself into academic misconduct of any sort if you do ask your peers for help.",
+    "instructor_answer": "Not Found"
+}

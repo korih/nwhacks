@@ -1,0 +1,11 @@
+{
+    "author": "Malkeet Singh",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 476,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/476",
+    "title": "Natural Recursion.",
+    "question": "While trying to write the NR function in opposite way (0 -> n), I am unable to check what is wrong with the FALSE answer of the IF expression. However, the regular version of NR (n ->0) is working fine.\n(opposite and regular is my own terminology for better understanding, so please ignore it :)\nAny insights would be appreciated.\n(@htdd Natural)\n;; Natural is one of\n;; - 0\n;; (add1 Natural)\n;; Natural is from 1 to N\n\n(define N0 1)\n(define N1 (add1 N0))\n(define N2 (add1 N1))\n(define N3 (add1 N2))\n\n(@dd-template-rules one-of\n                    atomic-distinct\n                    compound\n                    self-ref)\n\n(define (fn-for-natural n)\n  (cond [(zero? n) empty]\n        [else\n         (... n\n              (fn-for-natural (sub1 n)))]))\n\n(@htdf odd-from-n)\n(@signature Natural -> ListOfNatural)\n;; consume natural N and make list of odd numbers under it.\n;; CONSTRAINT. (n -> 0)\n\n(check-expect (odd-from-n 0) empty)\n(check-expect (odd-from-n 10)\n              (cons 9 (cons 7 (cons 5 (cons 3 (cons 1 empty))))))\n\n;(define (odd-from-n n) empty)\n(@template Natural)\n\n(define(odd-from-n n)\n  (cond [(zero? n) empty]\n        [else\n         [if (odd? n)\n             (cons n (odd-from-n (sub1 n)))\n             (odd-from-n (sub1 n))]]))\n\n;; OPPOSITE WAY\n\n(@htdf odd-from-n1)\n(@signature Natural -> ListOfNatural)\n;; Consume natural and make list of odd naturals under it\n;; CONSTRAINT (0 -> n)\n\n(check-expect (odd-from-n1 0) empty)\n(check-expect (odd-from-n1 10)\n              (cons 1 (cons 3 (cons 5 (cons 7 (cons 9 empty))))))\n\n;(define (odd-from-n1 n) empty)\n\n(@template Natural)\n\n(define (odd-from-n1 n)\n  (cond [(zero? n) empty]\n        [else\n         (append (odd-from-n1 (sub1 n))\n                 (cons (if (odd? n)\n                           n\n                           (odd-from-n1 (sub1 n))) empty))]))",
+    "student_answer": "Not Found",
+    "instructor_answer": "Notice that in the false case of the if you end up using the result of the natural recursion (RNR) twice. Once at the beginning of the list and once at the end."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 490,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/490",
+    "title": "midterm p4",
+    "question": "Why do p4 and p4 style rule show \"No Submission\"?\nI'm sure I submitted it after I finished the exam.",
+    "student_answer": "the simple answer from an outsider looking in is that you didn't submit it properly:\n-you failed to submit it on time\n-you submitted with an incorrect cwl tag or username\n-an @assignment tag or the like was altered\n-you forgot",
+    "instructor_answer": "OP (aka Atom),\nThe problem is that you submitted problem 4 from another term.  See https://piazza.com/class/ky0ewiregcz421?cid=477_f5 for more on this."
+}

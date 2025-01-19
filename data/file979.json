@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 979,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/979",
+    "title": "Visited accumulator redundancy",
+    "question": "I often end up using both a visited accumulator and an rsf path accumulator when only one is necessary for the problem and (I don't realize) they are essentially the same in the context of the problem. If I do this on the final, would I get penalized for this redundancy?",
+    "student_answer": "Not Found",
+    "instructor_answer": "We do not comment on how problems are graded. \nThat being said, typically if your function is well designed, and the template remains intact and all your check-expects pass then you are on the right track. "
+}

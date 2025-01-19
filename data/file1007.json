@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1007,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1007",
+    "title": "q3 of same-house-as-parent.rkt",
+    "question": "There appears to be no solution to this question. I've tried my best to come up with a solution and have copied it below however it doesn't seem to be working. Could some help be provided with what's going wrong?\n(@problem 3)\n;; Design a new function definition for same-house-as-parent that is tail \n;; recursive. You will need a worklist accumulator.\n\n(@htdd same-house-as-parent)\n(@signature Wizard -> (listof String))\n;; given a wiz produce the names of every wiz placed in same house as parent\n\n(check-expect (same-house-as-parent Wi) empty)\n(check-expect (same-house-as-parent Wj) (list \"E\" \"F\" \"A\"))\n(check-expect (same-house-as-parent Wg) (list \"A\"))\n(check-expect (same-house-as-parent Wk) (list \"E\" \"F\" \"A\"))\n\n(define (same-house-as-parent w)\n  ;; wiz-wl: (listof Wizard), list of wizards that still need to be visited\n  ;; path: String, current wizard's parent's house name\n  ;; path-wl: (listof String), list of parents' house name for unvisited wizs\n  ;; rsf: (listof String), list of wizards seen so far that have same house as p\n  (local [(define (fn-for-wiz w wiz-wl path path-wl rsf)\n            (if (string=? path (wiz-house w))\n                (fn-for-low (append (wiz-kids w) wiz-wl) (append (map wiz-house (wiz-kids w)) path-wl) (cons (wiz-name w) rsf))\n                (fn-for-low (append (wiz-kids w) wiz-wl) (append (map wiz-house (wiz-kids w)) path-wl) rsf)))\n          \n          (define (fn-for-low wiz-wl path-wl rsf)\n            (cond [(empty? wiz-wl) (reverse rsf)]\n                  [else\n                   (fn-for-wiz (first wiz-wl) (rest wiz-wl) (first path-wl) (rest path-wl) rsf)]))]\n          \n          \n    (fn-for-wiz w empty \"\" empty empty)))",
+    "student_answer": "There is a solution, watch the EDX video: Worklist Accumulators 2, Part 4",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 344,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/344",
+    "title": "Check expect for helper",
+    "question": "Hi, \nI have a test that is failing at the next-ball function after I wrote the helper function. \nI copied it to check whether it will also fail at the helper function itself, but it passed there, so what can be the reason that a test fails at the tick function?\nWhere should I look for an error?\nThanks.  ",
+    "student_answer": "Read through what the next-ball function expects and does. Your logic is probably incorrect somewhere. ",
+    "instructor_answer": "Not Found"
+}

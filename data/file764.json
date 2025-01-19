@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 764,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/764",
+    "title": "2021w1-mt2/mt2-p3 - lambda expression",
+    "question": "(define (steps lo hi odd-color even-color)\n  (local [(define (+lo i) (+ lo i))\n          (define (block n)\n            (if (zero? n)\n                empty-image\n                (text (number->string n)\n                      (* n SIZE-FACTOR)\n                      (if (odd? n) odd-color even-color))))\n          (define (b/ab x y)\n            (beside/align \"bottom\" y x))]\n    (foldr b/ab empty-image (build-list (add1 (- hi lo)) \n(lambda (i) (block (+lo i)))))))\nI am a bit confused about what purpose the i serves in the (lambda (i) (block (+lo i)) expression. I am under the assumption that for the midterm we would have to use a local expression rather than lambda. However, I can't seem to figure out a local expression that serves the same purpose that runs. If someone could help me that would be much appreciated :).",
+    "student_answer": "...\n(define (block-i i)\n            (block (+ i lo)))] ;; in local\n(foldr b/ab\n           empty-image\n           (build-list (add1 (- hi lo))\n                       block-i)))\nthis works if you want to define a function in local.\nbasically the \"i\" in built-list starts from 0 so you want to add \"lo\" to \"i\" when building a block. ",
+    "instructor_answer": "Not Found"
+}

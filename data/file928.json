@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 928,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/928",
+    "title": "Visited Accumulator",
+    "question": "I'm getting really confused with how to actually USE a visited accumulator. I understand that I can define it to be, for example, a list of nodes that I have already visited so that I don't visit them again, but I can't understand how to actually prevent myself from going back to those nodes.\nI know to update my visited accumulator throughout my function, but do I need to use a filter function on my work list to get rid of all the nodes that are in visited? What kind of function would help me do this? I feel like some kinda of try-catch would help, but what if I want my function to be tail recursive?\nHopefully this question makes sense!",
+    "student_answer": "If you're using try-catch, you can simply add a cond question to your main function (the non-list one)  like this:\n(cond [(member p path) false]\n      [else (...)])\nUpon reaching a previously visited position, false is returned and try-catch moves on to the next one without searching down this path again.\nIf you're using tail recursion, you use the same cond question but what you do instead of false is to tell the list function to proceed through the worklist:\n(cond [(member p visited)\n       (fn-for-lop p-wl visited)]\n      [else (...)])\nUpon reaching a previously visited position, it moves on to the next position in the worklist and ignores whatever subs the position might have had.",
+    "instructor_answer": "Not Found"
+}

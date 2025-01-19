@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 298,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/298",
+    "title": "Edx question",
+    "question": "Hi, does anyone know the answer of this problem and could please explain it? I thought it may be university-name and university-city, but I got wrong, so now I'm confused. Thanks!",
+    "student_answer": "I think there are the constructor (make-university), the selectors (university-name; university-city) and the predicate (university?).",
+    "instructor_answer": "Not Found"
+}

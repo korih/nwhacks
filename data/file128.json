@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 128,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/128",
+    "title": "constantly receiving variable not defined messages",
+    "question": "Hello,\nCan anyone tell me why the 3^2 is undefined in this code\n(sqrt (+ 3^2 4^2))",
+    "student_answer": "I think you should probably use (sqr) instead of ^",
+    "instructor_answer": "Firstly, the operation ^ is not defined in BSL \u2013 you\u2019ll have to look up the function expt in the drracket help desk, or, in this case, use sqr like the student answer suggested. Secondly, the placement of the ^ isn\u2019t quite correct - This is like saying (* 3+4 7+8), which doesn\u2019t follow the correct syntax."
+}

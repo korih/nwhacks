@@ -1,0 +1,11 @@
+{
+    "author": "Ben Gao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 260,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/260",
+    "title": "How much are we allowed to change when de-bugging",
+    "question": "As a general question, when we are de-bugging a given HtDF function.\nhow much are we allowed to change in the function body?\nAre we allowed to edit the examples if they have errors?\nAnd if all our examples are evaluated correctly, and the autograder still says it was incorrectly debugged, what should you do? Are there any common issues?\n(these questions are general enough, right? They could be applied to any question, so I am not asking specifically about the Pset questions)",
+    "student_answer": "Not Found",
+    "instructor_answer": "These questions are general enough.  Thank you for taking the trouble to ask them that way.\nIn general you are looking to make the smallest change you can.  Your goal is to fix the bug, not to rewrite the code as you see fit. There are two reasons to keep the change small:\nIn any organization what happens is that after you fix the code someone else is going to have to review the change.  You make their life easier by making the change small.\nThe other is that the more you do the more likely you are to introduce some new bug."
+}

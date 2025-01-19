@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 880,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/880",
+    "title": "Tail-recursive functions",
+    "question": "Is it possible for a function to only work if its tail recursive? Or do all functions work in both ways it is just more efficient when its in the tail recursive version?",
+    "student_answer": "Not Found",
+    "instructor_answer": "In module 11 we are going to see some examples of functions that need tail recursion to work correctly. But when you don\u2019t have to have tail recursion it is simpler to use structural recursion."
+}

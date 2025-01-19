@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1058,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1058",
+    "title": "context preserving accumulator vs results so far accumulator",
+    "question": "Could some clearly define the difference between the namings of these? I find that although I can use accumulators correctly for the most part, I'm not quite sure whether it's a context preserving or rsf accumulator that I end up using. If you could, maybe provide an example? Thank you in advance!",
+    "student_answer": "A context preserving accumulator is used when previous information in a list is required to make operations on the current element in the list. An example would be if I wanted to determine if a list of numbers is in ascending order. At the current element in the list, I would need information about the previous element in the list to determine this, so I would need a context preserving accumulator.\nA result so far accumulator is used for tail recursion. When the result of a tail-recursive function is a list, a result so far accumulator is needed to keep elements that fit a condition in the list, since structural recursion with cons cannot be used in TR. An example of a rsf in use is in any tail-recursive function whose output is a list.",
+    "instructor_answer": "Not Found"
+}

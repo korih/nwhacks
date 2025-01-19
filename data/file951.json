@@ -1,0 +1,11 @@
+{
+    "author": "Rajan Sapkota",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 951,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/951",
+    "title": "Problem Set 11 Question 4 Check-expect",
+    "question": "Shouldn't TA -> TI number of routes be 9 instead of 3?\nHere are all the routes I found in addition to the original three:\nTA -> TC -> TG -> TD -> TI\nTA -> TC -> TG -> TD -> TH -> TI\nTA -> TC -> TG -> TD -> TH -> TJ -> TI\nTA -> TB -> TF -> TC -> TG -> TD -> TI\nTA -> TB -> TF -> TC -> TG -> TD -> TH -> TI\nTA -> TB -> TF -> TC -> TG -> TD -> TH -> TJ -> TI",
+    "student_answer": "You want the number of treasures that have a direct path to TI. There are 3: TD, TH, TJ.",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 718,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/718",
+    "title": "template tags",
+    "question": "I'm confused with how to write template tags for abstract functions...\nHow do we know what goes in the template tag for these?\n\nAnd if we use a abstract fold-function to write another new function, would we include \"use-abstract-fn\" or \"try-catch\" or \"encapsulated\" or any data definition names in the template tag?",
+    "student_answer": "If you're just using the abstract fold-function to write another new function, you only use the use-abstract-fn template tag (regardless of what templates that abstract fold function uses). However, if your new function is more complex (that is, it has more in its function body then just a call to an abstract function), then you may require other template tags.",
+    "instructor_answer": "Not Found"
+}

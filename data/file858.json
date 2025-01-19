@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 858,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/858",
+    "title": "skip1 accumulator example",
+    "question": "I was reworking some accumulator practice problems and for this one I came up with a different solution than the edx video did. Would it still be valid?\nPROBLEM:\n\nDesign a function that consumes a list of elements and produces the list\nconsisting of only the 1st, 3rd, 5th and so on elements of its input. \n\n   (skip1 (list \"a\" \"b\" \"c\" \"d\")) should produce (list \"a\" \"c\")\n\n;; (@htdf skip1)\n;; (@signature (listof X) -> (listof X))\n;; produce list of elements from listof x where only 1st, 3rd, 5th... remain\n\n(check-expect (skip1 empty) empty)\n(check-expect (skip1 (list \"a\" \"b\")) (list \"a\"))\n(check-expect (skip1 (list 1 2 3 4 5 6 7)) (list 1 3 5 7))\n(check-expect (skip1 (list \"a\" \"b\" \"c\" \"d\")) (list \"a\" \"c\"))\n\n(define (skip1 lox0)\n  ;; acc: Natural; keeps track of whether first lox0 was skipped or not\n  ;; examples:\n  ;; (skip1 (list \"a\" \"b\" \"c\" \"d\") 0) ; don't skip\n  ;; (skip1 (list     \"b\" \"c\" \"d\") 1) ; skip\n  ;; (skip1 (list         \"c\" \"d\") 0) ; don't skip\n  ;; (skip1 (list             \"d\") 1) ; skip\n  (local [(define (skip1 lox acc)\n            (cond [(empty? lox) empty]\n                  [else\n                   (if (zero? acc)\n                       (cons (first lox) (skip1 (rest lox) (add1 acc)))\n                        (skip1 (rest lox) (sub1 acc)))]))]\n\n    (skip1 lox0 0)))",
+    "student_answer": "Not Found",
+    "instructor_answer": "I don't believe that accumualator invariant describes what doesn't vary about the accumulator value.  Instead it just seems to say why you want to have an accumulator."
+}

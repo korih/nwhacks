@@ -1,0 +1,11 @@
+{
+    "author": "Jessica",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 752,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/752",
+    "title": "Gen rec",
+    "question": "In our general recursion problems that produce images, I see that we have to code the exact base shape quite a few times.\n\nAlthough this process is shorten in the check-expects using a local, I noticed that we don\u2019t usually use it in the trivial answer when coding the function itself. \n\nWouldn\u2019t it be easier to define the basic shape as something at top level and use it throughout the problem. \n\nExample: \n\n(define STR0 (triangle s \u201coutline\u201d \u201cred\u201d) \n\nand use it everywhere in c.e. and fn \n\nI guessing that it would hinder readability but just want to ask for another explanation. ",
+    "student_answer": "Not Found",
+    "instructor_answer": "The readability argument is the key point.  The examples are there first to help you understand the function and only later to serve as tests.  They tend to be more helpful for understanding if you write them out."
+}

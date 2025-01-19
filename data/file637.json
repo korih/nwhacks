@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 637,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/637",
+    "title": "m08-abstract-fold-complications - autograder issue?",
+    "question": "Other than the order, my template tag for problem 2 was correct (I double checked with the solution file), but the autograder message still showed the following: \n13.3%  of  16.7%  x      Template tag: incorrect.\n                          Template tag: includes incorrect non-type origins.\nThe non-type origins are try-catch and encapsulated, and both were included in my submission. ",
+    "student_answer": "for some reason the autograder doesn't think try-catch is correct",
+    "instructor_answer": "fixed now, thanks for letting us know"
+}

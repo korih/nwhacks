@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 176,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/176",
+    "title": "problem set 1 question 6",
+    "question": "for this question, i keep getting the same things wrong:\nthe @htdf part, i am very confused about this one, the question gives you the @htdf and tells you to just uncomment it\nthe @signature\nand the test thoroughness, my autograder says that i am missing one or more cases\nI have re-gone over the lectures and the practice questions, but i stlil can get them right. are there any other readings or problems i can do to try and figure out my mistakes?",
+    "student_answer": "The HTDF practice from the last lecture might be a good practice, it also shares the same idea for the PS1 question 6.",
+    "instructor_answer": "This question was asked on purpose to get students to come up with a reasonable solution to a somewhat ambiguous question.\nTry re-reading the question to Problem 5 again carefully and ask yourself what kind of possible cases are/aren't included in your function body. Use your examples (check-expects) to test these out."
+}

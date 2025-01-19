@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1065,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1065",
+    "title": "2020 Final",
+    "question": "Could someone help on this question? I get lost on how to design the signature for this.\nproblem 1) ;DO NOT EDIT OR DELETE THIS LINE!\n\n(@signature ((listof X) -> Boolean) (X -> Y) (listof X) (listof Y) -> (listof Y))\n;; 4 args\n;; c is list\n;; first arg to a is list\n;; arg to b, list element of c are x\n;; d is list\n;; of result type of b\n\n\n(define (foo a b c d)\n  (cond [(a c) d]\n        [else\n         (cons (b (first c))\n               (foo a b (rest c) d))]))",
+    "student_answer": "First look at the variables in front of foo, you can see there are four of them (a, b, c, and d)\n(@signature ... ... ... ... ->...)\nThen you look for any hints to see what the function is outputting, in this case, it's the cons. Now you know your function outputs a list of some sort so:\n(@signature ... ... ... ... -> (listof ...))\nYou also can see that d is an output to your function so naturally, if your function outputs a list then d is also a list\n(@signature ... ... ... (listof ...) -> (listof ...))\nYou can also look for more hints like (first c) and (rest c). Now you know the input to your function is a list (for simplicity, listof X). You can also update the other lists that you had from before.\n(@signature ... ... (listof X) (listof Y) -> (listof Y))\nJust by looking at the placement of b, you can see that b is a function of some sort. The (b (first c)) implies that the input is X and since you are outputting a list of Y, then the output is Y. \n(@signature ... (X -> Y) (listof X) (listof Y) -> (listof Y))\nFrom the placement of (a c), we can see that a boolean is introduced as one of the conditions in our cond (so we know the output of (a c) is a boolean). We also know that c is a list of X and it is the input for the function a, so we'll get \n(@signature ((listof X) -> Boolean) (X -> Y) (listof X) (listof Y) -> (listof Y))\nHope this helps :)",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Gregor Kiczales",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 844,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/844",
+    "title": "Search State",
+    "question": "Sorry if this is a dumb question but the term keeps coming up, what exactly is a search state? Is it the function you use in your search function that uses the genrec template? Thanks!",
+    "student_answer": "Not Found",
+    "instructor_answer": "Good question. The search state if the value of the changing information at each point in the tree. \n\nSo in the original maze solver the search state was the current position. In sudoku it is the board contents. In triangle solitaire it is also the board contents. In nqueens it is the positions of the queens. "
+}

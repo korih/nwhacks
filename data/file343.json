@@ -1,0 +1,11 @@
+{
+    "author": "Nargiz",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 343,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/343",
+    "title": "Problem with dr racket",
+    "question": "Hi does anyone else have this weird problem with doctor racket where it won't create pop up tabs for check expects or run animations? For check expects I usually receive \"these tests passed\" in the bottom half of the screen, which wasn't a problem until we started doing animations and there was no pop up of the final animation, even when I tried with solution files.\nThe code would just run and nothing would show up.\nDoes anyone know how to solve this?",
+    "student_answer": "the check expects don't actually produce what you are checking, just verify that the expected value and the actual value match. If you want to see the function in the check-expect, you could copy just that part of the code and run it as well. \nas for the final animation for the world programs, you have to enter something in the interactions window. the exact thing you enter will depend on the program, but it would be in the general format of (main x)",
+    "instructor_answer": "Not Found"
+}

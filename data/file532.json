@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 532,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/532",
+    "title": "running local programs issues",
+    "question": "When I try to run racket files in intermediate student, my program will just run continuously without telling me if my function has errors or if it successfully ran. \nAs I'm writing this my current program has been attempting to run for several minutes. My laptop is quite new, so I'm unsure of why this happening. \nAny advice on what I should do would be appreciated! ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Check the trampoline - are you making a call to one of the locally encapsulated functions or a call that results in infinite recursion?"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 739,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/739",
+    "title": "2020w2-mt2 5-6-7 Problem 5",
+    "question": "Hi, I am wondering whether anyone can help me with understanding what the build-list function does. I have no clue what the answer actually means. \n(@htdf sum-interval)\n(@signature Integer Integer -> Integer)\n;; produce the sum of the integers in [lo, hi].\n;; CONSTRAINT: lo <= hi\n(check-expect (sum-interval 5 5) (+ 5))\n(check-expect (sum-interval 3 6) (+ 3 4 5 6))\n\n(define (sum-interval lo hi)\n  (local [(define (f x) (+ lo x))]\n  (foldl + 0 (build-list (+ (- hi lo) 1) f))))",
+    "student_answer": "From the Language page on edX:\n(@signature Natural (Natural -> X) -> (listof X))\n;; produces (list (f 0) ... (f (- n 1)))\n(define (build-list n f) ...)\nIt creates a list of the function f applied to n from\n0\nto\nn\n\u2212\n1\n. \nThe build-list there creates a list of (\n+\nlo x) applied to each number from\n0\nto (hi\n\u2212\nlo). ",
+    "instructor_answer": "Not Found"
+}

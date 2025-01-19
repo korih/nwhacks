@@ -1,0 +1,11 @@
+{
+    "author": "Ben Gao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 290,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/290",
+    "title": "confirming my understanding of HtDD",
+    "question": "just to confirm my understanding of the terms/definitions\nWe start with primitive data (Boolean, String, Number, etc).\nWe classify this primitive data into DATATYPES (atomic distinct, atomic non-distinct)\nand then we represent this data with DATA DEFINITIONS, specific \"formats\" of data, who's structure changes depending on the datatypes it uses.\nPrimtiive data -> datatypes\ndata definitions are just organizations of datatypes",
+    "student_answer": "Not Found",
+    "instructor_answer": "I\u2019d recommend checking out the HtDD page on Edx:Design Recipes | CPSC110 | edX to properly confirm your understanding.\nThe first step of the recipe is to identify the inherent structure of the information What is the Inherent Structure of the Information? The structure of the information in the program\u2019s domain determines the kind of data definition used, which in turn determines the structure of the data-driven templates and helps determine the function examples (check-expects), and therefore the structure of much of the final program design.\nOnce that is done, a data definition consists of an @htdd tag followed by four or five elements:\nA possible structure definition (not until compound data)\nA type comment that defines a new type name and describes how to form data of that type.\nAn interpretation that describes the correspondence between information and data.\nOne or more examples of the data.\nA template for a 1 argument function operating on data of this type.\nSo yes, primitive data -> datatypes"
+}

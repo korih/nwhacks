@@ -1,0 +1,11 @@
+{
+    "author": "Ava Peacock",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 114,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/114",
+    "title": "Lost points on Test Thoroughness when handing in lecture work",
+    "question": "After following along and working on the lecture starter  (m01-htdf-starter.rkt) today, as well as completing the fourth problem we didn't get to, I submitted the file to the SPD Handin. However, it says the test thoroughness for problem 2 (which we did in class) is not enough. I tried adding another test case, but that didn't work. I don't understand what test cases the problem is missing. Thanks:) ",
+    "student_answer": "I think you need to add a check-expect where the string is just \u201c\u201d because I had the same problem but after adding this I got full points for test thoroughness.",
+    "instructor_answer": "Not Found"
+}

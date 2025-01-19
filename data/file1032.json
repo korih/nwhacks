@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1032,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1032",
+    "title": "triangle-solitaire",
+    "question": "Could sb explain the idea for rendering the board function in triangle solitaire? I don't understand the main concept they wanted to do here\n(define (render-board bd)\n  (foldr above\n         empty-image\n         (map (lambda (row)\n                (foldr (lambda (p img)\n                         (beside (if (get-cell bd p) PEG HOLE)\n                                 img))\n                       empty-image\n                       row))\n              RENDER-MAP)))",
+    "student_answer": "It renders each row either filled in or blank, then it combines all rows with above.",
+    "instructor_answer": "Not Found"
+}

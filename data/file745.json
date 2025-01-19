@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 745,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/745",
+    "title": "genrec termination argument",
+    "question": "Hi, here's my solution for problem 5 from @689 :\n(@htdf sel-sort)\n(@signature (listof Natural) -> (listof Natural))\n;; produce list of given numbers sorted from smallest to largest\n;; CONSTRAINT: no number in the list is 0\n(check-expect (sel-sort empty) empty)\n(check-expect (sel-sort (list 1 2 3)) (list 1 2 3))\n(check-expect (sel-sort (list 1 3 2)) (list 1 2 3))\n(check-expect (sel-sort (list 2 1 3)) (list 1 2 3))\n(check-expect (sel-sort (list 2 3 1)) (list 1 2 3))\n(check-expect (sel-sort (list 3 2 1)) (list 1 2 3))\n(check-expect (sel-sort (list 3 1 2)) (list 1 2 3))\n\n;(define (sel-sort lon) lon) ;stub\n\n(@template genrec)\n#|\nThree part termination argument.\n\nBase case: (empty? lon)\n\nReduction step: (remove (smallest lon) lon)\n\nTermination argument: Each iteration removes one element from lon,\nso eventually it will reach the base case, where the lon is empty.\n\n|#\n\n(define (sel-sort lon)\n  (if (<= 0 (length lon) 1)\n      lon\n      (local [(define (smallest lon)\n                (cond [(empty? (rest lon)) (first lon)]\n                      [else\n                       (if (< (first lon) (smallest (rest lon)))\n                           (first lon)\n                           (smallest (rest lon)))]))]\n        (cons (smallest lon)\n              (sel-sort (remove (smallest lon) lon))))))\nI was hoping for some feedback if this is fulfilling the problem description of selective sorting, that is:\nGiven a list of numbers lon:\n\n - If the list has length 0 or 1 it is sorted.\n\n - Otherwise, find the smallest number in the list, remove it from where\n   it appears, bring it to the front, and recursively sort the remaining list.\nAlso, is the 3 part termination argument provided sufficient? Thanks!",
+    "student_answer": "Not Found",
+    "instructor_answer": "all looks good to me"
+}

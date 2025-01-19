@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 916,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/916",
+    "title": "Unused function in an encapsulated template?",
+    "question": "What happens to a function that's part of an encapsulated template that's never called? Is it kept but with (...), or removed? Also, if it's not used, is its type kept in the @template tag?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Good question.\nIf you just comment it out that may make it most clear for readers that it was originally part of the encapsulated templates.  Or you could leave a comment like\n    ;; fn-for-foo removed because not used\nIn either case you should probably comment it out of the @template tag as well."
+}

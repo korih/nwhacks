@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 582,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/582",
+    "title": "Confused about edx question for tests on abstract function",
+    "question": "I was doing the edx questions after \"From Examples 2\" and for the abstract function filter2:\n(define (filter2 pred lon)\n  (cond [(empty? lon) empty]\n        [else\n         (if (pred (first lon))\n             (cons (first lon)\n                   (filter2 pred (rest lon)))\n             (filter2 pred (rest lon)))]))\none of the proper check-expects you had to select was\n(check-expect (filter2 false?\n                       (list false true false false true))\n              (list false false false))\nI know false? is a predicate, but I'm confused why this check-expect is correct to include since\n(list false true false false true) doesn't seem to be a lon, the second argument of filter2. Isn't that a list of boolean instead?\nSorry if this is a dumb question",
+    "student_answer": "I think the whole idea of abstraction, in this case, is that we can include lists of different types of elements, not just numbers\nThe important thing is that the list of X (X being the chosen element) must contain elements that can be taken as arguments for the chosen predicate\nSo in the example shown where the predicate is false? it could technically take a list of Number but we've chosen for it to take a list of Boolean, which it can do so this is allowed",
+    "instructor_answer": "Not Found"
+}

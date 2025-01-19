@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 157,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/157",
+    "title": "BSL P12 - alternative solution?",
+    "question": "For this question, I changed the name of the function to square instead of adding a new value for the image-height parameter of the original rectangle function. Would this be acceptable in an exam scenario, since it didn't specify that we aren't allowed to change the function name? \n(@problem 1)\n;; Uncomment the code below and fix the error(s).\n;;\n;;\n;; (rectangle 10 solid red)\n\n(rectangle 10 20 \"solid\" \"red\") ;problem bank solution\n\n(square 10 \"solid\" \"red\")       ;my solution",
+    "student_answer": "Not Found",
+    "instructor_answer": "I updated the starter to make it more clear that we want the rectangle solution."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Ben Gao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 960,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/960",
+    "title": "tail vs structural recursion purpose",
+    "question": "Are tail and structural recursion essentially the same. Just 2 ways of doing the same thing,\nor\ndoes Tail recursion allow us to solve some problems structural recursion can't?",
+    "student_answer": "Check out @879 for a good review of structural vs tail recursion.",
+    "instructor_answer": "Also check out @852, @875, @880, and @883 for more (the latter three likely are the most useful)."
+}

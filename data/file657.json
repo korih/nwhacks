@@ -1,0 +1,11 @@
+{
+    "author": "Malkeet Singh",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 657,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/657",
+    "title": "Lecture GENREC",
+    "question": "Hello,\nI tried running the solution file (lectures/m09-genrec-qsort), and it returned \n\"lambda: found a lambda that is not a function definition\"\nCould someone help explaining this? \nThanks,",
+    "student_answer": "you have to change your language to Intermediate Student with Lambda in the options there should be an option",
+    "instructor_answer": "You have to turn on the intermediate student with lambda language to use lambda.\nWe deliberately don't turn it on in the starter so that students can see that this changes is required to use lambda."
+}

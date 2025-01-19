@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 445,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/445",
+    "title": "Redundancy?",
+    "question": "Hi!\nhopefully this isnt a stupid question but \nI was just wondering what the difference is between the solution and what I wrote initially. Are they both ok or is one better than the other in terms of redundancy?\nthank you :)\n;SOLUTION (P4)\n(define (count-larger l n)\n  (cond [(empty? l) 0]\n        [else\n         (+ (if (>= (volume (first l)) n) 1 0)\n         (count-larger (rest l) n))]))\n\n;VERSUS what i wrote\n(define (count-larger l n)\n  (cond [(empty? l) 0]\n        [else\n         (if (>= (volume (first l)) n)\n             (+ 1 (count-larger (rest l) n) 0)\n           (count-larger (rest l) n))]))",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not a stupid question at all, I think it's great that you're asking about it!\nBoth are valid solutions and are the same! I would say redundancy isn't a big thing to worry about in this case- Some people might feel awkward about writing the first solution and will automatically opt for the way you wrote it (I'd opt for your way too, to be honest).\nI'd say to always write your function in the way that you can read and understand it the best, and then try to simplify it from there! Just make sure you're following the design recipe and style rules along the way :)"
+}

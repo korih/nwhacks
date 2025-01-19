@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 282,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/282",
+    "title": "HtDD P2 - using \"else\" in the last cond case for enumerations?",
+    "question": "Are we allowed to use else in the last cond case of an enumeration when designing a data definition, when appropriate? Or can it only be used in mixed data itemizations? For instance, in this problem, since we know BuildingStatus  isn't the string \"new\" or \"old\", it must be \"heritage\" if it reaches the last cond case, so would it also be correct to use else here? (the solution doesn't use else, so I was wondering)\n(@problem 1)\n;; You are assigned to develop a system that will classify \n;; buildings in downtown Vancouver based on how old they are. \n;; According to city guidelines, there are three different classification\n;; levels: new, old, and heritage.\n;;\n;; Design a data definition to represent these classification levels. \n;; Call it BuildingStatus.\n\n(@htdd BuildingStatus)\n;; BuildingStatus is one of\n;; - \"new\"\n;; - \"old\"\n;; - \"heritage\"\n\n;; interp. a building status based on the building's age\n;; <examples are redundant for enumerations>\n\n(@dd-template-rules one-of           ; 3 cases\n                    atomic-distinct  ;\"new\"\n                    atomic-distinct  ;\"old\"\n                    atomic-distinct) ;\"heritage\"\n\n(define (fn-for-building-status bs)\n  (cond [(string=? bs \"new\") (...)]\n        [(string=? bs \"old\") (...)]\n        [else (...)]))",
+    "student_answer": "Not Found",
+    "instructor_answer": "Your best bet for a question like this is https://edge.edx.org/courses/course-v1:UBC+CPSC110+2021W2/77860a93562d40bda45e452ea064998b/#Data"
+}

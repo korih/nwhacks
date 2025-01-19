@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 910,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/910",
+    "title": "Lab11 Problem2: find-route",
+    "question": "Hi,\n\nFor the problem 2 in lab 11, do we need to produce the shortest route? Or just the first route found in the tree? My function produces the first route found in the tree, because of the fixed order of searching branches in different directions. But some are not the shortest routes... and some tests fail.",
+    "student_answer": "This shouldn't have mattered I think. The autograder was probably graded using check-satisfied.",
+    "instructor_answer": "Not Found"
+}

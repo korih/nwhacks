@@ -1,0 +1,11 @@
+{
+    "author": "Darren Fernandes",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 607,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/607",
+    "title": "Problem with Lab 7 Autograder",
+    "question": "Something strange happened during my lab today (Section L21 - Thursday 11am-2pm).\nI like to submit my lab periodically (usually after I complete each question). So, my autograder grade starts off low and then slowly increases as I'm completing the lab (as you'd expect).\nAt one point (12:54pm) I handed in my lab and got 90% with the usual autograder report and breakdown, like normal. The cooldown time was about 20 minutes. Soon after the cooldown ended, I resubmitted my modified code, but all I got from the autograder was the next cooldown time - no grade breakdown or report, just a note of the next cooldown time.\nSo I waited until then to resubmit but the same thing happened again - no grade breakdown or report, just a note of the next cooldown time. I just recently tried again (1.5 hours after my lab ended at 3:30pm) and the same thing happened.\nI had never seen this before, and neither had any of the TA's.\nThis explanation might be a little confusing and I'm happy to meet with or talk to anyone who can resolve this because I'm not sure if I'll get to submit subsequent assignments properly with this issue.",
+    "student_answer": "Not Found",
+    "instructor_answer": "In the mail log the messages to you all look good.\nWhat mail client are you using?  Is it possible that your mail client is hiding the message body?  Gmail sometimes does that with a small box with ... in it."
+}

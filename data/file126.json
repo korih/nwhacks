@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 126,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/126",
+    "title": "Problem 4 L02",
+    "question": "I am having trouble with solving problem 4 of today's class (201) \n It produces the following error \n(@htdf image>)\n(@signature Image Image -> Boolean)\n;Compare two images area and produce a boolean\n(check-expect (Image> (rectangle 30 50 \"solid\" \"blue\") (rectangle 30 30 \"solid\" \"blue\")) true)\n(check-expect (Image> (rectangle 30 20 \"solid\" \"blue\") (rectangle 30 30 \"solid\" \"blue\")) false)\n(check-expect (Image> (rectangle 30 30 \"solid\" \"blue\") (rectangle 30 30 \"solid\" \"blue\")) false)\n\n\n;(define (image> img1 img2) false) ;stub\n\n\n(@template Image)\n\n(define (image> img1 img2)\n  (if (> (* (image-width img1)(image-height img1))(* (image-width img2) (image-height img2)))\n      true\n      false\n      ))\n\n\n\nRan 10 tests.\n3 of the 10 tests failed.\n\nCheck failures:\n        check-expect encountered the following error instead of the expected value, true. \n   :: Image>: this function is not defined\nin m01-htdf-starter.rkt, line 106, column 0 caused by expression in m01-htdf-starter.rkt, line 106, column 15\n        check-expect encountered the following error instead of the expected value, false. \n   :: Image>: this function is not defined\nin m01-htdf-starter.rkt, line 107, column 0 caused by expression in m01-htdf-starter.rkt, line 107, column 15\n        check-expect encountered the following error instead of the expected value, false. \n   :: Image>: this function is not defined\nin m01-htdf-starter.rkt, line 108, column 0 caused by expression in m01-htdf-starter.rkt, line 108, column 15",
+    "student_answer": "Edited the original post. ",
+    "instructor_answer": "Thank you for updating your post as per @6.\nIf you look at the error, it states the following:\nImage>: this function is not defined\nThat\u2019s because the function that you\u2019re calling in your check-expects, Image>, is different from the function you defined; image>. It\u2019s a subtle difference and a common mistake.\nIf errors pop up like this, it\u2019s good to take a look at your function definition and debug from there."
+}

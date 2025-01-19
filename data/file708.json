@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 708,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/708",
+    "title": "comparing items in two lists",
+    "question": "Hi, There were several questions that asked to compare items of two lists. \nOne of the proposed solutions was this.\n(@htdf set=?)\n(@signature (listof Number) (listof Number) -> Boolean)\n;; true if each number in lon1 is in lon2 and each number in lon2 is in lon1\n\n(check-expect (set=? (list 1 2 3 4) (list 4 2 3 1)) true)\n(check-expect (set=? (list 1 3 2 4) (list 4 3 1 2)) true)\n(check-expect (set=? (list 1 2 3 4) (list 4 4 2 3 1)) true)\n(check-expect (set=? (list 1 2 3 4) (list 4 2 3 6 1)) false)\n;; This is the check-expect we forgot\n(check-expect (set=? (list 1 2 3 4 6) (list 4 2 3 1)) false)  \n\n(@template use-abstract-fn fn-composition)\n\n(define (set=? lst1 lst2)\n  (local [(define (in-lst1? n) (ormap (\u03bb (x) (= n x)) lst1))]\n         (define (in-lst2? n) (ormap (\u03bb (x) (= n x)) lst2))]\n         (and  (andmap in-lst1? lst2)))\n         (andmap in-lst2? lst1))))\nBut why isn't it enough to do it this way? \n(define (set=? lst1 lst2)\n  (local [(define (in-lst1? n) (ormap (\u03bb (x) (= n x)) lst1))]\n         (andmap in-lst1? lst2)))\n         \nIt produces a wrong answer, but if we \"pin\" one list and then check all the items in the second list compared to it, shouldn't it be enough?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Great question.\nThe way to figure something like this out is to work with the check-expects until you have one that passes one version of the function but fails in the other.  I think if you do that you'll discover the issue quickly."
+}

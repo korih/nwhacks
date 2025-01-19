@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 846,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/846",
+    "title": "Missing lab",
+    "question": "If I miss a lab but I finish it on the day of, would I still get the mark or would I have to fill in the academic concession form? I read the other piazza post but I am still quite unsure.",
+    "student_answer": "Your grade in each lab is calculated using your autograder score and the score that your TA gives you out of three for attendance, behaviour, and check-off. The grading scheme is as follows:\nIf you get 3/3 for your TA score, your lab grade will be your autograder score\nIf you get 2/3 for your TA score, your lab grade will be capped at 80%\nIf you get 1/3 for your TA score, your lab grade will be capped at 60%\nIf you get 0/3 for your TA score, your lab grade will be 0\nIn other words, if you do not attend a lab, you will get a 0/3 as your TA grade and thus receive a grade of zero (unless you are granted academic concession). ",
+    "instructor_answer": "Not Found"
+}

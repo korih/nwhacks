@@ -1,0 +1,11 @@
+{
+    "author": "Jessica",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 427,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/427",
+    "title": "Definitions for check-expects",
+    "question": "Q1: \nCould be make definitions and use them in each of our functions to simplify the code? \n\nInstead of having to having to make up a list of eggs for every check-expect, could we make definitions at the start such as:\n\n(define LOE1 (make-egg 2 3 4))\n\nand then use them for each of our function? \nIn this way, I think that there would be more efficient, especially with lists. \n\nIn an exam scenario, since it is auto graded, would this be acceptable or should I stick to listing out each value in for example: (make-egg x y r) each time \n\nQ2: \nAdditionally, does defining an empty list count towards testing for the base case? \n\nFor example. \n\n(define LOE2 empty and then using it: \n\n(check-expect (render LO2) empty) as a base case\n\nI know that defining an empty list may be redundant but I was just wondering how the function checks the tests, by value that the check-expect evaluates to at the end, or by \u201cempty\u201d  \n\n\n\n ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Q2 yes\nas a matter of fact when defining examples in a non-primitive HtDD when you've got self-ref involved, it's common to use that constant for an empty list\nQ1 I personally would go against this. Constants are great for making sure that a value remains the same throughout, and that you can simply change this if need be w/o having to change all your tests.\nSo if you want my answer, I would not recommend it"
+}

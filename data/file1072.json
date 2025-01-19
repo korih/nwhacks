@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1072,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1072",
+    "title": "fn-composition",
+    "question": "for the fn-composition in the template tag, do we put it only with the use-abstract-fn?",
+    "student_answer": "Remember from earlier in the course we can use fn-composition when we have our own helper functions as well, not just with built-in abstract functions.",
+    "instructor_answer": "Not Found"
+}

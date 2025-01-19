@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 944,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/944",
+    "title": "PSET 11 Q1",
+    "question": "I'm having a bit of trouble interpreting what the type of the output should be for this question. The question asks for the total amount of gold AND the list of accessible treasures. I don't think (?) we've ever dealt with a function that has an output of two things ( i.e. (@signature X Y -> W Z)). Is it supposed to be something like (listof W (listof Z)) (although I'm pretty sure this is \"illegal\") or something else? Any help would be appreciated!\nedit: Also, side note, do we need to include the input treasure as one of the \"accessible treasures\" in the ouput? Thanks.",
+    "student_answer": "A function can only have one output. Try reading the question description again while keeping this in mind; that's where your misunderstanding is.",
+    "instructor_answer": "Not Found"
+}

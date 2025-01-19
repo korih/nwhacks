@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 553,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/553",
+    "title": "Contract Violation in Autograder",
+    "question": "Hi, \nCan someone please clarify what contract violation means in the autograder message? ",
+    "student_answer": "The part of the autograder report that says contract violation should also mention a function: that will be helpful in finding the mistake in your code.\nAs I understand it, when we use most functions in Racket, there are some guarantees we\u2019re making about the data we give them - for example, that string=? has at least two parameters and that they\u2019re both strings. If these guarantees (\u201ccontracts\u201d) are broken, the autograder will spit out a contract violation.\nThe Racket documentation has some helpful information: https://docs.racket-lang.org/guide/contract-boundaries.html\nThe function should take in the same datatypes as the signature states. ",
+    "instructor_answer": "Not Found"
+}

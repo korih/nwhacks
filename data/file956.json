@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 956,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/956",
+    "title": "Template rules during final",
+    "question": "Along our progress in the course, we stopped using certain tools (e.g. stubs, dd-template-rules) in our program design. For the final, is it mandatory to include these in our data definitions/code, or will the questions specify whether or not we must use them?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Just to be clear... I know what you meant, but...\nWe didn't stop using stubs.  We said you could delete it after you were done doing an initial check of the check-expects.  Anyone not using a stub to run their check-expects is spending longer to debug their code than they should need to!\nWe also didn't stop using dd-template rules. They are still the way to form templates for types.\nBut yes.  You don't need to write them on the final unless we ask you to.  The Recipe Elements Schedule pages still applies to the final."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 898,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/898",
+    "title": "Return nth element of a list",
+    "question": "If I had a list of elements, and wanted to take the nth element in the list (i.e. something like (predicate-name n lon)), is there a predicate that we learnt that could accomplish this? I feel like this was covered in past material but I wasn't able to find it in starters or in Racket documentation. Thanks for your help.",
+    "student_answer": "You can use list-ref for that. Where (list-ref (list \"a\" \"b\" \"c\") 1) returns \"b\" (zero based indexing). It\u2019s in the documentation/help desk as well.",
+    "instructor_answer": "Not Found"
+}
