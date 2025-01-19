@@ -1,5 +1,5 @@
 import os, json
-from models.piazza_post import PiazzaPost
+from models.piazza_post import PiazzaPost, PiazzaPostResult
 from qdrant_client import QdrantClient
 
 COLLECTION_NAME = "piazza_embeddings"
@@ -47,22 +47,23 @@ def upload_documents():
 def delete_collection():
 	qdrant_client.delete_collection(COLLECTION_NAME)
 
-def search_text(text: str) -> list[PiazzaPost]:
+def search_text(text: str) -> list[PiazzaPostResult]:
 	search_result = qdrant_client.query(
 	    collection_name=COLLECTION_NAME,
 	    query_text=text,
 	    limit=10
 	)
 
-	piazza_posts:list[PiazzaPost] = []
+	piazza_posts:list[PiazzaPostResult] = []
 	for result in search_result:
-		piazza_posts.append(PiazzaPost(
+		piazza_posts.append(PiazzaPostResult(
 		    author=result.metadata["author"],
 		    position=result.metadata["position"],
 		    course=result.metadata["course"],
 		    post_num=result.metadata["post_num"],
 		    link=result.metadata["link"],
-		    body=result.document
+		    body=result.document,
+		    score=result.score
 		))
 	return piazza_posts
 

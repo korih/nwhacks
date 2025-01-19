@@ -38,7 +38,9 @@ if __name__ == "__main__":
 		delete_collection()
 	if args.search:
 		query_text = " ".join(args.search)
-		search_text(query_text)
+		list_of_posts = search_text(query_text)
+		for p in list_of_posts:
+			print(p.body, ", ", p.score)
 	if args.misc:
 		misc()
 
