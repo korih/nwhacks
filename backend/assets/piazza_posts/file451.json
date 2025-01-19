@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 451,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/451",
+    "title": "2020 W MT1 Q5",
+    "question": "1. The purpose of the tock function is: unhappy moves by vel and turns around at wall. When the cat is exactly at LEFT/RIGHT, according to the autogravder, the cat must change to the opposite direction. Can I interpret it as cat changes direction only when it goes beyond LEFT/RIGHT?\n2. Why is cond being used for this function? Since it's not a part of the Cat template, can I use other strictures? For example, I tried using if statement and a helper function called change-direction? to determine the x position and the direction of the cat. Though I have to admit its readability is not as good as the answer. \n(define (tock-cat c)\n  (cond [(cat-happy? c) c]\n        [(<= (+ (cat-x c) (cat-unhappy-vel c)) LEFT)\n         (make-cat LEFT (* -1 (cat-unhappy-vel c)) false)]\n        [(>= (+ (cat-x c) (cat-unhappy-vel c)) RIGHT)\n         (make-cat RIGHT (* -1 (cat-unhappy-vel c)) false)]\n        [else\n         (make-cat (+ (cat-x c) (cat-unhappy-vel c))\n                   (cat-unhappy-vel c)\n                   false)]))",
+    "student_answer": "Not Found",
+    "instructor_answer": "Terminology point. There are no if statements or any other kind of statements in this language.\nIn terms of using a cond expression vs. an if expression the general rule is that if there is just one question- so two cases - then it is fine to use if or cond.  \nIf there are more than two cases it almost always makes the code more clear to use cond.\nYou can see from the problem set that another way for this code to look would be:\n(define (tock-cat c)\n  (cond [(cat-happy? c) c]\n        [(touch-left? c) (bounce-left c)]\n        [(touch-right? c) (bounce-right c)]\n        [else\n         (walk c)]))\nwith 5 helper functions."
+}

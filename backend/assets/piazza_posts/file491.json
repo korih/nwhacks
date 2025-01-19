@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 491,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/491",
+    "title": "bst",
+    "question": "in data definition part(htdd), how many examples are needed for a BST?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Remember that the data definition examples serve to explain the data definition.  You *might* also use them in tests, but that's much less important.\nSo just a few examples is probably enough to explain the BST data definition. Maybe even just two or even just one."
+}

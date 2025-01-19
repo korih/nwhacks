@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 710,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/710",
+    "title": "2020w2-mt2 question about problem 7",
+    "question": "Hello, here's part of the solution that I had a question about:\n(@htdf next-countdowns)\n(@signature (listof Countdown) -> (listof Countdown))\n;; advance every countdown, sequence is ..., 3, 2, 1, 0, false, <remove>\n(check-expect (next-countdowns empty) empty)\n(check-expect (next-countdowns (list 0 3 1 false 2)) (list false 2 0    1))\n\n(@template fn-composition use-abstract-fn)\n\n(define (next-countdowns loc)\n  (local [;; (@template Countdown)\n          (define (next-c c)\n            (cond [(false? c) false]\n                  [else\n                   (if (zero? c)\n                       false\n                       (sub1 c))]))]\n  (map next-c\n       (filter (lambda (c) (not (false? c))) loc))))\nIn the cond of next-c, since we already filtered all of the elements that are false in the list, is it necessary to check for false again? Isn't the point of removing all the false elements that false elements are null after advancing the function, not returning false again?\nThanks!",
+    "student_answer": "In the cond of next-c, since we already filtered all of the elements that are false in the list, is it necessary to check for false again?\nNo you should be fine,  the program works just fine without it (and the autograder gives\n100\n%\non the problem).",
+    "instructor_answer": "Whoa hang on a second.\nThat kind of \"optimization\" is very much what we want you to learn to avoid.  Some languages would not even let you write such code.\nmap is given a function and a (listof Countdown). \nthat means the function must be able to consume a Countdown.\nwhich means it must have the complete Countdown template.  Eliminating the cond from the code above would lose significant template intact marks.\nAs an aside, the composition here really should be:\n(filter (lambda (c) (not (false? c))) \n        (map next-c loc))\nFirst you want to advance the counts, and then eliminate the ones that have expired."
+}

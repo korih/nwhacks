@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 134,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/134",
+    "title": "Boxify-starter.rkt",
+    "question": "Is it required to have two check-expect functions for this problem? Or is one sufficient?",
+    "student_answer": "You always want more than 1 check-expect because the program might only produce that one single result. Have at least 2 if not more. ",
+    "instructor_answer": "Not Found"
+}

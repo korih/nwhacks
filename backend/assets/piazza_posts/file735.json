@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 735,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/735",
+    "title": "PSet8 q4",
+    "question": "Hi, I have used exactly 3 built-in abstract functions in my solution, but the autograder gives: is not a composition of 3 abstract functions!\nIs it because I'm using two functions that are alike? Do we have to use 3 different built-in abstract functions?",
+    "student_answer": "Not Found",
+    "instructor_answer": "take a look at the posted solution"
+}

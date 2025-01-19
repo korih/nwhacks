@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 913,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/913",
+    "title": "Still confused about cycle vs joins",
+    "question": "I'm really sorry for the silly question, but I'm still confused about the difference.\nIf I understand it correctly, a cycle in a graph is when you end up in a position you had previously visited, like we saw in the 4-way maze starter. (0,0 -> 1,0 -> 1,1 -> 1,0 -> 0,0).\nHowever, I don't understand what joins exactly are still and to distinguish them between cycles. Would greatly appreciate any help on this, thank you",
+    "student_answer": "Joins become a problem when you do backtracking instead of tail recursion to search through a graph. Cycles are what you describe with one additional catch: you end up in a position you had previously visited in the path you were taking at that point. This means that it's not a cycle if you reach a dead-end, backtrack to a split, then return to this position from a different path - this would be called a join. With backtracking, this same position wouldn't be recognized as a place already visited because it was visited from a different path than the one that's currently being checked. Joins can be avoided using tail recursion. ",
+    "instructor_answer": "Not Found"
+}

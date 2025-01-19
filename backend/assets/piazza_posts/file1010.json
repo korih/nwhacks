@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1010,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1010",
+    "title": "max-exits-from-starter clarification question",
+    "question": "Is there a way to avoid using the \"max-exits\" starter twice, both in the function that acts on room and (listof Room), for a SR solution?\nThis was my code and I used comments to show where the room-exit comparison was made.\n(@htdf max-exits)\n(@signature Room -> Room)\n;; produce room with most exits from given room\n\n; [CHECK EXPECTS]\n\n(@template Room (listof Room) accumulator encapsulated)\n\n(define (max-exits r0)\n  ;; path is (listof String); context preserving accumulator, names of rooms\n  (local [(define (fn-for-room r path) \n            (cond [(member? (room-name r) path) false]\n                  [else\n                   (max-exits r (fn-for-lor (room-exits r)                ;HERE MAX-EXITS IS USED TO COMPARE\n                                            (cons (room-name r) path)))]))  \n\n                \n          (define (fn-for-lor lor path)\n            (cond [(empty? lor) false]\n                  [else\n                   (max-exits (fn-for-room (lookup-room (first lor)) path)   ;HERE MAX-EXITS IS USED TO COMPARE\n                              (fn-for-lor (rest lor) path))]))\n\n          (define (max-exits x y)  ;helper\n            (cond [(false? x) y]\n                  [(false? y) x]\n                  [(>= (length (room-exits x))\n                       (length (room-exits y))) x]\n                  [else y]))]\n    \n    (fn-for-room r0 empty)))",
+    "student_answer": "I don't think so. ",
+    "instructor_answer": "Not Found"
+}

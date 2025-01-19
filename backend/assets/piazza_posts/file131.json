@@ -1,0 +1,11 @@
+{
+    "author": "Bruce Li",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 131,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/131",
+    "title": "homework",
+    "question": "(@problem 1)\n;; Write a function that consumes two numbers and produces the larger\n;; of the two.  \n(define (larger x y)\n(if (> x y)\n    x\n    y))\ncan some explain to me how this function came out, IDK how to do this question",
+    "student_answer": "Not Found",
+    "instructor_answer": "What happens if you use the stepper to step a call to the function?"
+}

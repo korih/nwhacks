@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 988,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/988",
+    "title": "False Results",
+    "question": "I\u2019m wondering if we would have to change the signature on an exam given that some c.e.are giving false results. What if we were given c.e. that doesn\u2019t have a false result but the fn we write may produce one. I noticed this in the 2019 W1 Final where the solution fn could produce false but was not included in the c.e.\nAnother way to think about it is that a (listof x) already implies that the list could have a false. Would this be true for all lists? because that assumption would make sense.",
+    "student_answer": "Not Found",
+    "instructor_answer": "Which problem are you asking about?"
+}

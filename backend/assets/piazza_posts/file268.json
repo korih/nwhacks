@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 268,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/268",
+    "title": "autograding error",
+    "question": "I finished my lab, but autograding report  did not show my grade.",
+    "student_answer": "Not Found",
+    "instructor_answer": "Because your Piazza username does not match any name in the course I can't really tell for sure what happened here, but I do know that at least one student did this in their handin:\n;;(@assignment labs/lab-02) \nCommenting out the assignment tag essentially disables the autograder."
+}

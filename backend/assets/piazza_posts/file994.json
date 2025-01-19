@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 994,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/994",
+    "title": "template tags questions",
+    "question": "Hi, I just had a few questions about what to do with some template tags\n1) Is the backtracking template tag and try-catch template tag the same thing?\n2) If I include the accumulator template tag, does that mean I don't have to use the encapsulated one (since it's assumed)?\n3) Do we always include the origin template tag if we defined a new data definition, even if it's a define struct?\n4) Also, not a template question but for a given purpose statement, if there are numerous constraints such as for the following function (from 2020W2 final Q5)\n;; Design a function that:\n;;   - is called find-increasing-path\n;;   - consumes the names of start and destination nodes\n;;   - tries to find a path from start to destination\n;;   - without passing through any node more than once\n;;   - and such that each node on the path has a number > than the prior\n;;     node\n;;   - if found it should produce a list of the names of the nodes in\n;;     order from start to destination for first path found\n;;   - otherwise it should fail\nWould the below purpose statement be fine (ie: listing additional data under constraints to avoid going over the character limit)?\n;; find a path frm start to end node under given constraints or false otherwise\n;; CONSTRAINTS: can't pass any node more than once\n;;              each node has a number > than the previous node\n;;              produces in order from start to end node if found",
+    "student_answer": "Not Found",
+    "instructor_answer": "There is no backtracking template origin anymore.  But if we compare the old backtracking origin to the new try-catch they are not the same. We switched because of confusion the old one caused.\nYes, accumulator implies one encapsulated function.\nYes, you include type names when you are including their template functions.\nIt's usually possible to get the whole thing into the purpose and that is what we are looking for when we TA grade the purpose."
+}

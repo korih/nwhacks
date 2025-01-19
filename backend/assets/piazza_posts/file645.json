@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 645,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/645",
+    "title": "evaluate-foo-solution (7b: local)",
+    "question": "I noticed there are a couple of steps in the solution where there's no empty line between steps.  Does that mean indicate anything special about these steps that I might be missing?\nI don't see anything special about those steps, just figured I'd check.\n(require spd/tags)\n(@assignment bank/local-p3)\n(@cwl ???)\n(check-expect (+ 1 2) 3) ;ensures the autograder has something to grade\n(@problem 1)\n;; Hand step the evaluation of (foo 3) given the definition of foo below.\n;; We know that you can use the stepper to check your work - please go\n;; ahead and do that AFTER you try hand stepping it yourself.\n(define (foo n)\n  (local [(define x (* 3 n))]\n    (if (even? x)\n        n\n        (+ n (foo (sub1 n))))))\n\n;; EVALUATE: (foo 3)\n(foo 3)\n(local [(define x (* 3 3))]\n  (if (even? x)\n      3\n      (+ 3 (foo (sub1 3)))))\n(define x_0 (* 3 3))\n(if (even? x_0)\n    3\n    (+ 3 (foo (sub1 3))))\n\n#; ; commented out so DrRacket doesn't complain\n(define x_0 9)\n(if (even? x_0)\n    3\n    (+ 3 (foo (sub1 3))))\n(if (even? 9)\n    3\n    (+ 3 (foo (sub1 3))))\n(if false\n    3\n    (+ 3 (foo (sub1 3))))\n(+ 3 (foo (sub1 3)))\n(+ 3 (foo 2))\n(+ 3 (local [(define x (* 3 2))]\n       (if (even? x)\n           2\n           (+ 2 (foo (sub1 2))))))\n(define x_1 (* 3 2))\n(+ 3 (if (even? x_1)\n         2\n         (+ 2 (foo (sub1 2)))))\n#; ; Again, comment out so DrRacket doesn't complain\n(define x_1 6)\n(+ 3 (if (even? x_1)\n         2\n         (+ 2 (foo (sub1 2)))))\n(+ 3 (if (even? 6)\n         2\n         (+ 2 (foo (sub1 2)))))\n(+ 3 (if true\n         2\n         (+ 2 (foo (sub1 2)))))\n(+ 3 2)\n5",
+    "student_answer": "Not Found",
+    "instructor_answer": "No there's nothing special going on there.  Just someone did/didn't leave an extra line."
+}

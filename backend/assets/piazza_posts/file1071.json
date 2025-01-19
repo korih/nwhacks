@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1071,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1071",
+    "title": "genrec in template tag",
+    "question": "When should we put genrec in the template tag? I go through the past final, there are some questions don\u2019t have genrec in there.",
+    "student_answer": "When it doesn't follow the natural recursion template. Like generative recursion, natural recursion also has a base case and a reduction step, but with all functions that follow the natural recursion template, you will notice that the base case and the reduction step is exactly the same. Since natural recursion is commonly used and consistent, it is not necessary to provide a justification as to why it works as the theory behind it has been very well documented. In order for a function to follow natural recursion, it needs to satisfy BOTH of these conditions:\nThe base case is when the list is empty, which we do with (empty? lst)\nThe reduction step is the recursion performed on a list with its first element removed, which we do with (rest list)\nIf you have a recursion that does not satisfy either of those two conditions, then it is a generative recursion problem. ",
+    "instructor_answer": "Not Found"
+}

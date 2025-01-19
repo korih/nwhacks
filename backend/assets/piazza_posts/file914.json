@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 914,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/914",
+    "title": "check-expect for problem 3?",
+    "question": "Here's part of the code given in the starter:\n(@htdf short-dur-reachable)\n(@signature Treasure Number -> (listof String))\n;; produce labels of all treasures reachable by following routes < n hr long\nfor this check-expect\n(check-expect (short-dur-reachable TA 9) (list \"A\" \"C\" \"G\" \"D\"))\n\n; constants given below\n(make-treasure \"D\" 21 1 \"sunken\"  (list (make-route 8 \"G\")\n                                        (make-route 13 \"H\")\n                                        (make-route 9 \"I\")\n                                        (make-route 11 \"A\")))\n(make-treasure \"G\" 52 3 \"buried\"  (list (make-route 2 \"D\")))\n(make-treasure \"C\" 41 4 \"buried\"  (list (make-route 6 \"G\")))\n(make-treasure \"A\" 7 1 \"locked\"   (list (make-route 12 \"B\")\n                                        (make-route 7 \"C\")\n                                        (make-route 27 \"D\")))\nWhy are \"G\" and \"D\" included in the list?",
+    "student_answer": "The problem statement says \"following routes less than n hours long\". This does not mean that the entire route has to be less than n hours long, just that each individual route between treasures needs to be less than n hours long.",
+    "instructor_answer": "Not Found"
+}

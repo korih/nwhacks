@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 680,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/680",
+    "title": "P7 Abstraction Problem",
+    "question": "Hi everyone! \nI was going through the solutions for Problem 7 (abstraction) and I was wondering why go through the extra steps in solution two (+ (* 2 n) 1), when writing n alone in the helper function works well too? I guess I'm having some trouble understanding the difference, and the hint too, could someone please explain?\nThank you!",
+    "student_answer": "Not Found",
+    "instructor_answer": "@6 please"
+}

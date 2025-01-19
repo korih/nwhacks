@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 55,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/55",
+    "title": "Autograder info",
+    "question": "I've been working on problem set 1 and noticed that when I receive the autograder report, it says:\n\"For further explanation of autograder messages and\npolicies see https://cs110.students.cs.ubc.ca/psets/autograder.shtml.\"\nBut the link is non-functional for me. Is there any important information we need from that link? Thanks!",
+    "student_answer": "Not Found",
+    "instructor_answer": "Thanks for the note.  We'll correct that.\nThe autograder messages have gotten much easier to understand in the last 6 months, so you should be OK with just the report.\nAsk here if there is a message that you don't fully understand."
+}

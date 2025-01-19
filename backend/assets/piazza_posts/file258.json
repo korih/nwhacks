@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 258,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/258",
+    "title": "Question about function",
+    "question": "Why we use this function \"number->string\"? In grade-standing problems.  Where to find which function should I use ?",
+    "student_answer": "In the grade-standing example, we have to output strings (\"70%\" and \"H\")\n\nnumber->string is a primitive for converting number value to a string.\n\nFor examples:\n(string-append (number->string 26) \"%\"))\n(string-append 26 \"%\")\n\nThe first example adds % at the end of 26 (\"26%\") (for this, 26 is converted into a string using number->string; if we don't give a string to the string-append, the code will blow up, like in the second example)\n\nWhere to find such functions is a bit of intuitive. I take my chances at file:///Users/msbahia17/Library/Racket/8.1/doc/index.html, Dr. Racket documentation.\n\nI would type \"number\" and/or \"string\" in the search tab, and luckily the number->string is the first result. May be luck won't follow similarly all the times, but this is the best way to find the primitive functions.\n\n\nHope the explanation will help you.\nHave fun coding!\n\nCheers! :)",
+    "instructor_answer": "Not Found"
+}

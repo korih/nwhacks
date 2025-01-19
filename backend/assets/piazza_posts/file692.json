@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 692,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/692",
+    "title": "fold-employee (checking signature and question about comments)",
+    "question": "Hello, here's the signature I included for fold-employee and the given function body below (I omitted the check-expects for brevity):\n(@htdf fold-employee)\n(@signature (String Natural A Y -> X) (X Y -> Y) (String Natural B -> Z)\n            (Z A -> A) (String B -> B) Y A B Employee -> X) \n;; abstract fold for Employee\n\n(define (fold-employee c1 c2 c3 c4 c5 b1 b2 b3 e)\n  (local [(define (fn-for-employee e) ;-> X\n            (c1 (emp-name e)\n                (emp-yrs e)\n                (fn-for-lop (emp-lop e))\n                (fn-for-loe (emp-subs e))))\n\n          (define (fn-for-loe loe) ;-> Y\n            (cond [(empty? loe) b1]\n                  [else\n                   (c2 (fn-for-employee (first loe))\n                       (fn-for-loe (rest loe)))]))\n\n          (define (fn-for-project p) ;-> Z\n            (c3 (pro-name p)\n                (pro-cost p)\n                (fn-for-los (pro-lom p))))\n\n          (define (fn-for-lop lop) ;-> A\n            (cond [(empty? lop) b2]\n                  [else\n                   (c4 (fn-for-project (first lop))\n                       (fn-for-lop (rest lop)))]))\n\n          (define (fn-for-los los) ;-> B\n            (cond [(empty? los) b3]\n                  [else\n                   (c5 (first los)\n                       (fn-for-los (rest los)))]))]\n\n    (fn-for-employee e)))\nI was wondering if I got the signature right? \nAlso, in terms of style rules, is it okay to leave the temp comments I put in to figure out what the signature was? Thanks!",
+    "student_answer": "Not Found",
+    "instructor_answer": "looks right to me.\nthe key in a problem like this is for there to be only one uncommented signature.  That's all we grade in problems like this, so it's best if you clean up your scratch work or perhaps move it to the end of the file."
+}

@@ -6,7 +6,10 @@ class PiazzaPost(BaseModel):
 	course: str
 	post_num: int
 	link: str
-	body: str
+	title: str
+	question: str
+	student_answer: str
+	instructor_answer: str
 
 class PiazzaPostResult(BaseModel):
 	author: str
@@ -14,5 +17,8 @@ class PiazzaPostResult(BaseModel):
 	course: str
 	post_num: int
 	link: str
-	body: str
+	title: str
+	question: str
+	student_answer: str
+	instructor_answer: str
 	score: float

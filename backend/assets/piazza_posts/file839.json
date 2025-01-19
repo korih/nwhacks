@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 839,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/839",
+    "title": "what does (empty? lon) exactly mean?",
+    "question": "(local [(define (sequence? lon acc)\n            (cond [(empty? lon) true]\n                  [else\n                   (if (= (first lon) (add1 acc))         ; use / exploit\n                       (sequence? (rest lon) (first lon)) ; preserve\n                       false)]))]\nAs following constraint, there is not empty list in this question but why we specify (empty? lon) in the local function? if lon0 is not empty, how local lon could be a \"empty list\"?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Good question!\nlon0 can still be (list 1) though (a list with a singular element), right? Since we pass (rest lon0) into our trampoline, our inner function ends up receiving an empty list, so we'll still need to make use of that first cond case \ud83d\ude0a \n(Also, it's part of our template, so we can't violate the template by blatantly changing the question for our first cond case)"
+}

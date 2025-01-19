@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 737,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/737",
+    "title": "2020w1-mt2",
+    "question": "For question 7 c) on the midterm 2 for 2020 term 1, I used abstract functions and 2-one-of to construct my solution but the solution shows the use of fn-composition and abstract functions instead. In this scenario would my solution be incorrect or suboptimal, and if so how would I know when to use fn-composition instead of 2-one-of especially when both my solution and the actual solution use abstract functions?\nActual solution:\n(define (set=? lst1 lst2)\n  (local [(define (in-lst1? n) (ormap (\u03bb (x) (= n x)) lst1))\n          (define (in-lst2? n) (ormap (\u03bb (x) (= n x)) lst2))]\n    (and (andmap in-lst1? lst2)\n         (andmap in-lst2? lst1))))\nMy solution:\n(define (set=? lon1 lon2)\n\n  (cond [(empty? lon2) (empty? lon1)]\n        [(empty? lon1) false]\n        [else\n         (local [(define (=l1? x) (= (first lon1) x))\n                 (define (is-not-n? x) (not (=l1? x)))]\n           (if (ormap =l1? lon2) \n               (set=? (rest lon1)\n                      (filter is-not-n? lon2))\n               false))]))",
+    "student_answer": "Not Found",
+    "instructor_answer": "Please go back and read the very important instructions at the start of the question. Not only would your solution be suboptimal, it would be assigned a grade of zero!"
+}

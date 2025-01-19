@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 375,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/375",
+    "title": "Check Syntax",
+    "question": "I've read that for exams we will lose significant marks if the code doesn't pass the check syntax. But what exactly does check syntax even do? Whenever I click it, it doesn't show or do anything other than allow me to see how many times I've used a word.",
+    "student_answer": "Try doing something that is obviously wrong and run check syntax.",
+    "instructor_answer": "Not Found"
+}

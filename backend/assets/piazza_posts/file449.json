@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 449,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/449",
+    "title": "2020 S MT1 Question 6",
+    "question": "(@template ListOfPhone)\n(define (count lop b c)\n  (cond [(empty? lop) 0]\n        [else\n         (+ (count-phone (first lop) b c)\n            (count (rest lop) b c))]))\n\n(@htdf count-phone)\n(@signature Phone String Natural -> Natural)\n;; Produce 1 if the phone has Brand b and cost less than c, 0 otherwise\n\n(define (count-phone p b c)\n  (if (and (string=? (phone-brand p) b) (< (phone-price p) c))\n       1\n       0))\nThis is my answer to the 2020 S MT1 Question 6. Instead the answer deals with individual element in the list with a function that produces Boolean (checks whether it meets the requirement) rather than this add 1 if meets requirement. I was wondering if this is also a correct take on the question?\nAlso my function is actually not passing check-expects. But you get the idea. I would really appreciate if someone could point out where the problem might be. ",
+    "student_answer": "Not Found",
+    "instructor_answer": "@416  @420"
+}

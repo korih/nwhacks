@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 111,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/111",
+    "title": "Include stub and template when handing in homework?",
+    "question": "For example, we comment them out using ;, which i read is for \"temporary\" comments and that shouldn't be in the final program. So, just to be clear, do we still have to include them to show the HTDF process in our homework?",
+    "student_answer": "Yes, ideally the commented out stub should be included but there doesn\u2019t need to be a commented out template since the autograder knows which template you used from the template tag.",
+    "instructor_answer": "Not Found"
+}

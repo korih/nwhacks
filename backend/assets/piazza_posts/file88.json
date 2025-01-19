@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 88,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/88",
+    "title": "Not receiving SPD hand in emails",
+    "question": "I'm not receiving the spd hand-in emails, and I'm not sure why. I have received them before for all the other practice problems I've done but for this one I didn't receive anything. \nI changed the ??? in the CWL section in the document to my CWL. I checked my spam folder. My cs email is activated and set to forward to my personal email. \nI also tried emailing my cs email, but it didn't forward to my personal email (gmail) :( ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Here's what the logs show. What email host are you using?\nautograder-email-16418690471641869047559.rkt:At Monday, January 10th, 2022 6:44:07pm the following was sent to ...\nautograder-email-16419257831641925783088.rkt:At Tuesday, January 11th, 2022 10:29:43am the following was sent to ...\nautograder-email-16420149651642014965622.rkt:At Wednesday, January 12th, 2022 11:16:05am the following was sent to ..\nautograder-email-16420241741642024174837.rkt:At Wednesday, January 12th, 2022 1:49:34pm the following was sent to ...\nautograder-email-16420246161642024616782.rkt:At Wednesday, January 12th, 2022 1:56:56pm the following was sent to ..."
+}

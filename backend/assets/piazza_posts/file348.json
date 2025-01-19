@@ -1,0 +1,11 @@
+{
+    "author": "Arsenii Stolbov",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 348,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/348",
+    "title": "Autograding",
+    "question": "I did problem set 3 and got 99% but all my program is correct. \n\"AUTOGRADING GRADE:   99    (out of 100)\n11.3%  of  12.5%  -    (@htdf bounce-left):  \n   0%  of     0%         Signature: correct.\n 2.5%  of   2.5%         Test validity (matches problem statement): correct.\n 3.8%  of   3.8%         Test thoroughness (test argument coverage): correct.\n 1.3%  of   1.3%         Test thoroughness (known fault detection): correct.\n   0%  of   1.3%  x      Template tag: could not find 1st template tag.\n 1.9%  of   1.9%         Submitted tests: correct.\n 1.9%  of   1.9%         Additional tests: correct.\n12.5%  of  12.5%       (@htdf bounce-right):  correct.\"\nBut I wrote the template tag.",
+    "student_answer": "https://cs110.students.cs.ubc.ca/syllabus.html#academic-honesty\nDon't post your code lol\n^^^Adding on to that:\nIt says 0/1.3% because it \"could not find 1st template tag\", so I would say examine closely if there is a smaller issue you skipped over.\nAlso, @6 ",
+    "instructor_answer": "Not Found"
+}

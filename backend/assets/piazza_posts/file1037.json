@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1037,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1037",
+    "title": "Circle-fractal Genrec",
+    "question": "Hi,\nSo this is what I got for Problem bank question about circle-fractal. This is different from the given solution. But I tried using approach done for other fractals. Could anyone please point out the error as to why it isn't running? \n(define STEP (/ 2 5))\n(define TRIVIAL-SIZE 5)\n(check-expect (fractal TRIVIAL-SIZE) (circle TRIVIAL-SIZE \"solid\" \"blue\"))\n(check-expect (fractal (/ TRIVIAL-SIZE STEP))\n              (above (circle TRIVIAL-SIZE \"solid\" \"blue\")\n                     (beside (circle TRIVIAL-SIZE \"solid\" \"blue\")\n                             (circle (/ TRIVIAL-SIZE STEP) \"solid\" \"blue\")\n                             (circle TRIVIAL-SIZE \"solid\" \"blue\"))\n                     (circle TRIVIAL-SIZE \"solid\" \"blue\")))\n\n(define (fractal s)\n  (cond [(<= s TRIVIAL-SIZE) (circle TRIVIAL-SIZE \"solid\" \"blue\")]\n        [else\n         (local [(define c1 (fractal (/ s STEP)))\n                 (define c2 (fractal s))]\n           (above c1\n                  (beside c1 c2 c1)\n                  c1))])) ",
+    "student_answer": "What's different is the biggest circle has 4 subs while each smaller circle only has 3 subs. So, you need two different functions, one that makes fractals with 3 subs and one that makes fractals with 4, and combine them in some way.",
+    "instructor_answer": "Not Found"
+}

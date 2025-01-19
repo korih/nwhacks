@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1030,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1030",
+    "title": "Termination Arguments",
+    "question": "If Genrec is included in the template and being used in a function, are we always obligated to write a termination argument?\nI see that it is necessary for strictly genrec problems (ex. fractals), but if a graphs or search problem uses genrec, will we be deducted marks if we do not include the termination argument?\nOr as a general rule of thumb we should always include it?",
+    "student_answer": "You need to include a termination argument whenever using genrec. ",
+    "instructor_answer": "Not Found"
+}

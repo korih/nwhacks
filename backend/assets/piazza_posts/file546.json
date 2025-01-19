@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 546,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/546",
+    "title": "Pset 6, problem 4 clarification",
+    "question": "Instructions say: \"Design a function that produces the largest course number in the tree\". I have two interpretations, 1: produce just the number of the course that has the highest course number, or 2: produce a course that is the highest course number. I'm unsure which is the correct interpretation.",
+    "student_answer": "i think the function only produce the number not the Course",
+    "instructor_answer": "Not Found"
+}

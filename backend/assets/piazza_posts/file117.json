@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 117,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/117",
+    "title": "Lab 01 Q5",
+    "question": "hi, i'm having a bit of difficulty with answering the last question due to not knowing how to implement the character. \nedit: unsure if i should specify details of the question but im unsure of which command specifically to use, since the = sign only works for numbers and we're trying to determine whether or not a character is in the first slot. through some look up i found char=?, but it gives the error \"char=?: expects a char, given \"h\"\"\nedit 2: nevermind i got it we're good",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 159,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/159",
+    "title": "PS1 P6 @template contradiction?",
+    "question": "In problem 6 for Problem set 1, it states: Note that the template tag for a function that consumes two images is: (@template Image). But we learned in class through m01-htdf-starter.rkt problem 4 that the template tag for a function that consumes two images is: (@template Image Image). I am confused on which I should use.",
+    "student_answer": "(@template Image) because there are two images and produces one ",
+    "instructor_answer": "The m01-htdf-solution.rkt file has:\n(@template Image)\n(define (image> i1 i2)\n  (> (* (image-width i1) (image-height i1))\n     (* (image-width i2) (image-height i2))))\nMore importantly, templating a function that consumes two types like String, Number, Image and Boolean works as follows:\nThe tag is:\n(@template <THE-TYPE-OF-THE-FIRST-ARGUMENT-FROM-THE-SIGNATURE>)\n\nThe template itself is formed in two steps, although the second step is so simple you can do it in one if you'd like:\nFirst form the template for the first argument, for example:\n(define (image> img1)\n  (... img1))\nThen add the second parameter, and also add it in the ... after the first parmater.\n(define (image> img1 img2)\n  (... img1 img2))\nNote also that the template is always based on the type of data the function consumes, not the type of data it produces."
+}

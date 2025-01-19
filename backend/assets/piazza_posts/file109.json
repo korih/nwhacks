@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 109,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/109",
+    "title": "How to find image shape in function?",
+    "question": "Regarding the solution of question 4 on lecture 2 starter, is there a way to find the type of shape an image is? The area of all rectangles are base x height but the area of a circle is pi*r*2 not (2*r)^2. Is there a function like image-width that would work something like (image-type image) -> circle? (I looked through images.rkt but couldn't find anything). I would like to use this to have two separate area equations, one for area of rectangles and one for areas of circles.",
+    "student_answer": "Not Found",
+    "instructor_answer": "@6 "
+}

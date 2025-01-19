@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 494,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/494",
+    "title": "What does \"Template tag: is missing non-type origins\" mean?",
+    "question": "I'm doing m06-regions-find-region-starter.rkt and it keeps giving me this error. I am including the templates for Region and ListOfRegion respectively. What am I missing?\nOk turns out all I needed to do was wait. try-catch!",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not Found"
+}

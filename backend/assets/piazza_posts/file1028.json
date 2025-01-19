@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1028,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1028",
+    "title": "Order of arguments to pass in tandem worklists",
+    "question": "Is there any preferred order of arguments/accumulators in tandem worklists? For example, the find/loname function of the tail-recursive solution in 2020W2-F-p5 calls\n[else\n (find/name (first n-wl) (first path-wl) (first prev-wl)\n            (rest n-wl)  (rest path-wl)  (rest prev-wl))]\nwhere all the firsts are called then all the rests are called.\nMy solution instead was:\n[else\n (fn-for-string (first s-wl) (rest s-wl)\n                (first num-wl) (rest num-wl)\n                (first p-wl) (rest p-wl))]\nwhere I call the first and rest of one of the worklists then move on to the next.",
+    "student_answer": "Not Found",
+    "instructor_answer": "The solution has the preferred option. \nBut as long as the order of your arguments is consistent across your functions, whichever order you use is okay. \nThat being said, we write code that typically is read and updated by others, so adapting a practice that uses the existing convention is a great skill to have as a programmer."
+}

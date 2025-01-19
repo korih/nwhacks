@@ -1,0 +1,11 @@
+{
+    "author": "Malkeet Singh",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 681,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/681",
+    "title": "Can we use genrec sort function for list having duplicate values",
+    "question": "Hello,\nI was trying to use the genrec sort function for a list having duplicate values. The function produced (list 1 2) for (qsort (list 1 1 2)), and I can understand that this is because of the definition of <p? and >p? functions. (< or > x PIVOT)\nThen, I tried using (define (<p? x) (< = x PIVOT)) as well,  but it made racket going out of memory.\nSo, my question is: Is it possible to use (qsort (list 1 1 2)), and get (list 1 1 2) as answer.",
+    "student_answer": "Not Found",
+    "instructor_answer": "Why do you think your DrRacket ran forever?  What did the change you made do to the termination argument?"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Shreya Singh",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 404,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/404",
+    "title": "Helper function",
+    "question": "Are we allowed to put helper functions into our check-expects?",
+    "student_answer": "Yes, you should be able to use them in the \u201cexpected value\u201d part of the check-expect!",
+    "instructor_answer": "Not Found"
+}

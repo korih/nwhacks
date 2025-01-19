@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 207,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/207",
+    "title": "why does the empty-string is needed in this case?",
+    "question": "the answer of less-than-5? practice in 1b edx wrote that empty string test is needed in check-expect , why it is needed\n(@htdf less-than-5?)\n(@signature String -> Boolean)\n;; produce true if length of s is less than 5\n(check-expect (less-than-5? \"\") true)\n(check-expect (less-than-5? \"five\") true)\n(check-expect (less-than-5? \"12345\") false)\n(check-expect (less-than-5? \"eighty\") false)",
+    "student_answer": "The short answer is that you\u2019re typically expected to run a test with an empty string when you have a function that takes a string. It\u2019s needed because some part of the autograder is specifically checking to make sure you test with an empty string.\nThe long answer is that the purpose of check-expect statements (and tests in general) is to test a wide variety of parameters to make sure your function won\u2019t fail. But because the functions we\u2019re writing deal with fairly simple parameters - there\u2019s not actually that many things you can test.\nSay you wrote a function that compares two numbers. You would want to have tests that check if they\u2019re equal, greater than, or less than. In your case here, you\u2019d want to test a string shorter than 5, longer than 5, and equal to 5. But empty strings are also a bit unusual, like how zero can be a bit unusual, so it\u2019s worth checking them.\n\u2800",
+    "instructor_answer": "Not Found"
+}

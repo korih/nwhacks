@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 384,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/384",
+    "title": "SPD Handin-connect issues",
+    "question": "I was working on my Pset for this week and the SPD Handin was working just fine and suddenly it wasn't. I keep getting the following error which I'm not sure how to solve:\n\"handin-connect: could not connect to the server (cs110.students.cs.ubc.ca:7979)\" followed by a \"Connection Failed\"\nI've already tried the following solutions:\n- restarting my laptop\n- opening and closing the file\n- installing and reinstalling racket\n- turning my wifi on and off\n- updating SPD plugin (says it is up to date) \n- reinstalling the .plt file\nI would greatly appreciate it if someone could point me in the correct direction of how to fix this issue. Thank you in advance :) ",
+    "student_answer": "Happening to me too right now\u2014it might have to do with the server itself",
+    "instructor_answer": "fixed now"
+}

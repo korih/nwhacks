@@ -1,0 +1,11 @@
+{
+    "author": "Bruce Li",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 179,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/179",
+    "title": "lecture 2 last question",
+    "question": "(@problem 4)\n;;\n;; Design a function, called image>, that takes two images and determines \n;; whether the first is larger than the second.\n;;\n(@htdf image>)      \n(@signature Image Image -> Boolean)\n;; produce true if the first image is larger than second\n(check-expect (image> (rectangle 20 30 \"solid\" \"red\") (rectangle 10 20 \"solid\" \"red\")) true)\n(check-expect (image> (rectangle 10 10 \"solid\" \"red\") (rectangle 10 20 \"solid\" \"red\")) false)\n(check-expect (image> (rectangle 20 20 \"solid\" \"red\") (rectangle 20 20 \"solid\" \"red\")) false)\n(define (image> i1 i2) false) ;stub\n\n;;jump ahead to template\n\n;(@template Image)\n\n;(define (image> i1 i2)\n ;(... i1 i2)\nI ran the code, it said 1 of the test failed, it suppose to be three tests failed, so I am wondering whats the mistakes",
+    "student_answer": "It's because the check-expects run against the stub, which just says to produce a false result. And since 2 of your check-expects have \"false\" as the expected result, they passed and only the one with \"true\" as an expected result failed. Hope this helped :)",
+    "instructor_answer": "Not Found"
+}

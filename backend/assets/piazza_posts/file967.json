@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 967,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/967",
+    "title": "Pset 11 Template tags",
+    "question": "For pset11 template tags, why were we not supposed to include encapsulated for any of them? Autograder was marking it wrong if it was included.",
+    "student_answer": "Including an accumulator in template tags takes care of the encapsulated part if I recall correctly. If you were getting part marks deducted for your template tag, it might be the case that you were missing something. Same thing was happening to me, but once I included genrec, or try-catch in the problems where it was needed, the issue went away.",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 690,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/690",
+    "title": "Autograder feedback on the signature of P6, Pset8",
+    "question": "Hello! I am a little bit confused about how the autograder is marking the signature of the function  on problem 6 since I got 0% on parts that, in my opinion, I should be getting right. For instance, I recieved the following feedback messages:\n 0% of 0.4%       x       c1 has a function type with N arguments: incorrect\n0% of 0.4%        x      first argument of c1 has type data type: incorrect\n(to avoid giving away information about the solution, I'm writing N and data type instead of the specific number and data type that is provided by the autograder)\nI'm very confident that I have the same number of arguments on c1 as the autograder and I'm also very confident that my first argument of c1 matches the autograder. Is there anything I could do to fix this?\n  Thank you!",
+    "student_answer": "You may want to reconsider what exactly a combination function does for compound data. ",
+    "instructor_answer": "looks like you managed to fix the problem"
+}

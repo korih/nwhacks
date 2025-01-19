@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 777,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/777",
+    "title": "mt2-p4",
+    "question": "The solution I obtained for problem #4 in the exam release is posted below. I was wondering if this solution fulfilled the requirements of being a composition of exactly 2 different built-in abstract functions since the composition is not in the usual place for abstract function composition. If not is there any hints for turning this solution into a fn-composition?\n(define (count-duplicates los1 los2)\n  (local [(define (in-los2 s1) (ormap (lambda (s2) (string=? s1 s2))\n                                      los2))]\n    (length (filter in-los2 los1))))",
+    "student_answer": "To be safe, it would maybe have been better to use foldr\nSo you could have written (foldr c1 b1 (filter in-los2 los1))\nAnd then define c1 and b1 so that you could count the filtered list (filter in-los2 los1)\nI'm actually curious how you got this part:\n(define (in-los2 s1) (ormap (lambda (s2) (string=? s1 s2))\n                                      los2))]\nof the solution. I was tearing my hair out trying to figure it out and just couldn't.\nalso, might want to check out @731, I don't believe your solution fulfills the question's requirements, as one of your abstract functions is locally defined. uilt-in abstract fn in local doesn't count as two-fn-compositon. ",
+    "instructor_answer": "Not Found"
+}

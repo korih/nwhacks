@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 329,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/329",
+    "title": "Big-bang mechanism question",
+    "question": "I was re watching the edx videos on the big-bang mechanism, and according to the picture I posted, shouldn\u2019t the (on-draw render-cat) go above the (on-tick next-cat) in the big-bang expression?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Good observation!\nFirst, I want to redirect you to the helpdesk for worlds (specifically, 2.4.3 Interactions) to read about the interactions between the different functions. What does the image seem to imply?\nSecondly, here's a piece of code I'd like you to paste into DrRacket and run it (Unfortunately doesn't include all parts of the recipe). First, try running it with (on-tick-first 1), and then try running it with (to-draw-first 1). What do you notice between the two results? Are there any differences as to what they begin with?\n(require 2htdp/universe)\n(require 2htdp/image)\n\n(define HEIGHT 100)\n(define WIDTH 100)\n(define MTS (empty-scene WIDTH HEIGHT))\n\n;; start the world program with (on-tick-first 1)\n(define (on-tick-first n)\n  (big-bang n\n    (on-tick tock 2)\n    (to-draw render)))\n\n;; start the world program with (to-draw-first 1)\n(define (to-draw-first n)\n  (big-bang n\n    (to-draw render)\n    (on-tick tock 2)))\n\n;; tock advances the world state by 1\n(define (tock n)\n  (+ n 1))\n\n;; render displays an image of the current tick\n(define (render n)\n  (place-image (text (number->string n) 30 \"black\") 50 50 MTS))\nBased on your conclusion from running both world programs, try to consider why we would want you to keep the specific order of on-tick first, and to-draw after this. I'd have a look over here to understand why :)"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 811,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/811",
+    "title": "p2 htdd of Employee and Grant",
+    "question": "I'm a bit confused with the (@htdd Employee Grant)\nfrom employee data definition, the number 'hired' represents the day number where the employee was hired\nfrom the Grant data definition, 'vests' is the day the shares can be vested\nDoesn't this mean that an employee who was hired on day 1700 but given a share that vests on day 365 mean they are given a share that vests far before they even joined the company?",
+    "student_answer": "Yes, I believe it would mean that.  No idea if it's a normal practice in the industry, but the company was described as \"very strange\".",
+    "instructor_answer": "Not Found"
+}

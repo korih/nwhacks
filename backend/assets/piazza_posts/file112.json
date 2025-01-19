@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 112,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/112",
+    "title": "I get an error when using the @htdf tag",
+    "question": "Hello,\nI started reworking the problems from the HTDF lecture today, and when I type \u201c@htdf topple\u201d before starting the design steps, I get an error saying \u201ctopple: this function is not defined.\u201d\nI do have (require 2htdp/image) and (require spd/tags) typed into the racket file I\u2019m working in as well.\nApologies if this has been covered, but I couldn\u2019t find a solution to this problem on Piazza or on the edx tabs. Thank you for any help!\nedit: Sorry about that. Here is the file\n(require 2htdp/image)\n(require spd/tags)\n\n;; Design a function, called topple, that takes an image and rotates it \n;; by 90 degrees.\n\n\n(@htdf topple)  \n(@signature Image -> Image)          ;signature\n;; rotate given image by 90 degrees  ;purpose",
+    "student_answer": "Not Found",
+    "instructor_answer": "For questions like this it helps to edit your original question, use the {;} button in the Piazza editor, and paste in the exact contents of your file.  Don't retype it, copy and paste it."
+}

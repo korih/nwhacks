@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 941,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/941",
+    "title": "Problem 6 Pset11",
+    "question": "Hi, \nI can't seem to figure out problem 6 of pset11. I know we have to check which route has the minimum duration, but I'm not sure how we can check that. I tried a dry run of the check expect with TH as from and TI as to... but can't figure out how to get 4 instead of 6. I'm also referring to my solution for problem 5 for this as they are very similar but still can't figure it out.\nAny help would be appreciated. Thanks!",
+    "student_answer": "m11-maze-4-way-shortest-path-starter.rkt\nm11-maze-4-way-shortest-path-solution.rkt\nhelped me in solving the problem",
+    "instructor_answer": "Not Found"
+}

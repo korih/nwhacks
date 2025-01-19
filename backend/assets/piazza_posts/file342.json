@@ -1,0 +1,11 @@
+{
+    "author": "Ben Gao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 342,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/342",
+    "title": "Mutability of variables?",
+    "question": "Something that only really came up for me now that we're dealing with compound data:\nin BSL, to confirm variables aren't mutable right? we can't make a compound storing (10, 12), and add 2 to 10, so when we call the variable again, we get (12,12)\nWhen we want to make changes to an instance of a compound, in reality, we're making a new instance of the compound, so if I want (12, 12), I'd make a new instance of a compound with (12, 12), we can't change pre-existing instances.",
+    "student_answer": "Not Found",
+    "instructor_answer": "Yes.\nBSL is a functional language so named because it provides functions, which as functions have their result completely determined by their arguments.  There is no mutation (a word we haven't learned yet) that can change the behaviour of the function between two calls with the same arguments.\nFunctional programming is becoming more and more important because parallel computing is becoming more and more important. Important frameworks for cloud computing use functional programming because it is much easier to write correct could programs using a functional approach.\nSo while you will not program in BSL after this class you will probably want to be able to use functional programming, and having learned about it now will be a side benefit of 110."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 411,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/411",
+    "title": "Program Error",
+    "question": "What does the following error mean?\n\nfirst: expects a non-empty list; given: (make-ball 302.5 267.5 4 -3)",
+    "student_answer": "I might be wrong but \"first\" operates on lists. (make-ball 302.5 267.5 4 -3) isn't a list, it's a ball.\n(cons (make-ball 302.5 267.5 4 -3) empty) would be a list and using \"first\" on it would produce (make-ball 302.5 267.5 4 -3)",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 433,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/433",
+    "title": "summing the areas",
+    "question": "Hi, \nAt 2021w-md1 q4, we should design a function that consumes a list of images as its first argument and a number as its second argument.  The function should produce the sum of the areas of just those images with areas greater than the number.\nThe solution consist a condition:\n(define (sum-areas-greater-than loi n)\n  (cond [(empty? loi) 0]\n        [else\n         (+ (if (> (image-area (first loi)) n)\n                (image-area (first loi))\n                0)\n              (sum-areas-greater-than (rest loi) n))]))\n When we add the area (or 0) - where it is going? I am adding it to what? a hidden initial zero?\nI saw it on another question that we needed to add 1.",
+    "student_answer": "The\n0\nin this case (\n1\nin the other cases you've seen) just represents the base case.\n\nIn this case, the \"empty\" at the end of the list.",
+    "instructor_answer": "Not Found"
+}

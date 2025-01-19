@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 741,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/741",
+    "title": "2019W1-MT2 Problem 2",
+    "question": "Hello, for this problem we had to provide reference arrows for the following type comments (problem and solution below):\nProblem\n(define-struct tree (n branches))\n(define-struct branch (w tree))\n;;\n(@htdd Tree)\n;;\n;; Tree is (make-tree String ListOfBranch)\n;;\n(@htdd ListOfBranch)\n;;\n;; ListOfBranch is one of:\n;;  - empty\n;;  - (cons Branch ListOfBranch)\n;;\n(@htdd Branch)\n;;\n;; Branch is (make-branch Natural Tree)\nSolution\n;; Tree         --> ListOfBranch   [MR]  \n;; ListOfBranch --> Branch         [MR]  \n;; ListOfBranch --> ListOfBranch   [SR]  \n;; Branch       --> Tree           [MR]  \nInitially, in my solution I had R instead of MR for the first, second, and fourth arrows. However, I now kind of see why that was wrong, and I just wanted to confirm that my reasoning for why they are MR is correct. Tree makes a reference to ListOfBranch, which makes a reference to branch, which makes a reference back to tree. So, following the reference arrows we go from tree back to tree, which is why it's a mutual reference. As a general rule, can we say that if we can follow arrows from one function back to itself, all the arrows we get along the way are mutual reference arrows?",
+    "student_answer": "yes.\n@488",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 975,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/975",
+    "title": "When to consider cycles",
+    "question": "Do we consider cycles and joins (and take care of them) only in graphs, or do cycles also occur in trees and lists?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Fundamentally, if you have a cycle or join, the statement \"while traversing this data normally, there are two ways to get to this same piece of the data\" is true (either the piece of data reappears during a particular path (for cycles), or the piece of data appears on two distinct paths (for joins)). Is it possible to encounter this situation in a tree or a list?"
+}

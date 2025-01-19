@@ -1,0 +1,11 @@
+{
+    "author": "Franklin Ma",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 262,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/262",
+    "title": "Editing a cond template",
+    "question": "Now that we are working with data driven templates with cond, it's always a important topic to understand what you can and cannot do with such templates.  We've talked about it in lecture, but here are the rules:\nIf a template has cond in it, then in the final function \nYou must keep the cond \nYou must keep all the cond question/answer pairs\nYou must not change the order of the question/answer pairs\nYou must not edit any of the questions\nYou must not add any question/answer pairs\nWhat you are allowed to do is edit the answers. That's it, just the answers.  But note that you can do a lot when you edit the answers.  You can, for example, add an if expression or even another cond expression in the answer.\nAbove is the rules, which you must know and follow.  Below is why, which is more for context.\nThere are two main reasons why:\nThe first is code consistency.  If every function that operates on a given type of data has the same structure then it is easier to update the code when the data definition changes.\nThe second has to do with something called type safety.  The DD template rules aren't something that we just cooked up one day.  Everything having to do with template rules and this part of the course is based on recursive type theory.  The templates work for deep reasons.  If you follow those rules, and you follow the rules above about what you cannot edit then there are many kinds of errors in your code that cannot happen. It's beyond the scope of 110 to give you the theory behind that, or say much more than this. But recursive type theory is well developed and working within it guarantees important properties of the program. We will see more of this as the course goes on.",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not Found"
+}

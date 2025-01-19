@@ -1,0 +1,11 @@
+{
+    "author": "Tighe McAsey",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 974,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/974",
+    "title": "2019 W1 Final Xplode",
+    "question": "why does (lambda (n) (string-ith s n)) return the correct number in the n-spot? Or in other words, why does the n in the lambda become one greater each evaluation?\nI should also mention I tried stepping it and I know that it does but I don't know the process behind this.",
+    "student_answer": "This result comes from build-list. Basically what build-list does is it takes a number n, and a function, and creates a list of numbers and then maps the function to them.\nFor example, (build-list 2 identity) creates a list (list 0 1)\nIn xplode, when we call (build-list (string-length \"it\") (lambda (n) (string-ith s n))) it creates the same list as above \"(list 0 1)\" and then maps string-ith to each number in the list. the reason why the N in lambda is increasing is because the number in the list made by build-list is increasing.\nTo help you visualize this you can make this a two-part function that first makes the list with (build-list (string-length) identity) and then a second part that uses map. If you step through that then it should be a little clearer to see what is happening I hope.\nI hope that helps!",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 576,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/576",
+    "title": "Improving performance of functions with local",
+    "question": "Hello, I had a question about using local to improve the performance of recursive functions.\nI was doing the practice questions in the problem bank and here's part of the solution from render-bst-w-lines-faster:\n(define (render-bst bst)\n  (cond [(false? bst) MTTREE]\n        [else\n         (local [(define li (render-bst (node-l bst)))\n                 (define ri (render-bst (node-r bst)))\n                 (define lw (image-width li))\n                 (define rw (image-width ri))]\n           (above (render-key-val (node-key bst) (node-val bst))\n                  (lines lw rw)\n                  (beside li ri)))]))\nWhy do we also include the last 2 definitions in the local? I thought at that point when we call:\n(image-width li)\nThe\nl\ni\nhas already been reduced to a single value, an image, so is there still recursion taking place? I tried this without the last 2 definitions and I didn't notice a great difference in performance. Thanks!",
+    "student_answer": "Not Found",
+    "instructor_answer": "Remember that there are three reasons to use local:\nencapsulation (to define a function in which all the helpers are hidden from the top level)\nto eliminate duplicate recursive calls\nto give useful names to intermediate values\nthe defines for lw and rw are there to give a useful name to that value.  Note that lw, and rw are not duplicated (there is only one reference to each), and even if they were duplicated image-width/height are not recursive, so this would have no performance impact."
+}

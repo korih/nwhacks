@@ -1,0 +1,11 @@
+{
+    "author": "Mina Chong",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 744,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/744",
+    "title": "When to include fn-composition in template tag",
+    "question": "Hello, here's part of my solution for problem 4 from @689 :\n(@htdf count-duplicates)\n(@signature (listof String) (listof String) -> Natural)\n;; produce the number of elements of strings in los1 that are also in los2\n;; CONSTRAINT: there are no duplicates within lst1 and\n;;             there are no duplicates within lst2 \n(check-expect (count-duplicates (list \"dog\" \"bird\") empty) 0)\n(check-expect (count-duplicates empty (list \"cat\" \"dog\" \"bird\")) 0)\n(check-expect (count-duplicates (list \"cat\" \"bat\" \"owl\") (list \"cat\" \"bat\")) 2)\n(check-expect (count-duplicates (list \"owl\" \"dove\" \"bird\" \"dog\")\n                                (list \"dove\" \"bird\" \"dog\" \"owl\")) 4)\n(check-expect (count-duplicates (list \"dove\" \"dog\" \"owl\" \"bird\")\n                                (list \"owl\" \"dove\")) 2)\n\n;(define (count-duplicates los1 los2) 0)\n\n(@template use-abstract-fn fn-composition)\n\n(define (count-duplicates los1 los2)\n  (local [(define (in-los2? s1)\n            (ormap (lambda ( s2) (string=? s1 s2)) los2))\n          (define (count s rnr)\n            (add1 rnr))]\n    (foldr count 0 (filter in-los2? los1))))\nTo make sure I'm understanding when to include fn-composition, if I was designing a very similar function that was just producing a list of the duplicated strings, with a function body like\n(define (count-duplicates los1 los2)\n  (local [(define (in-los2? s1)\n            (ormap (lambda ( s2) (string=? s1 s2)) los2))]\n    (filter in-los2? los1)))\nI would not include fn-composition, is that correct? \nThanks!",
+    "student_answer": "Update: yes, you're correct.\nTo my understanding, yes.",
+    "instructor_answer": "Not Found"
+}

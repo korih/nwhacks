@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1062,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1062",
+    "title": "Alternative solution to 2020W2 p4?",
+    "question": "(define (decode lon0)\n  ;;\n  ;; rsf is Natural: the sum of all unskipped even numbers so far\n  ;; skips is Natural: the amount of skips left\n  ;;\n  (local [(define (fn-for-lon lon rsf skips)\n            (cond\n              [(empty? lon) rsf]\n              [else\n               (cond [(odd? (first lon))\n                      (fn-for-lon (rest lon) rsf (+ (first lon) skips))]\n                     [(and (even? (first lon)) (> skips 0))\n                      (fn-for-lon (rest lon) rsf (sub1 skips))]\n                     [else\n                      (fn-for-lon (rest lon) (+ (first lon) rsf) skips)])]))]\n    (fn-for-lon lon0 0 0)))\nIn the Practice Final 2020W2 Problem 4, this is what I had as my answer and saw that it wasn't correct in terms of resemblance to the solution code. All of my tests pass, but since I'm not confident if this is truly an alternative solution, would it be possible for anyone to check?\nMy apologies for having to make everyone read through the code. ",
+    "student_answer": "There is a bit of redundancy in your code in\n(and (even? (first lon)) (> skips 0))\nBecause the numbers are natural, they are either odd or even, so everything (odd? (first lon)) produced false for is even. ",
+    "instructor_answer": "Not Found"
+}

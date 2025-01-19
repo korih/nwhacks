@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 983,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/983",
+    "title": "Practice Finals",
+    "question": "None of the practice finals I worked on seem to have autograders... Will they be updated for these finals?",
+    "student_answer": "Not Found",
+    "instructor_answer": "We have only been autograding finals since the pandemic started.  As it is, as the autograder gets better and better we spend many tens of hours updating the autograders we have to use new features.  Writing a really well debugged autograder for an old exam that doesn't have one is a significant undertaking.\ntl;dr we are trying to add them, but we don't have as many cycles as it takes"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 700,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/700",
+    "title": "encapsulated template tag",
+    "question": "When do we use the encapsulated template tag? Is it anytime we use local when defining a function?\nAnd for the fn-composition template tag, do we use it even when we use 2 abstract functions together when defining a function? What are the restrictions around it? Thank you in advance for the clarification.",
+    "student_answer": "From how I understand it, encapsulated is used when multiple mutual recursions (plus any necessary helpers) are combined into the local definition of a single function where the function body is just a single trampoline call.\nI think you do use fn-composition for combining abstract functions, given that the function body is only the composition of abstract functions.",
+    "instructor_answer": "Not Found"
+}

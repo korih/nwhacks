@@ -1,0 +1,11 @@
+{
+    "author": "Jessica",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 662,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/662",
+    "title": "Defining parameters",
+    "question": "When defining parameters for functions in a local, they could technically be named anything. \n\nexample: \n\u2026(local [(define taller? strawberry banana) \u2026)]\n\nhowever, what is the naming convention when we have more than one function in the local that operates on the top level data. Do we still use the same parameter? \n\nexample: \n\u2026(local [(define (fruit? x) (\u2026))] \n             [(define (vegetable? x) (\u2026))]\n\nor should it be something like this: \n\u2026(local [(define (fruit? m) (\u2026))] \n             [(define (vegetable? n) (\u2026))]\n\nsince we are passing the same data through the functions, I would believe it\u2019s fine. However then we would be defining two of the same thing, which doesn\u2019t sound right to me. \n\nThanks \n\n                ",
+    "student_answer": "parameter names really do not matter, although differentiating them might help you follow your program better and not get confused.",
+    "instructor_answer": "Not Found"
+}

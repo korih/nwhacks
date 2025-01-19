@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 795,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/795",
+    "title": "Closures and Lifted Definitions",
+    "question": "I'm doing the 2020w2-mideterm2 \nHowever, I don't quite understand how closure works or how definitions are lifted. Can someone help explain?\nI already tried looking at other Piazza answers but I'm still getting it wrong. Thank you!\nFor questions 1-3: I don't understand the difference, why is 2 and 3 a closure but 1 not\nFor question 5: why is it 12, wouldn't it be 18 since \"a\" is also being called\n(define (a lst)\n  (map b lst))\n(define (b n)\n  (local [(define (one x) (* x 1))\n          (define (two x) (* x b))\n          (define (three x) (* x n n n))\n          (define a n)\n          (define b (* n n))\n          (define c (* n n n))]\n    (one (two (three n)))))\n\n;; Question 1:\n;; Is one a closure?\n;; [a] Yes\n;; [b] No\n(define my-answer-question-1 \"b\")\n\n;; Question 2:\n;; Is two a closure?\n;; [a] Yes\n;; [b] No\n(define my-answer-question-2 \"a\")\n\n;; Question 3:\n;; Is three a closure?\n;; [a] Yes\n;; [b] No\n(define my-answer-question-3 \"a\")\n\n;; Question 4:\n;; How many definitions are lifted each time b is called?\n;; [a] 1\n;; [b] 2\n;; [c] 3\n;; [d] 4\n;; [e] 6\n(define my-answer-question-4 \"e\")\n\n;; Question 5:\n;; In total, how many definitions are lifted when the expression\n;; (a (list 4 5)) is evaluated?  Replace the 00 below with the\n;; correct number\n(define my-answer-question-5 12)\n ",
+    "student_answer": "try re-watching the lexico scoping and closure EdX video. Those will help a lot.\nAlso is that problem definitely from 2020w1 mt2?  It doesn't match the files I have for that mt.",
+    "instructor_answer": "Not Found"
+}

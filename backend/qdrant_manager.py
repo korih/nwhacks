@@ -40,7 +40,7 @@ if __name__ == "__main__":
 		query_text = " ".join(args.search)
 		list_of_posts = search_text(query_text)
 		for p in list_of_posts:
-			print(p.body, ", ", p.score)
+			print(p.question, ", ", p.score)
 	if args.misc:
 		misc()
 

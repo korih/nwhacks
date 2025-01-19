@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 365,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/365",
+    "title": "Practice Problem HtDF P9",
+    "question": "This is a problem from the HtDF P9.\nI wrote the tests as below and still get an error sign.\ncheck-expect cannot compare inexact numbers. Try (check-within test 1.4142135623730951 range).\nHow can I fix it to work properly?\n(check-expect (distance 3 0 0 4) (sqrt (+ (sqr (- 3 0)) (sqr (- 0 4)))))\n(check-expect (distance 1 0 0 1) (sqrt (+ (sqr (- 1 0)) (sqr (- 0 1)))))\n(define-struct roots (x sqrt))\n(check-within (roots-table (list 1.0 2.0 3.0))\n              (list\n               (make-roots 1.0 1.0)\n               (make-roots 2  1.414)\n               (make-roots 3  1.713))\n              0.1)",
+    "student_answer": "Not Found",
+    "instructor_answer": "I'm a little unsure how to help you.  The problem bank problem htdf P9 asks for a single function of four arguments called distance.  What you are showing above is one part of the design for that function, and then a couple other fragments of something else I'm not sure about.\nCould you put your complete design above and then we can help.  Also please use the {;} button in the post editor to make a code block, and then paste your complete design into that."
+}

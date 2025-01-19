@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 372,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/372",
+    "title": "Autograder",
+    "question": "0%  of   100%  x Stopped grading because part of starter file was changed or reordered.  Can't find (@htdf next-ball) in its proper sequence in the file.\nHowever, I have not touched next-ball. I was at 98%, but once implementing an additional function, this new error is popping up. Any help would be awesome.\nThank you!!",
+    "student_answer": "Not Found",
+    "instructor_answer": "For  everyone else's benefit...\nOP brought this to office hours, and it turned out that a key part of the starter file had been commented out.  In OP's defense, it took me about 10 minutes to see it myself because looking at one screenful at a time it didn't look commented out.\nWe always get a number of these for problem set 4.\nThings to keep in mind:\n - when the AG says it can't find something, it really isn't there\n - if it looks like it is there it is commented out\n - #; can have effect at a distance"
+}

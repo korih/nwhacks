@@ -1,0 +1,11 @@
+{
+    "author": "Nicolas Taraviras",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 912,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/912",
+    "title": "Problem set 11 Q5 check-expects",
+    "question": "When I add up the last 2 check expects by hand I get different results than the given check-expects\nCan anyone confirm that these check-expects are correct? I don't see any path that results in the given value.",
+    "student_answer": "All are possible. Please note that the problem statement says: \n;; This function\n;; produces the total duration of the routes followed as soon as it finds a\n;; treasure labeled s.\nMeaning, the fastest route is not always the one travelled. There is some long way around that gets to the treasure labeled s. ",
+    "instructor_answer": "Not Found"
+}

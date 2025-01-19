@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 453,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/453",
+    "title": "why no simple atomic only enumeration",
+    "question": "",
+    "student_answer": "Do you have an explanation for why it would be simple atomic?\n\nThis would be an enumeration because the information to be represented consists of a fixed number of distinct items. A driver's license class in\nBritish Columbia\ncan only be one of the subclasses in the type comment; it can't be anything else.",
+    "instructor_answer": "Not Found"
+}

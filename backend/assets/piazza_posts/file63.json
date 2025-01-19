@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 63,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/63",
+    "title": "START FILE 1 Problem2",
+    "question": "When I try to SPD handin my problem 2, it says my line is over 80 limit characters. But the format is supposed to be (shape width length \"solid\" \"color\"), and I am not sure how to fix that.\nHere is my line\n(beside (rectangle 1 1 \"solid\" \"red\")(rectangle 2 1 \"solid\" \"white\")(rectangle 1 1 \"solid\" \"red\"))\nCan someone please help me.",
+    "student_answer": "You should start a new line after the first rectangle\n(beside (rectangle 1 1 \"solid\" \"red\")\n (rectangle 2 1 \"solid\"\"white\")\nand so on",
+    "instructor_answer": "Not Found"
+}

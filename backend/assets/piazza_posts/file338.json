@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 338,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/338",
+    "title": "Order of subclasses [Itemization]",
+    "question": "Hi!\nif we have more than 2 subclasses for Itemization\norder of the subclasses do matter?  is there any convention about it?\nex) \nStatus is one of...\nNatural  (atomic-non-distinct)\nfalse      (atomic-distinct)\n\"H\"        (atomic-distinct)\nStatus is one of...\nfalse      (atomic-distinct)\n\"H\"        (atomic-distinct)\nNatural  (atomic-non-distinct)\nThey are both acceptable? ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Choose the order that makes the most sense for that data definition. It's up to you.\nBUT whatever order the type comment is in the template needs to be in the same order, AND of course all the functions have the same order as the template."
+}

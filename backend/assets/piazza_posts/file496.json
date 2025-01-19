@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 496,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/496",
+    "title": "on-tick helper functions",
+    "question": "Hello,\nI am quite confused on what this sentence wants me to do:\n;; NOTE: Your on-tick function MUST be designed as a composition of two other\n;;       functions called game-with-next-balls and game-with-caught-balls.\nMy understanding is that:\ngame-with-next-balls should produce a (make-game ListOfBalls Number) where the ListOfBalls should be ticked to the next position \ngame-with-caught-balls should produce a  (make-game ListOfBalls Number)  where the touch-paddle? function is called and will replace any ball touching the paddle with empty.\nHowever, I am a bit lost on how to implement these two functions in the on-tick function.\nMy most notable attempt was:\n(define (next-game g)\n    (game-with-caught-balls (game-with-next-balls)) ;;ticks all balls in ListOfBall and then removes all Balls touching paddle\nbut it did not work which leads me to believe that I am misunderstanding something about the two helper functions we are supposed to implement.\nIs there anything wrong with my approach?",
+    "student_answer": "I believe that you need to make an (@hdtf game-with-next-balls game-with-caught-balls)\nbut beside that I don't really know how to form the signature and the functions, and what they are supposed to do, this problem set is really hard and is stumping me...\nalso i could be wrong...",
+    "instructor_answer": "Not Found"
+}

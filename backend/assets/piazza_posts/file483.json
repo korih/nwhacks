@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 483,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/483",
+    "title": "gradescope email not linked to account",
+    "question": "The email I received from Gradescope on my linked email account says that there is no user associated with the account. I've linked and unlinked my personal email and also tried to link my ubc student email but I keep receiving the same message. I've also made sure that I'm on gradescope.ca and not .com so I'm wondering if anyone else is facing this problem and if there are any tips on troubleshooting? ",
+    "student_answer": "Have you tried your UBC CS email? It's the one on https://www.cs.ubc.ca/getacct/students/getacct.php beside \"Anonymous email alias\". It should look like [mash of letters and numbers]@ugrad.cs.ubc.ca. That's the email associated with gradescope.ca, not your personal or student email that has your CWL! :)",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 870,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/870",
+    "title": "Starting a problem not using accumulators and adding later",
+    "question": "I'm having a bit of a difficult time with accumulators, especially with regards to the problem set so far. Is there any benefit in trying to do the problem without accumulators so you understand what needs to happen and then trying to add accumulators after? ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Yes.\nSometimes you can tell at the point you write the template tag that it is an accumulator problem.  And you will get better at being able to do that.\nSome cases are clear - tail recursive traversal of a tree requires a worklist to keep track of branches to come back to.\nBut sometimes you don't know it is an accumulator problem that soon. That's fine and happens to all of us.  So it's just fine to write a template strategy that doesn't have any accumulators and then realize part way through \"Oh, I need an accumulator\".  In that case adjust the @template, adjust the template, and keep going."
+}

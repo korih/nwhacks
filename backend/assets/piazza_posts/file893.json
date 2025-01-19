@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 893,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/893",
+    "title": "PSet 10 check expect?",
+    "question": "In problem 5, why is the result of check-expect (max-credit-path C110) (list 110 210 310 319))? \nI made a tree from pset 6 of C110, and from that tree, I would expect that the result of C110 should be (list 110 210 213 221 310 319), as all of these courses have the max number of four credits. \nI know that the extra courses I mentioned (213 221) are not direct subs of C110, but of 210, but so is 310, so I'm not understanding why it isn't included? Or am I just understanding the problem wrong? \npset_10_problem_5_graphic",
+    "student_answer": "I had a hard time wrapping my head around this too. What you're producing is the path of courses that starts from C110 and ends at a course without any dependents that contain the maximum amount of total credits - as in, more credits than any other path. (list 110 210 310 319) is the produced answer because taking that path leads to the most amount of total credits - 16.",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Gregor Kiczales",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 841,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/841",
+    "title": "Problem Set 9 Hint",
+    "question": "Here's a hint for problem set 9.\nImagine that\n - We asked you to do Sudoku.\n - We didn't give you any data definitions to use as search state.\n - And we describe the game by saying that there was a board with 81 slots, that you had to fill with the numbers 1-9, and there were some rules about valid fillings of the slots.\nWhat this hint says is that the TA solver isn't any harder than the 3 examples you already have seen.  You have to get the changing information clear, represent that, and understand how the tree progression works.  \nLike the bst? example, understanding how the information really works first is key.  Once you have that the rest is a lot less hard than it might seem at first.",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not Found"
+}

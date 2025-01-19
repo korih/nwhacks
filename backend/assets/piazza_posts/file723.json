@@ -1,0 +1,11 @@
+{
+    "author": "Gregor Kiczales",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 723,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/723",
+    "title": "Question about lists/mutual recursion",
+    "question": "(This is an example I made up to illustrate my question)\n(require spd/tags)\n\n(@htdd L)\n(define-struct l (num string lol))\n;; L is (make-l Number String ListOfL)\n\n(@htdd ListOfL)\n;; ListofL is one of:\n;; - empty\n;; - (cons L ListOfL)\n\n(define L1 (make-l 1 \"1\" empty))\n(define L2 (make-l 2 \"2\" empty))\n(define L3 (make-l 3 \"3\" (list (make-l 4 \"4\" empty))))\n(define L4 (make-l 4 \"4\" (list L2 L1 L3)))\n\n\n(check-expect (all-l-greater-than-2 L4) (list 4 3)) \n(define (all-l-num-greater-than-2 l)\n  (local [(define (fn-for-l l)\n            (if (> (l-num l) 2)  ;some random made-up condition  \n                (list (l-num l)    \n                      (fn-for-lol l))\n                (fn-for-lol l)))  \n  \n          (define (fn-for-lol lol)\n            (cond [(empty? lol) empty]\n                  [else\n                   (append (fn-for-l (first lol)) \n                           (fn-for-lol (rest lol)))]))]\n    (fn-for-l l)))\nSo the problem I have been finding is that when I pass a compound data type that contains a list of more of that same type and I want to check all of them against a certain condition, I run into getting \"empty\" instead of the intended result. What I assume to be happening is that when it gets to something like L2 in my check-expect  (in this particular made-up case), it goes to check the ListOfL that L2 has (which is empty) and subsequently produces empty, ending the running of the program. However, there is of course L1 and L3 still to check. What are some hints on how to deal with this? Thank you! \n(There may be other errors with the code since I created it purely to illustrate my question.) ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Thanks for putting the code into your question, it meant that I could copy it into Dr R quickly and play with it.\nLook at the two calls to fn-for-lol.  Do they match the template rules?\nThere's some other issues too, but that's the big one."
+}

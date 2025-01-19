@@ -1,0 +1,11 @@
+{
+    "author": "Gurashish",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 308,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/308",
+    "title": "Auto grader problem",
+    "question": "I am submitting my work through spd handin but auto-grader is not working. I am not receiving my grade in the email its successfully submitting through racket but still i am not receiving my grade in the mail.",
+    "student_answer": "Not Found",
+    "instructor_answer": "which @assignment is giving you trouble? I see this in the log:\nAt Tuesday, January 25th, 2022 1:12:34am the following was sent to (xxx@students.cs.ubc.ca). \nBelow is the provisional autograding report on lectures/m03-spider for (xxx).\nAt Tuesday, January 25th, 2022 1:25:35am the following was sent to (xxx@students.cs.ubc.ca). \nBelow is the provisional autograding report on lectures/m03-spider for (xxx)."
+}

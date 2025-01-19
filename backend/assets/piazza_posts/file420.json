@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 420,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/420",
+    "title": "@416 continued",
+    "question": "@416\nContinued...\nI am still confused by that question.\nFor the first one. I didn't use volume. Instead, I use an if to produce 1 or 0. And then, return that 1 or 0 to the natural recursion function like the relationship between render-ListOfImage and place-image. Why that is not 1 task per function.",
+    "student_answer": "Not Found",
+    "instructor_answer": "Is there some specific point in my explanation you have a question about:\nOne is that it violates the rule that a function that answers a yes/no question should always produce a Boolean. \nIt violates that rule because it is doing several things-computing the volume, comparing it to n, and producing the amount that should be added in to the list. \nIn the solution volume is entirely focused on computing the volume of the solid. "
+}

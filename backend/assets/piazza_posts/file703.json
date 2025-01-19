@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 703,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/703",
+    "title": "identity?",
+    "question": " I don't understand how identity works when we use abstract functions, for example:\n\n(build-list n identity), why does it produce (0 1 . . . n-1 )?",
+    "student_answer": "Identity just outputs whatever came in. The reason we have this is because abstract functions like build-list require a function in order to work (of which it will apply to each of the elements of the list), but in some instances we don't want a function that changes anything. For example:\n(identity 1) ; outputs 1\n(identity \"hello\") ; outputs \"hello\"",
+    "instructor_answer": "Not Found"
+}

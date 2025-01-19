@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 409,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/409",
+    "title": "self-ref p3",
+    "question": "Hi, I'm having some trouble understanding how this function is working. It's from problem bank self-ref p3. I get everything up to the function (which I have copied from the solution). Can anyone explain how we just need to have an \"and\" in the combination position. \n(@htdf all-true?)\n(@signature ListOfBoolean -> Boolean)\n;; produce true if every value in the list is true\n\n(check-expect (all-true? empty) true)\n(check-expect (all-true? (cons true (cons false empty))) false)\n(check-expect (all-true? (cons false (cons true empty))) false)\n(check-expect (all-true? (cons true empty)) true)\n(check-expect (all-true? (cons true (cons true (cons true empty)))) true)\n;(define (all-true? lob) false)\n(@template ListOfBoolean)\n(define (all-true? lob)\n  (cond [(empty? lob) true]\n        [else\n         (and (first lob)\n              (all-true? (rest lob)))]))",
+    "student_answer": "Well, in this the values in the lists are either true or false (Boolean). We are trying to check if all the values in the list are true/false, so (first lob) AND \"all other events of the list\" (rest lob) has to be of same kind to be overall TRUE or FALSE.\nTherefore, we are using simple AND between the first and rest of the lob.\nAlternatively, you can also use the If statement as well, if it seems more prudent.\n'''\n(define (all-true? lob)\n  (cond [(empty? lob) true]\n        [else\n         (if (false? (first lob))\n             false\n             (all-true? (rest lob)))]))\n'''\nHope this will be helpful!",
+    "instructor_answer": "Not Found"
+}

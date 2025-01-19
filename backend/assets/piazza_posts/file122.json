@@ -1,0 +1,11 @@
+{
+    "author": "Gregor Kiczales",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 122,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/122",
+    "title": "PS1 Q6 Ambiguity",
+    "question": "The question does not specify ...  How should we handle this ambiguity?",
+    "student_answer": "Mentioned in the lecture today was that throughout the design process we have to make judgement calls such as these.",
+    "instructor_answer": "Problem statements in real life are often ambiguous.  You should resolve it in a reasonable way. Of which there are only a small number of choices."
+}

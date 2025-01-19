@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 668,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/668",
+    "title": "designing an abstract funtion",
+    "question": "Hello, would someone be able to explain the 2 types of tests we need for thoroughness of creating an abstract function (I believe it was called a copy test and something else?)",
+    "student_answer": "copy test\n\u2212\nproduces the same thing it consumes\ncount test\n\u2212\nproduces the number of whatever you want it to count",
+    "instructor_answer": "Not Found"
+}

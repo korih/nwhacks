@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 502,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/502",
+    "title": "interal test",
+    "question": " 17.2%  of    20%  -    (@htdf handle-key): \n    4%  of     4%        Signature: correct.\n    3%  of     3%        Template tag: correct.\n  4.3%  of   4.3%        Submitted tests: correct.\n  1.4%  of   4.3%  x     Additional tests: incorrect - 2 autograder internal additional tests failed.\n  4.3%  of   4.3%        Test thoroughness (known fault detection): correct.\nI think i have get all the tasks done but keep getting this message. \nCan anyone help me figure out why ?",
+    "student_answer": "I think \"additional tests\" failing is when all the examples/tests in your code run without problems but some tests that the course staff set for this problem are failing. So, it means there's a problem somewhere in the function definitions where your code might've failed to include a possible situation or case.",
+    "instructor_answer": "Not Found"
+}

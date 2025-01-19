@@ -1,0 +1,11 @@
+{
+    "author": "Jessica",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 958,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/958",
+    "title": "appending labels",
+    "question": "hi, \n\nI was wondering why it must follow that we are appending a compound data type\u2019s label onto the visited accumulator. \n\nBecause my thought process was: wouldn\u2019t it be better to append the the whole compound data element to visited? Doing this, couldn\u2019t we have cond questions that check for other parts of the element? \n\nIf we only append the label of a compound element, then our accumulator has only stored a list of strings. If we want to check for example, the destination of that element, we wouldn\u2019t be able to do it using the acc, we would have to used fn-for-something-else\n\nthanks, just wondering ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Yes, you could put the entire element onto visited or path, and sometimes it is quite helpful to do that. It lets you do just what you say -- access other fields of the previous elements.\nBoth member and member? will work to test whether the item is in the list."
+}

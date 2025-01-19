@@ -1,0 +1,11 @@
+{
+    "author": "Jessica",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 578,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/578",
+    "title": "Small detail",
+    "question": "hi, \nCurrently working on some practice questions. \n\nFor the template tags, how do we decide whether to use one over another when both methods of templating are used in the function. \n\nFor example, if try-catch and encapsulation are both used, do we put both, or one of the two. Is there a priority list? I\u2019ve tried some combinations but I think I\u2019m missing the point. \n\nIs it what method is performed first?\nI\u2019m aware that we haven\u2019t seen an example of this yet but: does this differ for when encapsulated is used to avoid re computation only? In other words, only the else case in your fn-for-lox uses it so that your fn-for-x is not encapsulated. ",
+    "student_answer": "Not Found",
+    "instructor_answer": "It's a good question, and one that will come up more often as we have larger and larger encapsulations.\nThe answer is similar to what we have seen before - you want to list the template origins that contribute significantly to the structure of the function.  Think of the @template annotation as answering the question \"what is the backbone of this function\".  For an encapsulated function that does a backtracking search over an arb-arity tree of regions looking for a given label, we would write\n(@template encapsulated          ;I encapsulated the whole thing\n           Region ListOfRegion   ;it's a classic arb-arity tree with two functions in mutual recursion\n           try-catch)            ;I'm using try catch for the failure handling\nThe fact that the function happens to also consume a String doesn't warrant putting String in the template tag.  All that adds to the template is the parameter name after every ...\nDoes that help?"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 634,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/634",
+    "title": "pset 7 Q1 - confused about accessing individual elements in (rest l)",
+    "question": "I'm getting some test failures, and although I think I understand why, I'm quite stuck on how to go about fixing it...the main thing is I'm not sure how we would go about appending a String to the Strings in a ListOfString, since decoder returns a string and not a list. \nThe tricky part for me right now is trying figure out how to access the Strings in a ListOf1String, as glueing multiple strings together requires that all arguments of the function are strings, which is unlike cons, whose arguments are X and ListOfX...specifically the base case where ops is empty....any hints would be appreciated! ",
+    "student_answer": "Start thinking one by one from the base case of LO1S, ignoring Operations. If LO1S is empty, what should it produce? Remember that whatever you produce for the base case has to be consistent with the signature.\n\nWhat should be the combination for this base case and a single 1String if LO1S contains only 1 1String?\n\nAfter this, it should be fairly easy to figure out how to incorporate Operations.",
+    "instructor_answer": "Not Found"
+}

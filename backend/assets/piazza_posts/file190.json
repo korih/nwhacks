@@ -1,0 +1,11 @@
+{
+    "author": "Rhys Falby",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 190,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/190",
+    "title": "Almost 100% PS1 Q6",
+    "question": "I have almost gotten 100% on my problem set but I can't seem to get the last 3% because I am having a hard time understanding what is missing from my code based on the autograde report.\n Test thoroughness (test argument coverage): incorrect - missing one or more cases.\n^ this is the line that I am receiving from the autograde report saying that I am missing something \nI was wondering what this means and how I can learn to understand the report for future scenarios",
+    "student_answer": "\" Test thoroughness (test argument coverage): incorrect - missing one or more cases.\"\nMeans something is missing in the expression; missing one or more cases.",
+    "instructor_answer": "Just a reminder that only the last submission before the deadline will be accepted."
+}

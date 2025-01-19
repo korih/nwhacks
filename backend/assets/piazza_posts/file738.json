@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 738,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/738",
+    "title": "practice mt2 question",
+    "question": "I got this answer, and tests run and pass, but autograder took large chunk of mark off for some reason... Why does autograder say buildlist is a contract violation? The problem says nothing about not using build list?\n\n(@problem 5)\n;;\n;; Complete the design of the following function by writing the template tag\n;; and the function definition. Your answer must use built-in abstract\n;; functions. Any answer that includes any part of the recursive Natural\n;; template or the (listof X) template will receive 0 marks. You are free\n;; to add additional check-expects if those examples are helpful for you.\n;;\n(@htdf sum-interval)\n(@signature Integer Integer -> Integer)\n;; produce the sum of the integers in [lo, hi].\n;; CONSTRAINT: lo <= hi\n(check-expect (sum-interval 5 5) (+ 5))\n(check-expect (sum-interval 3 6) (+ 3 4 5 6))\n\n;(define (sum-interval lo hi) 0)\n\n(@template use-abstract-fn fn-composition)\n\n(define (sum-interval lo hi)\n(local [(define (less-than? n) (>= n lo))]\n(foldr + 0 (filter less-than? (build-list (+ 1 hi) identity)))))",
+    "student_answer": "Your build-list is not given an exact-nonnegative-integer from the staff's tests (it's receiving\n\u2212\n5\n). The build-list starts from\n0\nuntil\nn\n\u2212\n1\n, so this results in an error if you try and pass a negative number in there. Since the function should be able to take in any integer, your sum-interval function definition will need to account for this.",
+    "instructor_answer": "Not Found"
+}

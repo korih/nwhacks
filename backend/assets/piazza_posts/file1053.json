@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1053,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1053",
+    "title": "Check Syntax",
+    "question": "1. What is the difference between check syntax and failing check expects?\n2. Do you get 0% if you submit a failing check expect? I just want to make sure.",
+    "student_answer": "1. Failing check syntax means that when you try running the function you get an error message in the interactions tab like this:\n,\nwhich usually happens from misspelling a tag or function, forgetting brackets, etc. If you submit this, there is a chance you get 0.\n2. There are two ways to fail check-expects: the first is when your code runs properly but there is some error in the logic and you get a failing test like this:\n.\nIn this case, I don't think you would get a 0.\nThe second case is when your code doesn't run properly and returns an error message in the test results:\n.\nIn this case, I am unsure if you could get a 0 or not. ",
+    "instructor_answer": "Good student answer, just to add, failing check-expects has never resulted in you getting a total 0, of course, there are stipulations but in general no.\nFailing check-syntax will lose up to 100% of marks as stated on the exam instructions site. "
+}

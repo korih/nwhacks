@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 280,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/280",
+    "title": "find the error questions",
+    "question": "hi when a question asks you to \"find and correct the error(s)\" is it referring to just the error message that show up on DrRacket when you try to run the function or additional error message that we get in the autograder as well. because I was stuck on a question and I have corrected all the errors but its still wrong. just curious thanks.",
+    "student_answer": "If by corrected errors you mean the program runs, then this is a good start but not complete. Errors include anything that does not follow the rules we follow in class, which includes the design recipe etc. Hope this helps!",
+    "instructor_answer": "Not Found"
+}

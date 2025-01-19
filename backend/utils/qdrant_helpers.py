@@ -29,13 +29,16 @@ def upload_documents():
 	piazza_posts_metadata:list[dict] = []
 	piazza_posts_body:list[str] = []
 	for post in piazza_posts:
-		piazza_posts_body.append(post.body)
+		piazza_posts_body.append(post.question)
 		piazza_posts_metadata.append({
 		    "author": post.author,
 		    "position": post.position,
 		    "course": post.course,
 		    "post_num": post.post_num,
-		    "link": post.link
+		    "link": post.link,
+		    "title": post.title,
+		    "student_answer": post.student_answer,
+		    "instructor_answer": post.instructor_answer
 		})
 		
 	qdrant_client.add(
@@ -62,7 +65,10 @@ def search_text(text: str) -> list[PiazzaPostResult]:
 		    course=result.metadata["course"],
 		    post_num=result.metadata["post_num"],
 		    link=result.metadata["link"],
-		    body=result.document,
+		    title=result.metadata["title"],
+		    instructor_answer=result.metadata["instructor_answer"],
+		    student_answer=result.metadata["student_answer"],
+		    question=result.document,
 		    score=result.score
 		))
 	return piazza_posts

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 792,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/792",
+    "title": "Correct Variables For Signatures of Abstract Functions",
+    "question": "We were taught to go from X -> Y -> Z, but for more complex problems that require more than 3 variables in the signature, what convention for choosing variables would we use?\n\nI chose to go from before X so that my variables would end in Z, is this allowed?",
+    "student_answer": "pls @6\n(did you not see the past 3 get snipped)",
+    "instructor_answer": "The order doesn't really matter.  I usually go X Y Z U V W, because in examples with only 3 you tend to see X Y Z.  But it doesn't really matter."
+}

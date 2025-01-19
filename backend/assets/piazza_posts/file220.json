@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 220,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/220",
+    "title": "autograder does not register number->string-digits",
+    "question": "Hello,\nTo complete the lecture 2 function, I utilized the number->string-digits primitive (found on racket textbook) to account for decimal places while converting numbers to strings.  Note: the function below runs properly and passes the check-expect. Using number->string instead of number->string-digits results in an output of \"191/2\" which != \"95.5\" which is why the string-digits primitive is necessary.\n(check-expect (grade->string 95.5) \"95.5\")\n\n(define (grade->string g)\n  (cond [(number? g)  (number->string-digits g 2)]\n        [(string=? \"H\" g)\"H\"]\n        [(string=? \"F\" g)\"F\"]\n        [(string=? \"T\" g)\"T\"]\n        [else \"P\"]))\nHowever, the autograder did not like this and spit out this:\n\"Error running submission queue/handin-16425313041642531304058.rkt:90:23: number->string-digits: this function is not defined\n  in: number->string-digits\"\nI was wondering why this would be the case, as if I use number->string instead, the autograder will run fine.",
+    "student_answer": "The outline for the problem mentions that only integers are allowed.",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 293,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/293",
+    "title": "Cond. Expressions: Else",
+    "question": "So cond. expressions are formatted with several cases of [<question> <answer>].\n1) Does the answer always have to be a value? Or is it ever allowed to type an expression instead? (like a boolean, or etc.)\n2) Likewise, for the \"else\" case, does that answer always have to be a value?",
+    "student_answer": "In cond case, the answer could be a value (number, string) or a boolean as well depending upon the case.\nIn the example of GradeStanding the cond answer was a boolean.\n\n(define (grades? x)\n(cond [(number? x) (>= 90)]\n[(string=? x \"H\") \"H\"]\n\nFor more details check @244.",
+    "instructor_answer": "Also check out @285 - Very similar questions and the answer there can be extrapolated to non-boolean types."
+}

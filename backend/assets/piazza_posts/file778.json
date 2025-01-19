@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 778,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/778",
+    "title": "Confused about how this function works",
+    "question": "This is from 2020w2 mt2 P6 (set-difference abstract function problem).\n(@htdf set-difference)\n(@signature (listof Number) (listof Number) -> (listof Number))\n;; produce list of the elements in lst1 that are not in lst2\n;; CONSTRAINT: no duplicates in lst1; and no duplicates in lst2\n(check-expect (set-difference (list 1 3 7 2) (list 1 2)) (list 3 7))\n(check-expect (set-difference (list 1 2) (list 1))\n              (list 2))\n(check-expect (set-difference (list 1) (list 2))\n              (list 1))\n\n;(define (set-difference lst1 lst2) empty)\nThe solution is below\n(define (set-difference lst1 lst2)\n  (filter (lambda (i1)\n            (not (ormap (lambda (i2) (= i1 i2))\n                        lst2)))\n          lst1))\nI'm trying to make sense of how this is working but I just can't make it make sense.\nI'm mostly confused about what i1 and i2 are supposed to be, how this function is filtering out numbers in list1 that are in list2,  and how this solution would have looked if local was used. Greatly appreciate any help!",
+    "student_answer": "The filter is saying, for each number in lst1, keep only the numbers that produce true for the lambda function.\nThe lambda function consumes a number from lst1 (i1) and asks if i1 is equal to any number in lst2 (this is where (= i1 i2) comes from). If any of them are equal, then the ormap produces true, which means lambda produces false since it is the not of ormap. So, lambda produces true if i1 is not in lst2.\nTo sum it all up, for each number in lst1 i1, see if i1 is the same as any number in lst2, and if they are, remove it from lst1.",
+    "instructor_answer": "Not Found"
+}

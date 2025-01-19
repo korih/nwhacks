@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 123,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/123",
+    "title": "Differences between htdf formatting between edx and lectures",
+    "question": "I've noticed that in the edx videos, there are a couple differences as compared to what we learned in class, such as\nUsing ;; String-> String, while in lecture it's  (@signature String-> String)\nThe videos also do not include the (@htdf) and (@template) tags.\nIn order to maintain consistency which format should we follow? ",
+    "student_answer": "Not Found",
+    "instructor_answer": "https://edge.edx.org/courses/course-v1:UBC+CPSC110+2021W2/fccf8fba512e42f7b2ac21a8afe62eea/ The videos are outdated; you should read over this link for the answers you want!"
+}

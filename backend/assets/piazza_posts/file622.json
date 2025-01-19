@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 622,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/622",
+    "title": "Wrong example in Pset 7?",
+    "question": "I think the following given example is wrong in Pset7. In the starter file, it said that the following should produce \"i am sam\" but I think this should produce \"I am sa\" and if we would want to produce \"i am sam\" then we would need to add another \"keep\" at the end of the list of operations?\n (decoder (list \"i\" \"k\" \"l\" \"h\" \"a\" \"m\" \"k\" \"s\" \"a\" \"r\" \"m\")\n          (list \"keep\" \"remove\" \"remove\" \"space\" \"keep\" \"keep\" \"space\" \"keep\"\n                            \"keep\" \"remove\"))",
+    "student_answer": "Resolved. I didn't see that we should keep all letters after when we run out of operations.",
+    "instructor_answer": "Not Found"
+}

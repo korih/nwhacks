@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 177,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/177",
+    "title": "What do these mean?",
+    "question": "What do these (@ .....) things mean? I didn't see any mention of them in 1a or 1b videos. The auto grader took marks off for me not putting them in there. And why is the signatures here in solutions beginning with @signature? Didn't we do it differently in videos?",
+    "student_answer": "They are metadata. It\u2019s explained in the lectures, and the videos from edx don\u2019t use them because they\u2019re outdated. \n\nThey are:\n\n(@htdf <name of function>)\n\n(@signature <data consumed> -> <data produced>)\n\n(@template <first argument from the signature>)",
+    "instructor_answer": "@102\nAlso it is very important to attend lecture in the course.  You cannot do well in the class by just watching the edX numbered videos."
+}

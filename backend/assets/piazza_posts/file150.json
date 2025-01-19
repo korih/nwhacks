@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 150,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/150",
+    "title": "Help desk dead end page",
+    "question": "Does anyone else have this problem with help desk where it takes you to an empty page with blue text \"please go here\" only nothing happens when you click it?\nIve tried copy pasting the link as well into different tabs or browsers with no luck, only an empty page saying \"there is nothing here\".\nHas anyone else had this problem?",
+    "student_answer": "Not Found",
+    "instructor_answer": "With apologies to the Dr Racket team, I don't use the help desk.  I find it often has install problems.\nIf I want to look up rectangle, I type  \"racket beginning student xxx\", and then I make sure to choose one of:\n     Beginning Student Language\n     images.rkt\n     universe.rkt\nfrom the choices it offers me."
+}

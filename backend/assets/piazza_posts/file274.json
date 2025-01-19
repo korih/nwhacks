@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 274,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/274",
+    "title": "practicing lab questions - spd handin?",
+    "question": "If I'm re-doing lab questions for practice, are we allowed to use the SPD hand-in tool to see the autograder feedback? Or are we not allowed/cannot do so since the deadline has already passed? \neg) I re-did the last 2 questions for lab 2, even though, of course I already handed it in on Monday. Am I allowed to submit my answers to the autograder for feedback without it affecting the mark I got the first time I handed it in?",
+    "student_answer": "I guess it's okay to improve it as much as you can. however, I guess the deadline for SPD handin and autograder feedback for the lab is Friday night.",
+    "instructor_answer": "Your lab is due at the end of your lab session. The intended use of the autograder is to grade the labs during your lab session.\nFeel free to ask questions about your solution on Piazza because the lab is over, compare to your submitted lab solution or attend office hours to talk about your solution next week. "
+}

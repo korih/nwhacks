@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 493,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/493",
+    "title": "MNR and MR Difference",
+    "question": "Hey all,\nWhat's the difference between Mutual Natural Recursion and just regular Natural Recursion\nThanks in advance",
+    "student_answer": "Mutual Natural recursion refers to when there are references that basically go in a circle. If you can start at a data definition and follow reference arrows so that you reach where you started, then this is mutual natural recursion.\nNatural Recursion,\nhowever\n, is when the data definition is self referential (i.e. most primitive type lists like ListOfNumber and ListOfString).",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 22,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/22",
+    "title": "Racket setting up",
+    "question": "I installed suitable drRacket for my computer, but when it installed, I couldn't find any option for Language settings, which is the next step on Setup page, what should I do?",
+    "student_answer": "I believe that if you're on the normal DrRacket window there should be an option to access the language settings either at the bottom left of the window or the \"Language\" option at the menu bar at the top of your screen.",
+    "instructor_answer": "Not Found"
+}

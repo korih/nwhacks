@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 826,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/826",
+    "title": "Question about autograder",
+    "question": "Hello,\nI had a question about how the autograder grades questions. I know that if our program doesn't run, autograder automatically gives it a zero. Does this mean in a test situation, if we are almost out of time, we should just erase/comment out the check-expects and our function so that the program at least runs and we can get partial marks for having our other metatags (we would lose a large portion of marks because the check-expects are gone, but it would still be better than receiving a zero). ",
+    "student_answer": "I think you've misunderstood. Programs not running aren't because of check-expects failing, it's because the written code has some sort of syntax error, whether it be missing brackets or functions that are named incorrectly etc. A program with failing check-expects can still be submitted as long as the code runs. In fact, check-expects are important because if they fail not with error messages but with incorrect results, this actually tells you that your code is written properly, even if it is not correct. ",
+    "instructor_answer": "Not Found"
+}

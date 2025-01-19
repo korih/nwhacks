@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 674,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/674",
+    "title": "Testing Multiple Base Cases in 2-one-of",
+    "question": "In a few 2-one-of problems I have noticed that we must use multiple conds to test for empty/base cases. For example, in the template below from lab 7 problem 1, we test for zero? twice. Why can't we place both tests in a single cond if they both produce false? And why must we test base cases twice? \n(define (contains-n-path? ynt n)\n  (cond\n    [(string? ynt) (zero? n)]\n    [(zero? n) false]\n    [else \n     (or (contains-n-path? (yntree-y ynt) n)\n         (contains-n-path? (yntree-n ynt) n))]))",
+    "student_answer": "Not Found",
+    "instructor_answer": "Remember that (zero? n) is not really a base case in this situation.\nBased on the 2-one-of cross product table for that particular problem on EdX, you can simplify the 4 cases to just 3 cases by replacing the answer expressions in the two cells circled in green with (zero? n). This is because if ynt is a String, (i.e when (string? ynt) is true), you are in the first row of the table. Then you only need to check whether n is 0 or not to get the answers in the first row. If n is 0, you get true, if it's not (i.e. n is (add1 Natural)), you should get false. Hence, you have [(string? ynt) (zero? n)] in your cond expression.\nHowever, if (string? ynt) is false, you know that your ynt must be a tree (i.e. (make-yntree String YesNoTree YesNoTree)). Now, you are looking at the second row of the table. You cannot really simplify the remaining two cells because ??? is a more complicated expression rather than a simple true. You now have to check what n is in order to determine your answer. If n is 0, you need to get false back, and so you have [(zero? n) false]. Else, you do that or expression. Hence, you have the [else ...] as third cond case."
+}

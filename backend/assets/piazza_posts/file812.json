@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 812,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/812",
+    "title": "Template for try catch",
+    "question": "do we have to locally define the try-catch template, (local [(define try (....))]), or can we just add the (if (not (false? ...) to our template body?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Now that you have learned local, I would say go with the first option (using try-catch with local)."
+}

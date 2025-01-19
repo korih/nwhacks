@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Helix",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 699,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/699",
+    "title": "Why string-contains? doesn't work?",
+    "question": "",
+    "student_answer": "other order",
+    "instructor_answer": "If you check the Beginning Student Language help desk here, you will see that string-contains checks whether the first argument string appears in the second, not vice versa. This is the opposite of its functionality in full Racket, which also has documentation on the help desk. Small inconsistencies such as this one are one of the reasons we encourage you to be conscious of where on the help desk you're finding information!\nEDIT: Note that I gave a full answer to this to extend the existing student answer. In the future, please follow @6 and ask your questions in text rather than with an image (e.g. \"(string-contains \"app\" \"pp\") returns false when I expected it to return true, why is that?\")."
+}

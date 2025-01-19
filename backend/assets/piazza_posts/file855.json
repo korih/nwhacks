@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 855,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/855",
+    "title": "Lab 9 Search Order",
+    "question": "(Posting now as I believe all labs have finished for the week)\nIn the Search lab, we operated on a binary tree with the following diagram provided:\nIn this tree, the left branches added the first clown from options to picked, and the right branches ignored the clown. We then searched through the final leaves in the tree where the options list was empty. This means we roughly (I know there\u2019s some exceptions in the middle) searched from the most picked clowns to the least picked clowns (ie. The picked list on the far bottom left of the tree has every clown picked, and the picked list on the bottom right has no clowns picked.\nWe ended up with a list of 5 clowns that fit the problem\u2019s criteria.\n  Reversing the branch structure (ie. Left branches skip, right branches pick) means we roughly (again with caveats) search from fewest clowns picked to most, assuming we still search the left branches first. If we do this, the first list we find that satisfies the problem's criteria only has 4 clowns. However, the autograder didn\u2019t like this method, presumably because we were already given the diagram with picked on the left.\n  Is there a reason why we want to search from most -> least in these kinds of problems? Or, perhaps more accurately, why we search along the picked branches first before the skipped branches? In my mind, the solution with the fewest possible clowns picked is the most elegant.",
+    "student_answer": "I guess that if you have seven clowns and you have to pick at least four, and the try-catch detects the first correct answer, start searching from the picked side (originally left) will be more efficient.   ",
+    "instructor_answer": "Not Found"
+}

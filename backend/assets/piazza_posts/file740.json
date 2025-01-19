@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 740,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/740",
+    "title": "2021 M2- pt. sel-sort function",
+    "question": "Hi, I am really stuck on generative recursion  part\n\nI would like to take the first lon and compare the number to each element in rest of lon \nbut not sure how to start. Any tip would be appreciated!\n(@htdf sel-sort) ;uncomment when you start on this problem\n(@signature (listof Natural) -> (listof Natural))\n;; produce the sorted list from smallest to largest\n;; CONSTRAINT ::  no number list is 0\n\n(check-expect (sel-sort empty) empty)\n(check-expect (sel-sort (list 2)) (list 2))\n(check-expect (sel-sort (list 5 4 6)) (list 4 5 6))\n(check-expect (sel-sort (list 6 5 4)) (list 4 5 6)) \n(check-expect (sel-sort (list 4 6 5)) (list 4 5 6)) \n(check-expect (sel-sort (list 3 1 5 2 4 6)) (list 1 2 3 4 5 6))\n(check-expect (sel-sort (list 8 3 11 1 12 5 2 10 4 6))\n              (list 1 2 3 4 5 6 8 10 11 12))\n\n\n(@template genrec)\n;; basecase : lon is empty\n;; Reduction: strict subset of lon\n;; Argument: repeated strict subset of list always reaches empty\n\n(define (sel-sort lon)\n  (cond [(empty? lon) empty]\n        [(= 1 (length lon)) lon]\n        [else",
+    "student_answer": "As a tip, I would think about what your function has to do. It has to find the smallest number in a list, and then remove that number from the list and perform a recursion on the remaining list. Don't try to do all these tasks at once, try and do them individually and then combine them at the end.",
+    "instructor_answer": "Not Found"
+}

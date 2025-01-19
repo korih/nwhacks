@@ -1,0 +1,11 @@
+{
+    "author": "Bruce Li",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 130,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/130",
+    "title": "homework",
+    "question": "(@htdf topple)\n(@signature Image -> Image) \n(check-expect (topple (rectangle 20 30 \"solid\" \"blue\"))\n              (rectangle 30 20 \"solid\" \"blue\"))\n(check-expect (topple (rectangle 30 40 \"solid\" \"blue\"))\n              (rectangle 40 30 \"solid\" \"blue\"))\n(@template Image)\n(define (topple img)\n  (rotate 90 img))\nHI i am just wondering why for signature image is signature Image, why the i is capital",
+    "student_answer": "It is\nby convention\nthat we capitalize the first letter of the names of all data types in the signature, this is known as \"camel case\". However, when we are referring to image in other cases, such as the name of a function's parameter (e.g., img in this question), this would not apply.\nHope this helps :)\n\nAlso, be sure to format your code properly according to @6 (all you need to do is click on the semicolon inside the curly brackets icon, called \"codeblock\", and simply copy and paste your code inside.)",
+    "instructor_answer": "Not Found"
+}

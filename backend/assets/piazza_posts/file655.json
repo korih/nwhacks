@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 655,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/655",
+    "title": "filter",
+    "question": "Does filter always put the numbers in ascending order? What if the question was asking us to put it in descending order?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Filter's not the function putting our numbers in ascending order, it's the fact that we're appending our lists in the order of \n(append (qsort (filter <p? lon))\n                   (list p)\n                   (qsort (filter >p? lon)))\nYou can reverse the numbers by switching your two recursive calls!\n(append (qsort (filter >p? lon))\n                   (list p)\n                   (qsort (filter <p? lon)))\nFilter preserves the order of the elements they originally came in, they just throw some of em out according to the predicate \ud83d\ude0a"
+}

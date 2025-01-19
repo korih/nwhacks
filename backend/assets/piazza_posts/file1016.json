@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1016,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1016",
+    "title": "Accumulators and invariants",
+    "question": "Is this the correct answer and definition of the accumulators and invariants for this problem? There wasn't an answer key for this question. \nThe following function uses two accumulators.  The function works correctly,\nbut the function purpose, tests, as well as the accumulator types and\ninvariants have deliberately been left out.  You must fill in 5 things:\nfunction purpose, type and invariant for acc1, and type and invariant for\nacc2.  Your invariants must be specific to the behaviour of this function.\nSaying something generic like \"accumulate the data\" will receive zero marks.\nYou do not need to fill in any tests.\n|#\n\n(@htdf foo)\n(@signature (listof Integer) -> Integer)\n;; purpose: produce the difference between odd numbers and even numbers in list\n\n\n\n\n(@template (listof Number) accumulator)\n(define (foo lon0)\n  ;; acc1 is: Integer \n  ;;\n  ;;\n  ;;\n  ;; invariant: sum of all the odd numbers in given list\n  ;;\n  ;;\n  ;;\n  ;;\n  ;; acc2 is: Integer\n  ;;\n  ;;\n  ;;\n  ;; invariant: sum of all the even numbers in given list\n  ;;\n  ;;\n  ;;\n  ;;\n  (local [(define (fn-for-lon lon acc1 acc2)\n            (cond [(empty? lon) (- acc1 acc2)]\n                  [else\n                   (if (odd? (first lon))\n                       (fn-for-lon (rest lon) (+ acc1 (first lon)) acc2)\n                       (fn-for-lon (rest lon) acc1 (+ acc2 (first lon))))]))]\n    (fn-for-lon lon0 0 0)))",
+    "student_answer": "Not Found",
+    "instructor_answer": "Those invariants aren't quite right.  The odd and even part are right.  But are they the sum of ALL the odd/even numbers in the given list?"
+}

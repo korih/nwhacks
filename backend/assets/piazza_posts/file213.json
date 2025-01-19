@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 213,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/213",
+    "title": "@template in htdd",
+    "question": "I don't understand the point of commented template in htdd, for example in traffic light simulation gives as an example in edx:\n(define (next-color c) ; template\n    (. . . c))\ncould somebody explain this? (not the code necessarily, but its purpose)",
+    "student_answer": "The purpose is to get us to practice writing function definitions, and make sure that we know exactly what the parameters of our function are going to be before we start writing it. It doesn\u2019t change the execution of the program or anything like that (but I believe the autograder still checks for it).\nI think it was mentioned in a lecture that we\u2019ll stop writing them eventually, but we\u2019re expected to write it all out early on.",
+    "instructor_answer": "Not Found"
+}

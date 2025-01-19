@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 787,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/787",
+    "title": "Released Midterm2 pt.5",
+    "question": "Does anyone understand how to do this selection sort question? I have no idea what built-in functions to use and how remove and length play into this. Help would be greatly appreciated!!",
+    "student_answer": "Hi! For this question it will be useful to add a helper. I can assure you both remove and length will be of great help. Essentially what you want to do is to take out the smallest number in the list first then use gen-rec for the rest of the list to sel-sort. The helper will be useful for that!",
+    "instructor_answer": "The way to solve this question is to do the htdf recipe.  How far have you gotten with that so far?"
+}

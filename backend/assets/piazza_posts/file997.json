@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 997,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/997",
+    "title": "2019w2-f Question5 Does the arrangement matter?",
+    "question": "I get the same answer as the solution but the answers' arrangements are different. Does that matter for getting full marks?\n Actual value\n(list\n (make-count \"A\" 1)\n (make-count \"C\" 2)\n (make-count \"D\" 2)\n (make-count \"B\" 2)\n (make-count \"E\" 3))\ndiffers from\n(list\n (make-count \"D\" 2)\n (make-count \"C\" 2)\n (make-count \"A\" 1)\n (make-count \"E\" 3)\n (make-count \"B\" 2))\nthe expected value.",
+    "student_answer": "Not Found",
+    "instructor_answer": "the grader should take both"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 592,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/592",
+    "title": "Testing empty case in abtraction",
+    "question": "Do we not need to test the empty case in the abstraction since it's already tested in the individual functions e.x. negative-only and positive-only?",
+    "student_answer": "Not Found",
+    "instructor_answer": "@586"
+}

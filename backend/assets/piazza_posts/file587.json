@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 587,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/587",
+    "title": "Creating an Abstract signature",
+    "question": "I'm very confused about how Paul created the signature did just look at the abstract function to create it?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Yup, that's essentially what happened! Definitely check out the Fold Functions video on edx for further practice. \nI'll walk through how the signature was created for andmap2 if you want to see it:\nLet's take a look at the definition of our function:\n(define (andmap2 p lox)\n  (cond [(empty? lox) true]\n        [else\n         (and (p (first lox))\n              (andmap2 p (rest lox)))]))\nandmap2 takes in two parameters, p and lox, so our signature so far looks like (@signature ... ... -> ...)\nEach case in our function needs to produce the same type, so the case [(empty? lox) true] means that our function produces a type Boolean.\n(@signature ... ... -> Boolean)\nLet's take a look at what type p is, which corresponds to the first set of ... in our signature. \np is used in (p (first lox)), and the result of it is one of the arguments passed to and. And can only take in Boolean values, so p must produce something of type Boolean. p takes in (first lox), (first lox) is of type X to show that our elements don't have to have a specific type.\n(@signature (X -> Boolean) ... -> Boolean)\nFinally, lox is a (listof X), as it gets broken down into (first lox) and (rest lox), which you can only do with lists. it's a list of element X because we already determined earlier that (first lox) is of type X.\n(@signature (X -> Boolean) (listof X) -> Boolean)"
+}

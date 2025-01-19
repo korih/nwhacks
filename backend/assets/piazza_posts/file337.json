@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 337,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/337",
+    "title": "product of empty list",
+    "question": "I just wanted some clarification of what the multiplicative identity was\nwhy is the expected result of an empty product 1? ",
+    "student_answer": "The expected result of the base case depends on what the function is doing. It is basically something that will not change the result when the function runs through a non-empty list.\n\nIn this case it is\n1\nbecause multiplying a number by\n1\ndoes nothing.\n\nYou may expect it to be\n0\nbecause that is the default \"null\" value for Number/Natural/Integer but it wouldn't work for this specific function because multiplying a number by\n0\noverrules all the other numbers.",
+    "instructor_answer": "Not Found"
+}

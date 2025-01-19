@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 174,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/174",
+    "title": "atomic non-distinct vs distinct for boolean and false",
+    "question": "Hi, I am a little confused why false is an atomic distinct value because I thought it was a Boolean which is an atomic non-distinct value? Or to phrase it differently, what is the difference between the false in the atomic distinct and Boolean in the atomic non-distinct?",
+    "student_answer": "If I understand it correctly, atomic distinct means there's \"a single specific value\" like false.\nOn the other hand, atomic non-distinct types of data like a Boolean do not fit that definition, because they can be true or false.\n\nTo use the other example shown in that table, \"red\" is a single specific value and is atomic distinct but Strings in general could be any String (\"green\" \"apple\" \"\" etc.)\n\nOne of the following videos about the New Year's countdown is helpful I think for clarifying this distinction",
+    "instructor_answer": "answered by student above"
+}

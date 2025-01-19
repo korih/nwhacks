@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 247,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/247",
+    "title": "edX HtDD-Itemization Q5",
+    "question": "I'm a little confused why we don't need to check if r is between 1 and 100, because if the constraint is written in as a comment so how does DrRacket know what the restrictions are.",
+    "student_answer": "I believe this question was answered in lecture, where it was said that since a constraint is there anyway we'd expect whoever's running the code to follow at least that.",
+    "instructor_answer": "Not Found"
+}

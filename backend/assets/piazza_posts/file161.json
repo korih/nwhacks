@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 161,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/161",
+    "title": "What am I doing wrong in this signature?",
+    "question": "What am I doing wrong trying to make a signature for this simple problem? I've tried so many things but its not accepting any of them as an answer.",
+    "student_answer": "There is a specific name for a type of data for words, try looking in the language tab in edx.",
+    "instructor_answer": "How do you form words on Racket, and what is that data type referred to?"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Rhys Falby",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 509,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/509",
+    "title": "Error With Autograder",
+    "question": "I believe there may be an issue with the autograder currently... I am an unsure, so let me know if I am just being dumb. I have gotten my code to 97% and believe there is nothing I can do to reach 100% (once again I could be wrong)\nIt says that the (@template) tag is incorrect for my next-game function. Even though the template tag is in accordance with the (@signature) which is being graded as correct... So I am not sure how else to form the template tag, so perhaps there is an error with the autograder?\nhopefully I do not sound like an idiot",
+    "student_answer": "The instructions would have told you to form the function in a specific way. Did you use the template when you made this function? If you didn't use the datatype template, what did you use instead?\n\nResponse: This does not help me because I used the template and formed it the way specified. Also attempted reforming the function and the (@template) tag and this did not change the error. Did you get\n100\n%\n?",
+    "instructor_answer": "Not Found"
+}

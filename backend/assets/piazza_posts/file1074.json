@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1074,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1074",
+    "title": "maze lecture starter",
+    "question": "Why is it that in maze 4 way path length the position is appended before the p-wl and in 4 way shortest path the position is appended after the path?\n (define (solve/p p c p-wl c-wl visited)\n            (cond [(solved? p) (add1 c)]\n                  [(member p visited) (solve/lop p-wl c-wl visited)]\n                  [else\n                   (solve/lop\n      (append                    (next-ps p)            p-wl)\n      (append (make-list (length (next-ps p)) (add1 c)) c-wl)\n      (cons p visited))]))\n\n\n (define (solve/p p path)\n            (cond [(solved? p) (reverse (cons p path))]  ;(append path (list p))\n                  [(member p path) false]\n                  [else\n                   (solve/lop (next-ps p)\n                              (cons p path))]))          ;(append path (list p))",
+    "student_answer": "These two are not comparable. Firstly, maze-4-way-path-length uses tail recursion while maze-4-way-shortest-path uses structural recursion. Secondly, they have different purpose and thus have different requirements. The former doesn't require an accumulator to keep track of the path taken, while the latter does. Although it's probably a bit late now, try looking at it again and really understand what each variable represents.",
+    "instructor_answer": "Not Found"
+}

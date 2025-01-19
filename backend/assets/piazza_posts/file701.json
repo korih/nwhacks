@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 701,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/701",
+    "title": "closure",
+    "question": "Could someone explain what a closure is? I'm confused as to how you know which part of a function enclosing local utilizes it",
+    "student_answer": "A closure is when a body of a function defined in local uses a parameter passed by the main function.",
+    "instructor_answer": "Not Found"
+}

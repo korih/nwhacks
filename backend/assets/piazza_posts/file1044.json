@@ -1,0 +1,11 @@
+{
+    "author": "Ben Gao",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1044,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1044",
+    "title": "HTDW question",
+    "question": "hello, I was wondering, about the HTDW function handle-mouse. I was wondering how the function \"recognizes\" the location where you click in relation to the parameters. The handle-mouse function usually consumes parameters x and y which represent where you click, but what makes the function recognize the parameters \"x\" and \"y\" as the mouse coordinates?\nDo the parameters have to specifically be named \"x\" and \"y\" for the function, and if you name them differently, the function won't run?",
+    "student_answer": "I wouldn't worry about that too much at this point:\n http://cs110.students.cs.ubc.ca/exam-instructions.html\nThe Final Exam will cover all material in the course (all material means EdX numbered section videos, lecture, lecture notes, problem sets, labs, etc.) with the exception of How to Design World problems.",
+    "instructor_answer": "Interesting question, a little out of the scope of the course and I wouldn't worry about those specifics for the exam. CPSC213 talks about how input/output devices communicate to the CPU.\nAppropriately named parameters make functions easier to read and debug. If you wanted to change them, you just have to be careful about refactoring them in the function body as well."
+}

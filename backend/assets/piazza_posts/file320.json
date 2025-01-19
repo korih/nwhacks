@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 320,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/320",
+    "title": "adding vectors?",
+    "question": "hi i was wondering when one of our field entries in dx and dy (interpreting the names as velocity) are supposed to be thinking along the lines of adding vectors when trying to find the net velocity? say dx is 18 and dy is 67 to find net velocity or movement of the object would that be the vector triangle of 18 and 67 (aka the hypotenuse)? \nalso when dy is negative does that mean up or down because I've seen it being used both ways in different examples. how are we to decipher which way is intended when looking at a question?",
+    "student_answer": "Not Found",
+    "instructor_answer": "If you are hinting at the problem set my recommendation is to read the instructions several times more than once, follow the code that is already there, and keep it simple.  But yes, dx and dy can be seen as vectors if that's simpler for you. But keep it simple, the autograder is looking for the simple solution."
+}

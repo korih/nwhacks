@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 800,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/800",
+    "title": "Released Midterm 2 P5",
+    "question": "This question asks for a fn-composition of exactly 2 different build-in abstract functions. If I were to use length in addition to two built-in abstract functions. Would it be wrong? (since it would be a fn-composition of technically 3 functions(?))\n\nFor example: ( I know map is redundant in this case, just as an example)\n\n(define (count-duplicates los1 los2)\n(local [(define (count x)\n1)\n(define (in-both? x)\n(ormap\n(lambda (i) (string=? x i)) los2))]\n(length (map count (filter in-both? los1)))))",
+    "student_answer": "@713 (doesn't answer the question)",
+    "instructor_answer": "@762\nlength is not a built-in abstract function\nso no, that is not a fn-composition of 3 built-in abstract fn, just 2"
+}

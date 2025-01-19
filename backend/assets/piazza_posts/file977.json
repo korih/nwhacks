@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 977,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/977",
+    "title": "Lab 11 Question 2 clarification",
+    "question": "Missed lab 11 and currently doing it on my own. I am quite confused about what find-route is supposed to do. The problem statement seems to suggest that any list of driving directions (no matter how convoluted or backtracking) would suffice given the problem statement. The only other alternative I can see is that this function is asking to find the shortest route to the destination. If so, I'm really stuck on how to accomplish this, and it seems as if in that case it would necessitate TR. Could someone please clarify? Thanks!",
+    "student_answer": "IIRC, you are correct the question just asks for ANY path.",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 887,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/887",
+    "title": "accumulators without a trampoline call",
+    "question": "Can accumulators be used without a trampoline call?\nI was doing a problem with no given template, so I locally defined a function with accumulators, and then wrote a function definition for the non-locally defined function below using the locally defined function (almost as if it were a helper function). There was no trampoline call involved, but the function ran and passed all my check-expects. Is that allowed?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Two quick points. It\u2019s great that you thought to template the function first. That\u2019s what the @template step is about- asking you to decide on the template strategy. \n\nIn terms of using encapsulation, functions with accumulators really do ask for encapsulation. Otherwise your \u201cinner\u201d function with the accumulator is hanging out there at top level and any old part of the program can call it, possibly with bad accumulator initialization. By encapsulating with local you are saying, for example, skipn with two arguments is for the world to use. The inner function with the accumulator is private. "
+}

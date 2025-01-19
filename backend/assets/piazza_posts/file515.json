@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 515,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/515",
+    "title": "Paddle Not Moving",
+    "question": "I'm struggling to figure out how to make the paddle keep moving move back and forth when the right or left arrow key is pressed. As of now, it only advances by 10 when I press the right or left key, but doesn't keep moving...Since the paddle can move from left to right or right to left, there are two ways to produce next-paddle depending on it's direction...but the game-paddle is just it's x position without a velocity associated with it, so I'm stuck on how to approach the tick function....any hint is appreciated!",
+    "student_answer": "You probably shouldn\u2019t update the state of your paddle in your tick function. Keep in mind that one of the constants we\u2019re expected to use is called PADDLE-MOVE-PER-KEY.",
+    "instructor_answer": "Not Found"
+}

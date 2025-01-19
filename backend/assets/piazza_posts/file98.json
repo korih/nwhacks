@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 98,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/98",
+    "title": "Evaluating Booleans and If Expressions",
+    "question": "Hello! I was wondering if, when we are evaluating Booleans and If expressions, do we have to change each part of the question per step or if we can just change both of them at the same time. On the video, the professor goes each step per question. For example:\nWe start here:\n(define c1 (circle 40 \"outline\" \"red\"))\n(define c2 (circle 70 \"solid\" \"blue\"))\n\n\n(if (< (image-width c1)\n       (image-width c2))\n    (image-width c2)\n    (image-width c1))\nand then I evaluate the question. The correct way to evaluate it would be this:\n(if (< (image-width (circle 40 \"outline\" \"red\"))\n       (image-width c2))\n    (image-width c2)\n    (image-width c1))\nthen:\n(if (< (image-width (circle 40 \"outline\" \"red\"))\n       (image-width (circle 70 \"solid\" \"blue\")))\n    (image-width c2)\n    (image-width c1))\nor if I can just skip right into this from where we started:\n(if (< (image-width (circle 40 \"outline\" \"red\"))\n       (image-width (circle 70 \"solid\" \"blue\")))\n    (image-width c2)\n    (image-width c1))",
+    "student_answer": "Hey! I would check the \"Step\" button/option in DrRacket.  ",
+    "instructor_answer": "Not Found"
+}

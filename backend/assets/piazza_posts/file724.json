@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 724,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/724",
+    "title": "Abstraction P8",
+    "question": "Hello, for part 1 for the following question, we are required to design an abstract fold function for dir, and the solution is as follows:\n(define (fold-dir c1 c2 c3 b1 b2 dir)\n  (local [(define (fn-for-dir d)\n            (c1 (dir-name d)\n                (fn-for-lod (dir-sub-dirs d))\n                (fn-for-loi(dir-images d))))\n          \n          (define (fn-for-lod lod)\n            (cond [(empty? lod) b1]\n                  [else\n                   (c2 (fn-for-dir(first lod))\n                       (fn-for-lod (rest lod)))]))\n          \n          (define (fn-for-loi loi)\n            (cond [(empty? loi) b2]\n                  [else\n                   (c3 (first loi)\n                       (fn-for-loi (rest loi)))]))]\n    (fn-for-dir d)))\nThe part that I'm confused about is fn-for-loi. This acts on a list of images, and so a function that takes in an image should be in front of (first loi). Why does the function not look like the following instead (change in second cond of fn-for-loi):\n(define (fn-for-loi loi)\n            (cond [(empty? loi) b2]\n                  [else\n                   (c3 (fn-for-i(first loi)\n                       (fn-for-loi (rest loi))))]))\nAnd then another function that acts on i would be added as a fourth local?",
+    "student_answer": "An image is a primitive datatype and thus does not need a helper function in a template.",
+    "instructor_answer": "Remember that the fold function comes from the dd-template-rules, which do not add a natural helper to the template for primitive types like Image.\nThat is not the same thing as saying that in general you don't need a helper for primitive types.  In a different setting you might very well want to have a helper for a primitive type. To compute the image area for example."
+}

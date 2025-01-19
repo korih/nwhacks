@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 138,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/138",
+    "title": "Lecture 1",
+    "question": "During lecture we Dr.Carter said:\nWrite Racket epression that's equivalent to the following: \n; 2 * 3 + 7 = 13\nthe way the prof did was: (+ (* 2 3) 7) = 13\nthe way i did was: (+ 7 (* 2 3)) = 13\nAre both ways correct? Or should I go with Dr.Carter's way.",
+    "student_answer": "Both ways are fine, but\nDr. Carter\u2019s\nexpression matches the mathematical expression more closely.",
+    "instructor_answer": "Not Found"
+}

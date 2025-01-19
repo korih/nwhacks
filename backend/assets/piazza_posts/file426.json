@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 426,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/426",
+    "title": "Racket HelpDesk",
+    "question": "I noticed that we won't be allowed to use the helpdesk for this midterm. I was wondering if we are expected to be familiar with the order to feed arguments to built-in racket functions that we've seen before in lectures. For instance with the \"place-image\" should we prepare to remember that the order to feed the arguments is: \n(place-image image x y scene)\nor would information like this generally be provided on midterms?\n[Edit]: @407 found it",
+    "student_answer": "Not Found",
+    "instructor_answer": "@6 please don't add duplicate questions"
+}

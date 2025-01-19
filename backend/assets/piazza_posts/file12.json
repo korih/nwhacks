@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 12,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/12",
+    "title": "Test File Trouble",
+    "question": "I entered my username (not the email) for the test file on DrRacket, and after clicking hand in it says \"login error: bad username (my username)\". I also tried entering my email and that did not work either. How should I fix this issue? \nThanks in advance!",
+    "student_answer": "Not Found",
+    "instructor_answer": "You need to do the steps on the setup page in order, and specifically you need to do the run-getacct step before trying to use handin."
+}

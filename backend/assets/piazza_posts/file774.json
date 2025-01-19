@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 774,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/774",
+    "title": "MT2 problem 2 (accidental release)",
+    "question": "For questions like this one, where you have a big template with many individual components, where is a good place to start when designing the function? I'm kind of lost on how to design the function when there's so many components.\n(@htdf employees-requiring-material) ;uncomment when you start\n(@signature Employee String -> ListOfEmployee)\n;; produce every employee in tree that is working with given material\n(check-expect (employees-requiring-material \"water\" E7) (list E5 E6 E3 E4))\n\n;(define (employees-requiring-material e mat) empty) ;stub\n\n(@template encapsulated\n           Employee ListOfEmployee Project ListOfProject ListOfString)\n\n(define (fn-for-employee e)\n  (local [(define (fn-for-employee e)\n            (... (emp-name e)\n                 (emp-yrs e)\n                 (fn-for-lop (emp-lop e))\n                 (fn-for-loe (emp-subs e))))\n\n          (define (fn-for-loe loe)\n            (cond [(empty? loe) (...)]\n                  [else\n                   (... (fn-for-employee (first loe))\n                        (fn-for-loe (rest loe)))]))\n\n          (define (fn-for-project p)\n            (... (pro-name p)\n                 (pro-cost p)\n                 (fn-for-los (pro-lom p))))\n\n          (define (fn-for-lop lop)\n            (cond [(empty? lop) (...)]\n                  [else\n                   (... (fn-for-project (first lop))\n                        (fn-for-lop (rest lop)))]))\n\n          (define (fn-for-los los)\n            (cond [(empty? los) (...)]\n                  [else\n                   (... (first los)\n                        (fn-for-los (rest los)))]))]\n\n    (fn-for-employee e)))",
+    "student_answer": "@6? (nice)\nYou first want to think about what the function is going to produce. This function produces a list of employees. So, the trampoline function should be the function that produces a list of employees, which in this case is fn-for-employee. How should fn-for-employee produce the list of employees? When should the fn-for-employee function add an employee to the list of employees?",
+    "instructor_answer": "Not Found"
+}

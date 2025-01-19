@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 987,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/987",
+    "title": "Maze problem - right and down",
+    "question": "After reading the question @976 I wondered if we could treat the maze, where we can only go right or down, as a Binary tree rather than an arbitrary-arity tree? \nI tried to solve it using the binary tree template, but didn't make it run (unfortunately, it doesn't mean that it is impossible) ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Yes, that could be a binary tree.  But for the general maze a position has [0, 4] possible next positions, so we chose to use a genrec arb-tree approach from the beginning."
+}

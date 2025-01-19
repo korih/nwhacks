@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 265,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/265",
+    "title": "Error Clarification",
+    "question": "I have been getting this error and I don't understand what it means. The data I'm dealing with is either atomic non-distinct or atomic distinct. \n@dd-template-rules: one is not one of atomic-non-distinct, atomic-distinct, one-of, compound, self-ref, or ref\nAny clarification on what this means would be very helpful, thank you. ",
+    "student_answer": "You might want to post your @dd-template-rules code to make it easier but I'm pretty sure it's because you didn't put a dash between one-of. ",
+    "instructor_answer": "If you read the message slowly word by word it says:\n\nOne  is  not one-of \u2026\n\nSo the word it is complaining about is one. \n\nDoes that help?"
+}

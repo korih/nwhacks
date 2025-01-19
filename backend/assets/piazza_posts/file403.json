@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 403,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/403",
+    "title": "2020w1-mt1/mt1-p2-3 autograder error",
+    "question": "question:\n;; Given the data definition for DeliveryStatus from problem 2, design a\n;; function called delivered-before-tomorrow? that consumes a DeliveryStatus\n;; and returns true if the package has been delivered or is expected to be\n;; delivered before the end of day tomorrow.  Be sure to include all HtDF\n;; design elements.\nthe autograder seems to have a bug that treats a package 2 days away from being delivered as a correct check-expect to test the boundary of the function, but treats a check-expect checking a package 3 days away as an incorrect fault check:\n  8.3%  of    10%  x      Test thoroughness (known fault detection): incorrect - failed to detect known likely faults.\n                          Test thoroughness (known fault detection):             failed to detect fault 3.\n(check-expect (delivered-before-tomorrow? 2) false) ;; marked correct by autograder\n(check-expect (delivered-before-tomorrow? 3) false) ;; marked incorrect by autograder\nThere was nothing in the htdd saying that the Natural number had a range of [0,2], it simply stated that 0 meant the package was delivered.",
+    "student_answer": "Not Found",
+    "instructor_answer": "Not Found"
+}

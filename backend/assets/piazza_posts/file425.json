@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Poet",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 425,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/425",
+    "title": "Enumeration and Itemization Definitions",
+    "question": "Hi, \nI just wanted to clarify what enumeration and itemization means. \nDefinitions from the design recipe,\nEnumeration: \nconsists of a fixed number of distinct items (one-of several strings)\nItemization:\nis comprised of 2 or more subclasses, at least one of which is not a distinct item\nAlso, in the design recipe: \nNote that in a mixed data itemization, such as\n;; Measurement is one of:</kbd>\n<kbd>;; - \"high\"</kbd>\n<kbd>;; - \"low\"</kbd>\n<kbd>;; - false\nWhy is this example considered a (mixed data) itemization and not an enumeration if all of the items are distinct (strings and false are both distinct)? Doesn't itemization requires at least 1 non-distinct item?\nAnd does an enumeration require all items to be strings or can an enumeration contain other distinct items (such as false, empty, etc)? \nThank you!",
+    "student_answer": "Not Found",
+    "instructor_answer": "That example in the DR pages has been troublesome for some time. Thanks for reminding us.  I now changed it to a more clear itemization.\nYou may have to ctl- or shift- refresh to get your browser to pull down the new page."
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 775,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/775",
+    "title": "How do we know what check expects of fold functions have to do?",
+    "question": "This check-expect is from fold-dir-starter under the Abstraction module and I was wondering why c1, c2 and c3 defined inside the local are doing what they are in their respective bodies. And how do we come to know what they have to do? \n(check-expect  (local [(define (c1 n rlod rloi) (+ rlod rloi))\n                       (define (c2 rdir rlod)   (+ 1 rdir))\n                       (define (c3 img rloi)    (+ 1 rloi))]          \n                 (fold-dir c1 c2 c3 0 0 D6))\n               3)",
+    "student_answer": "@668",
+    "instructor_answer": "Not Found"
+}

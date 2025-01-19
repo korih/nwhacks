@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 264,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/264",
+    "title": "String=? and parameters?",
+    "question": "I am working through this problem from the edx lectures (below is the final and correct function) where we are meant to create a function that bumps up letter grades.\n(define (bump-up lg)\n  (cond [(string=? lg \"A\") \"A\"]\n        [(string=? lg \"B\") \"A\"]\n        [(string=? lg \"C\") \"B\"]))\nAnd I am a bit lost. Doesn't (string=?) solve whether or not two strings are the same length? Why is that necessary when all the values are just single letters? I understand how the function works watching the prof do it, but I would never think to use that in a test, which worries me.\nSecondly why do we specify the parameter \"lg\" in front of the letter grade value? Doesn't the \" (bump-up lg) \" specify that the acceptable inputs are letter grades only.. I know its just how the template is built but im struggling to understand why its there at all.\nFinally in there a purpose for having the \"fn-for\" name in the template when we just replace it and comment it out anyway? it seems too specific to be for nothing.\nThanks!!",
+    "student_answer": "1. string=? produces true if the two strings are identical. So, string=? is used to find specific strings.\n2. When you pass a value through bump-up, for example (bump-up \"A\"), what happens is all instances of lg in the function get replaced with \"A\". So, the parameter next to the function name is used throughout the function body. The parameter doesn't have to be called lg. \n3. The fn-for part of the template will become much more useful when we start to write many different functions using the same datatype. By keeping things general in the template, we can use the template for any kind of function that consumes the datatype.",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 1036,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/1036",
+    "title": "Abstract function build-list",
+    "question": "Hi, I was just wondering if build-list can be used to build lists with more than just numbers?",
+    "student_answer": "Yes, and you can check 2021w1-mt2/mt2-p3\nFrom the language tab on edX:\n(@signature Natural (Natural -> X) -> (listof X))\n;; produces (list (f 0) ... (f (- n 1)))\n(define (build-list n f) ...)\nSo yes, build-list makes a list of a function applied to numbers.",
+    "instructor_answer": "Not Found"
+}

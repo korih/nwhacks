@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 889,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/889",
+    "title": "Which step in backtracking search shows the way back to branches?",
+    "question": "(@template X)\n\n(define (fn-for-x x)\n  (if (have-we-found-result? x)  ;success?\n      (produce-result x)         ;produce correct value\n      (fn-for-lox (x-subs x))))  ;search in the subs of this node\n\n(@template try-catch ListOfX)\n\n(define (fn-for-lox lox)\n  (cond [(empty? lox) false]\n        [else\n          (if (not (false? (fn-for-x (first lox))))  ;is first child successful?\n              (fn-for-x (first lox))                 ;if so produce that\n              (fn-for-lox (rest lox)))]))            ;or try rest of children\nIf not misunderstood,  when (fn-for-x (first lox)) produces false then  fn-for-lox searches the rest of leaves. I'm confused which step shows it should first reach the branch of the rest leaves then search them.  ",
+    "student_answer": "Try starting with a simple piece of data and go through the function by hand and see what happens to it, if you do it correct you should get the same result as the check-expect.",
+    "instructor_answer": "Not Found"
+}

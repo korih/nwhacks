@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Gear",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 750,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/750",
+    "title": "2019W1-MT2 Problem 8",
+    "question": "Hello, for the following question my function differs from the solution but produces the correct result (I think?). The issue is one of my check-expect isn't passing. The following is my function and the error from check-expect:\n(@problem 8)\n;;\n;; Design a function that consumes a natural number and produces a list of\n;; strings describing that many seats at a table.  For example, (seats 3) should\n;; produce the list  (list \"Seat 1\"  \"Seat 2\"  \"Seat 3\").\n;;\n;; Include all recipe elements.  The body of your function definition MUST\n;; USE the build-list built-in abstract function.  You may optionally use an\n;; additional built-in abstract function. \n;;\n\n(@htdf seats)\n(@signature Natural -> (listof X))\n;; produce a list of all seats from n, n-1,... 1\n(check-expect (seats 0) empty)\n(check-expect (seats 3) (list \"Seat 1\" \"Seat 2\" \"Seat 3\"))\n\n;(define (seats n) empty) ; stub\n\n(@template use-abstract-fn)\n\n(define (seats n)\n  (cond [(= 0 n) empty]\n        [else (local [(define (add-seat n) (if (= 0 n)\n                                               (add-seat (add1 n))\n                                               (string-append\n                                                \"Seat \" (number->string n))))]\n                (build-list (add1 n) add-seat))]))\nError:\nRan 2 tests.\n1 of the 2 tests failed.\n\nCheck failures:\n        Actual value (list\n \"Seat 1\"\n \"Seat 1\"\n \"Seat 2\"\n \"Seat 3\") \n\ndiffers from (list \"Seat 1\" \"Seat 2\" \"Seat 3\"), the expected value.\nin 2019W1-MT2-starter.rkt, line 286, column 0\nAren't the expected value and my value identical? ",
+    "student_answer": "you have seat one repeating!",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 560,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/560",
+    "title": "Pset 6 submission error",
+    "question": "Hi, I kept running into issues trying to submit my problem set. It kept telling me that a certain line is longer than 80 characters but when I check it by clicking the line and see how many characters there are, they are all below 80. I tried to separate the code into the next line regardless but it still indicates that I have passed the limit. I'm not sure what went wrong so I submitted my problem set to the admin email, hope that is okay.",
+    "student_answer": "Hey, not sure if you have the maximum character width guide setup (it makes a line across the screen if you\u2019ve passed the character limit at any point) but I\u2019ve found this helps a lot! Also remember that spaces can cause the line to be over the limit too",
+    "instructor_answer": "Not Found"
+}

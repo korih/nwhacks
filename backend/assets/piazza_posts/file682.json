@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 682,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/682",
+    "title": "Question about template arb-tree",
+    "question": "In module 6, Region is an arbitrary arity tree, and the template is Region and ListofRegion. In the search maze problem of module9, arb-tree was written in the template instead of Position (listof Position). Does arb-tree equal to Position (listof Position)? Can I always use arb-tree as the template for arbitrary arity tree problems? Thanks.",
+    "student_answer": "Not Found",
+    "instructor_answer": "Great question.\nIn the Region and ListOfRegion case the type comment for Region was:\n(define-struct single (label weight color))\n(define-struct group (color subs))\n;; Region is one of:\n;;  - (make-single String Natural Color)\n;;  - (make-group Color ListOfRegion)\nBut in the more recent case, the type comment for Pos is:\n(define-struct pos (x y))\n;; Position is (make-pos Natural Natural)\nThere's a significant difference between them in that group has a field called subs that contains a list of the sub regions.  In other words when I hand you a Region I am handing you the whole tree, already built.  This allows us to do structural or natural recursion.  In that case the template for the recursion is fully formed from the dd template rules and the Region and ListOfRegion type comments.\nBut Position has no list of subs in it anywhere.  When I hand you a Position all you get is an x and y.  Instead, for the maze solver, we have to generate the next possible positions.  When we do generate those next positions of for a Position, and then the next positions for each of those, and so on and so on, we end up generating a tree as we go.  The tree didn't exist when we started, we generated it as we went.  That is a generative recursion, specifically over a generated arb-arity tree.  So the template tag is genrec arb-arity.  As far as the template itself goes we start with the templates for Position and ListOfPosition and then we make them form a tree by blending in the genrec step."
+}

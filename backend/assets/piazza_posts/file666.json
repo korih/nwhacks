@@ -1,0 +1,11 @@
+{
+    "author": "Domenic Mastromatteo",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 666,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/666",
+    "title": "@template for an abstract fold function",
+    "question": "If we have a problem where we need to design an abstract fold function from an already designed template what do we need to include in our template?\nI rewatched the lecture video Fold Functions pt. 3: https://www.youtube.com/watch?v=j1reoBD_mEs\nbut there is no template included for fold-element at the end. Would the template for fold-element be\n(@template Element ListOfElement)? Do we need use-abstract-fn even if we're in the process of creating it? Is it a fn-composition because c1 and c2 both will have a function call in their arguments?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Terminology point - the template tag is the thing that looks like (@template Spider).  The template is the body of the template function definition.\nThe template tag for fold-element would be (@template Element ListOfElement encapsulated).\nIt does not include use-abstract-fn because you are defining the abstract function not calling it."
+}

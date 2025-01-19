@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 890,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/890",
+    "title": "Pset 10 starter check expect error",
+    "question": "In the problem set 10 starter file provided, under the first question, there is a provided check-expect \n(check-expect (max-num-repeats (list \"dog\" \"cat\" \"bird\"\n                                     \"dog\" \"dog\" \"dog\"\n                                     \"moose\" \"dog\"))\n              3)\nthe word \"dog\" repeats 5 times, should this not be equal to 5? if so, could it be possible that the autograder internal test also has this and is producing the wrong result when we submit for grading?",
+    "student_answer": "It's the max number of consecutive repeats:)",
+    "instructor_answer": "Not Found"
+}

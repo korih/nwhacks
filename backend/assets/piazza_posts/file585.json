@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 585,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/585",
+    "title": "Check-expect",
+    "question": "Do you always have to make new check-expects for the new abstract function every time? or can you use the pre-existing ones without changing anything ",
+    "student_answer": "Not Found",
+    "instructor_answer": "Get into the habit of making new check-expects to show that you can use your abstract function for functions beyond the pre-existing ones, given you designed your abstract function properly, it should be able to handle other functions!"
+}

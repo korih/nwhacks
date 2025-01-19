@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Comp",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 345,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/345",
+    "title": "edx question",
+    "question": "Hi, can someone please explain this one? It's on edx 4a self-reference, I'm confused why the number is not 0, because if base case is empty, then nothing in it, so it should be 0? Thanks!",
+    "student_answer": "We want a function that multiplies all the numbers in the list. If the base case was 0, the function would return zero no matter what list was passed through it. \nA base case should be defined based on its functionality, not always just empty = 0.",
+    "instructor_answer": "Not Found"
+}

@@ -1,0 +1,11 @@
+{
+    "author": "Bruce Li",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 101,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/101",
+    "title": "Lecture 2 first file",
+    "question": "(@problem 1)\n;; \n;; Write a function that will help eliminate the\n;; redundancy in the following expressions:\n;; \n(* 3.14 (sqr 3))\n(* 3.14 (sqr 6))\n(* 3.14 (sqr 2.5))\nHI, could someone please give some hints for this question? thans",
+    "student_answer": "think about what parts are repeated in all of the expressions and which part would be the changing parameter",
+    "instructor_answer": "We covered this in lecture today.  Try watching the video available through Canvas."
+}

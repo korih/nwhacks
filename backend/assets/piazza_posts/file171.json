@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Beaker",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 171,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/171",
+    "title": "Generating the (define (...)) statement (HtDF)",
+    "question": "When the purpose is to select an image from a subset of other images, I'm having some trouble defining the function itself. In class, when we did the example of the rotating image we ended up with:\ndefine (topple img)\n    (rotate 90 img))\nSo this makes sense to me because the end result of the image becomes rotated by 90 degrees and through the check-expect, when we input (rectangle 10 20 \"solid\" \"blue\"), the expected result is a 90 degree rotated rectangle. With that said, when selecting an image, I'm not too sure how to approach defining the function. I initially assumed an if statement or a (<...) type of function would work but both these produce boolean values rather than images. So I was just wondering how I would approach defining the process of taking two images, and selecting a particular image for a particular trait?\n(Hopefully this question doesn't have any academic misconduct issues)",
+    "student_answer": "Not Found",
+    "instructor_answer": "Well this is exactly what you need to do in problem set 1, so it does have misconduct issues.\nThere is a good general answer, that doesn't violate problem set rules.  Follow the htdt recipe.  Use the examples step of the recipe to help you figure out how your eventual function definition will work."
+}

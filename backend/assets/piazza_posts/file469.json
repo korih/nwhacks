@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Calc",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 469,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/469",
+    "title": "why this one is a valid bst?",
+    "question": "I think we need to put middle number first, in this case, it is 2 or 3 , but here 1 is the first node. why it is still a valid bst?",
+    "student_answer": "We don't technically need to start at the middle for a BST. We just do that because it looks nice when we draw it!\n\nThe reason this is a valid BST is, as it says below, all of the invariants for a BST hold. These invariants are:\n1. All key values to the LEFT of the node are LESSER THAN the key of the node (or the key of the node is greater than its left child nodes)\n2. All key values of the RIGHT of the node are GREATER THAN the key of the node (or the key of the node is lesser than its right child nodes)\n3. No key ever appears twice in the BST.\n\nAs long as these rules uphold, we have a BST. It can look like a nice tree, or it can look like above.\n\nFor the tree above, we have no values to the left, so we don't have to worry about rule 1.\nFor the above tree, we have all of the keys to the right of the nodes greater than their previous nodes, therefore we satisfy rule 2.\nAnd finally, all of the keys are unique, therefore we have a BST!",
+    "instructor_answer": "Not Found"
+}

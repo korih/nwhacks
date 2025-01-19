@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Mouse",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 830,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/830",
+    "title": "Triangle Solitaire - description of next valid jump?",
+    "question": "Currently working on the next-valid-jumps function and I'm kind of confused over how a valid jump is defined in the commented out section above JUMPS.\n;; The raw possible jumps given the shape of the board. \n;; For a given board these are only valid if the from and\n;; over are full and the to is empty.\nI interpreted a valid jump as its from position being empty (as you can only jump pegs from empty holes) and its over and to positions as full...is that correct? \n  And then after you make a valid jump, shouldn't it be that the from is now full and both the over and to are empty?\n ",
+    "student_answer": "Before the jump: From and Over are true (full). \nOnce you jump - From and Over are false (empty), and the To is true (full). \nPegs can jump only to empty spots - the red peg (num\n3\n/ num\n5\n) is jumping over the peg next to it (num\n1\n/ num\n2\n) to the open spot (num\n0\n). ",
+    "instructor_answer": "Not Found"
+}

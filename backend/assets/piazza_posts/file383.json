@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Atom",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 383,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/383",
+    "title": "number of variables when defining function",
+    "question": "when defining new function , how do we determine number of variables for the function?\nfor example (lecture material)\n--------------------------------------------------------------------\n(@htdd Egg)\n(define-struct egg (x y r))\n;; Egg is (make-egg Number Number Number)\n;; interp. the x, y position of an egg in screen coordinates (pixels),\n;;         and rotation angle in degrees\n(define E1 (make-egg 100 50 23))\n(define E2 (make-egg 20 30 50))\n(@dd-template-rules compound) ;3 fields\n\n(define (fn-for-egg e)\n  (... (egg-x e)    ;Number\n       (egg-y e)    ;Number\n       (egg-r e)))  ;Number\n-------------------------------------------------\n(@template Egg)\n(define (place-egg e img)\n  (place-image (rotate  (egg-r e) YOSHI-EGG)\n               (egg-x e)\n               (egg-y e)\n               img))\n  template is from Egg but where is only 1 variable in the template\ndo we change the number of it under the circumstance? based on what we need for the function?",
+    "student_answer": "@6\n(but yes that's right)",
+    "instructor_answer": "Not Found"
+}

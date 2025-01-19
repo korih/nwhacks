@@ -1,0 +1,11 @@
+{
+    "author": "Ashtan Mistal",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 852,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/852",
+    "title": "Is Tail Recursion Always Optimal?",
+    "question": "I understand that tail recursion is a good strategy to reduce memory usage while a program is running. This question is probably out of the scope of this course, but I was wondering if there are any cases where tail recursion is slower than our standard approach.\nFor example, in the real world, are there any applications where tail recursion is not preferred as memory usage is not an issue and there is a noticeable speed increase for the standard approach? Or is tail recursion just always the best way to go about recursion?",
+    "student_answer": "Not Found",
+    "instructor_answer": "Tail recursion is always faster -- if the underlying language has tail call optimization.\nIn some languages calls in tail position are not recognized as such.  They don't reuse the stack space.\nSome languages promise that they will always optimize tail calls.\nIn yet other languages what happens is that some implementations of the language will optimize tail calls if you set certain switches.\nBut tail call optimization is becoming more widespread over time. This topic is worth learning in any event because if you have a complex recursion over large data, the easiest way to handle that is to write it tail recursively with a worklist, and then break that cycle in one well chosen space.  We won't cover that last topic but you can ask about it in office hours."
+}

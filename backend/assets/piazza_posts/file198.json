@@ -1,0 +1,11 @@
+{
+    "author": "Anonymous Scale",
+    "position": "student",
+    "course": "CPSC 110 2021WT2",
+    "post_num": 198,
+    "link": "https://piazza.com/class/ky0ewiregcz421/post/198",
+    "title": "What is a template tag?",
+    "question": "In problem 6, we are given a template tag. I don't understand what that is. \nI was also wondering what the purpose of\n(@htdf taller-image)\nis. I don't really get how it works, and when I was trying to run the code in Dr Racket, I got errors over it.",
+    "student_answer": "It\u2019s mostly to let DrRacket know what type of design recipe you\u2019re writing.\nThe @htdf section tells DrRacket that you\u2019re writing a how to design functions design recipe. (there are other design recipes that will use different @s later on.) The function name right after tells DrRacket that the design recipe is for the function with that name.\nYou might be getting errors over it if the second part isn\u2019t exactly the name of your function.\nYou are guaranteed to get an error if you don't define taller-image somewhere else in the code.",
+    "instructor_answer": "Not Found"
+}
