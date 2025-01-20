@@ -69,7 +69,7 @@ def api(msg: Msg):
 	Look at the following data:\n
 	{q_a_response_prompts}
 
-	Use the previous question and answers to answer this question only if it is relavent and you do not know the answer: \n
+	Use the previous question and answers to answer this question only if it is relavent and you do not know the answer. If you do know the answer, just answer it with what you know: \n
 	{msg.content}
 	"""
 
