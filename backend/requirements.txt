@@ -1,0 +1,17 @@
+name: nw-plate
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-forge::fastapi
+  - conda-forge::uvicorn
+  - conda-forge::pydantic
+  - conda-forge::libsqlite
+Cloudflare
+httpx
+sse-starlette
+SQLAlchemy
+openai
+qdrant-client
+fastembed
+

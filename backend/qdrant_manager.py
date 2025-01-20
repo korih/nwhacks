@@ -39,8 +39,13 @@ if __name__ == "__main__":
 	if args.search:
 		query_text = " ".join(args.search)
 		list_of_posts = search_text(query_text)
+		list_of_posts = list_of_posts[:3]
 		for p in list_of_posts:
-			print(p.instructor_answer, "STUDENT ANSWER", p.student_answer, ", ", p.score)
+			print("Question: ", p.question[:80])
+			print("Instructor answer: ", p.instructor_answer[:75])
+			print("Student answer: ", p.student_answer[:75])
+			print("Score:", p.score)
+			print(" ")
 	if args.misc:
 		misc()
 
