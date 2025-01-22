@@ -1,7 +1,7 @@
 # nwhacks
 ---
 
-Super safe and secure AI chatbot called Chatza
+Super safe and secure AI chatbot called Chatza  
 https://devpost.com/software/chatzar
 
 ---
